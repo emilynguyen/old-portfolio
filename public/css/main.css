@@ -459,11 +459,11 @@ a:active {
       .social-media img {
         height: 2.4rem; } }
 
-#title {
+.title {
   margin: 8rem 0 7rem;
   padding-right: 8.5rem; }
   @media (min-width: 600px) {
-    #title {
+    .title {
       padding-right: 10rem; } }
 
 #filters {
@@ -736,6 +736,7 @@ a:active {
   width: 100vw;
   padding: 4rem 7vw;
   margin-left: -7vw;
+  text-align: center;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -752,8 +753,10 @@ a:active {
       padding: 4rem;
       margin-left: 0; } }
   .section-image img, .palette img {
-    max-height: 60vh;
-    min-height: 30rem; }
+    max-height: 60vh; }
+    @media (min-width: 840px) {
+      .section-image img, .palette img {
+        max-height: 30rem; } }
 
 /* Color palette styles */
 .palette {
@@ -841,18 +844,20 @@ a:active {
 .bio p:not(:last-child) {
   margin-bottom: 2.5rem; }
 
-.error404 h1 {
+#error h1 {
   max-width: 55rem; }
-.error404 h2 {
+#error h2 {
   margin-top: 2rem; }
-  .error404 h2 a,
-  .error404 h2 a:visited,
-  .error404 h2 a:hover,
-  .error404 h2 a:active {
+  #error h2 a,
+  #error h2 a:visited,
+  #error h2 a:hover,
+  #error h2 a:active {
     color: #EF675E;
     transition: 0.3s opacity; }
   @media (hover: hover) {
-    .error404 h2 a:hover {
+    #error h2 a:hover {
       opacity: 0.4; } }
+#error.title {
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */

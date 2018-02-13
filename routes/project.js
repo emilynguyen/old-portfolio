@@ -18,12 +18,15 @@ exports.view = function(req, res){
 			res.render('project', {
 				data,
 				currProject,
-				"title" : currProject.title
+				"title" : currProject.title + " | Emily Nguyen"
 			});
 			return;
 		}
 	}
-	
+
  	// Otherwise, show 404
- 	res.render('404', data);
+ 	res.render('404', {
+ 		data,
+ 		"title" : "Page Not Found | Emily Nguyen"
+ 	});
 };

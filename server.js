@@ -13,24 +13,18 @@ var error = require('./routes/error');
 
 var app = express();
 
+app.set('port', process.env.PORT || 3000);
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-/*
-app.get('/', function (req, res) {
-    res.render('home');
-});
-*/
 
 app.get('/', home.view);
 app.get('/about', about.view);
 app.get('/:title', project.view);
 app.get('*', error.view);
 
-
-
 app.listen(process.env.PORT || 3000, function () {
-    console.log('express-handlebars example server listening on: 3000');
+	console.log('Express server listening on port ' + app.get('port'));
 });

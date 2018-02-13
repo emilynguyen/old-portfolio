@@ -142,6 +142,7 @@
 	width: 100vw;
 	padding: 4rem $side-padding-xs;
 	margin-left: -$side-padding-xs;
+	text-align: center;
 	@extend %other-section;
 	@include no-select;
 	@include sm-up {
@@ -155,7 +156,9 @@
 	}
 	img {
 		max-height: 60vh;
-		min-height: 30rem;
+		@include md-up {
+			max-height: 30rem;
+		}
 	}
 }
 

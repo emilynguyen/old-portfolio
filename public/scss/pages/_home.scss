@@ -2,7 +2,7 @@ $project-gap: .4rem;
 $project-col-width: calc(50% - #{$project-gap} / 2);
 
 
-#title {
+.title {
 	margin: 8rem 0 7rem;
 	padding-right: 8.5rem;
 	@include sm-up {
