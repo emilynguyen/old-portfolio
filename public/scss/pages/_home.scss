@@ -133,7 +133,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 		background-color: rgba(35, 35, 35, 0.92);
 		opacity: 0;
 		color: $white;
-		transition: 0.4s, opacity;
+		transition: 0.4s opacity;
 		@include hover {
 			opacity: 1;
 		}

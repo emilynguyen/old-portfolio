@@ -293,6 +293,9 @@ button:focus {
     .show-md-up {
       display: inline-block; } }
 
+/*
+ * Base styles
+ */
 html {
   font-size: 62.5%;
   position: relative; }
@@ -659,9 +662,9 @@ a:active {
       background-color: rgba(35, 35, 35, 0.92);
       opacity: 0;
       color: #fff;
-      -webkit-transition: 0.4s, opacity;
-      -o-transition: 0.4s, opacity;
-      transition: 0.4s, opacity; } }
+      -webkit-transition: 0.4s opacity;
+      -o-transition: 0.4s opacity;
+      transition: 0.4s opacity; } }
   @media (min-width: 600px) and (hover: hover) {
     .project-description:hover {
       opacity: 1; } }
