@@ -6,6 +6,17 @@ html {
     position: relative;
 }
 
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 $side-padding-xs;
+	@include sm-up {
+		padding: 0 $side-padding-sm;
+	}
+	@include xl-up {
+		padding: 0 $side-padding-xl;
+	}
+}
 
 /* Used for sticky footer */
 .body-wrapper {
@@ -21,17 +32,5 @@ html {
 
 .no-scroll {
 	position: fixed;
-}
-
-.container {
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0 $side-padding-xs;
-	@include sm-up {
-		padding: 0 $side-padding-sm;
-	}
-	@include xl-up {
-		padding: 0 $side-padding-xl;
-	}
 }
 

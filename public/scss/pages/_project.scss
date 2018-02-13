@@ -1,9 +1,14 @@
+/*
+ * Case study/project pages
+ */
+
 #project {
 	img {
 		max-width: 100%;
 	}
 }
 
+/* Case study landing page */
 .hero-container {
 	width: 100vw;
 	margin-left: -$side-padding-xs;
@@ -90,6 +95,7 @@
 	}
 }
 
+/* Sections (content blocks) */
 .section-container {
 	height: 100%;
 	margin-top: 7rem;

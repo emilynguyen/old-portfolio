@@ -1,6 +1,6 @@
-#about {
-
-}
+/*
+ * About page
+ */
 
 .logo-container {
 	@extend .hero-container;
@@ -45,7 +45,6 @@
 
 .about-landing {
 	@extend .project-landing;
-	//height: 100%;
 }
 
 .about-title {

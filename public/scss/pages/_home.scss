@@ -1,6 +1,9 @@
+/*
+ * Home page
+ */
+
 $project-gap: .4rem;
 $project-col-width: calc(50% - #{$project-gap} / 2);
-
 
 .title {
 	margin: 8rem 0 7rem;
@@ -39,7 +42,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
             -webkit-border-radius: .75rem;
             border-radius: .75rem;
             background-color: #F1F1F1;
-            @include transition(.3s, all);
+            transition: 0.3s all;
         }
         @include hover {
             &::before {
@@ -55,6 +58,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
     }
 }
 
+/* Project gallery */
 .gallery-item-container {
 	@extend .container;
 	@include no-select;
@@ -129,7 +133,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 		background-color: rgba(35, 35, 35, 0.92);
 		opacity: 0;
 		color: $white;
-		@include transition(.4s, opacity);
+		transition: 0.4s, opacity;
 		@include hover {
 			opacity: 1;
 		}
@@ -168,4 +172,3 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 		}
 	}
 }
-

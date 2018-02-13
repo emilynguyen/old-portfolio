@@ -1,5 +1,4 @@
-
-// Only devices (575 and down)
+// Only extra small devices (575 and down)
 @mixin xs-only {
 	@media (max-width: $sm-screen) {
 		@content;
@@ -59,15 +58,6 @@
 	    	@content;
 	    }
 	}
-}
-
-
-@mixin transition($time, $type) {
-    -o-transition: $type $time;
-    -ms-transition: $type $time;
-    -moz-transition: $type $time;
-    -webkit-transition: $type $time;
-    transition: $type $time;
 }
 
 @mixin no-select {
