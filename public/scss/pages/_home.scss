@@ -1,0 +1,171 @@
+$project-gap: .4rem;
+$project-col-width: calc(50% - #{$project-gap} / 2);
+
+
+#title {
+	margin: 8rem 0 7rem;
+	padding-right: 8.5rem;
+	@include sm-up {
+		padding-right: 10rem;
+	}
+}
+
+#filters {
+	margin-bottom: 2.5rem;
+	@include no-select;
+	li {
+		cursor: pointer;
+		display: inline-block;
+		&:not(.last-child) {
+			margin-right: 3.5rem;
+		}
+		@include xs-only {
+			&:not(.last-child) {
+				margin-right: 2.2rem;
+			}
+		}
+	}
+	.filter {
+		@include xs-only {
+			font-size: 1.7rem;
+		}
+		&::before {
+            content: '';
+            display: inline-block;
+            margin-right: .7rem;
+            width: 1.3rem;
+            height: 1.3rem;
+            -moz-border-radius: .75rem;
+            -webkit-border-radius: .75rem;
+            border-radius: .75rem;
+            background-color: #F1F1F1;
+            @include transition(.3s, all);
+        }
+        @include hover {
+            &::before {
+                background-color: $burnt-sienna;
+            }
+        }
+	}
+	.active-filter {
+		cursor: default;
+    	&::before {
+            background-color: $burnt-sienna;
+        }
+    }
+}
+
+.gallery-item-container {
+	@extend .container;
+	@include no-select;
+	@include xs-only {
+		padding: 0;
+	}
+	@include sm-up {
+		display: grid;
+		grid-template-columns: $project-col-width $project-col-width;
+		grid-gap: $project-gap;
+	} 
+}
+
+.gallery-item {
+	padding: 6.5rem $side-padding-xs;
+	position: relative;
+	@include sm-up {
+		padding: 0;
+		&:after {
+			content: "";
+			display: block;
+			padding-bottom: 100%;
+		}		
+	}
+}
+
+.project-icon {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	@include sm-up {
+		position: absolute;
+	}
+	/* Landscape project icons */
+	.landscape {
+		width: 100%;
+		max-width: 100%;
+		@include sm-up {
+			max-width: 75%;
+		}
+	}
+	/* Portrait project icons */
+	.portrait {
+		height: 100%;
+			max-height: 25rem;
+		@include sm-up {
+			max-height: 74%;
+		}
+	}
+}
+
+.arrow {
+	text-align: right;
+	position: absolute;
+	right: $side-padding-xs;
+	bottom: 2.4rem;
+	img {
+		width: 2rem;
+		opacity: 0.65;
+	}
+}
+
+.project-description {
+	margin: 3rem 0 6rem;
+	@include sm-up {
+		margin: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(35, 35, 35, 0.92);
+		opacity: 0;
+		color: $white;
+		@include transition(.4s, opacity);
+		@include hover {
+			opacity: 1;
+		}
+	}
+	h3 {
+		margin-bottom: 1rem;
+		@include sm-up {
+			opacity: 0.8;
+		}
+	}
+	p {
+		@include sm-up {
+			color: $white;
+			opacity: 0.8;
+			font-size: 1.4rem;
+			line-height: 2.2rem;
+		}
+		/* Return to original styles */
+		@include md-up {
+			font-size: 1.5rem;
+    		line-height: 2.4rem;
+		}
+	}
+	.wrapper {
+		@include sm-up {
+			margin: 0 2.3rem 2.4rem;
+		}
+		@include md-up {
+			margin: 0 3rem 3.4rem;
+		}
+		@include lg-up {
+			margin: 0 3.2rem 3.7rem;
+		}
+		@include xl-up {
+			margin: 0 3.5rem 4rem;
+		}
+	}
+}
+

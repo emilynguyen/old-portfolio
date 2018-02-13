@@ -1,0 +1,31 @@
+// Media breakpoints
+$sm-screen: 600px;
+$md-screen: 840px;
+$lg-screen: 960px;
+$xl-screen: 1280px;
+$xxl-screen: 1440px;
+
+// Body padding/margins
+$top-padding-xs: 4rem;
+$top-padding-sm: 8rem;
+$top-padding-xl: 11rem;
+$bottom-padding: 10rem; // Space b/t content and footer
+$side-padding-xs: 7vw;
+$side-padding-sm: 10vw;
+$side-padding-xl: 13rem;
+
+$footer-height: 13rem;
+$menu-height: 2.3rem;
+
+$bottom-p-padding: 2.5rem;
+
+// Colors
+$shark: #272A2C; // h1, h2
+$rolling-stone: #787C80; // p
+$silver-sand: #C0C2C5; // h3
+$athens-gray: #F9F9FB; // backgrounds
+$burnt-sienna: #EF675E; // accent #1
+$river-bed: #4A565C; // accent #2
+$river-bed-light: #77838A;
+$submarine: #B2BEC4; // accent #3
+$white: #fff;

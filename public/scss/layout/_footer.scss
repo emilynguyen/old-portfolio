@@ -1,0 +1,41 @@
+#footer {
+	margin-top: $bottom-padding;
+	height: $footer-height;
+	background-color: $river-bed;
+	.container {
+		height: 100%;
+	}
+}
+
+.copyright {
+	h2 {
+		color: $river-bed-light;
+		@include xs-only {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+.social-media {
+	margin-bottom: -0.6rem;
+	@include no-select;
+	li {
+		display: inline-block;
+		margin-left: 1.5rem;
+		&:last-child {
+			margin-left: 1rem;
+		}
+		@include sm-up {
+			margin-left: 2.4rem;
+			&:last-child {
+				margin-left: 2rem;
+			}
+		}
+	}
+	img {
+		height: 2rem;
+		@include sm-up {
+			height: 2.4rem;
+		}
+	}
+}

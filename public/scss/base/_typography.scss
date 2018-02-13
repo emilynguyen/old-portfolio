@@ -1,0 +1,63 @@
+$normal: 400;
+$franklin-gothic: 'Franklin Gothic', 'Helvetica', 'Arial', sans-serif;
+$hk-grotesk: 'HK Grotesk', 'Helvetica', 'Arial', sans-serif;
+
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: $franklin-gothic;
+	font-weight: $normal;
+}
+
+h1 {
+	color: $shark;
+    font-size: 4.2rem;
+    line-height: 4.7rem;
+}
+
+/* Title tagline */
+.tagline {
+    display: inline-block;
+    margin-top: .4rem;
+    color: #DEDEDE;
+}
+
+h2 {
+	color: $shark;
+    font-size: 2.0rem;
+    letter-spacing: 0.027rem;
+    line-height: 2.8rem;
+}
+
+#project {
+	h2 {
+		margin-bottom: 1.5rem;
+	}
+}
+
+h3 {
+	font-family: $hk-grotesk;
+    color: $silver-sand;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.056rem;
+    text-transform: uppercase;
+}
+
+p, li {
+	color: $rolling-stone;
+    font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+    line-height: 2.4rem;
+    @include link-hover;
+}
+
+i {
+    font-style: italic;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}

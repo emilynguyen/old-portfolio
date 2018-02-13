@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="753px" height="415px" viewBox="0 0 753 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-136.000000, -304.000000)">
+        <g id="Group-6" transform="translate(136.058995, 303.773322)">
+            <g id="Group" transform="translate(0.084288, 0.243125)" fill-rule="nonzero">
+                <rect id="shadow" fill-opacity="0.2" fill="#000000" x="4.32287719" y="412.112942" width="740.690422" height="2.60342078" rx="1"></rect>
+                <rect id="base" fill="#A9ABAE" x="0.207930397" y="396.492418" width="751.663613" height="15.6205247" rx="6"></rect>
+                <rect id="shape" fill="#E6E7E8" x="0.207930397" y="374.363341" width="751.663613" height="31.2410494"></rect>
+                <rect id="light" fill="#C0C0C0" x="691.518991" y="383.475314" width="26.0613297" height="5.20684157" rx="2"></rect>
+                <path d="M323.917078,374.363341 L323.917078,379.570183 C323.917078,382.445842 326.365722,384.777024 329.411517,384.777024 L422.667958,384.777024 C425.702452,384.777024 428.162396,382.439991 428.162396,379.570183 L428.162396,374.363341 L323.917078,374.363341 Z" id="bevel" fill="#A9ABAE"></path>
+                <path d="M92.1109863,0.77245854 C83.0190734,0.77245854 75.6486215,7.77871068 75.6486215,16.3938754 L75.6486215,374.363341 L673.687555,374.363341 L673.687555,16.3938754 C673.687555,7.76640513 666.315085,0.77245854 657.22519,0.77245854 L92.1109863,0.77245854 Z" id="screen" fill="#373435"></path>
+                <rect id="display" fill="#FFFFFF" x="97.5950044" y="24.2032456" width="556.889465" height="333.23786"></rect>
+                <ellipse id="camera" fill="#7C7B7B" cx="376.039737" cy="12.4878521" rx="2.74329786" ry="2.60342078"></ellipse>
+                <path d="M136.054754,0.77245854 L673.687555,374.363341 L673.687555,16.3938754 C673.687555,7.76640513 666.317399,0.77245854 657.229946,0.77245854 L136.054754,0.77245854 Z" id="shine" fill="#FFFFFF" opacity="0.05"></path>
+            </g>
+            <rect id="Rectangle-3" fill="#707070" x="147.631201" y="112.020938" width="135.075226" height="14.9643085"></rect>
+            <rect id="Rectangle-3" fill="#E8E8E9" x="147.631201" y="136.753046" width="169.530987" height="14.9643085"></rect>
+            <rect id="Rectangle-3" fill="#77838A" x="148.225934" y="260.091292" width="221.96818" height="97.4193887"></rect>
+            <rect id="Rectangle-3" fill="#EF675E" x="380.972481" y="260.091292" width="221.96818" height="97.4193887"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="218.680147" y="305.341389" width="91.6451798" height="9.67148365"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="505.165013" y="311.62076" width="19.3759633" height="45.8899199"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="537.12763" y="295.769844" width="19.3759633" height="61.7408363"></rect>
+            <rect id="Rectangle-3" fill="#FFFFFF" x="205.407325" y="321.965274" width="65.5512127" height="9.67148365"></rect>
+            <g id="Group-2" transform="translate(578.714965, 65.857854)" fill="#707070" fill-rule="nonzero">
+                <polygon id="Line-2" points="0.378113442 3.97179138 0.378113442 0.125355842 24.7372145 0.125355842 24.7372145 3.97179138"></polygon>
+                <polygon id="Line-2" points="0.378113442 11.3523148 0.378113442 7.50587922 24.7372145 7.50587922 24.7372145 11.3523148"></polygon>
+                <polygon id="Line-2" points="0.378113442 18.7328381 0.378113442 14.8864026 24.7372145 14.8864026 24.7372145 18.7328381"></polygon>
+            </g>
+            <circle id="Oval-3" fill="#EF675E" cx="155.918805" cy="214.730578" r="7.69287107"></circle>
+            <g id="Group-5" transform="translate(175.140657, 207.845975)" fill="#DBDDE0" fill-rule="nonzero">
+                <polygon id="Line" points="196.275126 4.66231812 196.275126 0.101933939 239.127534 0.101933939 239.127534 4.66231812"></polygon>
+                <polygon id="Line" points="0.242403524 4.66231812 0.242403524 0.101933939 43.094812 0.101933939 43.094812 4.66231812"></polygon>
+                <polygon id="Line" points="88.2668056 4.66231812 88.2668056 0.101933939 150.615291 0.101933939 150.615291 4.66231812"></polygon>
+                <polygon id="Line" points="247.900248 4.66231812 247.900248 0.101933939 327.37375 0.101933939 327.37375 4.66231812"></polygon>
+                <polygon id="Line" points="51.8675258 4.66231812 51.8675258 0.101933939 79.4643654 0.101933939 79.4643654 4.66231812"></polygon>
+                <polygon id="Line" points="159.875846 4.66231812 159.875846 0.101933939 187.472686 0.101933939 187.472686 4.66231812"></polygon>
+                <polygon id="Line" points="225.299388 17.8571904 225.299388 13.2968062 268.151797 13.2968062 268.151797 17.8571904"></polygon>
+                <polygon id="Line" points="36.7606352 17.8571904 36.7606352 13.2968062 99.1091206 13.2968062 99.1091206 17.8571904"></polygon>
+                <polygon id="Line" points="136.442323 17.8571904 136.442323 13.2968062 215.915825 13.2968062 215.915825 17.8571904"></polygon>
+                <polygon id="Line" points="0.242403524 17.8571904 0.242403524 13.2968062 27.8392431 13.2968062 27.8392431 17.8571904"></polygon>
+                <polygon id="Line" points="108.488628 17.8571904 108.488628 13.2968062 127.053324 13.2968062 127.053324 17.8571904"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

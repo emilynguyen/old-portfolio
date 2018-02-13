@@ -1,0 +1,53 @@
+{{#with data}}
+<div id="title">
+    <div class="container">
+    	<h1>Emily Nguyen<br><span class="tagline">Front-End Developer and Designer</span></h1>
+    </div>
+</div> <!-- #title -->
+
+<div id="filters">
+    <div class="container">
+        <ul>
+            <li><h2 class="filter filter-all active-filter">All Projects</h2></li>
+            <li><h2 class="filter filter-ux">UI/UX</h2></li>
+            <li><h2 class="filter filter-graphics">Graphics</h2></li>
+        </ul>
+    </div>
+</div> <!-- #filters -->
+
+
+<div id="project-gallery">
+    <div class="gallery-item-container">
+
+        {{#each projects}}
+        <a href="/{{url}}" class="{{tags}}">
+            <div class="gallery-item {{url}}" style="background-color: {{accent}}">
+                        
+                <div class="project-icon v-center h-center">
+                    <img src="{{icon}}" alt="{{alt}}" class="{{orientation}}">
+                </div> <!-- .project-icon -->
+
+                <div class="project-description hide-xs v-bottom">
+                    <div class="wrapper">
+                        <h3>{{title}}</h3>
+                        <p>{{description}}</p>
+                    </div>
+                </div> <!-- .project-description -->
+
+                <div class="arrow hide-sm-up">
+                    <img src="images/icons/arrow.svg">
+                </div> <!-- .arrow -->
+            </div> <!-- .gallery-item -->
+
+            <div class="container hide-sm-up">
+                <div class="project-description">
+                    <h3>{{title}}</h3>
+                    <p>{{description}}</p>
+                </div> <!-- .project-description -->
+            </div>
+        </a>
+        {{/each}}
+
+    </div> <!-- .gallery-item-container -->
+</div> <!-- #project-gallery -->
+{{/with}}

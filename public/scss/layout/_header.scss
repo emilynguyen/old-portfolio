@@ -1,0 +1,104 @@
+
+
+#header {
+	width: 100vw;
+	text-align: right;
+	@include no-select;
+	.container {
+		margin-top: $top-padding-xs;
+		@include sm-up {
+			margin-top: $top-padding-sm;
+		}
+		@include xl-up {
+			margin-top: $top-padding-xl;
+		}
+	}
+}
+
+.hamburger {
+	z-index: 9999;
+	position: relative;
+	right: 0;
+}
+
+.menu-overlay {
+	display: none;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.96);
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1000;
+}
+
+.menu-container {
+	height: 100%;
+	width: 100%;
+	justify-content: flex-end;
+	text-align: right;
+	overflow-y: scroll;
+}
+
+
+
+.menu {
+	display: block;
+	padding: 0 $side-padding-xs;
+	@include sm-up {
+		padding: 0 $side-padding-sm;
+	}
+	@include short-screen {
+		margin-bottom: -8rem;
+	}
+	li, h1 {
+		@include shorter-screen {
+			display: inline;
+		}
+	}
+	li a {
+		transition: .3s color;
+		color: $shark;
+		&:hover, &.active {
+			opacity: 1;
+			color: $burnt-sienna;
+		}
+	}
+	li {
+		@include shorter-screen {
+			&:not(:last-child) {
+				margin-right: 3rem;
+			}
+		}
+	}
+	h1 {
+		font-size: 3.6rem;
+		line-height: 6rem;
+		@include short-screen {
+			font-size: 3.2rem;
+		}
+
+	}
+
+}
+
+.menu-shortcuts {
+	margin: -0.3rem 0 1.6rem;
+	max-width: 30rem;
+	@include sm-up {
+		max-width: 40rem;
+	}
+	@include md-up {
+		max-width: 45rem;
+	}
+	@include short-screen {
+		display: none;
+	}
+	h2 {
+		display: inline;
+		line-height: 3.4rem;
+		&:not(:last-child):after {
+			content: " /";
+		}
+	}
+}

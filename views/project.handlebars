@@ -1,0 +1,86 @@
+
+{{#with currProject}}
+    <div id="project">
+        <div class="container">
+
+            <div class="project-landing">
+            	<h1 class="hide-md-up project-title">{{title}}</h1>
+
+                <div class="hero-container v-center h-center" style="background-color: {{accent}};">
+                        <img src="{{icon}}" alt="{{alt}}" class="{{orientation}}">           
+                </div> <!-- .hero-container -->
+
+                <div class="intro">
+                    <h1 class="show-md-up project-title">{{title}}</h1>
+                    <p>{{{summary}}}</p>
+
+                    <div class="intro-details">
+                    {{#each intro}}
+                        <div class="intro-detail-item">
+                            <h3>{{title}}</h3>
+                            <p>{{content}}</p>
+                        </div>
+                    {{/each}}
+                    </div>
+
+
+                </div> <!-- .intro -->
+
+            </div> <!-- .project-landing -->
+        </div>
+        <div class="container">
+            <div class="section-container">
+                {{#each sections}}
+                <div class="section">
+                    <!-- Title -->
+                    <h2 class="section-title">{{title}}</h2>
+                    
+                    <div class="section-content">
+                        <!-- Text -->
+                        {{#if text}}
+                            {{{content}}}
+                        {{/if}}
+
+                        <!-- Images -->
+                        {{#if image}}
+                            <div class="section-image" style="background-color: {{../accent}}; {{style}}">
+                                {{#if link}}
+                                <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}">{{#if link}}</a>{{/if}}
+                            </div>
+                            <p>{{{caption}}}</p>
+                        {{/if}}
+
+                        <!-- Color Palette  -->
+                        {{#if palette}}
+                            <div class="palette" style="{{style}}">
+                                <div class="swatch-container">
+                                    {{#each swatches}}
+                                    <div class="swatch" style="background-color: {{this}};">
+                                        <div class="swatch-name"><h3>{{this}}</h3></div>
+                                    </div>
+                                    {{/each}}
+                                </div>
+                            </div>
+                            {{#if caption}}
+                            <p>{{{caption}}}</p>
+                            {{/if}}
+                        {{/if}}
+
+                        <!-- PDF -->
+                        {{#if pdf}}
+                            <div class="pdf-container">
+                                <iframe class="pdf" src="{{pdf-link}}"></iframe>
+                            </div>
+                            {{#if caption}}
+                            <p>{{{caption}}}</p>
+                            {{/if}}
+                        {{/if}}
+
+                    </div> <!-- .section-content -->
+                </div> <!-- .section -->
+                {{/each}}
+            </div>
+
+        </div> 
+    </div> <!-- #project -->
+{{/with}}

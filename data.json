@@ -1,0 +1,219 @@
+{
+	"projects" : [
+		{
+			"title" : "Portfolio",
+			"url" : "portfolio",
+			"tags" : "ux",
+			"icon" : "images/portfolio/icon.svg",
+			"alt" : "",
+			"orientation" : "landscape",
+			"accent" : "#b2bec4",
+			"description" : "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
+			"summary" : "To showcase my adaptive skill range, I took on the role of both the designer and developer to build my portfolio from the ground up.",
+			"intro" : [
+					{
+						"title" : "Role",
+						"content" : "Visual designer and developer"
+					},
+					{
+						"title" : "Tools",
+						"content" : "Sketch, Illustrator, Brackets"
+					},
+					{
+						"title" : "Skills",
+						"content" : "HTML, CSS, Sass, Bootstrap, AngularJS"
+					},
+					{
+						"title" : "Start Date",
+						"content" : "Dec 2017"
+					}
+				],
+			"sections" : [
+				{
+					"title" : "Problem",
+					"text" : true,
+					"content" : "<p>As an undergraduate student looking to apply for UI/UX design and engineering internships, an online portfolio was a must-have. The task at hand was to create a simple portfolio website to accompany my resume, where I’d present my projects and provide potential employers easy access to my online platforms. However, I faced an inconvenient situation; I had switched into UC San Diego’s human-computer interaction program at the beginning of my third year. With less formal experience and project courses under my belt than my peers, <i>how do I build a compelling portfolio?</i> If not through UX projects, <i>in what other ways can I convey my understanding of the human-centered design process?</i></p>"
+				},
+				{
+					"title" : "Research + Solution",
+					"text" : true,
+					"content" : "<p>To begin answering this question, I combed through the portfolios of seasoned UI/UX designers to figure out what made them successful in landing positions. Through this competitive analysis, I confirmed that it was essential to have a strong sense of visual design and a unique brand. The defining characteristic of a solid portfolio, however, was the designer’s ability to communicate their thought process and approach through story. Some of my favorites are <a href=\"http://amandashearon.com/\" target=\"_blank\">amandashearon.com</a>, <a href=\"http://melaniedaveid.com/\" target=\"_blank\">melaniedaveid.com</a>, and <a href=\"http://chris-liu.me/\" target=\"_blank\">chris-liu.me</a>.</p><p>Because storytelling plays such a fundamental role in UX, I decided to include graphic design projects in my portfolio to provide more insight into my process. I particularly chose those that involved branding, as they presented many opportunities for me to walk through my design decisions. While these graphic design projects do not explicitly showcase my UX skills, they illustrate how I use research to derive visual solutions that satisfy client needs.</p><p>On top of demonstrating my understanding of design thinking, I also needed to showcase my skill set in both visual design and coding. The solution here was obvious: build my portfolio from scratch.</p>"
+				},
+				{
+					"title" : "Ideation",
+					"text" : true,
+					"content" : "<p><i>Content before design</i>. There’s nothing worse than coding an entire website, only to realize at the end that it doesn’t accommodate your content. I knew I’d be including diverse projects in my portfolio, and thus the layout for my case studies would have more complex page elements in play. Content I needed to account for included basic text and image sections, but also color palettes and PDFs. Moreover, these sections would be chunks of the overarching story. With this in mind, I began conceptualizing layouts that had clearly defined content blocks.</p>"
+				},
+				{
+					"title" : "First Iteration",
+					"image" : true,
+					"src" : "images/portfolio/mockups.png",
+					"caption" : "While my case study page in my first iteration covered all the bases I defined above, I was uneased with how intrusive my accent color felt. Overall, I was not particularly fond of the direction I was going in, especially with the branding, so I scrapped everything."
+				},
+				{
+					"title" : "Final Design",
+					"text" : true,
+					"content" : "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. Moreover, my color palette would be neutral to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a></p>"
+				},
+				{
+					"title" : "Sketches",
+					"image" : true,
+					"src" : "images/portfolio/mockups.png"
+				},
+				{
+					"title" : "Mockups",
+					"image" : true,
+					"src" : "images/portfolio/mockups.png",
+					"link" : "https://projects.invisionapp.com/boards/YM3HRU3N9EB/"
+				},
+				{
+					"title" : "Development",
+					"text" : true,
+					"content" : "<p>Because I am presenting myself as both a designer and developer, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a complex framework like AngularJS. After receiving formal education in an interaction design course, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Sass</li><li>Node.js + Express + Handlebars</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of identically laid out case studies, it was the perfect tool. By templating these pages, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/emnguyen.github.io\" target=\"_blank\">View on Github</a></p>"
+				},
+				{
+					"title" : "Conclusion",
+					"text" : true,
+					"content" : "<p>The final product had an aesthetic brand,  incorporated a layout that facilitated storytelling, and was supported by efficient code. Overall, it demonstrates my skill set as a visual designer, UX designer, and front-end developer. I am now ready to apply for internships! :^)</p>"
+				}
+				
+			]
+		},
+		{
+			"title" : "How Far I'll Go",
+			"url" : "kp-hsc",
+			"tags" : "graphics",
+			"icon" : "images/kp-hsc/icon.svg",
+			"alt" : "Wave",
+			"orientation" : "landscape",
+			"accent" : "#f4e4cc",
+			"description" : "Created graphics and shirt design for Kaibigang Pilipin@’s 27th annual high school conference.",
+			"summary" : "Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service (SPACES) and aim to empower high school students to pursue higher education. This year, I was invited to create graphics and a shirt design for the event.",
+			"intro" : [
+					{
+						"title" : "Role",
+						"content" : "Graphic designer"
+					},
+					{
+						"title" : "Tools",
+						"content" : "Illustrator"
+					},
+					{
+						"title" : "Date",
+						"content" : "October - November 2017"
+					}
+				],
+			"sections" : [
+				{
+					"title" : "Graphics",
+					"image" : true,
+					"src" : "images/kp-hsc/graphic.svg",
+					"style" : "padding: 6rem 8rem;"
+				},
+				{
+					"title" : "Shirt Design",
+					"image" : true,
+					"src" : "images/kp-hsc/shirts.svg",
+					"style" : "padding: 0; background-color: #d9e7ed;"
+				}
+			]
+		},
+		{
+			"title" : "Ourstory Gala",
+			"url" : "ourstory",
+			"tags" : "graphics",
+			"icon" : "images/ourstory/icon.jpg",
+			"alt" : "",
+			"orientation" : "portrait",
+			"accent" : "#dbdfae",
+			"description" : "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala, a quinquennial celebration held to commemorate the organization and its accomplishments.",
+			"summary" : "Kaibigang Pilipin@ (KP), translated to \"Friendship of Filipin@s,\" is a student-run organization at UC San Diego that aims to educate the community about Pilipin@ culture. Every five years, KP hosts their Ourstory Gala, a celebration held to commemorate the organization and its accomplishments. I worked closely with the event coordinator to craft a unique identity for their 30th Anniversary Ourstory Gala, themed after the film <i>13 Going on 30.</i>",
+			"intro" : [
+					{
+						"title" : "Role",
+						"content" : "Graphic designer"
+					},
+					{
+						"title" : "Tools",
+						"content" : "llustrator, InDesign"
+					},
+					{
+						"title" : "Date",
+						"content" : "February - March 2017"
+					}
+				],
+			"sections" : [
+				{
+					"title" : "Color Palette",
+					"palette" : true,
+					"style" : "",
+					"swatches" : ["#fff0d7", "#bdc28b", "#dda79b", "#704c4e"
+					]
+				},
+				{
+					"title" : "Event Program",
+					"pdf" : true,
+					"pdf-link" : "https://drive.google.com/file/d/0B6dEoGhrXuYIbllXcHBXWEVxTG8/preview"
+				}
+			]
+		},
+		{
+			"title" : "We're All In This Together",
+			"url" : "apsa-hsc",
+			"tags" : "graphics",
+			"icon" : "images/apsa-hsc/icon.png",
+			"alt" : "",
+			"orientation" : "portrait",
+			"accent" : "#ffe092",
+			"description" : "Designed a flyer and program for UCSD Asian Pacific Islander Student Association’s 23rd annual high school conference.",
+			"summary" : "Every year, various student organizations at UC San Diego collaborate with the Student Promoted Access Center for Education and Service (SPACES) to host conferences that empower high school students to pursue higher education and provide them with networking opportunities. The Asian and Pacific-Islander Student Alliance's (APSA) 23rd Annual High School Conference was themed \"We're All in This Together,\" referencing the popular Disney film, <i>High School Musical</i>. As head of the programming committee, I handled the branding for the conference and designed the event flyer and program.",
+			"intro" : [
+					{
+						"title" : "Role",
+						"content" : "Graphic designer"
+					},
+					{
+						"title" : "Tools",
+						"content" : "Illustrator"
+					},
+					{
+						"title" : "Date",
+						"content" : "October - November 2016"
+					}
+				],
+			"sections" : [
+				{
+					"title" : "Event Program",
+					"pdf" : true,
+					"pdf-link" : "https://drive.google.com/file/d/0B6dEoGhrXuYIV2N0cHNqNEZfWjA/preview"
+				}
+			]
+		},
+		{
+			"title" : "Tasty Donuts",
+			"url" : "tasty-donuts",
+			"tags" : "graphics",
+			"icon" : "images/tasty-donuts/icon.jpg",
+			"alt" : "",
+			"orientation" : "landscape",
+			"accent" : "#ffc9C5",
+			"description" : "Designed a business card for Tasty Donuts and Deli, located in Huntington Beach, CA.",
+			"summary" : "Designed a business card for Tasty Donuts and Deli, located in Huntington Beach, CA.",
+			"intro" : [
+					{
+						"title" : "Role",
+						"content" : "Graphic designer"
+					},
+					{
+						"title" : "Tools",
+						"content" : "Illustrator"
+					},
+					{
+						"title" : "Date",
+						"content" : "2015"
+					}
+				]
+		}
+
+	]
+}

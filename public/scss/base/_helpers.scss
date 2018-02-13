@@ -1,0 +1,62 @@
+%flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+/* Align with space between along x-axis */
+.h-space-between {
+	@extend %flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+/* Vertical align center */
+.v-center {
+	@extend %flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+/* Vertical align bottom */
+.v-bottom {
+	@extend %flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+/* Horizontal align center */
+.h-center {
+	@extend %flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.hide-xs{
+	@include xs-only {
+		display: none;
+	}
+}
+
+.hide-sm-up {
+	@include sm-up {
+		display: none;
+	}
+}
+
+.hide-md-up {
+	@include md-up {
+		display: none;
+	}
+}
+
+/* For portfolio h1 */
+.show-md-up {
+	display: none;
+	@include md-up {
+		display: inline-block;
+	}
+}
