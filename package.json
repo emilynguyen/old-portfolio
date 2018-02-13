@@ -5,9 +5,10 @@
   "main": "server.js",
   "author": "Emily Nguyen <emilymylinh@gmail.com>",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
   },
-  "engines" : {
-    "node" : "9.5.0"
+  "engines": {
+    "node": "9.5.0"
   }
 }
