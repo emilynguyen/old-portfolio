@@ -18,7 +18,8 @@ exports.view = function(req, res){
 			res.render('project', {
 				data,
 				currProject,
-				"title" : currProject.title + " | Emily Nguyen"
+				"title" : currProject.title + " | Emily Nguyen",
+				"description" : currProject.description
 			});
 			return;
 		}
