@@ -5,6 +5,6 @@
   "main": "server.js",
   "author": "Emily Nguyen <emilymylinh@gmail.com>",
   "dependencies": {
-    "express": "^4.7.2"
+    "express": "^4.16.2"
   }
 }
