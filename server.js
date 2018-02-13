@@ -2,7 +2,7 @@
 
 var express = require('express'),
     exphbs  = require('express-handlebars'); // "express-handlebars"
-
+var http = require('http');
 var path = require('path');
 
 // Routes
@@ -12,6 +12,8 @@ var project = require('./routes/project');
 var error = require('./routes/error');
 
 var app = express();
+
+app.set('port', process.env.PORT || 3000);
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
@@ -31,6 +33,11 @@ app.get('*', error.view);
 
 
 
+/*
 app.listen(3000, function () {
     console.log('express-handlebars example server listening on: 3000');
+});
+*/
+http.createServer(app).listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
 });
