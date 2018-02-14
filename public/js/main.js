@@ -2,10 +2,6 @@
  * main.js
  */
 
-function toggleMenu() {
-
-}
-
 /*
  * Name: filter
  * Description: Filters projects in the gallery.
@@ -75,12 +71,11 @@ var main = function () {
 		}
   	});
 
-
+  	/* Highlight active menu item */
   	var url = window.location.href;
     $('.menu a').filter(function() {
         return this.href == url;
     }).addClass('active'); 
-
 };
 
 $(document).ready(main);

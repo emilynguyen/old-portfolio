@@ -475,6 +475,9 @@ a:active {
     .menu li a:hover, .menu li a.active {
       opacity: 1;
       color: #EF675E; }
+    .menu li a.active {
+      cursor: default;
+      pointer-events: none; }
   @media (max-height: 350px) {
     .menu li:not(:last-child) {
       margin-right: 3rem; } }
