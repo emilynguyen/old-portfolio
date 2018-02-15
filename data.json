@@ -1,6 +1,43 @@
 {
 	"projects" : [
 		{
+			"title" : "ERGO",
+			"url" : "ergo",
+			"tags" : "ux",
+			"icon" : "images/ergo/icon.svg",
+			"alt" : "",
+			"orientation" : "landscape",
+			"style" : "padding: 4rem 2.5rem;",
+			"accent" : "#4DB6AC",
+			"description" : "ERGO is a mobile web app that utilizes environmental interactions to combat the discomfort and injury that results from a sedentary lifestyle.",
+			"summary" : "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a mobile web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different environments, including offices, coffee shops, and outdoor spaces, ERGO is unique in that it introduces exercises that utilize the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
+			"intro" : [
+					{
+						"title" : "Key Skills",
+						"content" : "Design research, needfinding, experience & paper prototyping, user testing, visual design"
+					},
+					{
+						"title" : "Instructor",
+						"content" : "Akshita Sivakumar - <a href=\"http://ixd.ucsd.edu/home/w18/index.php\" target=\"_blank\">COGS 120</a>"
+					},
+					{
+						"title" : "Teammates",
+						"content" : "Lauren Choy, Lindy Hernandez"
+					},
+					{
+						"title" : "Date",
+						"content" : "January - March 2018"
+					}
+				],
+			"sections" : [
+				{
+					"title" : "Note",
+					"text" : true,
+					"content" : "<p>ERGO is an ongoing project that will be completed March 2018. Stay tuned!</p>"
+				}
+			]
+		},
+		{
 			"title" : "Portfolio",
 			"url" : "portfolio",
 			"tags" : "ux",
