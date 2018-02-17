@@ -1,8 +1,8 @@
-{{#with data}}
+{{#with data.about}}
 <div id="about">
     <div class="container">
-
         <div class="about-landing">
+            
         	<h1 class="hide-md-up about-title">About</h1>
 
             <div class="logo-container">
@@ -13,10 +13,8 @@
 
             <div class="bio">
                 <h1 class="show-md-up about-title">About</h1>
-                <h2 class="about-tagline">Front-End Development / UX Design / Graphic Design</h2>
-                <p>Hiya, my name is Emily! I’m a third year student at UC San Diego, pursuing a degree in Cognitive Science: Human-Computer Interaction and a minor in Computer Science.</p>
-                <p>While my focus is UX engineering, I enthusiastically engage in projects from design to implementation. Currently, I work as a web developer for UCSD Information Technology Services and am a visual designer and student leader at <a href="https://designatucsd.org/" target="_blank">Design at UCSD.</a></p>
-                <p>Other things I do include playing Stardew Valley and consuming alarming amounts of seafood. Full disclosure: I support House Stark, Team Iron Man, and pineapple on pizza.</p>
+                <h2 class="about-tagline">{{tagline}}</h2>
+                {{{bio}}}
             </div> <!-- .bio -->
 
         </div> <!-- .about-landing -->
