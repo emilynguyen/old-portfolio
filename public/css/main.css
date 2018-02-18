@@ -571,12 +571,13 @@ a:active {
       width: auto;
       text-align: right; } }
   .social-media li {
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
     .social-media li:not(:first-child) {
       margin-left: 2.4rem; }
   .social-media .github {
-    margin-left: 1.7rem;
-    margin-right: -.3rem; }
+    margin-left: 2rem !important;
+    margin-right: -0.8rem; }
   .social-media img {
     height: 2.4rem; }
 

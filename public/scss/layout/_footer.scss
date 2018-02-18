@@ -50,13 +50,14 @@
 	@include no-select;
 	li {
 		display: inline-block;
+		text-align: center;
 		&:not(:first-child) {
 			margin-left: 2.4rem;
 		}
 	}
 	.github {
-		margin-left: 1.7rem;
-		margin-right: -.3rem;
+		margin-left: 2rem !important;
+		margin-right: -0.8rem;
 	}
 	img {
 		height: 2.4rem;
