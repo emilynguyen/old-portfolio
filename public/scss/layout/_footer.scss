@@ -26,14 +26,19 @@
 	li {
 		display: inline-block;
 		margin-left: 1.5rem;
-		&:last-child {
-			margin-left: 1rem;
-		}
 		@include sm-up {
 			margin-left: 2.4rem;
 			&:last-child {
 				margin-left: 2rem;
 			}
+		}
+	}
+	.github {
+		margin-left: 1rem;
+		margin-right: -.7rem;
+		@include sm-up {
+			margin-left: 1.7rem;
+			margin-right: -.3rem;
 		}
 	}
 	img {
@@ -43,3 +48,4 @@
 		}
 	}
 }
+

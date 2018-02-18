@@ -532,13 +532,18 @@ a:active {
   .social-media li {
     display: inline-block;
     margin-left: 1.5rem; }
-    .social-media li:last-child {
-      margin-left: 1rem; }
     @media (min-width: 600px) {
       .social-media li {
         margin-left: 2.4rem; }
         .social-media li:last-child {
           margin-left: 2rem; } }
+  .social-media .github {
+    margin-left: 1rem;
+    margin-right: -.7rem; }
+    @media (min-width: 600px) {
+      .social-media .github {
+        margin-left: 1.7rem;
+        margin-right: -.3rem; } }
   .social-media img {
     height: 2rem; }
     @media (min-width: 600px) {
