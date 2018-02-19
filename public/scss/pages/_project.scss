@@ -12,13 +12,13 @@
 .hero-container {
 	width: 100vw;
 	margin-left: -$side-padding-xs;
-	padding: 6rem $side-padding-xs;
+	padding: 4rem $side-padding-xs;
 	height: 35rem;
 	box-sizing: border-box;
 	@include no-select;
 	@include sm-up {
 		margin-left: -$side-padding-sm;
-		padding: -$side-padding-sm;
+		padding: 4rem;
 	}
 	@include md-up {
 		width: 100%;
@@ -27,20 +27,15 @@
 		margin-top: -$menu-height;
 		min-height: calc(100vh - #{$top-padding-sm});
 		height: 100%;
+		&.portrait {
+			padding: 6rem 6rem;
+		}
 	}
 	@include xl-up {
 		min-height: calc(100vh - #{$top-padding-xl});
-	}
+	}	
 	img {
 		max-height: 100%;
-	}	
-	.landscape {
-		@include md-up {
-			width: 100%;
-		}
-	}
-	.portrait {
-		//height: 100%;
 	}
 }
 
