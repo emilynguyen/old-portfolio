@@ -45,7 +45,7 @@
 			"title" : "Portfolio",
 			"url" : "portfolio",
 			"tags" : "ux",
-			"icon" : "images/portfolio/icon.svg",
+			"icon" : "images/portfolio/icon.png",
 			"alt" : "",
 			"orientation" : "landscape",
 			"accent" : "#b2bec4",

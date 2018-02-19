@@ -7,6 +7,12 @@ var data = require('../data.json');
 exports.view = function(req, res){
 	var inputTitle = req.params.title;
 
+	// Redirect to resume
+	if (inputTitle == "resume") {
+		res.redirect('https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view');
+		return;
+	}
+
 	// Check if valid project url
 	var projects = data.projects;
 
