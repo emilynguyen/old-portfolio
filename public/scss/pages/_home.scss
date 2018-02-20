@@ -15,7 +15,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 
 #filters {
 	margin-bottom: 2.5rem;
-	@include no-select;
+	user-select: none;
 	li {
 		cursor: pointer;
 		display: inline-block;
@@ -60,8 +60,8 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 
 /* Project gallery */
 .gallery-item-container {
+	user-select: none;
 	@extend .container;
-	@include no-select;
 	@include xs-only {
 		padding: 0;
 	}

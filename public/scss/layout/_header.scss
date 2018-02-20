@@ -5,7 +5,7 @@
 #header {
 	width: 100vw;
 	text-align: right;
-	@include no-select;
+	user-select: none;
 	.container {
 		margin-top: $top-padding-xs;
 		@include sm-up {

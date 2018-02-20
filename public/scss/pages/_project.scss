@@ -15,7 +15,7 @@
 	padding: 4rem $side-padding-xs;
 	height: 35rem;
 	box-sizing: border-box;
-	@include no-select;
+	user-select: none;
 	@include sm-up {
 		margin-left: -$side-padding-sm;
 		padding: 4rem;
@@ -144,8 +144,8 @@
 	padding: 4rem $side-padding-xs;
 	margin-left: -$side-padding-xs;
 	text-align: center;
+	user-select: none;
 	@extend %other-section;
-	@include no-select;
 	@include sm-up {
 		padding: 4rem $side-padding-sm;
 		margin-left: -$side-padding-sm;

@@ -362,11 +362,10 @@ a:active {
 #header {
   width: 100vw;
   text-align: right;
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   #header .container, #header .gallery-item-container {
     margin-top: 4rem; }
     @media (min-width: 600px) {
@@ -494,11 +493,10 @@ a:active {
   width: 100%;
   margin-bottom: -6rem;
   text-align: center;
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   @media (min-width: 600px) {
     .social-media {
       margin-bottom: -0.6rem;
@@ -527,11 +525,10 @@ a:active {
 
 #filters {
   margin-bottom: 2.5rem;
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   #filters li {
     cursor: pointer;
     display: inline-block; }
@@ -562,11 +559,10 @@ a:active {
 
 /* Project gallery */
 .gallery-item-container {
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   @media (max-width: 600px) {
     .gallery-item-container {
       padding: 0; } }
@@ -679,11 +675,10 @@ a:active {
   padding: 4rem 7vw;
   height: 35rem;
   box-sizing: border-box;
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   @media (min-width: 600px) {
     .hero-container, .logo-container {
       margin-left: -10vw;
@@ -788,11 +783,10 @@ a:active {
   padding: 4rem 7vw;
   margin-left: -7vw;
   text-align: center;
-  -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
   @media (min-width: 600px) {
     .section-image, .palette {
       padding: 4rem 10vw;
