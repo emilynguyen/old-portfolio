@@ -9,17 +9,11 @@
   padding: 0 0;
   display: inline-block;
   cursor: pointer;
-  -webkit-transition-property: opacity, -webkit-filter;
   transition-property: opacity, -webkit-filter;
-  -o-transition-property: opacity, filter;
   transition-property: opacity, filter;
   transition-property: opacity, filter, -webkit-filter;
-  -webkit-transition-duration: 0.15s;
-       -o-transition-duration: 0.15s;
-          transition-duration: 0.15s;
-  -webkit-transition-timing-function: linear;
-       -o-transition-timing-function: linear;
-          transition-timing-function: linear;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
   font: inherit;
   color: inherit;
   text-transform: none;
@@ -46,17 +40,11 @@
     background-color: #272A2C;
     border-radius: 0;
     position: absolute;
-    -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
-    -o-transition-property: transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
-    -webkit-transition-duration: 0.15s;
-         -o-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-    -webkit-transition-timing-function: ease;
-         -o-transition-timing-function: ease;
-            transition-timing-function: ease; }
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
   .hamburger-inner::before, .hamburger-inner::after {
     content: "";
     display: block; }
@@ -92,46 +80,28 @@
  * Spin
  */
 .hamburger--spin .hamburger-inner {
-  -webkit-transition-duration: 0.22s;
-       -o-transition-duration: 0.22s;
-          transition-duration: 0.22s;
-  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-       -o-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
   .hamburger--spin .hamburger-inner::before {
-    -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-    -o-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
     transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
   .hamburger--spin .hamburger-inner::after {
-    -webkit-transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    -o-transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 .hamburger--spin.is-active .hamburger-inner {
   -webkit-transform: rotate(225deg);
-      -ms-transform: rotate(225deg);
           transform: rotate(225deg);
-  -webkit-transition-delay: 0.12s;
-       -o-transition-delay: 0.12s;
-          transition-delay: 0.12s;
-  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-       -o-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
   .hamburger--spin.is-active .hamburger-inner::before {
     top: 0;
     opacity: 0;
-    -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-    -o-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
     transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
   .hamburger--spin.is-active .hamburger-inner::after {
     bottom: 0;
     -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
             transform: rotate(-90deg);
-    -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
-    -o-transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
@@ -148,46 +118,28 @@
  * Spin
  */
 .hamburger--spin .hamburger-inner {
-  -webkit-transition-duration: 0.22s;
-       -o-transition-duration: 0.22s;
-          transition-duration: 0.22s;
-  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-       -o-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
   .hamburger--spin .hamburger-inner::before {
-    -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
-    -o-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
     transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
   .hamburger--spin .hamburger-inner::after {
-    -webkit-transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    -o-transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 .hamburger--spin.is-active .hamburger-inner {
   -webkit-transform: rotate(225deg);
-      -ms-transform: rotate(225deg);
           transform: rotate(225deg);
-  -webkit-transition-delay: 0.12s;
-       -o-transition-delay: 0.12s;
-          transition-delay: 0.12s;
-  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-       -o-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
   .hamburger--spin.is-active .hamburger-inner::before {
     top: 0;
     opacity: 0;
-    -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
-    -o-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
     transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
   .hamburger--spin.is-active .hamburger-inner::after {
     bottom: 0;
     -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
             transform: rotate(-90deg);
-    -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
-    -o-transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
@@ -247,31 +199,26 @@ button:focus {
  */
 .h-space-between, .v-center, .v-bottom, .h-center {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
 
 /* Align with space between along x-axis */
 .h-space-between {
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 /* Vertical align center */
 .v-center {
   -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center; }
 
 /* Vertical align bottom */
 .v-bottom {
   -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end; }
 
 /* Horizontal align center */
 .h-center {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
 
 @media (max-width: 600px) {
@@ -395,8 +342,6 @@ p, li {
   li a:hover,
   li a:active {
     color: #EF675E;
-    -webkit-transition: 0.3s opacity;
-    -o-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
     p a:hover, li a:hover {
@@ -450,7 +395,6 @@ a:active {
   height: 100%;
   width: 100%;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: right;
   overflow-y: scroll; }
@@ -468,8 +412,6 @@ a:active {
     .menu li, .menu h1 {
       display: inline; } }
   .menu li a {
-    -webkit-transition: .3s color;
-    -o-transition: .3s color;
     transition: .3s color;
     color: #272A2C; }
     .menu li a:hover, .menu li a.active {
@@ -516,23 +458,17 @@ a:active {
   #footer .container, #footer .gallery-item-container {
     height: 100%;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
     @media (min-width: 600px) {
       #footer .container, #footer .gallery-item-container {
         -webkit-box-align: center;
-            -ms-flex-align: center;
                 align-items: center;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
                 justify-content: space-between; } }
 
 .copyright {
@@ -540,12 +476,10 @@ a:active {
   text-align: center;
   margin-bottom: 0.4rem;
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
           order: 2; }
   @media (min-width: 600px) {
     .copyright {
       -webkit-box-ordinal-group: 1;
-          -ms-flex-order: 0;
               order: 0;
       margin: 0;
       width: auto;
@@ -617,8 +551,6 @@ a:active {
     height: 1.3rem;
     border-radius: .75rem;
     background-color: #F1F1F1;
-    -webkit-transition: 0.3s all;
-    -o-transition: 0.3s all;
     transition: 0.3s all; }
   @media (hover: hover) {
     #filters .filter:hover::before {
@@ -640,10 +572,8 @@ a:active {
       padding: 0; } }
   @media (min-width: 600px) {
     .gallery-item-container {
-      display: -ms-grid;
       display: grid;
-      -ms-grid-columns: calc(50% - 0.4rem / 2) calc(50% - 0.4rem / 2);
-          grid-template-columns: calc(50% - 0.4rem / 2) calc(50% - 0.4rem / 2);
+      grid-template-columns: calc(50% - 0.4rem / 2) calc(50% - 0.4rem / 2);
       grid-gap: 0.4rem; } }
 
 .gallery-item {
@@ -701,8 +631,6 @@ a:active {
       background-color: rgba(35, 35, 35, 0.92);
       opacity: 0;
       color: #fff;
-      -webkit-transition: 0.4s opacity;
-      -o-transition: 0.4s opacity;
       transition: 0.4s opacity; } }
   @media (min-width: 600px) and (hover: hover) {
     .project-description:hover {
@@ -750,8 +678,7 @@ a:active {
   margin-left: -7vw;
   padding: 4rem 7vw;
   height: 35rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -765,7 +692,6 @@ a:active {
     .hero-container, .logo-container {
       width: 100%;
       margin-left: 0;
-      -ms-grid-column: 1;
       grid-column: 1;
       margin-top: -2.3rem;
       min-height: calc(100vh - 8rem);
@@ -780,10 +706,8 @@ a:active {
 
 @media (min-width: 840px) {
   .project-landing, .about-landing {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%; } }
+    grid-template-columns: 50% 50%; } }
 @media (max-height: 500px) {
   .project-landing, .about-landing {
     height: 100%; } }
@@ -800,10 +724,8 @@ a:active {
     margin-bottom: 0.7rem; }
 
 .intro-details {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
   margin-top: 1rem; }
   @media (min-width: 840px) {
     .intro-details {
@@ -843,10 +765,8 @@ a:active {
   margin-top: 5rem; }
   @media (min-width: 840px) {
     .section {
-      display: -ms-grid;
       display: grid;
-      -ms-grid-columns: 22% 78%;
-          grid-template-columns: 22% 78%;
+      grid-template-columns: 22% 78%;
       margin-top: 3.8rem; } }
 
 @media (min-width: 840px) {
@@ -863,8 +783,7 @@ a:active {
 
 /* Image sections */
 .section-image, .palette {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100vw;
   padding: 4rem 7vw;
   margin-left: -7vw;
@@ -895,15 +814,11 @@ a:active {
 
 .swatch-container {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  align-content: center;
+  flex-wrap: wrap; }
 
 .swatch {
   display: inline-block;
@@ -939,7 +854,7 @@ a:active {
  * About page
  */
 .logo-container {
-  background-color: #EF675E;
+  background-color: #B2BEC4;
   position: relative;
   padding: 0;
   overflow: hidden; }
@@ -951,8 +866,7 @@ a:active {
 
 .logo-wrapper {
   height: 117%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   overflow: hidden; }
   .logo-wrapper img {
     margin-top: -6rem;
@@ -967,7 +881,6 @@ a:active {
       right: 0;
       text-align: right;
       -webkit-box-pack: end;
-          -ms-flex-pack: end;
               justify-content: flex-end; }
       .logo-wrapper img {
         margin-top: 0;
@@ -999,8 +912,6 @@ a:active {
   #error h2 a:hover,
   #error h2 a:active {
     color: #EF675E;
-    -webkit-transition: 0.3s opacity;
-    -o-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
     #error h2 a:hover {

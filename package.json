@@ -1,14 +1,22 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
-  "description": "",
+  "description": "UI/UX portfolio",
   "main": "server.js",
   "author": "Emily Nguyen <emilymylinh@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/emnguyen/portfolio.git"
+  },
   "dependencies": {
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0"
   },
   "engines": {
     "node": "9.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1"
   }
 }
