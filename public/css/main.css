@@ -800,7 +800,7 @@ a:active {
     max-height: 60vh; }
     @media (min-width: 840px) {
       .section-image img, .palette img {
-        max-height: 30rem; } }
+        max-height: 40rem; } }
 
 /* Color palette styles */
 .palette {
