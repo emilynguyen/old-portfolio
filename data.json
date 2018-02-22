@@ -175,13 +175,28 @@
 					"title" : "Shirt Design: Front",
 					"image" : true,
 					"src" : "images/kp-hsc/shirt-front.svg",
-					"style" : "padding: 1rem 0 0; background-color: #d9e7ed;"
+					"style" : "padding: 1rem 0 0; background-color: #CCE3F1;"
 				},
 				{
 					"title" : "Shirt Design: Back",
 					"image" : true,
 					"src" : "images/kp-hsc/shirt-back.svg",
-					"style" : "padding: 1rem 0 0; background-color: #d9e7ed;"
+					"style" : "padding: 1rem 0 0; background-color: #CCE3F1;"
+				}, 
+				{
+					"title" : "Photos", 
+					"image" : true,
+					"src" : "images/kp-hsc/fred-courtney.jpg",
+					"alt" : "Pair of funcilitators sharing a bagel",
+					"noPadding" : true
+				},
+				{
+					"title" : "", 
+					"image" : true,
+					"src" : "images/kp-hsc/funcies.jpg",
+					"alt" : "Group of funcilitators",
+					"noPadding" : true,
+					"caption" : "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a></p>"
 				}
 			]
 		},

@@ -43,9 +43,9 @@
 
                         <!-- Images -->
                         {{#if image}}
-                            <div class="section-image" style="background-color: {{../accent}}; {{style}}">
+                            <div class="section-image {{#if noPadding}}no-padding{{/if}}" style="background-color: {{../accent}}; {{style}} {{#if noPadding}}background-color: #F9F9FB{{/if}}">
                                 {{#if link}}
-                                <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}">{{#if link}}</a>{{/if}}
+                                <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
                             </div>
                             {{#if caption}}
                                 {{{caption}}}

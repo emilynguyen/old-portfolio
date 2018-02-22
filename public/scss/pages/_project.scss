@@ -161,6 +161,21 @@
 			max-height: 40rem;
 		}
 	}
+	&.no-padding {
+		padding: 0;
+		@include sm-up {
+			padding: 0;
+		}
+		@include md-up {
+			padding: 0;
+		}
+		img {
+			max-height: none;
+			@include md-up {
+				max-height: none;
+			}
+		}
+	}
 }
 
 /* Color palette styles */
