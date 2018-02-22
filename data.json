@@ -18,7 +18,7 @@
 			"intro" : [
 					{
 						"title" : "Key Skills",
-						"content" : "Design research, needfinding, storyboarding, experience & paper prototyping, heuristic evaluation, user testing, visual design"
+						"content" : "Needfinding, competitive analysis, storyboarding, wireframing, experience & paper prototyping, heuristic evaluation, user testing, visual design"
 					},
 					{
 						"title" : "Instructor",
@@ -34,6 +34,26 @@
 					}
 				],
 			"sections" : [
+				{
+					"title" : "Design Brief: Environmental Interactions",
+					"text" : true,
+					"content" : "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within various work settings and how the use of computers could contribute to successes and breakdowns.</p>"
+				},
+				{
+					"title" : "Personas + Needfinding",
+					"text" : true,
+					"content" : "<p>We observed 3 participants in their respective work environments and discovered that wellness was a core concern amongst all of them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p><ul><li>Robb is a college student who is studying all night for an exam he has the next day. He becomes completely immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Robb <i>needs a way to be reminded to take breaks and relieve physical stress</i>.</li><li>Jon is currently studying for the MCAT using his MCAT books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Jon <i>needs tips and exercises that are applicable to his environment</i>.</li><li>Arya works in an office and experiences discomfort from sitting at her desk all day. She has tried a few ergonomics apps before but is sometimes too lazy to get up and perform stretches. Arya <i>needs a tool that can successfully encourage her to be more active</i>.</li></ul>"
+				},
+				{
+					"title" : "Ideation",
+					"text" : true,
+					"content" : "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li>How might we remind users to take breaks and stretch after long intervals of inactivity?</li><li>How might we accommodate users in different spaces or users with different tools at their disposal?</li><li>How might various work spaces be used to help their respective occupants reach their end goals?</li><li>How might we group environments into categories that are not too specific or too broad?</li><li>How might we make being active enticing to users?</li><li>Additionally, how might we accommodate users with disabilities or injuries?</li></ul>"
+				},
+				{
+					"title" : "Solution",
+					"text" : true,
+					"content" : "<p>Our solution was an ergonomics app that periodically notifies users to perform a stretch or exercise. It would be unique in that it takes into account the user's setting and suggests stretches that utilize surrounding objects. These suggestions could then be customized for accessibility and further flexibility. This approach sets the app apart from its competitors by providing users a more fun, personalized stretching experience.</p><p>Environments would be grouped with other environments based on the objects that are common to both. We derived the following categories:</p><ol type=\"1\"><li>Office - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li>Home - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li>Indoor (public) - libraries, coffee shops; stretches are seated and more discrete</li><li>Outdoor - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol><p>To further encourage users to actually perform the stretches provided by the app, we decided to include a social feature. Once a user is done setting up a routine, they could share their settings with their friends or coworkers so that they all receive the same notifications. By turning stretching into a group activity, the app takes advantage of the power of social influence to get users to be more active.</p>"
+				},
 				{
 					"title" : "Note",
 					"text" : true,
