@@ -18,7 +18,8 @@
 			"intro" : [
 					{
 						"title" : "Key Skills",
-						"content" : "Needfinding, competitive analysis, storyboarding, wireframing, experience & paper prototyping, heuristic evaluation, user testing, visual design"
+						"wide" : true,
+						"content" : "Needfinding, competitive analysis, storyboarding, wireframing, experience & paper prototyping, heuristic evaluation, user testing, visual design, web development"
 					},
 					{
 						"title" : "Instructor",
@@ -47,12 +48,26 @@
 				{
 					"title" : "Ideation",
 					"text" : true,
-					"content" : "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li>How might we remind users to take breaks and stretch after long intervals of inactivity?</li><li>How might we accommodate users in different spaces or users with different tools at their disposal?</li><li>How might various work spaces be used to help their respective occupants reach their end goals?</li><li>How might we group environments into categories that are not too specific or too broad?</li><li>How might we make being active enticing to users?</li><li>Additionally, how might we accommodate users with disabilities or injuries?</li></ul>"
+					"content" : "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li>How might we remind users to take breaks and stretch after long intervals of inactivity?</li><li>How might we accommodate users in different spaces or users with different tools at their disposal?</li><li>How might we make being active enticing to users?</li><li>Additionally, how might we accommodate users with disabilities or injuries?</li></ul>"
 				},
 				{
 					"title" : "Solution",
 					"text" : true,
-					"content" : "<p>Our solution was an ergonomics app that periodically notifies users to perform a stretch or exercise. It would be unique in that it takes into account the user's setting and suggests stretches that utilize surrounding objects. These suggestions could then be customized for accessibility and further flexibility. This approach sets the app apart from its competitors by providing users a more fun, personalized stretching experience.</p><p>Environments would be grouped with other environments based on the objects that are common to both. We derived the following categories:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discrete</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol><p>To further encourage users to actually perform the stretches provided by the app, we decided to include a social feature. Once a user is done setting up a routine, they could share their settings with their friends or coworkers so that they all receive the same notifications. By turning stretching into a group activity, the app takes advantage of the power of social influence to get users to be more active.</p>"
+					"content" : "<p>Our solution was an ergonomics app that periodically notifies users to perform a stretch or exercise. It would be unique in that it takes into account the user's setting and suggests stretches that are applicable to the devices they're using. These suggestions could then be customized for accessibility and further flexibility. This approach sets the app apart from its competitors by providing users a more fun, personalized stretching experience.</p><p>To encourage users to actually perform the stretches provided by the app, we decided to include a social feature. Once a user is done setting up a routine, they could share their settings with their friends or coworkers so that they all receive the same notifications. By turning stretching into a group activity, the app takes advantage of the power of social influence to get users to be more active.</p>"
+				},
+				{
+					"title" : "Storyboarding",
+					"image" : true,
+					"src" : "images/ergo/storyboard.jpeg",
+					"style" : "background-color: #CCE3F1;",
+					"beforeCaption" : "<p>To explore the different scenarios in which our app could be used, my team then drew up storyboards.</p>",
+					"afterCaption" : "<p><a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View all storyboards</a></p>",
+					"noPadding" : true
+				},
+				{
+					"title" : "Revisiting the Brief + Redesign",
+					"text" : true,
+					"content" : "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that utilize surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We derived the following categories:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discrete</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
 				},
 				{
 					"title" : "Note",
@@ -110,7 +125,7 @@
 					"image" : true,
 					"src" : "images/portfolio/first-iteration-mockups.png",
 					"style" : "background-color: #f5f5f6",
-					"caption" : "<p>While the case study layout in my first iteration covered all the bases I defined above, I was uneased with how intrusive my accent color felt. Overall, I was not particularly fond of the direction I was going in, especially with the branding, so I scrapped everything for a fresh start.</p>"
+					"afterCaption" : "<p>While the case study layout in my first iteration covered all the bases I defined above, I was uneased with how intrusive my accent color felt. Overall, I was not particularly fond of the direction I was going in, especially with the branding, so I scrapped everything for a fresh start.</p>"
 				},
 				{
 					"title" : "Final Design",
@@ -196,7 +211,7 @@
 					"src" : "images/kp-hsc/funcies.jpg",
 					"alt" : "Group of funcilitators",
 					"noPadding" : true,
-					"caption" : "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a></p>"
+					"afterCaption" : "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a></p>"
 				}
 			]
 		},

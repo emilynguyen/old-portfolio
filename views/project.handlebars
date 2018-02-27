@@ -1,9 +1,10 @@
 
 {{#with currProject}}
     <div id="project">
-        <div class="container">
 
+        <div class="container">
             <div class="project-landing">
+
             	<h1 class="hide-md-up project-title">{{title}}</h1>
 
                 <div class="hero-container v-center h-center {{orientation}}" style="background-color: {{accent}};">
@@ -16,18 +17,17 @@
 
                     <div class="intro-details">
                     {{#each intro}}
-                        <div class="intro-detail-item">
+                        <div class="intro-detail-item {{#if wide}}wide{{/if}} {{#unless wide}}default{{/unless}}">
                             <h3>{{title}}</h3>
                             <p>{{{content}}}</p>
-                        </div>
+                        </div> <!-- .intro-detail-item -->
                     {{/each}}
-                    </div>
-
-
+                    </div> <!-- .intro-details -->
                 </div> <!-- .intro -->
 
             </div> <!-- .project-landing -->
-        </div>
+        </div> <!-- .container -->
+
         <div class="container">
             <div class="section-container">
                 {{#each sections}}
@@ -43,12 +43,15 @@
 
                         <!-- Images -->
                         {{#if image}}
+                            {{#if beforeCaption}}
+                                {{{beforeCaption}}}
+                            {{/if}}
                             <div class="section-image {{#if noPadding}}no-padding{{/if}}" style="background-color: {{../accent}}; {{style}} {{#if noPadding}}background-color: #F9F9FB{{/if}}">
                                 {{#if link}}
                                 <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
                             </div>
-                            {{#if caption}}
-                                {{{caption}}}
+                            {{#if afterCaption}}
+                                {{{afterCaption}}}
                             {{/if}}
                         {{/if}}
 
@@ -81,8 +84,8 @@
                     </div> <!-- .section-content -->
                 </div> <!-- .section -->
                 {{/each}}
-            </div>
+            </div> <!-- .section-container -->
+        </div> <!-- .container -->
 
-        </div> 
     </div> <!-- #project -->
 {{/with}}

@@ -2,6 +2,9 @@
  * Case study/project pages
  */
 
+$intro-col-gap: 4rem;
+$intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
+
 #project {
 	img {
 		max-width: 100%;
@@ -64,7 +67,8 @@
 
 .intro-details {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: $intro-col-width $intro-col-width;
+	grid-column-gap: $intro-col-gap;
 	margin-top: 1rem;
 	@include md-up {
 		margin-top: 0;
@@ -73,11 +77,8 @@
 
 .intro-detail-item {
 	margin-top: 3rem;
-	&:nth-child(odd) {
-		padding-right: 2rem;
-	}
-	&:nth-child(even) {
-		padding-left: 2rem;
+	&.wide {
+		grid-column-end: span 2;
 	}
 }
 

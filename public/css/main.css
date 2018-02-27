@@ -204,22 +204,22 @@ button:focus {
 /* Align with space between along x-axis */
 .h-space-between {
   -webkit-box-pack: justify;
-  justify-content: space-between; }
+          justify-content: space-between; }
 
 /* Vertical align center */
 .v-center {
   -webkit-box-align: center;
-  align-items: center; }
+          align-items: center; }
 
 /* Vertical align bottom */
 .v-bottom {
   -webkit-box-align: end;
-  align-items: flex-end; }
+          align-items: flex-end; }
 
 /* Horizontal align center */
 .h-center {
   -webkit-box-pack: center;
-  justify-content: center; }
+          justify-content: center; }
 
 @media (max-width: 600px) {
   .hide-xs {
@@ -239,6 +239,9 @@ button:focus {
   @media (min-width: 840px) {
     .show-md-up {
       display: inline-block; } }
+
+.no-scroll {
+  position: fixed; }
 
 /*
  * Base styles
@@ -271,9 +274,6 @@ html {
   @media (min-width: 1280px) {
     .body-wrapper {
       min-height: calc(100vh - 13rem - 11rem - 10rem); } }
-
-.no-scroll {
-  position: fixed; }
 
 /*
  * @font-face declarations
@@ -662,6 +662,18 @@ a:active {
     .project-description .wrapper {
       margin: 0 3.5rem 4rem; } }
 
+#dribbble {
+  margin-top: 5rem; }
+  #dribbble h2 a,
+  #dribbble h2 a:visited,
+  #dribbble h2 a:hover,
+  #dribbble h2 a:active {
+    color: #EF675E;
+    transition: 0.3s opacity; }
+  @media (hover: hover) {
+    #dribbble h2 a:hover {
+      opacity: 0.4; } }
+
 /*
  * Case study/project pages
  */
@@ -720,7 +732,8 @@ a:active {
 
 .intro-details {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: calc((100% - 4rem) / 2) calc((100% - 4rem) / 2);
+  grid-column-gap: 4rem;
   margin-top: 1rem; }
   @media (min-width: 840px) {
     .intro-details {
@@ -728,10 +741,8 @@ a:active {
 
 .intro-detail-item {
   margin-top: 3rem; }
-  .intro-detail-item:nth-child(odd) {
-    padding-right: 2rem; }
-  .intro-detail-item:nth-child(even) {
-    padding-left: 2rem; }
+  .intro-detail-item.wide {
+    grid-column-end: span 2; }
 
 .project-title, .about-title {
   margin: 5rem 0 3rem; }

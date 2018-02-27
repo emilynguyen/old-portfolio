@@ -1,4 +1,4 @@
-// Only extra small devices (575 and down)
+// Only extra small devices (575px and down)
 @mixin xs-only {
 	@media (max-width: $sm-screen) {
 		@content;
