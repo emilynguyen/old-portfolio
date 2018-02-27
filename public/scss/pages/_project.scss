@@ -97,8 +97,11 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 	margin-top: 7rem;
 	margin-bottom: -$bottom-p-padding;
 	ol, ul {
-        padding-left: 5rem;
+        padding-left: 3rem;
         margin-bottom: $bottom-p-padding;
+        @include md-up {
+        	padding-left: 5rem;
+        }
     }
     ol {
         list-style-type: decimal;
@@ -162,11 +165,9 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 			max-height: 40rem;
 		}
 	}
-	&.no-padding {
-		padding: 0;
-		@include sm-up {
-			padding: 0;
-		}
+	&.no-padding-md {
+		padding-top: 0;
+		padding-bottom: 0;
 		@include md-up {
 			padding: 0;
 		}
@@ -176,6 +177,10 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 				max-height: none;
 			}
 		}
+	}
+	&.no-padding {
+		@extend .no-padding-md;
+		padding: 0;
 	}
 }
 

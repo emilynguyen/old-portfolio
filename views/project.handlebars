@@ -46,7 +46,7 @@
                             {{#if beforeCaption}}
                                 {{{beforeCaption}}}
                             {{/if}}
-                            <div class="section-image {{#if noPadding}}no-padding{{/if}}" style="background-color: {{../accent}}; {{style}} {{#if noPadding}}background-color: #F9F9FB{{/if}}">
+                            <div class="section-image {{#if noPadding}}no-padding{{/if}} {{#if noPaddingMd}}no-padding-md{{/if}}" style="background-color: {{../accent}}; {{#if noPadding}}background-color: transparent;{{/if}} {{#if noPaddingMd}}background-color: transparent;{{/if}} {{style}}">
                                 {{#if link}}
                                 <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
                             </div>

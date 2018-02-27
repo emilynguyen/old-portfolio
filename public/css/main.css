@@ -9,9 +9,7 @@
   padding: 0 0;
   display: inline-block;
   cursor: pointer;
-  transition-property: opacity, -webkit-filter;
   transition-property: opacity, filter;
-  transition-property: opacity, filter, -webkit-filter;
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
@@ -40,9 +38,7 @@
     background-color: #272A2C;
     border-radius: 0;
     position: absolute;
-    transition-property: -webkit-transform;
     transition-property: transform;
-    transition-property: transform, -webkit-transform;
     transition-duration: 0.15s;
     transition-timing-function: ease; }
   .hamburger-inner::before, .hamburger-inner::after {
@@ -85,12 +81,9 @@
   .hamburger--spin .hamburger-inner::before {
     transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
   .hamburger--spin .hamburger-inner::after {
-    transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 .hamburger--spin.is-active .hamburger-inner {
-  -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
+  transform: rotate(225deg);
   transition-delay: 0.12s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
   .hamburger--spin.is-active .hamburger-inner::before {
@@ -99,11 +92,8 @@
     transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
   .hamburger--spin.is-active .hamburger-inner::after {
     bottom: 0;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-    transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
-    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
-    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+    transform: rotate(-90deg);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 /*
 @import "types/spin-r";
@@ -123,12 +113,9 @@
   .hamburger--spin .hamburger-inner::before {
     transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
   .hamburger--spin .hamburger-inner::after {
-    transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 .hamburger--spin.is-active .hamburger-inner {
-  -webkit-transform: rotate(225deg);
-          transform: rotate(225deg);
+  transform: rotate(225deg);
   transition-delay: 0.12s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
   .hamburger--spin.is-active .hamburger-inner::before {
@@ -137,11 +124,8 @@
     transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
   .hamburger--spin.is-active .hamburger-inner::after {
     bottom: 0;
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
-    transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
-    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
-    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+    transform: rotate(-90deg);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -198,28 +182,23 @@ button:focus {
  * Helpers
  */
 .h-space-between, .v-center, .v-bottom, .h-center {
-  display: -webkit-box;
   display: flex; }
 
 /* Align with space between along x-axis */
 .h-space-between {
-  -webkit-box-pack: justify;
-          justify-content: space-between; }
+  justify-content: space-between; }
 
 /* Vertical align center */
 .v-center {
-  -webkit-box-align: center;
-          align-items: center; }
+  align-items: center; }
 
 /* Vertical align bottom */
 .v-bottom {
-  -webkit-box-align: end;
-          align-items: flex-end; }
+  align-items: flex-end; }
 
 /* Horizontal align center */
 .h-center {
-  -webkit-box-pack: center;
-          justify-content: center; }
+  justify-content: center; }
 
 @media (max-width: 600px) {
   .hide-xs {
@@ -362,10 +341,7 @@ a:active {
 #header {
   width: 100vw;
   text-align: right;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  user-select: none; }
   #header .container, #header .gallery-item-container {
     margin-top: 4rem; }
     @media (min-width: 600px) {
@@ -393,8 +369,7 @@ a:active {
 .menu-container {
   height: 100%;
   width: 100%;
-  -webkit-box-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   text-align: right;
   overflow-y: scroll; }
 
@@ -456,30 +431,23 @@ a:active {
   background-color: #4A565C; }
   #footer .container, #footer .gallery-item-container {
     height: 100%;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap; }
     @media (min-width: 600px) {
       #footer .container, #footer .gallery-item-container {
-        -webkit-box-align: center;
-                align-items: center;
-        -webkit-box-pack: justify;
-                justify-content: space-between; } }
+        align-items: center;
+        justify-content: space-between; } }
 
 .copyright {
   width: 100%;
   text-align: center;
   margin-bottom: 0.4rem;
-  -webkit-box-ordinal-group: 3;
-          order: 2; }
+  order: 2; }
   @media (min-width: 600px) {
     .copyright {
-      -webkit-box-ordinal-group: 1;
-              order: 0;
+      order: 0;
       margin: 0;
       width: auto;
       text-align: left; } }
@@ -493,10 +461,7 @@ a:active {
   width: 100%;
   margin-bottom: -6rem;
   text-align: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  user-select: none; }
   @media (min-width: 600px) {
     .social-media {
       margin-bottom: -0.6rem;
@@ -525,10 +490,7 @@ a:active {
 
 #filters {
   margin-bottom: 2.5rem;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  user-select: none; }
   #filters li {
     cursor: pointer;
     display: inline-block; }
@@ -546,6 +508,8 @@ a:active {
     margin-right: .7rem;
     width: 1.3rem;
     height: 1.3rem;
+    -moz-border-radius: .75rem;
+    -webkit-border-radius: .75rem;
     border-radius: .75rem;
     background-color: #F1F1F1;
     transition: 0.3s all; }
@@ -559,10 +523,7 @@ a:active {
 
 /* Project gallery */
 .gallery-item-container {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  user-select: none; }
   @media (max-width: 600px) {
     .gallery-item-container {
       padding: 0; } }
@@ -687,10 +648,7 @@ a:active {
   padding: 4rem 7vw;
   height: 35rem;
   box-sizing: border-box;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  user-select: none; }
   @media (min-width: 600px) {
     .hero-container, .logo-container {
       margin-left: -10vw;
@@ -758,8 +716,11 @@ a:active {
   margin-top: 7rem;
   margin-bottom: -2.5rem; }
   .section-container ol, .section-container ul {
-    padding-left: 5rem;
+    padding-left: 3rem;
     margin-bottom: 2.5rem; }
+    @media (min-width: 840px) {
+      .section-container ol, .section-container ul {
+        padding-left: 5rem; } }
   .section-container ol {
     list-style-type: decimal; }
   .section-container ul {
@@ -794,10 +755,7 @@ a:active {
   padding: 4rem 7vw;
   margin-left: -7vw;
   text-align: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none; }
+  user-select: none; }
   @media (min-width: 600px) {
     .section-image, .palette {
       padding: 4rem 10vw;
@@ -812,29 +770,27 @@ a:active {
     @media (min-width: 840px) {
       .section-image img, .palette img {
         max-height: 40rem; } }
-  .section-image.no-padding, .no-padding.palette {
-    padding: 0; }
-    @media (min-width: 600px) {
-      .section-image.no-padding, .no-padding.palette {
-        padding: 0; } }
+  .section-image.no-padding-md, .section-image.no-padding, .no-padding.palette, .no-padding-md.palette {
+    padding-top: 0;
+    padding-bottom: 0; }
     @media (min-width: 840px) {
-      .section-image.no-padding, .no-padding.palette {
+      .section-image.no-padding-md, .section-image.no-padding, .no-padding.palette, .no-padding-md.palette {
         padding: 0; } }
-    .section-image.no-padding img, .no-padding.palette img {
+    .section-image.no-padding-md img, .section-image.no-padding img, .no-padding.palette img, .no-padding-md.palette img {
       max-height: none; }
       @media (min-width: 840px) {
-        .section-image.no-padding img, .no-padding.palette img {
+        .section-image.no-padding-md img, .section-image.no-padding img, .no-padding.palette img, .no-padding-md.palette img {
           max-height: none; } }
+  .section-image.no-padding, .no-padding.palette {
+    padding: 0; }
 
 /* Color palette styles */
 .palette {
   background-color: #F9F9FB; }
 
 .swatch-container {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   align-content: center;
   flex-wrap: wrap; }
 
@@ -898,8 +854,7 @@ a:active {
       top: 0;
       right: 0;
       text-align: right;
-      -webkit-box-pack: end;
-              justify-content: flex-end; }
+      justify-content: flex-end; }
       .logo-wrapper img {
         margin-top: 0;
         margin-left: 0;
@@ -936,3 +891,5 @@ a:active {
       opacity: 0.4; } }
 #error.title {
   padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
