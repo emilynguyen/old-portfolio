@@ -157,7 +157,7 @@
 			"title" : "Portfolio",
 			"url" : "portfolio",
 			"tags" : "ux",
-			"icon" : "images/portfolio/icon.png",
+			"icon" : "images/portfolio/icon.jpg",
 			"alt" : "",
 			"paddingSize" : "md",
 			"orientation" : "landscape",
@@ -175,7 +175,7 @@
 					},
 					{
 						"title" : "Skills",
-						"content" : "HTML, CSS, Sass, jQuery, Express + Handlebars, Gulp"
+						"content" : "HTML, CSS, Sass, jQuery, Node.js (Express + Handlebars), Gulp"
 					},
 					{
 						"title" : "Date",
@@ -199,11 +199,11 @@
 					"content" : "<p><i>Content before design</i>. There’s nothing worse than coding an entire website, only to realize at the end that it doesn’t accommodate your content. I knew I’d be including diverse projects in my portfolio, and thus the layout for my case study pages would contain more complex elements. Content I needed to account for included basic text and image sections, but also color palettes and PDFs. Moreover, these sections would be chapters of an overarching story. With this in mind, I began sketching out layouts that had clearly defined content blocks.</p>"
 				},
 				{
-					"title" : "First Iteration",
+					"title" : "Iterations",
 					"image" : true,
 					"src" : "images/portfolio/first-iteration-mockups.png",
 					"style" : "background-color: #f5f5f6",
-					"afterCaption" : "<p>While the case study layout in my first iteration covered all the bases I defined above, I was uneased with how intrusive my accent color felt. Overall, I was not particularly fond of the direction I was going in, especially with the branding, so I scrapped everything for a fresh start.</p>"
+					"afterCaption" : "<p>I went through several iterations before reaching my final design. Initially, I was stuck; I felt that while my ideas got the job done, they did not accurately capture myself as a designer. So, I scrapped everything for a fresh start.</p>"
 				},
 				{
 					"title" : "Final Design",
@@ -218,7 +218,7 @@
 				{
 					"title" : "Development",
 					"text" : true,
-					"content" : "<p>Because I am presenting myself as both a designer and developer, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education in an <a href=\"http://ixd.ucsd.edu/home/w18/index.php\" target=\"_blank\">interaction design course</a>, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp + Autoprefixer</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of identically laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
+					"content" : "<p>Because I am presenting myself as both a designer and developer, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp + Autoprefixer</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of identically laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
 				},
 				{
 					"title" : "Conclusion",
@@ -306,9 +306,9 @@
 			"title" : "Ourstory Gala",
 			"url" : "ourstory",
 			"tags" : "graphics",
-			"icon" : "images/ourstory/icon.jpg",
+			"icon" : "images/ourstory/icon.png",
 			"alt" : "",
-			"paddingSize" : "md",
+			"paddingSize" : "sm",
 			"orientation" : "portrait",
 			"accent" : "#dbdfae",
 			"description" : "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala, a quinquennial celebration held to commemorate the organization and its accomplishments.",
@@ -359,7 +359,7 @@
 			"tags" : "graphics",
 			"icon" : "images/apsa-hsc/icon.png",
 			"alt" : "",
-			"paddingSize" : "md",
+			"paddingSize" : "sm",
 			"orientation" : "portrait",
 			"accent" : "#ffe092",
 			"description" : "Designed a flyer and program for UCSD Asian Pacific Islander Student Association’s 23rd annual high school conference.",

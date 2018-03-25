@@ -578,7 +578,7 @@ a:active {
 .gallery-item {
   position: relative; }
   .gallery-item.padding-sm {
-    padding: 2rem 7vw; }
+    padding: 4rem 7vw; }
   .gallery-item.padding-md {
     padding: 6.5rem 7vw; }
   @media (min-width: 600px) {

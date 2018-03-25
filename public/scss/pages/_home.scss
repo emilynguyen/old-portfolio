@@ -75,7 +75,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 .gallery-item {
 	position: relative;
 	&.padding-sm {
-		padding: 2rem $side-padding-xs;
+		padding: 4rem $side-padding-xs;
 	}
 	&.padding-md {
 		padding: 6.5rem $side-padding-xs;
