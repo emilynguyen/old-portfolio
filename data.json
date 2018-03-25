@@ -16,13 +16,14 @@
 			"summary" : "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a mobile web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different environments, including offices, coffee shops, and outdoor spaces, ERGO is unique in that it introduces exercises that utilize the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
 			"intro" : [
 					{
-						"title" : "Key Skills",
+						"title" : "Roles",
 						"wide" : true,
-						"content" : "Needfinding, competitive analysis, storyboarding, wireframing, rapid prototyping, visual design, A/B testing, web development"
+						"content" : "Interaction design was done as a team. Additionally, I spearheaded the branding and development of the live prototype."
 					},
 					{
-						"title" : "Instructor",
-						"content" : "Akshita Sivakumar - <a href=\"http://ixd.ucsd.edu/home/w18/index.php\" target=\"_blank\">Interaction Design</a>"
+						"title" : "Key Skills",
+						"wide" : true,
+						"content" : "Needfinding, storyboarding, wireframing, rapid prototyping, visual design, web development"
 					},
 					{
 						"title" : "Teammates",
@@ -40,9 +41,26 @@
 					"content" : "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within various work settings and how the use of computers could contribute to successes and breakdowns.</p>"
 				},
 				{
-					"title" : "Personas + Needfinding",
+					"title" : "Needfinding + Personas",
 					"text" : true,
-					"content" : "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern among all of them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p><ul><li>Tony is a college student who is studying all night for an exam he has the next day. He becomes completely immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress</i>.</li><li>Steve is currently studying for the MCAT using his MCAT books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment</i>.</li><li>Wanda works in an office and experiences discomfort from sitting at her desk all day. She has tried a few ergonomics apps before but is sometimes too lazy to get up and perform stretches. Wanda <i>needs a tool that can successfully encourage her to be more active</i>.</li></ul>"
+					"content" : "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern among all of them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
+				},
+				{
+					"personas" : true,
+					"personaList" : [
+						{
+							"icon" : "images/ergo/personas/tony.svg",
+							"description" : "<p>Tony is a college student who is studying all night for an exam he has the next day. He becomes completely immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress.</i></p>"
+						},
+						{
+							"icon" : "images/ergo/personas/steve.svg",
+							"description" : "<p>Steve is currently studying for the MCAT using his MCAT books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment.</i></p>"
+						},
+						{
+							"icon" : "images/ergo/personas/wanda.svg",
+							"description" : "<p>Wanda works in an office and experiences discomfort from sitting at her desk all day. She has tried a few ergonomics apps before but is sometimes too lazy to get up and perform stretches. Wanda <i>needs a tool that can successfully encourage her to be more active.</i></p>"
+						}
+					]
 				},
 				{
 					"title" : "Ideation",
@@ -64,9 +82,42 @@
 					"noPaddingMd" : true
 				},
 				{
+					"title" : "Rapid Prototyping",
+					"image" : true,
+					"src" : "images/ergo/paper-prototypes.png",
+					"style" : "",
+					"beforeCaption" : "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
+					"afterCaption" : "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a></p>",
+					"noPaddingMd" : true
+				},
+				{
 					"title" : "Revisiting the Brief + Redesign",
 					"text" : true,
-					"content" : "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that utilize surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We derived the following categories:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
+					"content" : "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that utilize surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
+				},
+				{
+					"title" : "Wireframing",
+					"image" : true,
+					"src" : "images/ergo/wireframes.min.jpg",
+					"link" : "/images/ergo/wireframes.jpg",
+					"beforeCaption" : "<p>Next, we created wireframes to visualize the flow of our app.</p>",
+					"noPaddingMd" : true
+				},
+				{
+					"title" : "Branding + Visual Design",
+					"image" : true,
+					"src" : "images/ergo/mockups.png",
+					"beforeCaption" : "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
+				},
+				{
+					"title" : "Live Prototype",
+					"text" : true,
+					"content" : "<p>Coming soon!</p>"
+				},
+				{
+					"title" : "User Testing",
+					"text" : true,
+					"content" : "<p>Coming soon!</p>"
 				},
 				{
 					"title" : "Note",
@@ -139,7 +190,7 @@
 				{
 					"title" : "Development",
 					"text" : true,
-					"content" : "<p>Because I am presenting myself as both a designer and developer, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education in an <a href=\"http://ixd.ucsd.edu/home/w18/index.php\" target=\"_blank\">interaction design course</a>, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js + Express + Handlebars</li><li>Sass</li><li>Gulp + Autoprefixer</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of identically laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
+					"content" : "<p>Because I am presenting myself as both a designer and developer, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education in an <a href=\"http://ixd.ucsd.edu/home/w18/index.php\" target=\"_blank\">interaction design course</a>, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp + Autoprefixer</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of identically laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
 				},
 				{
 					"title" : "Conclusion",

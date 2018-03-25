@@ -1,4 +1,3 @@
-
 {{#with currProject}}
     <div id="project">
 
@@ -79,6 +78,22 @@
                             {{#if caption}}
                                 {{{caption}}}
                             {{/if}}
+                        {{/if}}
+
+                        <!-- Personas -->
+                        {{#if personas}}
+                            <div class="persona-container">
+                                {{#each personaList}}
+                                    <div class="persona">
+                                        <div class="persona-icon-container">
+                                            <img src="{{icon}}">
+                                        </div>
+                                        <div class="persona-description">
+                                            {{{description}}}
+                                        </div>
+                                    </div>
+                                {{/each}}
+                            </div> 
                         {{/if}}
 
                     </div> <!-- .section-content -->

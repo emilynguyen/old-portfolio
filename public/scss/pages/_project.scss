@@ -235,3 +235,36 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 		height: 70vh;
 	}
 }
+
+/* Personas section */
+.persona-container {
+	@extend %other-section;
+}
+
+.persona {
+	@include sm-up {
+		display: grid;
+		grid-template-columns: auto auto;
+		margin-bottom: $bottom-p-padding;
+	}
+}
+
+.persona-icon-container {
+	text-align: center;
+	padding-bottom: $bottom-p-padding;
+	padding-top: $bottom-p-padding;
+	@include sm-up {
+		padding: 0 3rem 0 0;
+		display: inline-block;
+	}
+}
+
+.persona-icon {
+	width: 15rem;
+}
+
+.persona-description {
+	p {
+		margin-bottom: 0;
+	}
+}
