@@ -2,6 +2,9 @@
  * Header styles
  */
 
+// Menu shortcut active style
+$underline: -webkit-linear-gradient(-90deg, rgba(231,232,233,0) 50%, rgba(231,232,233,1) 50%);
+
 #header {
 	width: 100vw;
 	text-align: right;
@@ -57,13 +60,15 @@
 		}
 	}
 	li a {
-		transition: .3s color;
 		color: $shark;
-		&:hover, &.active {
+		padding: 0 0.3rem;
+		@include hover {
 			opacity: 1;
-			color: $burnt-sienna;
+			background-image: $underline;
 		}
 		&.active {
+			opacity: 1;
+			background-image: $underline;
 			cursor: default;
 			pointer-events: none;
 		}

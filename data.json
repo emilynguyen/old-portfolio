@@ -234,7 +234,7 @@
 			"tags" : "graphics",
 			"icon" : "images/kp-hsc/icon.svg",
 			"alt" : "Wave",
-			"paddingSize" : "md",
+			"paddingSize" : "lg",
 			"orientation" : "landscape",
 			"accent" : "#f4e4cc",
 			"description" : "Designed shirts for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",

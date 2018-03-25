@@ -24,6 +24,9 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 	&.padding-md {
 		padding: 4rem $side-padding-xs;
 	}
+	&.padding-lg {
+		padding: 6rem $side-padding-xs;
+	}
 	@include sm-up {
 		margin-left: -$side-padding-sm;
 		&.padding-sm {
@@ -31,6 +34,9 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 		}
 		&.padding-md {
 			padding: 4rem;
+		}
+		&.padding-lg {
+			padding: 6rem;
 		}
 	}
 	@include md-up {
@@ -46,6 +52,9 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 			}
 			&.padding-md {
 				padding: 6rem;
+			}
+			&.padding-lg {
+				padding: 8rem;
 			}
 		}
 	}
