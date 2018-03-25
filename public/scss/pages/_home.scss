@@ -73,10 +73,17 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 }
 
 .gallery-item {
-	padding: 6.5rem $side-padding-xs;
 	position: relative;
+	&.padding-sm {
+		padding: 2rem $side-padding-xs;
+	}
+	&.padding-md {
+		padding: 6.5rem $side-padding-xs;
+	}
 	@include sm-up {
-		padding: 0;
+		&.padding-sm, &.padding-md {
+			padding: 0;
+		}
 		&:after {
 			content: "";
 			display: block;
@@ -96,16 +103,26 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 	.landscape {
 		width: 100%;
 		max-width: 100%;
-		@include sm-up {
-			max-width: 75%;
+		&.padding-md {
+			@include sm-up {
+				max-width: 75%;
+			}
 		}
 	}
 	/* Portrait project icons */
 	.portrait {
 		height: 100%;
+		&.padding-sm {
+			max-height: 30rem;
+			@include sm-up {
+				max-height: 80%;
+			}
+		}
+		&.padding-md {
 			max-height: 25rem;
-		@include sm-up {
-			max-height: 74%;
+			@include sm-up {
+				max-height: 70%;
+			}
 		}
 	}
 }
@@ -173,6 +190,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 	}
 }
 
+/* Dribbble link */
 #dribbble {
 	margin-top: 5rem;
 	h2 {

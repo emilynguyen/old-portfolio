@@ -20,16 +20,16 @@
 
         {{#each projects}}
         <a href="/{{url}}" class="{{tags}}">
-            <div class="gallery-item {{url}}" style="background-color: {{accent}}">
+            <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
                         
                 <div class="project-icon v-center h-center">
-                    <img src="{{icon}}" alt="{{alt}}" class="{{orientation}}" style="{{style}}">
+                    <img src="{{icon}}" alt="{{alt}}" class="{{orientation}} padding-{{paddingSize}}">
                 </div> <!-- .project-icon -->
 
                 <div class="project-description hide-xs v-bottom">
                     <div class="wrapper">
                         <h3>{{title}}</h3>
-                        <p>{{description}}</p>
+                        <p>{{{description}}}</p>
                     </div>
                 </div> <!-- .project-description -->
 
@@ -41,7 +41,7 @@
             <div class="container hide-sm-up">
                 <div class="project-description">
                     <h3>{{title}}</h3>
-                    <p>{{description}}</p>
+                    <p>{{{description}}}</p>
                 </div> <!-- .project-description -->
             </div>
         </a>

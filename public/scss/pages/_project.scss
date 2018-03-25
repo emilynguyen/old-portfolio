@@ -15,13 +15,23 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 .hero-container {
 	width: 100vw;
 	margin-left: -$side-padding-xs;
-	padding: 4rem $side-padding-xs;
 	height: 35rem;
 	box-sizing: border-box;
 	user-select: none;
+	&.padding-sm {
+		padding: 1.5rem $side-padding-xs;
+	}
+	&.padding-md {
+		padding: 4rem $side-padding-xs;
+	}
 	@include sm-up {
 		margin-left: -$side-padding-sm;
-		padding: 4rem;
+		&.padding-sm {
+			padding: 1.5rem;
+		}
+		&.padding-md {
+			padding: 4rem;
+		}
 	}
 	@include md-up {
 		width: 100%;
@@ -31,7 +41,12 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 		min-height: calc(100vh - #{$top-padding-sm});
 		height: 100%;
 		&.portrait {
-			padding: 6rem 6rem;
+			&.padding-sm {
+				padding: 2.5rem;
+			}
+			&.padding-md {
+				padding: 6rem;
+			}
 		}
 	}
 	@include xl-up {

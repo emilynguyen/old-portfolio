@@ -10,6 +10,7 @@
 			"tags" : "ux",
 			"icon" : "images/ergo/icon.png",
 			"alt" : "",
+			"paddingSize" : "md",
 			"orientation" : "landscape",
 			"accent" : "#90D3CF",
 			"description" : "ERGO is a mobile web app that utilizes environmental interactions to combat the discomfort that results from a sedentary lifestyle.",
@@ -31,7 +32,7 @@
 					},
 					{
 						"title" : "Date",
-						"content" : "January - March 2018"
+						"content" : "Jan - Mar 2018"
 					}
 				],
 			"sections" : [
@@ -104,12 +105,6 @@
 					"noPaddingMd" : true
 				},
 				{
-					"title" : "Branding + Visual Design",
-					"image" : true,
-					"src" : "images/ergo/mockups.png",
-					"beforeCaption" : "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
-				},
-				{
 					"title" : "Live Prototype",
 					"text" : true,
 					"content" : "<p>Coming soon!</p>"
@@ -120,6 +115,12 @@
 					"content" : "<p>Coming soon!</p>"
 				},
 				{
+					"title" : "Branding + Visual Design",
+					"image" : true,
+					"src" : "images/ergo/mockups.png",
+					"beforeCaption" : "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
+				},
+				{
 					"title" : "Note",
 					"text" : true,
 					"content" : "<p>ERGO is an ongoing project that will be completed March 2018. Stay tuned!</p>"
@@ -127,11 +128,38 @@
 			]
 		},
 		{
+			"title" : "Remember That I Love You",
+			"url" : "pcc",
+			"tags" : "graphics",
+			"icon" : "images/pcc/icon.png",
+			"alt" : "",
+			"paddingSize" : "sm",
+			"orientation" : "portrait",
+			"accent" : "#E77169",
+			"description" : "Designed a poster for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>.",
+			"summary" : "For UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC), I am serving on the Official Cultural Cabinet as Graphic Design Co-Chair. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, will tackle themes of LGBTQ, mental health, and family. Deliverables I produced included a poster for the event.",
+			"intro" : [
+					{
+						"title" : "Role",
+						"content" : "Graphic designer"
+					},
+					{
+						"title" : "Tools",
+						"content" : "Illustrator"
+					},
+					{
+						"title" : "Date",
+						"content" : "Jan - Mar 2018"
+					}
+				]
+		},
+		{
 			"title" : "Portfolio",
 			"url" : "portfolio",
 			"tags" : "ux",
 			"icon" : "images/portfolio/icon.png",
 			"alt" : "",
+			"paddingSize" : "md",
 			"orientation" : "landscape",
 			"accent" : "#b2bec4",
 			"description" : "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
@@ -150,8 +178,8 @@
 						"content" : "HTML, CSS, Sass, jQuery, Express + Handlebars, Gulp"
 					},
 					{
-						"title" : "Start Date",
-						"content" : "Dec 2017"
+						"title" : "Date",
+						"content" : "Dec 2017 - Feb 2018"
 					}
 				],
 			"sections" : [
@@ -206,9 +234,10 @@
 			"tags" : "graphics",
 			"icon" : "images/kp-hsc/icon.svg",
 			"alt" : "Wave",
+			"paddingSize" : "md",
 			"orientation" : "landscape",
 			"accent" : "#f4e4cc",
-			"description" : "Designed shirts for Kaibigang Pilipin@’s 27th annual high school conference.",
+			"description" : "Designed shirts for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
 			"summary" : "Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service (SPACES) and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.",
 			"intro" : [
 					{
@@ -221,7 +250,7 @@
 					},
 					{
 						"title" : "Date",
-						"content" : "October - November 2017"
+						"content" : "Oct - Nov 2017"
 					}
 				],
 			"sections" : [
@@ -279,6 +308,7 @@
 			"tags" : "graphics",
 			"icon" : "images/ourstory/icon.jpg",
 			"alt" : "",
+			"paddingSize" : "md",
 			"orientation" : "portrait",
 			"accent" : "#dbdfae",
 			"description" : "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala, a quinquennial celebration held to commemorate the organization and its accomplishments.",
@@ -294,7 +324,7 @@
 					},
 					{
 						"title" : "Date",
-						"content" : "February - March 2017"
+						"content" : "Feb - Mar 2017"
 					}
 				],
 			"sections" : [
@@ -329,6 +359,7 @@
 			"tags" : "graphics",
 			"icon" : "images/apsa-hsc/icon.png",
 			"alt" : "",
+			"paddingSize" : "md",
 			"orientation" : "portrait",
 			"accent" : "#ffe092",
 			"description" : "Designed a flyer and program for UCSD Asian Pacific Islander Student Association’s 23rd annual high school conference.",
@@ -344,7 +375,7 @@
 					},
 					{
 						"title" : "Date",
-						"content" : "October - November 2016"
+						"content" : "Oct - Nov 2016"
 					}
 				],
 			"sections" : [
