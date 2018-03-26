@@ -2,9 +2,6 @@
  * Case study/project pages
  */
 
-$intro-col-gap: 4rem;
-$intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
-
 #project {
 	img {
 		max-width: 100%;
@@ -18,26 +15,30 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 	height: 35rem;
 	box-sizing: border-box;
 	user-select: none;
-	&.padding-sm {
-		padding: 1.5rem $side-padding-xs;
+	&.portrait {
+		&.padding-sm {
+			padding: 1.5rem $side-padding-xs;
+		}
+		&.padding-md {
+			padding: 4rem $side-padding-xs;
+		}
+		&.padding-lg {
+			padding: 7rem $side-padding-xs;
+		}
 	}
-	&.padding-md {
-		padding: 4rem $side-padding-xs;
-	}
-	&.padding-lg {
-		padding: 6rem $side-padding-xs;
+	&.landscape {
+		&.padding-sm {
+			padding: 1.5rem $side-padding-xs;
+		}
+		&.padding-md {
+			padding: 4rem $side-padding-xs;
+		}
+		&.padding-lg {
+			padding: 9rem $side-padding-xs;
+		}
 	}
 	@include sm-up {
 		margin-left: -$side-padding-sm;
-		&.padding-sm {
-			padding: 1.5rem;
-		}
-		&.padding-md {
-			padding: 4rem;
-		}
-		&.padding-lg {
-			padding: 6rem;
-		}
 	}
 	@include md-up {
 		width: 100%;
@@ -54,7 +55,7 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 				padding: 6rem;
 			}
 			&.padding-lg {
-				padding: 8rem;
+				padding: 6rem;
 			}
 		}
 	}
@@ -69,7 +70,7 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 .project-landing {
 	@include md-up {
 		display: grid;
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 1fr 1fr;
 	}
 	@include short-screen {
 		height: 100%;
@@ -91,8 +92,8 @@ $intro-col-width: calc((100% - #{$intro-col-gap}) / 2);
 
 .intro-details {
 	display: grid;
-	grid-template-columns: $intro-col-width $intro-col-width;
-	grid-column-gap: $intro-col-gap;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 4rem;
 	margin-top: 1rem;
 	@include md-up {
 		margin-top: 0;

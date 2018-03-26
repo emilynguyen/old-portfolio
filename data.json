@@ -10,8 +10,8 @@
 			"tags" : "ux",
 			"icon" : "images/ergo/icon.png",
 			"alt" : "",
-			"paddingSize" : "md",
-			"orientation" : "landscape",
+			"paddingSize" : "lg",
+			"orientation" : "portrait",
 			"accent" : "#90D3CF",
 			"description" : "ERGO is a mobile web app that utilizes environmental interactions to combat the discomfort that results from a sedentary lifestyle.",
 			"summary" : "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a mobile web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different environments, including offices, coffee shops, and outdoor spaces, ERGO is unique in that it introduces exercises that utilize the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
@@ -160,7 +160,7 @@
 			"icon" : "images/portfolio/icon.jpg",
 			"alt" : "",
 			"paddingSize" : "md",
-			"orientation" : "landscape",
+			"orientation" : "portrait",
 			"accent" : "#b2bec4",
 			"description" : "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
 			"summary" : "To showcase my adaptive skill range, I took on the role of both the designer and developer to build my portfolio from the ground up.",
@@ -274,17 +274,11 @@
 					"style" : "padding: 1rem 0 0;"
 				},
 				{
-					"title" : "Shirt Design: Front",
+					"title" : "Shirt Design",
 					"image" : true,
-					"src" : "images/kp-hsc/shirt-front.svg",
-					"style" : "padding: 1rem 0 0; background-color: #CCE3F1;"
+					"src" : "images/kp-hsc/shirt-front-back.png",
+					"noPaddingMd" : true
 				},
-				{
-					"title" : "Shirt Design: Back",
-					"image" : true,
-					"src" : "images/kp-hsc/shirt-back.svg",
-					"style" : "padding: 1rem 0 0; background-color: #CCE3F1;"
-				}, 
 				{
 					"title" : "Photos", 
 					"image" : true,

@@ -564,74 +564,50 @@ a:active {
       background-color: #EF675E; }
 
 /* Project gallery */
-.gallery-item-container {
+@media (max-width: 600px) {
+  .gallery-item-container {
+    padding: 0; } }
+@media (min-width: 600px) {
+  .gallery-item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.4rem; } }
+
+.gallery-item {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none; }
-  @media (max-width: 600px) {
-    .gallery-item-container {
-      padding: 0; } }
-  @media (min-width: 600px) {
-    .gallery-item-container {
-      display: grid;
-      grid-template-columns: calc(50% - 0.4rem / 2) calc(50% - 0.4rem / 2);
-      grid-gap: 0.4rem; } }
-
-.gallery-item {
+          user-select: none;
   position: relative; }
-  .gallery-item.padding-sm {
-    padding: 4rem 7vw; }
-  .gallery-item.padding-md {
-    padding: 6.5rem 7vw; }
-  .gallery-item.padding-lg {
-    padding: 8rem 7vw; }
-  @media (min-width: 600px) {
-    .gallery-item.padding-sm, .gallery-item.padding-md, .gallery-item.padding-lg {
-      padding: 0; }
-    .gallery-item:after {
-      content: "";
-      display: block;
-      padding-bottom: 100%; } }
+  .gallery-item:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
 
 .project-icon {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  position: absolute;
   /* Landscape project icons */
   /* Portrait project icons */ }
-  @media (min-width: 600px) {
-    .project-icon {
-      position: absolute; } }
   .project-icon .landscape {
     width: 100%;
     max-width: 100%; }
-    @media (min-width: 600px) {
-      .project-icon .landscape.padding-sm {
-        max-width: 85%; } }
-    @media (min-width: 600px) {
-      .project-icon .landscape.padding-md {
-        max-width: 75%; } }
-    @media (min-width: 600px) {
-      .project-icon .landscape.padding-lg {
-        max-width: 65%; } }
+    .project-icon .landscape.padding-sm {
+      max-width: 85%; }
+    .project-icon .landscape.padding-md {
+      max-width: 75%; }
+    .project-icon .landscape.padding-lg {
+      max-width: 65%; }
   .project-icon .portrait {
     height: 100%; }
     .project-icon .portrait.padding-sm {
-      max-height: 30rem; }
-      @media (min-width: 600px) {
-        .project-icon .portrait.padding-sm {
-          max-height: 80%; } }
+      max-height: 80%; }
     .project-icon .portrait.padding-md {
-      max-height: 25rem; }
-      @media (min-width: 600px) {
-        .project-icon .portrait.padding-md {
-          max-height: 70%; } }
+      max-height: 70%; }
     .project-icon .portrait.padding-lg {
-      max-height: 20rem; }
-      @media (min-width: 600px) {
-        .project-icon .portrait.padding-lg {
-          max-height: 60%; } }
+      max-height: 60%; }
 
 .arrow {
   text-align: right;
@@ -652,7 +628,7 @@ a:active {
       height: 100%;
       top: 0;
       left: 0;
-      background-color: rgba(35, 35, 35, 0.92);
+      background-color: rgba(35, 35, 35, 0.94);
       opacity: 0;
       color: #fff;
       transition: 0.4s opacity; } }
@@ -719,21 +695,21 @@ a:active {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
-  .hero-container.padding-sm, .padding-sm.logo-container {
+  .hero-container.portrait.padding-sm, .portrait.padding-sm.logo-container {
     padding: 1.5rem 7vw; }
-  .hero-container.padding-md, .padding-md.logo-container {
+  .hero-container.portrait.padding-md, .portrait.padding-md.logo-container {
     padding: 4rem 7vw; }
-  .hero-container.padding-lg, .padding-lg.logo-container {
-    padding: 6rem 7vw; }
+  .hero-container.portrait.padding-lg, .portrait.padding-lg.logo-container {
+    padding: 7rem 7vw; }
+  .hero-container.landscape.padding-sm, .landscape.padding-sm.logo-container {
+    padding: 1.5rem 7vw; }
+  .hero-container.landscape.padding-md, .landscape.padding-md.logo-container {
+    padding: 4rem 7vw; }
+  .hero-container.landscape.padding-lg, .landscape.padding-lg.logo-container {
+    padding: 9rem 7vw; }
   @media (min-width: 600px) {
     .hero-container, .logo-container {
-      margin-left: -10vw; }
-      .hero-container.padding-sm, .padding-sm.logo-container {
-        padding: 1.5rem; }
-      .hero-container.padding-md, .padding-md.logo-container {
-        padding: 4rem; }
-      .hero-container.padding-lg, .padding-lg.logo-container {
-        padding: 6rem; } }
+      margin-left: -10vw; } }
   @media (min-width: 840px) {
     .hero-container, .logo-container {
       width: 100%;
@@ -747,7 +723,7 @@ a:active {
       .hero-container.portrait.padding-md, .portrait.padding-md.logo-container {
         padding: 6rem; }
       .hero-container.portrait.padding-lg, .portrait.padding-lg.logo-container {
-        padding: 8rem; } }
+        padding: 6rem; } }
   @media (min-width: 1280px) {
     .hero-container, .logo-container {
       min-height: calc(100vh - 11rem); } }
@@ -757,7 +733,7 @@ a:active {
 @media (min-width: 840px) {
   .project-landing, .about-landing {
     display: grid;
-    grid-template-columns: 50% 50%; } }
+    grid-template-columns: 1fr 1fr; } }
 @media (max-height: 500px) {
   .project-landing, .about-landing {
     height: 100%; } }
@@ -775,7 +751,7 @@ a:active {
 
 .intro-details {
   display: grid;
-  grid-template-columns: calc((100% - 4rem) / 2) calc((100% - 4rem) / 2);
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 4rem;
   margin-top: 1rem; }
   @media (min-width: 840px) {

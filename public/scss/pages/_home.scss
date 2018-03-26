@@ -2,9 +2,6 @@
  * Home page
  */
 
-$project-gap: .4rem;
-$project-col-width: calc(50% - #{$project-gap} / 2);
-
 .title {
 	margin: 8rem 0 7rem;
 	padding-right: 8.5rem;
@@ -60,91 +57,61 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 
 /* Project gallery */
 .gallery-item-container {
-	user-select: none;
 	@extend .container;
 	@include xs-only {
 		padding: 0;
 	}
 	@include sm-up {
 		display: grid;
-		grid-template-columns: $project-col-width $project-col-width;
-		grid-gap: $project-gap;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 0.4rem;
 	} 
 }
 
 .gallery-item {
+	user-select: none;
 	position: relative;
-	&.padding-sm {
-		padding: 4rem $side-padding-xs;
-	}
-	&.padding-md {
-		padding: 6.5rem $side-padding-xs;
-	}
-	&.padding-lg {
-		padding: 8rem $side-padding-xs;
-	}
-	@include sm-up {
-		&.padding-sm, &.padding-md, &.padding-lg {
-			padding: 0;
-		}
-		&:after {
-			content: "";
-			display: block;
-			padding-bottom: 100%;
-		}		
-	}
+	&:after {
+		content: "";
+		display: block;
+		padding-bottom: 100%;
+	}	
 }
 
 .project-icon {
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-	@include sm-up {
-		position: absolute;
-	}
+	position: absolute;
 	/* Landscape project icons */
 	.landscape {
 		width: 100%;
 		max-width: 100%;
 		&.padding-sm {
-			@include sm-up {
-				max-width: 85%;
-			}
+			max-width: 85%;
 		}
 		&.padding-md {
-			@include sm-up {
-				max-width: 75%;
-			}
+			max-width: 75%;
 		}
 		&.padding-lg {
-			@include sm-up {
-				max-width: 65%;
-			}
+			max-width: 65%;
 		}
 	}
 	/* Portrait project icons */
 	.portrait {
 		height: 100%;
-		&.padding-sm {
-			max-height: 30rem;
-			@include sm-up {
-				max-height: 80%;
-			}
+		&.padding-sm {			
+			max-height: 80%;
 		}
 		&.padding-md {
-			max-height: 25rem;
-			@include sm-up {
-				max-height: 70%;
-			}
+			max-height: 70%;
 		}
 		&.padding-lg {
-			max-height: 20rem;
-			@include sm-up {
-				max-height: 60%;
-			}
+			max-height: 60%;
 		}
 	}
 }
+
 
 .arrow {
 	text-align: right;
@@ -166,7 +133,7 @@ $project-col-width: calc(50% - #{$project-gap} / 2);
 		height: 100%;
 		top: 0;
 		left: 0;
-		background-color: rgba(35, 35, 35, 0.92);
+		background-color: rgba(35, 35, 35, .94);
 		opacity: 0;
 		color: $white;
 		transition: 0.4s opacity;
