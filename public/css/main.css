@@ -526,10 +526,8 @@ a:active {
  * Home page
  */
 .title {
-  margin: 8rem 0 7rem; }
-  @media (min-width: 600px) {
-    .title {
-      padding-right: 10rem; } }
+  margin: 8rem 0 7rem;
+  padding-right: 7rem; }
 
 #filters {
   margin-bottom: 2.5rem;
