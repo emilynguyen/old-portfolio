@@ -356,6 +356,9 @@ a:hover,
 a:active {
   text-decoration: none; }
 
+.no-break {
+  white-space: nowrap; }
+
 /*
  * Header styles
  */
@@ -523,8 +526,7 @@ a:active {
  * Home page
  */
 .title {
-  margin: 8rem 0 7rem;
-  padding-right: 8.5rem; }
+  margin: 8rem 0 7rem; }
   @media (min-width: 600px) {
     .title {
       padding-right: 10rem; } }
