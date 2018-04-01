@@ -417,7 +417,7 @@ a:active {
       padding: 0 10vw; } }
   @media (max-height: 500px) {
     .menu {
-      margin-bottom: -8rem; } }
+      margin-bottom: -4rem; } }
   @media (max-height: 350px) {
     .menu li, .menu h1 {
       display: inline; } }
@@ -441,7 +441,8 @@ a:active {
     line-height: 6rem; }
     @media (max-height: 500px) {
       .menu h1 {
-        font-size: 3.2rem; } }
+        font-size: 3rem;
+        line-height: 5.4rem; } }
 
 .menu-shortcuts {
   margin: -0.3rem 0 1.6rem;
@@ -452,7 +453,7 @@ a:active {
   @media (min-width: 840px) {
     .menu-shortcuts {
       max-width: 45rem; } }
-  @media (max-height: 500px) {
+  @media (max-height: 350px) {
     .menu-shortcuts {
       display: none; } }
   .menu-shortcuts h2 {
@@ -460,6 +461,10 @@ a:active {
     line-height: 3.4rem; }
     .menu-shortcuts h2:not(:last-child):after {
       content: " /"; }
+    @media (max-height: 500px) {
+      .menu-shortcuts h2 {
+        font-size: 1.8rem;
+        line-height: 3rem; } }
 
 /*
  * Footer styles
