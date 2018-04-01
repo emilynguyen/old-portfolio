@@ -5,6 +5,9 @@
 .title {
 	margin: 8rem 0 7rem;
 	padding-right: 5rem;
+	@include sm-down {
+		padding-right: 0;
+	}
 	@include sm-up {
 		padding-right: 7rem;
 	}
@@ -18,16 +21,20 @@
 		display: inline-block;
 		&:not(.last-child) {
 			margin-right: 3.5rem;
-		}
-		@include xs-only {
-			&:not(.last-child) {
-				margin-right: 2.2rem;
+			@include sm-down {
+				margin-right: 1.9rem;
+			}
+			@include xs-down {
+				margin-right: 1.6rem;
 			}
 		}
 	}
 	.filter {
-		@include xs-only {
+		@include sm-down {
 			font-size: 1.7rem;
+		}
+		@include xs-down {
+			font-size: 1.5rem;
 		}
 		&::before {
             content: '';
@@ -40,6 +47,14 @@
             border-radius: .75rem;
             background-color: #F1F1F1;
             transition: 0.3s all;
+            @include sm-down {
+            	width: 1.2rem;
+            	height: 1.2rem;
+            }
+            @include xs-down {
+				width: 1rem;
+            	height: 1rem;
+			}
         }
         @include hover {
             &::before {
@@ -58,7 +73,7 @@
 /* Project gallery */
 .gallery-item-container {
 	@extend .container;
-	@include xs-only {
+	@include sm-down {
 		padding: 0;
 	}
 	@include sm-up {

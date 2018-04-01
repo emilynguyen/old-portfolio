@@ -15,7 +15,11 @@ body {
 h1 {
 	color: $shark;
     font-size: 4.2rem;
-    line-height: 4.7rem;
+    line-height: 4.7rem; 
+    @include xs-down {
+        font-size: 3.8rem;
+        line-height: 4.2rem;
+    }
 }
 
 /* Title tagline */
@@ -53,6 +57,10 @@ p, li {
     letter-spacing: 0.03rem;
     line-height: 2.4rem;
     @include link-hover;
+    @include xs-down {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
 }
 
 i {

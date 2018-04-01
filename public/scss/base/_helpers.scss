@@ -30,7 +30,7 @@
 }
 
 .hide-xs{
-	@include xs-only {
+	@include sm-down {
 		display: none;
 	}
 }

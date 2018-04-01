@@ -305,6 +305,10 @@ h1 {
   color: #272A2C;
   font-size: 4.2rem;
   line-height: 4.7rem; }
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 3.8rem;
+      line-height: 4.2rem; } }
 
 /* Title tagline */
 .tagline {
@@ -346,6 +350,10 @@ p, li {
   @media (hover: hover) {
     p a:hover, li a:hover {
       opacity: 0.4; } }
+  @media (max-width: 320px) {
+    p, li {
+      font-size: 1.4rem;
+      line-height: 2.2rem; } }
 
 i {
   font-style: italic; }
@@ -528,6 +536,9 @@ a:active {
 .title {
   margin: 8rem 0 7rem;
   padding-right: 5rem; }
+  @media (max-width: 600px) {
+    .title {
+      padding-right: 0; } }
   @media (min-width: 600px) {
     .title {
       padding-right: 7rem; } }
@@ -543,12 +554,18 @@ a:active {
     display: inline-block; }
     #filters li:not(.last-child) {
       margin-right: 3.5rem; }
-    @media (max-width: 600px) {
-      #filters li:not(.last-child) {
-        margin-right: 2.2rem; } }
+      @media (max-width: 600px) {
+        #filters li:not(.last-child) {
+          margin-right: 1.9rem; } }
+      @media (max-width: 320px) {
+        #filters li:not(.last-child) {
+          margin-right: 1.6rem; } }
   @media (max-width: 600px) {
     #filters .filter {
       font-size: 1.7rem; } }
+  @media (max-width: 320px) {
+    #filters .filter {
+      font-size: 1.5rem; } }
   #filters .filter::before {
     content: '';
     display: inline-block;
@@ -558,6 +575,14 @@ a:active {
     border-radius: .75rem;
     background-color: #F1F1F1;
     transition: 0.3s all; }
+    @media (max-width: 600px) {
+      #filters .filter::before {
+        width: 1.2rem;
+        height: 1.2rem; } }
+    @media (max-width: 320px) {
+      #filters .filter::before {
+        width: 1rem;
+        height: 1rem; } }
   @media (hover: hover) {
     #filters .filter:hover::before {
       background-color: #EF675E; } }

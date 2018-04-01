@@ -32,7 +32,7 @@
 	}
 	h2 {
 		color: $river-bed-light;
-		@include xs-only {
+		@include sm-down {
 			font-size: 1.5rem;
 		}
 	}

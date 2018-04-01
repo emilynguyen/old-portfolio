@@ -1,32 +1,39 @@
-// Only extra small devices (575px and down)
-@mixin xs-only {
+// Extra small devices (320px and down)
+@mixin xs-down {
+	@media (max-width: $xs-screen) {
+		@content;
+	}
+}
+
+// Small devices (600px and down)
+@mixin sm-down {
 	@media (max-width: $sm-screen) {
 		@content;
 	}
 }
 
-// Small devices (landscape phones, 576px and up)
+// Small devices (landscape phones, 600px and up)
 @mixin sm-up {
 	@media (min-width: $sm-screen) {
 		@content;
 	}
 }
 
-// Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 840px and up)
 @mixin md-up {
 	@media (min-width: $md-screen) {
 		@content;
 	}
 }
 
-// Large devices (desktops, 992px and up)
+// Large devices (desktops, 960px and up)
 @mixin lg-up {
 	@media (min-width: $lg-screen) {
 		@content;
 	}
 }
 
-// Extra large devices (large desktops, 1200px and up)
+// Extra large devices (large desktops, 1280px and up)
 @mixin xl-up {
 	@media (min-width: $xl-screen) {
 		@content;
