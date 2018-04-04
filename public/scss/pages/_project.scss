@@ -122,9 +122,9 @@
 	margin-top: 7rem;
 	margin-bottom: -$bottom-p-padding;
 	ol, ul {
-        padding-left: 3rem;
+        padding-left: 3.2rem;
         margin-bottom: $bottom-p-padding;
-        @include md-up {
+        @include sm-up {
         	padding-left: 5rem;
         }
     }

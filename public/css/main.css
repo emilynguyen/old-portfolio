@@ -810,9 +810,9 @@ a:active {
   margin-top: 7rem;
   margin-bottom: -2.5rem; }
   .section-container ol, .section-container ul {
-    padding-left: 3rem;
+    padding-left: 3.2rem;
     margin-bottom: 2.5rem; }
-    @media (min-width: 840px) {
+    @media (min-width: 600px) {
       .section-container ol, .section-container ul {
         padding-left: 5rem; } }
   .section-container ol {
