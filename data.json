@@ -105,25 +105,40 @@
 					"noPaddingMd" : true
 				},
 				{
-					"title" : "Live Prototype",
-					"text" : true,
-					"content" : "<p>Coming soon!</p>"
-				},
-				{
-					"title" : "User Testing",
-					"text" : true,
-					"content" : "<p>Coming soon!</p>"
-				},
-				{
 					"title" : "Branding + Visual Design",
 					"image" : true,
 					"src" : "images/ergo/mockups.png",
 					"beforeCaption" : "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
 				},
 				{
-					"title" : "Note",
+					"title" : "Live Prototype",
 					"text" : true,
-					"content" : "<p>ERGO is an ongoing project that will be completed March 2018. Stay tuned!</p>"
+					"content" : "<p>With our app flow and branding established, we were able to start developing our HTML prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp + Autoprefixer</li></ul><p>we built a responsive and cross-browser compatible prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+				},
+				{
+					"title" : "User Testing",
+					"image" : true,
+					"src" : "images/ergo/home-changes.png",
+					"noPdding" : true,
+					"beforeCaption" : "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
+				},
+				{
+					"image" : true,
+					"src" : "images/ergo/setup-changes.png",
+					"noPdding" : true
+				},
+				{
+					"image" : true,
+					"src" : "images/ergo/icon-changes.svg",
+					"beforeCaption" : "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
+					"afterCaption" : "<p>After implementing these changes, we continued user testing and received more positive feedback.</p>"
+ 				},
+				{
+					"title" : "Final Design",
+					"image" : true,
+					"src" : "https://raw.githubusercontent.com/emnguyen/ergo/master/public/images/ergo-poster.jpg",
+					"style" : "background-color: #F9F9FB",
+					"beforeCaption" : "<p>View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> to check out our final design!</p>"
 				}
 			]
 		},
@@ -171,11 +186,11 @@
 					},
 					{
 						"title" : "Tools",
-						"content" : "Sketch, Illustrator, Sublime"
+						"content" : "Sketch, Illustrator"
 					},
 					{
 						"title" : "Skills",
-						"content" : "HTML, CSS, Sass, jQuery, Node.js (Express + Handlebars), Gulp"
+						"content" : "HTML, CSS, Sass, jQuery, Node.js (Express + Handlebars)"
 					},
 					{
 						"title" : "Date",
