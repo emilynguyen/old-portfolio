@@ -1,16 +1,16 @@
 /*
  * 404 page
  */
- 
+
 #error {
-	h1 {
-		max-width: 55rem;
-	}
-	h2 {
-		@include link-hover;
-		margin-top: 2rem;
-	}
-	&.title {
-		padding: 0;
-	}
+  h1 {
+    max-width: 55rem;
+  }
+  h2 {
+    @include link-hover;
+    margin-top: 2rem;
+  }
+  &.title {
+    padding: 0;
+  }
 }

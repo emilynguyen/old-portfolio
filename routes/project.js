@@ -2,38 +2,40 @@
  * Project pages
  */
 
-var data = require('../data.json');
+var data = require("../data.json");
 
-exports.view = function(req, res){
-	var inputTitle = req.params.title;
+exports.view = function(req, res) {
+  var inputTitle = req.params.title;
 
-	// Redirect to resume
-	if (inputTitle == "resume") {
-		res.redirect('https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view');
-		return;
-	}
+  // Redirect to resume
+  if (inputTitle == "resume") {
+    res.redirect(
+      "https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view"
+    );
+    return;
+  }
 
-	// Check if valid project url
-	var projects = data.projects;
+  // Check if valid project url
+  var projects = data.projects;
 
-	for (var i = 0; i < projects.length; i++) {
-		var currProject = projects[i];
+  for (var i = 0; i < projects.length; i++) {
+    var currProject = projects[i];
 
-		// Render project page if input title matches a project
-		if (inputTitle == currProject.url) {
-			res.render('project', {
-				data,
-				currProject,
-				"title" : currProject.title + " | Emily Nguyen",
-				"description" : currProject.description
-			});
-			return;
-		}
-	}
+    // Render project page if input title matches a project
+    if (inputTitle == currProject.url) {
+      res.render("project", {
+        data,
+        currProject,
+        title: currProject.title + " | Emily Nguyen",
+        description: currProject.description
+      });
+      return;
+    }
+  }
 
- 	// Otherwise, show 404
- 	res.render('404', {
- 		data,
- 		"title" : "Page Not Found | Emily Nguyen"
- 	});
+  // Otherwise, show 404
+  res.render("404", {
+    data,
+    title: "Page Not Found | Emily Nguyen"
+  });
 };

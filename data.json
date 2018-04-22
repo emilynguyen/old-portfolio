@@ -1,402 +1,446 @@
 {
-	"about" : {
-		"tagline" : "Visual Design / UX Design / UX Engineering",
-		"bio" : "<p>Hiya, my name is Emily! I’m a third year student at UC San Diego, pursuing a degree in Cognitive Science: Human-Computer Interaction and a minor in Computer Science. I love crafting visual experiences and seeing them through to implementation.</p><p>Currently, I work as a web developer for UCSD Information Technology Services and am a visual designer and student leader at <a href=\"https://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>.</p><p>Other things I do include playing Stardew Valley and consuming alarming amounts of seafood. Full disclosure: I support House Stark, Team Iron Man, and pineapple on pizza.</p>"
-	},
-	"projects" : [
-		{
-			"title" : "ERGO",
-			"url" : "ergo",
-			"tags" : "ux",
-			"icon" : "images/ergo/icon.png",
-			"alt" : "",
-			"paddingSize" : "lg",
-			"orientation" : "portrait",
-			"accent" : "#90D3CF",
-			"description" : "ERGO is a web app that uses environmental interactions to combat the discomfort that results from a sedentary lifestyle.",
-			"summary" : "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a mobile web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different environments, including offices, coffee shops, and outdoor spaces, ERGO is unique in that it introduces exercises that utilize the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
-			"intro" : [
-					{
-						"title" : "Roles",
-						"wide" : true,
-						"content" : "Interaction design was done as a team. Additionally, I spearheaded the branding and development of the live prototype."
-					},
-					{
-						"title" : "Key Skills",
-						"wide" : true,
-						"content" : "Needfinding, storyboarding, wireframing, rapid prototyping, visual design, web development"
-					},
-					{
-						"title" : "Teammates",
-						"content" : "Lauren Choy, Lindy Hernandez"
-					},
-					{
-						"title" : "Date",
-						"content" : "Jan - Mar 2018"
-					}
-				],
-			"sections" : [
-				{
-					"title" : "Design Brief: Environmental Interactions",
-					"text" : true,
-					"content" : "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
-				},
-				{
-					"title" : "Needfinding + Personas",
-					"text" : true,
-					"content" : "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern between them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
-				},
-				{
-					"personas" : true,
-					"personaList" : [
-						{
-							"icon" : "images/ergo/personas/tony.svg",
-							"description" : "<p>Tony is a college student who is studying all night for an exam he has the next day. He becomes immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress.</i></p>"
-						},
-						{
-							"icon" : "images/ergo/personas/steve.svg",
-							"description" : "<p>Steve is currently studying for the MCAT using his MCAT books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment.</i></p>"
-						},
-						{
-							"icon" : "images/ergo/personas/wanda.svg",
-							"description" : "<p>Wanda works in an office and experiences discomfort from sitting at her desk all day. She has tried a few ergonomics apps before but is sometimes too lazy to get up and perform stretches. Wanda <i>needs a tool that can successfully encourage her to be more active.</i></p>"
-						}
-					]
-				},
-				{
-					"title" : "Ideation",
-					"text" : true,
-					"content" : "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li>How might we remind users to take breaks and stretch after long intervals of inactivity?</li><li>How might we accommodate users in different spaces or users with different tools at their disposal?</li><li>How might we make being active enticing to users?</li><li>Additionally, how might we accommodate users with disabilities or injuries?</li></ul>"
-				},
-				{
-					"title" : "Solution",
-					"text" : true,
-					"content" : "<p>Our solution was an ergonomics app that periodically notifies users to perform a stretch or exercise. It would be unique in that it takes into account the user's setting and suggests stretches that are applicable to the devices they're using. These suggestions could then be customized for accessibility and further flexibility. This approach sets the app apart from its competitors by providing users a more fun, personalized stretching experience.</p><p>To encourage users to actually perform the stretches provided by the app, we decided to include a social feature. Once a user is done setting up a routine, they could share their settings with their friends or coworkers so that they all receive the same notifications. By turning stretching into a group activity, the app takes advantage of the power of social influence to get users to be more active.</p>"
-				},
-				{
-					"title" : "Storyboarding",
-					"image" : true,
-					"src" : "images/ergo/storyboard.jpeg",
-					"style" : "background-color: none;",
-					"beforeCaption" : "<p>To explore the different scenarios in which our app could be used, my team then drew up storyboards.</p>",
-					"afterCaption" : "<p><a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View all storyboards</a></p>",
-					"noPaddingMd" : true
-				},
-				{
-					"title" : "Rapid Prototyping",
-					"image" : true,
-					"src" : "images/ergo/paper-prototypes.png",
-					"style" : "",
-					"beforeCaption" : "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
-					"afterCaption" : "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a></p>",
-					"noPaddingMd" : true
-				},
-				{
-					"title" : "Revisiting the Brief + Redesign",
-					"text" : true,
-					"content" : "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
-				},
-				{
-					"title" : "Wireframing",
-					"image" : true,
-					"src" : "images/ergo/wireframes.min.jpg",
-					"link" : "/images/ergo/wireframes.jpg",
-					"beforeCaption" : "<p>Next, we created wireframes to visualize the flow of our app.</p>",
-					"noPaddingMd" : true
-				},
-				{
-					"title" : "Branding + Visual Design",
-					"image" : true,
-					"src" : "images/ergo/mockups.png",
-					"beforeCaption" : "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
-				},
-				{
-					"title" : "Live Prototype",
-					"text" : true,
-					"content" : "<p>With our app flow and branding established, we were able to start developing our HTML prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive web app. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
-				},
-				{
-					"title" : "User Testing",
-					"image" : true,
-					"src" : "images/ergo/home-changes.png",
-					"noPdding" : true,
-					"beforeCaption" : "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
-				},
-				{
-					"image" : true,
-					"src" : "images/ergo/setup-changes.png",
-					"noPdding" : true
-				},
-				{
-					"image" : true,
-					"src" : "images/ergo/icon-changes.svg",
-					"beforeCaption" : "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, a person, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
-					"afterCaption" : "<p>After implementing these changes, we continued user testing and received more positive feedback.</p>"
- 				},
-				{
-					"title" : "Final Design",
-					"image" : true,
-					"src" : "https://raw.githubusercontent.com/emnguyen/ergo/master/public/images/ergo-poster.jpg",
-					"style" : "background-color: #F9F9FB",
-					"beforeCaption" : "<p>View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> to check out our final design!</p>"
-				}
-			]
-		},
-		{
-			"title" : "Remember That I Love You",
-			"url" : "pcc",
-			"tags" : "graphics",
-			"icon" : "images/pcc/icon.png",
-			"alt" : "",
-			"paddingSize" : "sm",
-			"orientation" : "portrait",
-			"accent" : "#E77169",
-			"description" : "Designed a poster for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>.",
-			"summary" : "For UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC), I am serving on the Official Cultural Cabinet as Graphic Design Co-Chair. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, will tackle themes of LGBTQ, mental health, and family. Deliverables I produced included a poster for the event.",
-			"intro" : [
-					{
-						"title" : "Role",
-						"content" : "Graphic designer"
-					},
-					{
-						"title" : "Tools",
-						"content" : "Illustrator"
-					},
-					{
-						"title" : "Date",
-						"content" : "Jan - Mar 2018"
-					}
-				]
-		},
-		{
-			"title" : "Portfolio",
-			"url" : "portfolio",
-			"tags" : "ux",
-			"icon" : "images/portfolio/icon.jpg",
-			"alt" : "",
-			"paddingSize" : "md",
-			"orientation" : "portrait",
-			"accent" : "#b2bec4",
-			"description" : "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
-			"summary" : "To showcase my adaptive skill range, I took on the role of both the designer and developer to build my portfolio from the ground up.",
-			"intro" : [
-					{
-						"title" : "Role",
-						"content" : "Visual designer and developer"
-					},
-					{
-						"title" : "Tools",
-						"content" : "Sketch, Illustrator"
-					},
-					{
-						"title" : "Skills",
-						"content" : "HTML, CSS, Sass, Node.js (Express + Handlebars)"
-					},
-					{
-						"title" : "Date",
-						"content" : "Dec 2017 - Feb 2018"
-					}
-				],
-			"sections" : [
-				{
-					"title" : "Problem",
-					"text" : true,
-					"content" : "<p>As an undergraduate student looking to apply for UI/UX design and engineering internships, having an online portfolio was essential. The task at hand was to create a website to accompany my resume, where I’d present my projects and provide potential employers easy access to my online platforms. However, I faced an inconvenience: I had switched into UC San Diego’s human-computer interaction program at the beginning of my third year. With less formal experience and project courses under my belt than my peers, <i>how do I build a compelling portfolio?</i> If not through UX projects, <i>in what other ways can I convey my understanding of the human-centered design process?</i></p>"
-				},
-				{
-					"title" : "Research + Solution",
-					"text" : true,
-					"content" : "<p>To begin answering these questions, I combed through the portfolios of seasoned UI/UX designers to figure out what made them successful in landing positions. Through this competitive analysis, I confirmed that it was essential to have a strong sense of visual design and a unique brand. The defining characteristic of a solid portfolio, however, was the designer’s ability to communicate their thought process and approach <i>through story</i>. Some of my favorites are <a href=\"http://amandashearon.com/\" target=\"_blank\">amandashearon.com</a>, <a href=\"http://melaniedaveid.com/\" target=\"_blank\">melaniedaveid.com</a>, and <a href=\"http://chris-liu.me/\" target=\"_blank\">chris-liu.me</a>.</p><p>Because storytelling plays such a fundamental role in UX, I decided to include graphic design projects in my portfolio to provide more insight into my process. I particularly chose those that involved branding, as they presented many opportunities for me to walk through my design decisions. While these graphic design projects do not explicitly showcase my UX skills, they illustrate how I use research to derive visual solutions that satisfy client needs.</p><p>On top of communicating my understanding of design thinking, I also needed to demonstrate my skill set in both visual design and coding. The solution here was obvious: build my portfolio from scratch.</p>"
-				},
-				{
-					"title" : "Ideation",
-					"text" : true,
-					"content" : "<p><i>Content before design</i>. There’s nothing worse than coding an entire website, only to realize at the end that it doesn’t accommodate your content. I knew I’d be including diverse projects in my portfolio, and thus the layout for my case study pages would contain various elements. Content I needed to account for included basic text and image sections, but also color palettes and PDFs. Moreover, these sections would be chapters of an overarching story. With this in mind, I began sketching out layouts that had clearly defined content blocks.</p>"
-				},
-				{
-					"title" : "Iterations",
-					"image" : true,
-					"src" : "images/portfolio/first-iteration-mockups.png",
-					"style" : "background-color: #f5f5f6",
-					"afterCaption" : "<p>Coming up with a design turned out to be the most difficult part of this project. I jumped into high-fidelity mockups way too quick, and found myself stuck. I explored several different designs, but felt that none of them captured myself as a designer. I didn’t want to <i>just</i> get the job done; my work is an extension of myself, and I needed to set the right visual tone. So, I took a step back to think about my brand and scrapped everything for a fresh start.</p>"
-				},
-				{
-					"title" : "Final Design",
-					"image" : true,
-					"src" : "images/portfolio/mockups.png",
-					"alt" : "Final mockups",
-					"beforeCaption" : "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. For my color palette, I stuck with neutrals and used a deep peach accent sparingly to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a></p>",
-					"afterCaption" : "<p>This design had the intentionality that my previous iterations lacked. The clean layout sets a relaxed mood, while the offset headings, casual typeface, and bright peach accent add a hint of playfulness.</p>"
-				},
-				{
-					"title" : "Development",
-					"text" : true,
-					"content" : "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
-				},
-				{
-					"title" : "Conclusion",
-					"text" : true,
-					"content" : "<p>The final product had an aesthetic brand, incorporated a layout that facilitated storytelling, and was supported by efficient code. Overall, it demonstrates my skill set as a visual designer, UX designer, and UX engineer. I am now ready to apply for internships! :^)</p>"
-				}
-
-			]
-		},
-		{
-			"title" : "How Far I'll Go",
-			"url" : "kp-hsc",
-			"tags" : "graphics",
-			"icon" : "images/kp-hsc/icon.svg",
-			"alt" : "Wave",
-			"paddingSize" : "lg",
-			"orientation" : "landscape",
-			"accent" : "#f4e4cc",
-			"description" : "Designed shirts for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
-			"summary" : "Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service (SPACES) and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.",
-			"intro" : [
-					{
-						"title" : "Role",
-						"content" : "Graphic designer"
-					},
-					{
-						"title" : "Tools",
-						"content" : "Illustrator"
-					},
-					{
-						"title" : "Date",
-						"content" : "Oct - Nov 2017"
-					}
-				],
-			"sections" : [
-				{
-					"title" : "Mood Board",
-					"image" : true,
-					"src" : "images/kp-hsc/mood-board.png",
-					"style" : "background-color: #F9F9FB;"
-				},
-				{
-					"title" : "Color Palette",
-					"palette" : true,
-					"style" : "",
-					"swatches" : ["#f4e4cc", "#9baaa7", "#c98b72"
-					]
-				},
-				{
-					"title" : "Graphic",
-					"image" : true,
-					"src" : "images/kp-hsc/graphic.svg",
-					"style" : "padding: 1rem 0 0;"
-				},
-				{
-					"title" : "Shirt Design",
-					"image" : true,
-					"src" : "images/kp-hsc/shirt-front-back.png",
-					"noPaddingMd" : true
-				},
-				{
-					"title" : "Photos",
-					"image" : true,
-					"src" : "images/kp-hsc/fred-courtney.jpg",
-					"alt" : "Pair of funcilitators sharing a bagel",
-					"noPadding" : true
-				},
-				{
-					"title" : "",
-					"image" : true,
-					"src" : "images/kp-hsc/funcies.jpg",
-					"alt" : "Group of funcilitators",
-					"noPadding" : true,
-					"afterCaption" : "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a></p>"
-				}
-			]
-		},
-		{
-			"title" : "Ourstory Gala",
-			"url" : "ourstory",
-			"tags" : "graphics",
-			"icon" : "images/ourstory/icon.png",
-			"alt" : "",
-			"paddingSize" : "sm",
-			"orientation" : "portrait",
-			"accent" : "#dbdfae",
-			"description" : "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala, a quinquennial celebration held to commemorate the organization and its accomplishments.",
-			"summary" : "Kaibigang Pilipin@ (KP), translated to \"Friendship of Filipin@s,\" is a student-run organization at UC San Diego that aims to educate the community about Pilipin@ culture. Every five years, KP hosts their Ourstory Gala, a celebration held to commemorate the organization and its accomplishments. I worked closely with the event coordinator to craft a unique identity for their 30th Anniversary Ourstory Gala, themed after the film <i>13 Going on 30.</i>",
-			"intro" : [
-					{
-						"title" : "Role",
-						"content" : "Graphic designer"
-					},
-					{
-						"title" : "Tools",
-						"content" : "llustrator, InDesign"
-					},
-					{
-						"title" : "Date",
-						"content" : "Feb - Mar 2017"
-					}
-				],
-			"sections" : [
-				{
-					"title" : "Mood Board",
-					"image" : true,
-					"style" : "background-color: #F9F9FB",
-					"src" : "images/ourstory/mood-board.png"
-				},
-				{
-					"title" : "Ideation + Style Guide",
-					"text" : true,
-					"content" : "<p>What set this Ourstory Gala apart from its predecessors is that it would be a formal event held at <a href=\"https://ihouse.ucsd.edu/fac-rent/great-hall.html\" target=\"_blank\">The Great Hall</a>, a building with high ceilings and tall glass windows. To create a brand that matched the elegance exuded by the dress code and venue, I decided to pair the classy serif <a href=\"https://fonts.google.com/specimen/Cormorant+Garamond\" target=\"_blank\">Cormorant Garamond</a> with the delicate <a href=\"https://www.dafont.com/coneria-script.font\" target=\"_blank\">Coneria Script</a>. For the color palette, muted spring colors were chosen. These colors embodied the Ourstory Gala's theme of growth while also being not too flashy for a formal event. The spring palette was also ideal for the setting, as the gala would take place in March.</p>"
-				},
-				{
-					"title" : "Color Palette",
-					"palette" : true,
-					"style" : "",
-					"swatches" : ["#fff0d7", "#bdc28b", "#dda79b", "#704c4e"
-					]
-				},
-				{
-					"title" : "Event Program",
-					"pdf" : true,
-					"pdf-link" : "https://drive.google.com/file/d/0B6dEoGhrXuYIbllXcHBXWEVxTG8/preview"
-				}
-			]
-		},
-		{
-			"title" : "We're All In This Together",
-			"url" : "apsa-hsc",
-			"tags" : "graphics",
-			"icon" : "images/apsa-hsc/icon.png",
-			"alt" : "",
-			"paddingSize" : "sm",
-			"orientation" : "portrait",
-			"accent" : "#ffe092",
-			"description" : "Designed a flyer and program for UCSD Asian Pacific Islander Student Association’s 23rd annual high school conference.",
-			"summary" : "Every year, various student organizations at UC San Diego collaborate with the Student Promoted Access Center for Education and Service (SPACES) to host conferences that empower high school students to pursue higher education and provide them with networking opportunities. The Asian and Pacific-Islander Student Alliance's (APSA) 23rd Annual High School Conference was themed \"We're All in This Together,\" referencing the popular Disney film, <i>High School Musical</i>. As head of the programming committee, I handled the branding for the conference and designed the event flyer and program.",
-			"intro" : [
-					{
-						"title" : "Role",
-						"content" : "Graphic designer"
-					},
-					{
-						"title" : "Tools",
-						"content" : "Illustrator"
-					},
-					{
-						"title" : "Date",
-						"content" : "Oct - Nov 2016"
-					}
-				],
-			"sections" : [
-				{
-					"title" : "Mood Board + Style Guide",
-					"text" : true,
-					"content" : "<p>Coming soon!</p>"
-				},
-				{
-					"title" : "Event Program",
-					"pdf" : true,
-					"pdf-link" : "https://drive.google.com/file/d/0B6dEoGhrXuYIV2N0cHNqNEZfWjA/preview"
-				}
-			]
-		}
-	]
+  "about": {
+    "tagline": "Visual Design / UX Design / UX Engineering",
+    "bio":
+      "<p>Hiya, my name is Emily! I’m a third year student at UC San Diego, pursuing a degree in Cognitive Science: Human-Computer Interaction and a minor in Computer Science. I love crafting visual experiences and seeing them through to implementation.</p><p>Currently, I work as a web developer for UCSD Information Technology Services and am a visual designer and student leader at <a href=\"https://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>.</p><p>Other things I do include playing Stardew Valley and consuming alarming amounts of seafood. Full disclosure: I support House Stark, Team Iron Man, and pineapple on pizza.</p>"
+  },
+  "projects": [
+    {
+      "title": "ERGO",
+      "url": "ergo",
+      "tags": "ux",
+      "icon": "images/ergo/icon.png",
+      "alt": "",
+      "paddingSize": "lg",
+      "orientation": "portrait",
+      "accent": "#90D3CF",
+      "description":
+        "ERGO is a web app that uses environmental interactions to combat the discomfort that results from a sedentary lifestyle.",
+      "summary":
+        "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a mobile web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different environments, including offices, coffee shops, and outdoor spaces, ERGO is unique in that it introduces exercises that utilize the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
+      "intro": [
+        {
+          "title": "Roles",
+          "wide": true,
+          "content":
+            "Interaction design was done as a team. Additionally, I spearheaded the branding and development of the live prototype."
+        },
+        {
+          "title": "Key Skills",
+          "wide": true,
+          "content":
+            "Needfinding, storyboarding, wireframing, rapid prototyping, visual design, web development"
+        },
+        {
+          "title": "Teammates",
+          "content": "Lauren Choy, Lindy Hernandez"
+        },
+        {
+          "title": "Date",
+          "content": "Jan - Mar 2018"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Design Brief: Environmental Interactions",
+          "text": true,
+          "content":
+            "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
+        },
+        {
+          "title": "Needfinding + Personas",
+          "text": true,
+          "content":
+            "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern between them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
+        },
+        {
+          "personas": true,
+          "personaList": [
+            {
+              "icon": "images/ergo/personas/tony.svg",
+              "description":
+                "<p>Tony is a college student who is studying all night for an exam he has the next day. He becomes immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress.</i></p>"
+            },
+            {
+              "icon": "images/ergo/personas/steve.svg",
+              "description":
+                "<p>Steve is currently studying for the MCAT using his MCAT books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment.</i></p>"
+            },
+            {
+              "icon": "images/ergo/personas/wanda.svg",
+              "description":
+                "<p>Wanda works in an office and experiences discomfort from sitting at her desk all day. She has tried a few ergonomics apps before but is sometimes too lazy to get up and perform stretches. Wanda <i>needs a tool that can successfully encourage her to be more active.</i></p>"
+            }
+          ]
+        },
+        {
+          "title": "Ideation",
+          "text": true,
+          "content":
+            "<p>To guide us towards a solution, we reframed the insights and pain points above into opportunities:</p><ul><li>How might we remind users to take breaks and stretch after long intervals of inactivity?</li><li>How might we accommodate users in different spaces or users with different tools at their disposal?</li><li>How might we make being active enticing to users?</li><li>Additionally, how might we accommodate users with disabilities or injuries?</li></ul>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content":
+            "<p>Our solution was an ergonomics app that periodically notifies users to perform a stretch or exercise. It would be unique in that it takes into account the user's setting and suggests stretches that are applicable to the devices they're using. These suggestions could then be customized for accessibility and further flexibility. This approach sets the app apart from its competitors by providing users a more fun, personalized stretching experience.</p><p>To encourage users to actually perform the stretches provided by the app, we decided to include a social feature. Once a user is done setting up a routine, they could share their settings with their friends or coworkers so that they all receive the same notifications. By turning stretching into a group activity, the app takes advantage of the power of social influence to get users to be more active.</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "image": true,
+          "src": "images/ergo/storyboard.jpeg",
+          "style": "background-color: none;",
+          "beforeCaption":
+            "<p>To explore the different scenarios in which our app could be used, my team then drew up storyboards.</p>",
+          "afterCaption":
+            "<p><a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View all storyboards</a></p>",
+          "noPaddingMd": true
+        },
+        {
+          "title": "Rapid Prototyping",
+          "image": true,
+          "src": "images/ergo/paper-prototypes.png",
+          "style": "",
+          "beforeCaption":
+            "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
+          "afterCaption":
+            "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a></p>",
+          "noPaddingMd": true
+        },
+        {
+          "title": "Revisiting the Brief + Redesign",
+          "text": true,
+          "content":
+            "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
+        },
+        {
+          "title": "Wireframing",
+          "image": true,
+          "src": "images/ergo/wireframes.min.jpg",
+          "link": "/images/ergo/wireframes.jpg",
+          "beforeCaption":
+            "<p>Next, we created wireframes to visualize the flow of our app.</p>",
+          "noPaddingMd": true
+        },
+        {
+          "title": "Branding + Visual Design",
+          "image": true,
+          "src": "images/ergo/mockups.png",
+          "beforeCaption":
+            "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
+        },
+        {
+          "title": "Live Prototype",
+          "text": true,
+          "content":
+            "<p>With our app flow and branding established, we were able to start developing our HTML prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive web app. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+        },
+        {
+          "title": "User Testing",
+          "image": true,
+          "src": "images/ergo/home-changes.png",
+          "noPdding": true,
+          "beforeCaption":
+            "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
+        },
+        {
+          "image": true,
+          "src": "images/ergo/setup-changes.png",
+          "noPdding": true
+        },
+        {
+          "image": true,
+          "src": "images/ergo/icon-changes.svg",
+          "beforeCaption":
+            "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, a person, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
+          "afterCaption":
+            "<p>After implementing these changes, we continued user testing and received more positive feedback.</p>"
+        },
+        {
+          "title": "Final Design",
+          "image": true,
+          "src":
+            "https://raw.githubusercontent.com/emnguyen/ergo/master/public/images/ergo-poster.jpg",
+          "style": "background-color: #F9F9FB",
+          "beforeCaption":
+            "<p>View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> to check out our final design!</p>"
+        }
+      ]
+    },
+    {
+      "title": "Remember That I Love You",
+      "url": "pcc",
+      "tags": "graphics",
+      "icon": "images/pcc/icon.png",
+      "alt": "",
+      "paddingSize": "sm",
+      "orientation": "portrait",
+      "accent": "#E77169",
+      "description":
+        "Designed a poster for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>.",
+      "summary":
+        "For UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC), I am serving on the Official Cultural Cabinet as Graphic Design Co-Chair. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, will tackle themes of LGBTQ, mental health, and family. Deliverables I produced included a poster for the event.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Graphic designer"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Date",
+          "content": "Jan - Mar 2018"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "url": "portfolio",
+      "tags": "ux",
+      "icon": "images/portfolio/icon.jpg",
+      "alt": "",
+      "paddingSize": "md",
+      "orientation": "portrait",
+      "accent": "#b2bec4",
+      "description":
+        "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
+      "summary":
+        "To showcase my adaptive skill range, I took on the role of both the designer and developer to build my portfolio from the ground up.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Visual designer and developer"
+        },
+        {
+          "title": "Tools",
+          "content": "Sketch, Illustrator"
+        },
+        {
+          "title": "Skills",
+          "content": "HTML, CSS, Sass, Node.js (Express + Handlebars)"
+        },
+        {
+          "title": "Date",
+          "content": "Dec 2017 - Feb 2018"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content":
+            "<p>As an undergraduate student looking to apply for UI/UX design and engineering internships, having an online portfolio was essential. The task at hand was to create a website to accompany my resume, where I’d present my projects and provide potential employers easy access to my online platforms. However, I faced an inconvenience: I had switched into UC San Diego’s human-computer interaction program at the beginning of my third year. With less formal experience and project courses under my belt than my peers, <i>how do I build a compelling portfolio?</i> If not through UX projects, <i>in what other ways can I convey my understanding of the human-centered design process?</i></p>"
+        },
+        {
+          "title": "Research + Solution",
+          "text": true,
+          "content":
+            "<p>To begin answering these questions, I combed through the portfolios of seasoned UI/UX designers to figure out what made them successful in landing positions. Through this competitive analysis, I confirmed that it was essential to have a strong sense of visual design and a unique brand. The defining characteristic of a solid portfolio, however, was the designer’s ability to communicate their thought process and approach <i>through story</i>. Some of my favorites are <a href=\"http://amandashearon.com/\" target=\"_blank\">amandashearon.com</a>, <a href=\"http://melaniedaveid.com/\" target=\"_blank\">melaniedaveid.com</a>, and <a href=\"http://chris-liu.me/\" target=\"_blank\">chris-liu.me</a>.</p><p>Because storytelling plays such a fundamental role in UX, I decided to include graphic design projects in my portfolio to provide more insight into my process. I particularly chose those that involved branding, as they presented many opportunities for me to walk through my design decisions. While these graphic design projects do not explicitly showcase my UX skills, they illustrate how I use research to derive visual solutions that satisfy client needs.</p><p>On top of communicating my understanding of design thinking, I also needed to demonstrate my skill set in both visual design and coding. The solution here was obvious: build my portfolio from scratch.</p>"
+        },
+        {
+          "title": "Ideation",
+          "text": true,
+          "content":
+            "<p><i>Content before design</i>. There’s nothing worse than coding an entire website, only to realize at the end that it doesn’t accommodate your content. I knew I’d be including diverse projects in my portfolio, and thus the layout for my case study pages would contain various elements. Content I needed to account for included basic text and image sections, but also color palettes and PDFs. Moreover, these sections would be chapters of an overarching story. With this in mind, I began sketching out layouts that had clearly defined content blocks.</p>"
+        },
+        {
+          "title": "Iterations",
+          "image": true,
+          "src": "images/portfolio/first-iteration-mockups.png",
+          "style": "background-color: #f5f5f6",
+          "afterCaption":
+            "<p>Coming up with a design turned out to be the most difficult part of this project. I jumped into high-fidelity mockups way too quick, and found myself stuck. I explored several different designs, but felt that none of them captured myself as a designer. I didn’t want to <i>just</i> get the job done; my work is an extension of myself, and I needed to set the right visual tone. So, I took a step back to think about my brand and scrapped everything for a fresh start.</p>"
+        },
+        {
+          "title": "Final Design",
+          "image": true,
+          "src": "images/portfolio/mockups.png",
+          "alt": "Final mockups",
+          "beforeCaption":
+            "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. For my color palette, I stuck with neutrals and used a deep peach accent sparingly to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a></p>",
+          "afterCaption":
+            "<p>This design had the intentionality that my previous iterations lacked. The clean layout sets a relaxed mood, while the offset headings, casual typeface, and bright peach accent add a hint of playfulness.</p>"
+        },
+        {
+          "title": "Development",
+          "text": true,
+          "content":
+            "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
+        },
+        {
+          "title": "Conclusion",
+          "text": true,
+          "content":
+            "<p>The final product had an aesthetic brand, incorporated a layout that facilitated storytelling, and was supported by efficient code. Overall, it demonstrates my skill set as a visual designer, UX designer, and UX engineer. I am now ready to apply for internships! :^)</p>"
+        }
+      ]
+    },
+    {
+      "title": "How Far I'll Go",
+      "url": "kp-hsc",
+      "tags": "graphics",
+      "icon": "images/kp-hsc/icon.svg",
+      "alt": "Wave",
+      "paddingSize": "lg",
+      "orientation": "landscape",
+      "accent": "#f4e4cc",
+      "description":
+        "Designed shirts for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
+      "summary":
+        "Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service (SPACES) and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Graphic designer"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Date",
+          "content": "Oct - Nov 2017"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Mood Board",
+          "image": true,
+          "src": "images/kp-hsc/mood-board.png",
+          "style": "background-color: #F9F9FB;"
+        },
+        {
+          "title": "Color Palette",
+          "palette": true,
+          "style": "",
+          "swatches": ["#f4e4cc", "#9baaa7", "#c98b72"]
+        },
+        {
+          "title": "Graphic",
+          "image": true,
+          "src": "images/kp-hsc/graphic.svg",
+          "style": "padding: 1rem 0 0;"
+        },
+        {
+          "title": "Shirt Design",
+          "image": true,
+          "src": "images/kp-hsc/shirt-front-back.png",
+          "noPaddingMd": true
+        },
+        {
+          "title": "Photos",
+          "image": true,
+          "src": "images/kp-hsc/fred-courtney.jpg",
+          "alt": "Pair of funcilitators sharing a bagel",
+          "noPadding": true
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/kp-hsc/funcies.jpg",
+          "alt": "Group of funcilitators",
+          "noPadding": true,
+          "afterCaption":
+            "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a></p>"
+        }
+      ]
+    },
+    {
+      "title": "Ourstory Gala",
+      "url": "ourstory",
+      "tags": "graphics",
+      "icon": "images/ourstory/icon.png",
+      "alt": "",
+      "paddingSize": "sm",
+      "orientation": "portrait",
+      "accent": "#dbdfae",
+      "description":
+        "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala, a quinquennial celebration held to commemorate the organization and its accomplishments.",
+      "summary":
+        "Kaibigang Pilipin@ (KP), translated to \"Friendship of Filipin@s,\" is a student-run organization at UC San Diego that aims to educate the community about Pilipin@ culture. Every five years, KP hosts their Ourstory Gala, a celebration held to commemorate the organization and its accomplishments. I worked closely with the event coordinator to craft a unique identity for their 30th Anniversary Ourstory Gala, themed after the film <i>13 Going on 30.</i>",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Graphic designer"
+        },
+        {
+          "title": "Tools",
+          "content": "llustrator, InDesign"
+        },
+        {
+          "title": "Date",
+          "content": "Feb - Mar 2017"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Mood Board",
+          "image": true,
+          "style": "background-color: #F9F9FB",
+          "src": "images/ourstory/mood-board.png"
+        },
+        {
+          "title": "Ideation + Style Guide",
+          "text": true,
+          "content":
+            "<p>What set this Ourstory Gala apart from its predecessors is that it would be a formal event held at <a href=\"https://ihouse.ucsd.edu/fac-rent/great-hall.html\" target=\"_blank\">The Great Hall</a>, a building with high ceilings and tall glass windows. To create a brand that matched the elegance exuded by the dress code and venue, I decided to pair the classy serif <a href=\"https://fonts.google.com/specimen/Cormorant+Garamond\" target=\"_blank\">Cormorant Garamond</a> with the delicate <a href=\"https://www.dafont.com/coneria-script.font\" target=\"_blank\">Coneria Script</a>. For the color palette, muted spring colors were chosen. These colors embodied the Ourstory Gala's theme of growth while also being not too flashy for a formal event. The spring palette was also ideal for the setting, as the gala would take place in March.</p>"
+        },
+        {
+          "title": "Color Palette",
+          "palette": true,
+          "style": "",
+          "swatches": ["#fff0d7", "#bdc28b", "#dda79b", "#704c4e"]
+        },
+        {
+          "title": "Event Program",
+          "pdf": true,
+          "pdf-link":
+            "https://drive.google.com/file/d/0B6dEoGhrXuYIbllXcHBXWEVxTG8/preview"
+        }
+      ]
+    },
+    {
+      "title": "We're All In This Together",
+      "url": "apsa-hsc",
+      "tags": "graphics",
+      "icon": "images/apsa-hsc/icon.png",
+      "alt": "",
+      "paddingSize": "sm",
+      "orientation": "portrait",
+      "accent": "#ffe092",
+      "description":
+        "Designed a flyer and program for UCSD Asian Pacific Islander Student Association’s 23rd annual high school conference.",
+      "summary":
+        "Every year, various student organizations at UC San Diego collaborate with the Student Promoted Access Center for Education and Service (SPACES) to host conferences that empower high school students to pursue higher education and provide them with networking opportunities. The Asian and Pacific-Islander Student Alliance's (APSA) 23rd Annual High School Conference was themed \"We're All in This Together,\" referencing the popular Disney film, <i>High School Musical</i>. As head of the programming committee, I handled the branding for the conference and designed the event flyer and program.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Graphic designer"
+        },
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Date",
+          "content": "Oct - Nov 2016"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Mood Board + Style Guide",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Event Program",
+          "pdf": true,
+          "pdf-link":
+            "https://drive.google.com/file/d/0B6dEoGhrXuYIV2N0cHNqNEZfWjA/preview"
+        }
+      ]
+    }
+  ]
 }

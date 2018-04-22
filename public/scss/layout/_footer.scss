@@ -3,70 +3,69 @@
  */
 
 #footer {
-	margin-top: $bottom-padding;
-	height: $footer-height;
-	background-color: $river-bed;
-	.container {
-		height: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		@include sm-up {
-			align-items: center;
-			justify-content: space-between;
-		}
-	}
+  margin-top: $bottom-padding;
+  height: $footer-height;
+  background-color: $river-bed;
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    @include sm-up {
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
 }
 
 .copyright {
-	width: 100%;
-	text-align: center;
-	margin-bottom: 0.4rem;
-	order: 2;
-	@include sm-up {
-		order: 0;
-		margin: 0;
-		width: auto;
-		text-align: left;
-	}
-	h2 {
-		color: $river-bed-light;
-		@include sm-down {
-			font-size: 1.5rem;
-		}
-	}
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.4rem;
+  order: 2;
+  @include sm-up {
+    order: 0;
+    margin: 0;
+    width: auto;
+    text-align: left;
+  }
+  h2 {
+    color: $river-bed-light;
+    @include xs-up {
+      font-size: 1.5rem;
+    }
+  }
 }
 
 .social-media {
-	width: 100%;
-	margin-bottom: -6rem;
-	text-align: center;
-	user-select: none;
-	@include sm-up {
-		margin-bottom: -0.6rem;
-		width: auto;
-		text-align: right;
-	}
-	li {
-		display: inline-block;
-		text-align: center;
-		&:not(:first-child) {
-			margin-left: 2.4rem;
-		}
-	}
-	.email {
-		img {
-			height: 2rem;
-			padding-bottom: 0.2rem;
-		}
-	}
-	.github {
-		margin-left: 2rem !important;
-		margin-right: -0.8rem;
-	}
-	img {
-		height: 2.4rem;
-	}
+  width: 100%;
+  margin-bottom: -6rem;
+  text-align: center;
+  user-select: none;
+  @include sm-up {
+    margin-bottom: -0.6rem;
+    width: auto;
+    text-align: right;
+  }
+  li {
+    display: inline-block;
+    text-align: center;
+    &:not(:first-child) {
+      margin-left: 2.4rem;
+    }
+  }
+  .email {
+    img {
+      height: 2rem;
+      padding-bottom: 0.2rem;
+    }
+  }
+  .github {
+    margin-left: 2rem !important;
+    margin-right: -0.8rem;
+  }
+  img {
+    height: 2.4rem;
+  }
 }
-

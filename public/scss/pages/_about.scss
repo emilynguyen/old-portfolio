@@ -3,66 +3,65 @@
  */
 
 .logo-container {
-	@extend .hero-container;
-	background-color: $submarine;
-	position: relative;
-	padding: 0;
-	overflow: hidden;
-	img {
-		width: 130%;
-	}
-	@include md-up {
-		overflow: visible;
-	}
+  @extend .hero-container;
+  background-color: $submarine;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  img {
+    width: 130%;
+  }
+  @include md-up {
+    overflow: visible;
+  }
 }
 
 .logo-wrapper {
-	height: 117%;
-	box-sizing: border-box;
-	overflow: hidden;
-	img {
-		margin-top: -6rem;
-		margin-left: -3rem;
-	} 
-	@include md-up {
-		height: auto;
-		position: absolute;
-		height: 100%;
-		width: 50vw;
-		top: 0;
-		right: 0;
-		text-align: right;
-		justify-content: flex-end;
-		img {
-			margin-top: 0;
-			margin-left: 0;
-			margin-right: -3rem;
-			width: 100%;
-			max-height: 86%;
-		}
-	}
+  height: 117%;
+  box-sizing: border-box;
+  overflow: hidden;
+  img {
+    margin-top: -6rem;
+    margin-left: -3rem;
+  }
+  @include md-up {
+    height: auto;
+    position: absolute;
+    height: 100%;
+    width: 50vw;
+    top: 0;
+    right: 0;
+    text-align: right;
+    justify-content: flex-end;
+    img {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: -3rem;
+      width: 100%;
+      max-height: 86%;
+    }
+  }
 }
 
 .about-landing {
-	@extend .project-landing;
+  @extend .project-landing;
 }
 
 .about-title {
-	@extend .project-title;
-	@include md-up {
-		margin-left: 0;
-	}
+  @extend .project-title;
+  @include md-up {
+    margin-left: 0;
+  }
 }
 
 .about-tagline {
-	margin-top: -0.5rem;
-	margin-bottom: 2.4rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2.4rem;
 }
 
 .bio {
-	@extend .intro;
-	p:not(:last-child) {
-		margin-bottom: $bottom-p-padding;
-	}
-
+  @extend .intro;
+  p:not(:last-child) {
+    margin-bottom: $bottom-p-padding;
+  }
 }

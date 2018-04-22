@@ -3,58 +3,58 @@
  */
 
 %flex {
-	display: flex;
+  display: flex;
 }
 /* Align with space between along x-axis */
 .h-space-between {
-	@extend %flex;
-	justify-content: space-between;
+  @extend %flex;
+  justify-content: space-between;
 }
 
 /* Vertical align center */
 .v-center {
-	@extend %flex;
-	align-items: center;
+  @extend %flex;
+  align-items: center;
 }
 
 /* Vertical align bottom */
 .v-bottom {
-	@extend %flex;
-	align-items: flex-end;
+  @extend %flex;
+  align-items: flex-end;
 }
 
 /* Horizontal align center */
 .h-center {
-	@extend %flex;
-	justify-content: center;
+  @extend %flex;
+  justify-content: center;
 }
 
-.hide-xs{
-	@include sm-down {
-		display: none;
-	}
+.hide-sm-down {
+  @include sm-down {
+    display: none;
+  }
 }
 
 .hide-sm-up {
-	@include sm-up {
-		display: none;
-	}
+  @include sm-up {
+    display: none;
+  }
 }
 
 .hide-md-up {
-	@include md-up {
-		display: none;
-	}
+  @include md-up {
+    display: none;
+  }
 }
 
 /* For portfolio h1 */
 .show-md-up {
-	display: none;
-	@include md-up {
-		display: inline-block;
-	}
+  display: none;
+  @include md-up {
+    display: inline-block;
+  }
 }
 
 .no-scroll {
-	position: fixed;
+  position: fixed;
 }

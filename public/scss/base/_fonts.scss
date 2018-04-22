@@ -3,22 +3,28 @@
  */
 
 @font-face {
-    font-family: 'Franklin Gothic';
-    src: url('../fonts/franklin-gothic/franklingothic-book-webfont.woff2') format('woff2'), url('franklin-gothic/franklingothic-book-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Franklin Gothic";
+  src: url("../fonts/franklin-gothic/franklingothic-book-webfont.woff2")
+      format("woff2"),
+    url("franklin-gothic/franklingothic-book-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Franklin Gothic';
-    src: url('../fonts/franklin-gothic/franklingothic-bookit-webfont.woff2') format('woff2'), url('franklin-gothic/franklingothic-bookit-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
+  font-family: "Franklin Gothic";
+  src: url("../fonts/franklin-gothic/franklingothic-bookit-webfont.woff2")
+      format("woff2"),
+    url("franklin-gothic/franklingothic-bookit-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'HK Grotesk';
-    src: url('../fonts/hk-grotesk/hkgrotesk-regular-webfont.woff2') format('woff2'), url('hk-grotesk/hkgrotesk-regular-webfont.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "HK Grotesk";
+  src: url("../fonts/hk-grotesk/hkgrotesk-regular-webfont.woff2")
+      format("woff2"),
+    url("hk-grotesk/hkgrotesk-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
 }

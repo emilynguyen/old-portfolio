@@ -22,12 +22,12 @@
         <div class="{{tags}}">
 
         <a href="/{{url}}">
-            <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">     
+            <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
                 <div class="project-icon v-center h-center">
                     <img src="{{icon}}" alt="{{alt}}" class="{{orientation}} padding-{{paddingSize}}">
                 </div> <!-- .project-icon -->
-
-                <div class="project-description hide-xs v-bottom">
+                <!-- Project description on image overlay -->
+                <div class="project-description hide-sm-down v-bottom">
                     <div class="wrapper">
                         <h3>{{title}}</h3>
                         <p>{{{description}}}</p>
@@ -40,11 +40,12 @@
             </div> <!-- .gallery-item -->
         </a>
         <div class="container hide-sm-up">
+            <!-- Project description below image -->
             <div class="project-description">
                 <h3>{{title}}</h3>
                 <p>{{{description}}}</p>
             </div> <!-- .project-description -->
-        </div> 
+        </div>
 
         </div> <!-- tag wrapper -->
         {{/each}}

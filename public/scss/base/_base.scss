@@ -3,34 +3,39 @@
  */
 
 html {
-    font-size: 62.5%;
-    @include xxl-up {
-        font-size: 0.7vw;
-    }
-    position: relative;
+  font-size: 62.5%;
+  @include xxl-up {
+    font-size: 0.7vw;
+  }
+  position: relative;
 }
 
 .container {
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0 $side-padding-xs;
-	@include sm-up {
-		padding: 0 $side-padding-sm;
-	}
-	@include xl-up {
-		padding: 0 $side-padding-xl;
-	}
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 $side-padding-xs;
+  @include sm-up {
+    padding: 0 $side-padding-sm;
+  }
+  @include xl-up {
+    padding: 0 $side-padding-xl;
+  }
 }
 
 /* Used for sticky footer */
 .body-wrapper {
-	height: 100%;
-	min-height: calc(100vh - #{$footer-height} - #{$top-padding-xs} - #{$bottom-padding});
-	@include sm-up {
-		min-height: calc(100vh - #{$footer-height} - #{$top-padding-sm} - #{$bottom-padding});
-	}
-	@include xl-up {
-		min-height: calc(100vh - #{$footer-height} - #{$top-padding-xl} - #{$bottom-padding});
-	}
+  height: 100%;
+  min-height: calc(
+    100vh - #{$footer-height} - #{$top-padding-xs} - #{$bottom-padding}
+  );
+  @include sm-up {
+    min-height: calc(
+      100vh - #{$footer-height} - #{$top-padding-sm} - #{$bottom-padding}
+    );
+  }
+  @include xl-up {
+    min-height: calc(
+      100vh - #{$footer-height} - #{$top-padding-xl} - #{$bottom-padding}
+    );
+  }
 }
-
