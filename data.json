@@ -13,7 +13,7 @@
 			"paddingSize" : "lg",
 			"orientation" : "portrait",
 			"accent" : "#90D3CF",
-			"description" : "ERGO is a mobile web app that utilizes environmental interactions to combat the discomfort that results from a sedentary lifestyle.",
+			"description" : "ERGO is a web app that uses environmental interactions to combat the discomfort that results from a sedentary lifestyle.",
 			"summary" : "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a mobile web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different environments, including offices, coffee shops, and outdoor spaces, ERGO is unique in that it introduces exercises that utilize the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
 			"intro" : [
 					{
@@ -39,19 +39,19 @@
 				{
 					"title" : "Design Brief: Environmental Interactions",
 					"text" : true,
-					"content" : "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within various work settings and how the use of computers could contribute to successes and breakdowns.</p>"
+					"content" : "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
 				},
 				{
 					"title" : "Needfinding + Personas",
 					"text" : true,
-					"content" : "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern among all of them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
+					"content" : "<p>We observed 3 participants in their respective work environments and discovered that wellness was a common concern between them. Using the data we collected, we constructed personas that encapsulated our target audience: people who regularly experience long periods of physical inactivity.</p>"
 				},
 				{
 					"personas" : true,
 					"personaList" : [
 						{
 							"icon" : "images/ergo/personas/tony.svg",
-							"description" : "<p>Tony is a college student who is studying all night for an exam he has the next day. He becomes completely immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress.</i></p>"
+							"description" : "<p>Tony is a college student who is studying all night for an exam he has the next day. He becomes immersed in his studies and doesn't realize when his posture worsens and his eyes begin to feel strained. Tony <i>needs a way to be reminded to take breaks and relieve physical stress.</i></p>"
 						},
 						{
 							"icon" : "images/ergo/personas/steve.svg",
@@ -94,7 +94,7 @@
 				{
 					"title" : "Revisiting the Brief + Redesign",
 					"text" : true,
-					"content" : "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that utilize surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
+					"content" : "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> - possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> - wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) - libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> - open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
 				},
 				{
 					"title" : "Wireframing",
@@ -113,7 +113,7 @@
 				{
 					"title" : "Live Prototype",
 					"text" : true,
-					"content" : "<p>With our app flow and branding established, we were able to start developing our HTML prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp + Autoprefixer</li></ul><p>we built a responsive and cross-browser compatible prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+					"content" : "<p>With our app flow and branding established, we were able to start developing our HTML prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive web app. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
 				},
 				{
 					"title" : "User Testing",
@@ -130,7 +130,7 @@
 				{
 					"image" : true,
 					"src" : "images/ergo/icon-changes.svg",
-					"beforeCaption" : "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
+					"beforeCaption" : "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, a person, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
 					"afterCaption" : "<p>After implementing these changes, we continued user testing and received more positive feedback.</p>"
  				},
 				{
@@ -190,7 +190,7 @@
 					},
 					{
 						"title" : "Skills",
-						"content" : "HTML, CSS, Sass, jQuery, Node.js (Express + Handlebars)"
+						"content" : "HTML, CSS, Sass, Node.js (Express + Handlebars)"
 					},
 					{
 						"title" : "Date",
@@ -201,7 +201,7 @@
 				{
 					"title" : "Problem",
 					"text" : true,
-					"content" : "<p>As an undergraduate student looking to apply for UI/UX design and engineering internships, an online portfolio was a must-have. The task at hand was to create a simple portfolio website to accompany my resume, where I’d present my projects and provide potential employers easy access to my online platforms. However, I faced an inconvenient situation: I had switched into UC San Diego’s human-computer interaction program at the beginning of my third year. With less formal experience and project courses under my belt than my peers, <i>how do I build a compelling portfolio?</i> If not through UX projects, <i>in what other ways can I convey my understanding of the human-centered design process?</i></p>"
+					"content" : "<p>As an undergraduate student looking to apply for UI/UX design and engineering internships, having an online portfolio was essential. The task at hand was to create a website to accompany my resume, where I’d present my projects and provide potential employers easy access to my online platforms. However, I faced an inconvenience: I had switched into UC San Diego’s human-computer interaction program at the beginning of my third year. With less formal experience and project courses under my belt than my peers, <i>how do I build a compelling portfolio?</i> If not through UX projects, <i>in what other ways can I convey my understanding of the human-centered design process?</i></p>"
 				},
 				{
 					"title" : "Research + Solution",
@@ -211,36 +211,34 @@
 				{
 					"title" : "Ideation",
 					"text" : true,
-					"content" : "<p><i>Content before design</i>. There’s nothing worse than coding an entire website, only to realize at the end that it doesn’t accommodate your content. I knew I’d be including diverse projects in my portfolio, and thus the layout for my case study pages would contain more complex elements. Content I needed to account for included basic text and image sections, but also color palettes and PDFs. Moreover, these sections would be chapters of an overarching story. With this in mind, I began sketching out layouts that had clearly defined content blocks.</p>"
+					"content" : "<p><i>Content before design</i>. There’s nothing worse than coding an entire website, only to realize at the end that it doesn’t accommodate your content. I knew I’d be including diverse projects in my portfolio, and thus the layout for my case study pages would contain various elements. Content I needed to account for included basic text and image sections, but also color palettes and PDFs. Moreover, these sections would be chapters of an overarching story. With this in mind, I began sketching out layouts that had clearly defined content blocks.</p>"
 				},
 				{
 					"title" : "Iterations",
 					"image" : true,
 					"src" : "images/portfolio/first-iteration-mockups.png",
 					"style" : "background-color: #f5f5f6",
-					"afterCaption" : "<p>I went through several iterations before reaching my final design. Initially, I was stuck; I felt that while my ideas got the job done, they did not accurately capture myself as a designer. So, I scrapped everything for a fresh start.</p>"
+					"afterCaption" : "<p>Coming up with a design turned out to be the most difficult part of this project. I jumped into high-fidelity mockups way too quick, and found myself stuck. I explored several different designs, but felt that none of them captured myself as a designer. I didn’t want to <i>just</i> get the job done; my work is an extension of myself, and I needed to set the right visual tone. So, I took a step back to think about my brand and scrapped everything for a fresh start.</p>"
 				},
 				{
 					"title" : "Final Design",
-					"text" : true,
-					"content" : "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. For my color palette, I stuck with neutrals and used my accent color sparingly to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a></p>"
-				},
-				{
-					"title" : "Mockups",
 					"image" : true,
-					"src" : "images/portfolio/mockups.png"
+					"src" : "images/portfolio/mockups.png",
+					"alt" : "Final mockups",
+					"beforeCaption" : "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. For my color palette, I stuck with neutrals and used a deep peach accent sparingly to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a></p>",
+					"afterCaption" : "<p>This design had the intentionality that my previous iterations lacked. The clean layout sets a relaxed mood, while the offset headings, casual typeface, and bright peach accent add a hint of playfulness.</p>"
 				},
 				{
 					"title" : "Development",
 					"text" : true,
-					"content" : "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp + Autoprefixer</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of identically laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
+					"content" : "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
 				},
 				{
 					"title" : "Conclusion",
 					"text" : true,
 					"content" : "<p>The final product had an aesthetic brand, incorporated a layout that facilitated storytelling, and was supported by efficient code. Overall, it demonstrates my skill set as a visual designer, UX designer, and UX engineer. I am now ready to apply for internships! :^)</p>"
 				}
-				
+
 			]
 		},
 		{
@@ -295,14 +293,14 @@
 					"noPaddingMd" : true
 				},
 				{
-					"title" : "Photos", 
+					"title" : "Photos",
 					"image" : true,
 					"src" : "images/kp-hsc/fred-courtney.jpg",
 					"alt" : "Pair of funcilitators sharing a bagel",
 					"noPadding" : true
 				},
 				{
-					"title" : "", 
+					"title" : "",
 					"image" : true,
 					"src" : "images/kp-hsc/funcies.jpg",
 					"alt" : "Group of funcilitators",
