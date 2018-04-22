@@ -15,15 +15,15 @@
       "orientation": "portrait",
       "accent": "#90D3CF",
       "description":
-        "ERGO is a web app that uses environmental interactions to combat the discomfort that results from a sedentary lifestyle.",
+        "ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch.",
       "summary":
-        "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a mobile web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different environments, including offices, coffee shops, and outdoor spaces, ERGO is unique in that it introduces exercises that utilize the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
+        "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
       "intro": [
         {
           "title": "Roles",
           "wide": true,
           "content":
-            "Interaction design was done as a team. Additionally, I spearheaded the branding and development of the live prototype."
+            "Interaction design was done as a team. Additionally, I led the branding and development of the HTML prototype."
         },
         {
           "title": "Key Skills",
@@ -37,12 +37,12 @@
         },
         {
           "title": "Date",
-          "content": "Jan - Mar 2018"
+          "content": "Jan - Mar 2018 (10 weeks)"
         }
       ],
       "sections": [
         {
-          "title": "Design Brief: Environmental Interactions",
+          "title": "Design Brief",
           "text": true,
           "content":
             "<p>When the spaces we regularly navigate become a part of our routines, we fail to recognize how we interact with them. Our team's goal was to reassess the interactions between users and their environments to discover how these interactions could be used to fulfill unmet user needs. In particular, we were interested in human behavior within work settings and how the use of computers could contribute to successes and breakdowns.</p>"
@@ -89,6 +89,8 @@
           "title": "Storyboarding",
           "image": true,
           "src": "images/ergo/storyboard.jpeg",
+          "alt":
+            "Storyboard: Natalie and Robb successfully use ERGO to reduce their respective pains",
           "style": "background-color: none;",
           "beforeCaption":
             "<p>To explore the different scenarios in which our app could be used, my team then drew up storyboards.</p>",
@@ -100,6 +102,7 @@
           "title": "Rapid Prototyping",
           "image": true,
           "src": "images/ergo/paper-prototypes.png",
+          "alt": "2 paper prototypes",
           "style": "",
           "beforeCaption":
             "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
@@ -117,6 +120,7 @@
           "title": "Wireframing",
           "image": true,
           "src": "images/ergo/wireframes.min.jpg",
+          "alt": "App flow when logged in and logged out",
           "link": "/images/ergo/wireframes.jpg",
           "beforeCaption":
             "<p>Next, we created wireframes to visualize the flow of our app.</p>",
@@ -126,19 +130,22 @@
           "title": "Branding + Visual Design",
           "image": true,
           "src": "images/ergo/mockups.png",
+          "alt": "High fidelity mockups",
           "beforeCaption":
             "<p>Our decision to go with a light UI was made carefully after considering that working and studying often take place during the day and in well-lit spaces. We incorporated pops of a vibrant blue-green gradient to set an energizing and refreshing mood that reflects ERGO's main goal: to encourage wellness.</p>"
         },
         {
-          "title": "Live Prototype",
+          "title": "HTML Prototype",
           "text": true,
           "content":
-            "<p>With our app flow and branding established, we were able to start developing our HTML prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive web app. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+            "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
         },
         {
           "title": "User Testing",
           "image": true,
           "src": "images/ergo/home-changes.png",
+          "alt":
+            "New home page with how to get started tips and environment descriptions",
           "noPdding": true,
           "beforeCaption":
             "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
@@ -146,23 +153,22 @@
         {
           "image": true,
           "src": "images/ergo/setup-changes.png",
+          "alt": "New setup page with environment name in the title",
           "noPdding": true
         },
         {
           "image": true,
           "src": "images/ergo/icon-changes.svg",
+          "alt": "New person icon and bookmark icon",
           "beforeCaption":
             "<p>Another problem we had was that users did not find our icons intuitive, namely our <i>Log In</i> and <i>Favorites</i> buttons. We replaced our <i>Log In</i> icon with the universal icon for <i>Profile</i>, a person, and decided to rename our <i>Favorites</i> page to <i>Bookmarks</i>. Stretch routines are saved using URL parameters, so we decided this new title would be more fitting.</p>",
           "afterCaption":
-            "<p>After implementing these changes, we continued user testing and received more positive feedback.</p>"
+            "<p>After implementing these changes, we continued user testing and received positive feedback.</p>"
         },
         {
           "title": "Final Design",
-          "image": true,
-          "src":
-            "https://raw.githubusercontent.com/emnguyen/ergo/master/public/images/ergo-poster.jpg",
-          "style": "background-color: #F9F9FB",
-          "beforeCaption":
+          "text": true,
+          "content":
             "<p>View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> to check out our final design!</p>"
         }
       ]
@@ -237,7 +243,7 @@
           "title": "Research + Solution",
           "text": true,
           "content":
-            "<p>To begin answering these questions, I combed through the portfolios of seasoned UI/UX designers to figure out what made them successful in landing positions. Through this competitive analysis, I confirmed that it was essential to have a strong sense of visual design and a unique brand. The defining characteristic of a solid portfolio, however, was the designer’s ability to communicate their thought process and approach <i>through story</i>. Some of my favorites are <a href=\"http://amandashearon.com/\" target=\"_blank\">amandashearon.com</a>, <a href=\"http://melaniedaveid.com/\" target=\"_blank\">melaniedaveid.com</a>, and <a href=\"http://chris-liu.me/\" target=\"_blank\">chris-liu.me</a>.</p><p>Because storytelling plays such a fundamental role in UX, I decided to include graphic design projects in my portfolio to provide more insight into my process. I particularly chose those that involved branding, as they presented many opportunities for me to walk through my design decisions. While these graphic design projects do not explicitly showcase my UX skills, they illustrate how I use research to derive visual solutions that satisfy client needs.</p><p>On top of communicating my understanding of design thinking, I also needed to demonstrate my skill set in both visual design and coding. The solution here was obvious: build my portfolio from scratch.</p>"
+            "<p>To begin answering these questions, I combed through the portfolios of seasoned UI/UX designers to figure out what made them successful in landing positions. Through this competitive analysis, I confirmed that it was essential to have a strong sense of visual design and a unique brand. The defining characteristic of a solid portfolio, however, was the designer’s ability to communicate their thought process and approach <i>through story</i>. Some of my favorites are <a href=\"http://amandashearon.com/\" target=\"_blank\">amandashearon.com</a>, <a href=\"http://melaniedaveid.com/\" target=\"_blank\">melaniedaveid.com</a>, and <a href=\"http://chris-liu.me/\" target=\"_blank\">chris-liu.me</a>.</p><p>Because storytelling plays such a fundamental role in UX, I decided to include graphic design projects in my portfolio to provide more insight into my process. I particularly chose those that involved branding, as they presented many opportunities for me to walk through my design decisions. While these graphic design projects do not explicitly showcase my UX skills, they illustrate how I use research to derive visual solutions that satisfy client needs.</p><p>On top of communicating my understanding of design thinking, I also needed to demonstrate my skill set in both visual design and coding. The solution here was obvious: design and code my own site.</p>"
         },
         {
           "title": "Ideation",
@@ -261,7 +267,7 @@
           "beforeCaption":
             "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. For my color palette, I stuck with neutrals and used a deep peach accent sparingly to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a></p>",
           "afterCaption":
-            "<p>This design had the intentionality that my previous iterations lacked. The clean layout sets a relaxed mood, while the offset headings, casual typeface, and bright peach accent add a hint of playfulness.</p>"
+            "<p>This design had the intentionality that my previous iterations lacked. The clean layout sets a relaxed mood, while the offset headings, casual typeface, and bright accent add a hint of playfulness.</p>"
         },
         {
           "title": "Development",
