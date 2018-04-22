@@ -589,10 +589,11 @@ a:active {
       width: auto;
       text-align: left; } }
   .copyright h2 {
-    color: #77838a; }
-    @media (min-width: 360px) {
+    color: #77838a;
+    font-size: 1.5rem; }
+    @media (min-width: 600px) {
       .copyright h2 {
-        font-size: 1.5rem; } }
+        font-size: 2rem; } }
 
 .social-media {
   width: 100%;
@@ -641,7 +642,7 @@ a:active {
     cursor: pointer;
     display: inline-block; }
     #filters li:not(.last-child) {
-      margin-right: 1.6rem; }
+      margin-right: 1.4rem; }
       @media (min-width: 360px) {
         #filters li:not(.last-child) {
           margin-right: 1.9rem; } }
@@ -659,7 +660,7 @@ a:active {
     #filters .filter::before {
       content: "";
       display: inline-block;
-      margin-right: 0.7rem;
+      margin-right: 0.5rem;
       width: 1rem;
       height: 1rem;
       border-radius: 0.75rem;
@@ -668,7 +669,8 @@ a:active {
       @media (min-width: 360px) {
         #filters .filter::before {
           width: 1.2rem;
-          height: 1.2rem; } }
+          height: 1.2rem;
+          margin-right: 0.7rem; } }
       @media (min-width: 600px) {
         #filters .filter::before {
           width: 1.3rem;

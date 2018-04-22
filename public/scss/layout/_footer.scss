@@ -32,8 +32,10 @@
   }
   h2 {
     color: $river-bed-light;
-    @include xs-up {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
+    @include sm-up {
+      // Return to default h2 size
+      font-size: 2rem;
     }
   }
 }

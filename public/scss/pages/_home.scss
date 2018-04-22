@@ -17,7 +17,7 @@
     cursor: pointer;
     display: inline-block;
     &:not(.last-child) {
-      margin-right: 1.6rem;
+      margin-right: 1.4rem;
       @include xs-up {
         margin-right: 1.9rem;
       }
@@ -38,7 +38,7 @@
     &::before {
       content: "";
       display: inline-block;
-      margin-right: 0.7rem;
+      margin-right: 0.5rem;
       width: 1rem;
       height: 1rem;
       -moz-border-radius: 0.75rem;
@@ -49,6 +49,7 @@
       @include xs-up {
         width: 1.2rem;
         height: 1.2rem;
+        margin-right: 0.7rem;
       }
       @include sm-up {
         width: 1.3rem;
