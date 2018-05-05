@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "version": "0.0.0",
-  "description": "UI/UX portfolio",
+  "version": "1.0.0",
+  "description": "Emily Nguyen's UI/UX portfolio",
   "main": "server.js",
   "author": "Emily Nguyen <emilymylinh@gmail.com>",
   "repository": {
@@ -16,7 +16,11 @@
     "node": "9.5.0"
   },
   "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "browser-sync": "^2.24.4",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^7.0.1"
+    "gulp-nodemon": "^2.2.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1"
   }
 }

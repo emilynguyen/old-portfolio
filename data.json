@@ -220,12 +220,12 @@
           "content": "Visual designer and developer"
         },
         {
-          "title": "Tools",
+          "title": "Design Tools",
           "content": "Sketch, Illustrator"
         },
         {
-          "title": "Skills",
-          "content": "HTML, CSS, Sass, Node.js (Express + Handlebars)"
+          "title": "Development Tools",
+          "content": "HTML, CSS, Sass, Node.js (Express + Handlebars), jQuery, Gulp"
         },
         {
           "title": "Date",
@@ -273,7 +273,7 @@
           "title": "Development",
           "text": true,
           "content":
-            "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
+            "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp (Nodemon, BrowserSync, Sass, Autoprefixer)</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
         },
         {
           "title": "Conclusion",

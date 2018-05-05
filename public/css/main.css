@@ -9,11 +9,14 @@
   padding: 0 0;
   display: inline-block;
   cursor: pointer;
+  -webkit-transition-property: opacity, -webkit-filter;
   transition-property: opacity, -webkit-filter;
   transition-property: opacity, filter;
   transition-property: opacity, filter, -webkit-filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
   font: inherit;
   color: inherit;
   text-transform: none;
@@ -40,11 +43,14 @@
     background-color: #272a2c;
     border-radius: 0;
     position: absolute;
+    -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
-    transition-duration: 0.15s;
-    transition-timing-function: ease; }
+    -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease; }
   .hamburger-inner::before, .hamburger-inner::after {
     content: "";
     display: block; }
@@ -77,30 +83,39 @@
 @import "types/slider";
 @import "types/slider-r"; */
 /*
- * Spin
- */
+   * Spin
+   */
 .hamburger--spin .hamburger-inner {
-  transition-duration: 0.22s;
-  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  -webkit-transition-duration: 0.22s;
+          transition-duration: 0.22s;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
   .hamburger--spin .hamburger-inner::before {
+    -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
     transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
   .hamburger--spin .hamburger-inner::after {
+    -webkit-transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
 .hamburger--spin.is-active .hamburger-inner {
   -webkit-transform: rotate(225deg);
           transform: rotate(225deg);
-  transition-delay: 0.12s;
-  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  -webkit-transition-delay: 0.12s;
+          transition-delay: 0.12s;
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
   .hamburger--spin.is-active .hamburger-inner::before {
     top: 0;
     opacity: 0;
+    -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
     transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
   .hamburger--spin.is-active .hamburger-inner::after {
     bottom: 0;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
+    -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
@@ -115,30 +130,39 @@
 @import "types/vortex";
 @import "types/vortex-r"; */
 /*
- * Spin
- */
+   * Spin
+   */
 .hamburger--spin .hamburger-inner {
-  transition-duration: 0.22s;
-  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  -webkit-transition-duration: 0.22s;
+          transition-duration: 0.22s;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
   .hamburger--spin .hamburger-inner::before {
+    -webkit-transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
     transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
   .hamburger--spin .hamburger-inner::after {
+    -webkit-transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
 .hamburger--spin.is-active .hamburger-inner {
   -webkit-transform: rotate(225deg);
           transform: rotate(225deg);
-  transition-delay: 0.12s;
-  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  -webkit-transition-delay: 0.12s;
+          transition-delay: 0.12s;
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
   .hamburger--spin.is-active .hamburger-inner::before {
     top: 0;
     opacity: 0;
+    -webkit-transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
     transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
   .hamburger--spin.is-active .hamburger-inner::after {
     bottom: 0;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
+    -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
@@ -280,26 +304,31 @@ button:focus {
  */
 .h-space-between, .v-center, .v-bottom, .h-center {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 /* Align with space between along x-axis */
 .h-space-between {
   -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
           justify-content: space-between; }
 
 /* Vertical align center */
 .v-center {
   -webkit-box-align: center;
+      -ms-flex-align: center;
           align-items: center; }
 
 /* Vertical align bottom */
 .v-bottom {
   -webkit-box-align: end;
+      -ms-flex-align: end;
           align-items: flex-end; }
 
 /* Horizontal align center */
 .h-center {
   -webkit-box-pack: center;
+      -ms-flex-pack: center;
           justify-content: center; }
 
 @media (max-width: 599px) {
@@ -348,13 +377,13 @@ html {
 /* Used for sticky footer */
 .body-wrapper {
   height: 100%;
-  min-height: calc( 100vh - 13rem - 4rem - 10rem ); }
+  min-height: calc( 100vh - 13rem - 4rem - 10rem); }
   @media (min-width: 600px) {
     .body-wrapper {
-      min-height: calc( 100vh - 13rem - 8rem - 10rem ); } }
+      min-height: calc( 100vh - 13rem - 8rem - 10rem); } }
   @media (min-width: 1280px) {
     .body-wrapper {
-      min-height: calc( 100vh - 13rem - 11rem - 10rem ); } }
+      min-height: calc( 100vh - 13rem - 11rem - 10rem); } }
 
 /*
  * @font-face declarations
@@ -364,16 +393,19 @@ html {
   src: url("../fonts/franklin-gothic/franklingothic-book-webfont.woff2") format("woff2"), url("franklin-gothic/franklingothic-book-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
+
 @font-face {
   font-family: "Franklin Gothic";
   src: url("../fonts/franklin-gothic/franklingothic-bookit-webfont.woff2") format("woff2"), url("franklin-gothic/franklingothic-bookit-webfont.woff") format("woff");
   font-weight: 400;
   font-style: italic; }
+
 @font-face {
   font-family: "HK Grotesk";
   src: url("../fonts/hk-grotesk/hkgrotesk-regular-webfont.woff2") format("woff2"), url("hk-grotesk/hkgrotesk-regular-webfont.woff") format("woff");
   font-weight: 400;
   font-style: normal; }
+
 /*
  * Typography
  */
@@ -429,6 +461,7 @@ li {
   li a:hover,
   li a:active {
     color: #ef675e;
+    -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
     p a:hover,
@@ -490,6 +523,7 @@ a:active {
   height: 100%;
   width: 100%;
   -webkit-box-pack: end;
+      -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: right;
   overflow-y: scroll; }
@@ -562,17 +596,23 @@ a:active {
   #footer .container, #footer .gallery-item-container {
     height: 100%;
     display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
+        -ms-flex-align: center;
             align-items: center;
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     @media (min-width: 600px) {
       #footer .container, #footer .gallery-item-container {
         -webkit-box-align: center;
+            -ms-flex-align: center;
                 align-items: center;
         -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
                 justify-content: space-between; } }
 
 .copyright {
@@ -580,10 +620,12 @@ a:active {
   text-align: center;
   margin-bottom: 0.4rem;
   -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
           order: 2; }
   @media (min-width: 600px) {
     .copyright {
       -webkit-box-ordinal-group: 1;
+          -ms-flex-order: 0;
               order: 0;
       margin: 0;
       width: auto;
@@ -665,6 +707,7 @@ a:active {
       height: 1rem;
       border-radius: 0.75rem;
       background-color: #f1f1f1;
+      -webkit-transition: 0.3s all;
       transition: 0.3s all; }
       @media (min-width: 360px) {
         #filters .filter::before {
@@ -687,6 +730,7 @@ a:active {
 @media (max-width: 599px) {
   .gallery-item-container {
     padding: 0; } }
+
 @media (min-width: 600px) {
   .gallery-item-container {
     display: grid;
@@ -751,11 +795,11 @@ a:active {
       background-color: rgba(35, 35, 35, 0.94);
       opacity: 0;
       color: #fff;
+      -webkit-transition: 0.4s opacity;
       transition: 0.4s opacity; } }
   @media (min-width: 600px) and (hover: hover) {
     .project-description:hover {
       opacity: 1; } }
-
   .project-description h3 {
     margin-bottom: 1rem; }
     @media (min-width: 600px) {
@@ -794,6 +838,7 @@ a:active {
   #dribbble h2 a:hover,
   #dribbble h2 a:active {
     color: #ef675e;
+    -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
     #dribbble h2 a:hover {
@@ -810,7 +855,8 @@ a:active {
   width: 100vw;
   margin-left: -7vw;
   height: 35rem;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -854,6 +900,7 @@ a:active {
   .project-landing, .about-landing {
     display: grid;
     grid-template-columns: 1fr 1fr; } }
+
 @media (max-height: 500px) {
   .project-landing, .about-landing {
     height: 100%; } }
@@ -933,7 +980,8 @@ a:active {
 
 /* Image sections */
 .section-image, .palette {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100vw;
   padding: 4rem 7vw;
   margin-left: -7vw;
@@ -976,11 +1024,15 @@ a:active {
 
 .swatch-container {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
           justify-content: space-between;
-  align-content: center;
-  flex-wrap: wrap; }
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .swatch {
   display: inline-block;
@@ -1050,7 +1102,8 @@ a:active {
 
 .logo-wrapper {
   height: 117%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow: hidden; }
   .logo-wrapper img {
     margin-top: -6rem;
@@ -1065,6 +1118,7 @@ a:active {
       right: 0;
       text-align: right;
       -webkit-box-pack: end;
+          -ms-flex-pack: end;
               justify-content: flex-end; }
       .logo-wrapper img {
         margin-top: 0;
@@ -1089,6 +1143,7 @@ a:active {
  */
 #error h1 {
   max-width: 55rem; }
+
 #error h2 {
   margin-top: 2rem; }
   #error h2 a,
@@ -1096,9 +1151,11 @@ a:active {
   #error h2 a:hover,
   #error h2 a:active {
     color: #ef675e;
+    -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
     #error h2 a:hover {
       opacity: 0.4; } }
+
 #error.title {
   padding: 0; }
