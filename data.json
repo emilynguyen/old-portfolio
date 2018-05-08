@@ -2,7 +2,7 @@
   "about": {
     "tagline": "Visual Design / UX Design / UX Engineering",
     "bio":
-      "<p>Hiya, my name is Emily! I’m a third year student at UC San Diego, pursuing a degree in Cognitive Science: Human-Computer Interaction and a minor in Computer Science. I love crafting visual experiences and seeing them through to implementation.</p><p>Currently, I work as a web developer for UCSD Information Technology Services and am a visual designer and student leader at <a href=\"https://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>.</p><p>Other things I do include playing Stardew Valley and consuming alarming amounts of seafood. Full disclosure: I support House Stark, Team Iron Man, and pineapple on pizza.</p>"
+      "<p>Hiya, my name is Emily! I’m a third year student at UC San Diego, pursuing a degree in Cognitive Science: Human-Computer Interaction and a minor in Computer Science. I love crafting visual experiences and seeing them through to implementation.</p><p>Currently, I work as a web developer for <a href=\"https://blink.ucsd.edu/sponsor/ITS/about/groups/campus-web-office/index.html\" target=\"_blank\">UCSD Information Technology Services</a> and am a visual designer and student leader at <a href=\"https://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>. This summer, I'll be joining <a href=\"https://www.salesforce.com/\" target=\"_blank\">Salesforce</a> as a visual experience design intern.</p><p>Other things I do include playing Stardew Valley and consuming alarming amounts of seafood. Full disclosure: I support House Stark, Team Iron Man, and pineapple on pizza.</p>"
   },
   "projects": [
     {
@@ -64,7 +64,7 @@
             {
               "icon": "images/ergo/personas/steve.svg",
               "description":
-                "<p>Steve is currently studying for the MCAT using his MCAT books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment.</i></p>"
+                "<p>Steve is currently studying for the MCAT using his test prep books. He is also a full-time lab technician, so he only has time to study at home before and after work. He is worried about the effects of a sedentary lifestyle, but the ergonomic tips he finds online cater to office workers who use computers. Steve <i>needs tips and exercises that are applicable to his environment.</i></p>"
             },
             {
               "icon": "images/ergo/personas/wanda.svg",
@@ -95,7 +95,7 @@
           "beforeCaption":
             "<p>To explore the different scenarios in which our app could be used, my team then drew up storyboards.</p>",
           "afterCaption":
-            "<p><a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View all storyboards</a></p>",
+            "<p><a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View all storyboards</a>.</p>",
           "noPaddingMd": true
         },
         {
@@ -107,7 +107,7 @@
           "beforeCaption":
             "<p>We then created two prototypes and had participants walk through several use cases on each one. Our first prototype (left) starts by asking users what device they're working on, while the second prototype (right) asks users where they are working.</p>",
           "afterCaption":
-            "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a></p>",
+            "<p>An issue we discovered while testing was that a user's device does not tell us much about their environment (e.g. a laptop can be used anywhere). So, we decided to move forward with our second prototype. <a href=\"https://projects.invisionapp.com/boards/HP3JG8GWEFD/\" target=\"_blank\">View paper prototypes</a>.</p>",
           "noPaddingMd": true
         },
         {
@@ -121,9 +121,9 @@
           "image": true,
           "src": "images/ergo/wireframes.min.jpg",
           "alt": "App flow when logged in and logged out",
-          "link": "/images/ergo/wireframes.jpg",
           "beforeCaption":
             "<p>Next, we created wireframes to visualize the flow of our app.</p>",
+          "afterCaption" : "<p><a href=\"/images/ergo/wireframes.jpg\" target=\"_blank\">View full-sized image</a>.</p>",
           "noPaddingMd": true
         },
         {
@@ -138,7 +138,7 @@
           "title": "HTML Prototype",
           "text": true,
           "content":
-            "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  View our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+            "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  Check out our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
         },
         {
           "title": "User Testing",
@@ -185,7 +185,7 @@
       "description":
         "Designed a poster for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>.",
       "summary":
-        "For UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC), I am serving on the Official Cultural Cabinet as Graphic Design Co-Chair. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, will tackle themes of LGBTQ, mental health, and family. Deliverables I produced included a poster for the event.",
+        "For UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC), I served on the Official Cultural Cabinet as Graphic Design Co-Chair. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, tackled themes of LGBTQ, mental health, and family. Deliverables I produced included a poster for the event.",
       "intro": [
         {
           "title": "Role",
@@ -265,7 +265,7 @@
           "src": "images/portfolio/mockups.png",
           "alt": "Final mockups",
           "beforeCaption":
-            "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. For my color palette, I stuck with neutrals and used a deep peach accent sparingly to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a></p>",
+            "<p>As a huge fan of minimal design, I wanted the layout of my portfolio to be clean and simple. I decided the perfect way to achieve this while also expressing my graphic design roots was to draw inspiration from print portfolios and editorial layouts, which often consist of generous white space and creative typography. For my color palette, I stuck with neutrals and used a deep peach accent sparingly to ensure that my projects are centerplace. <a href=\"https://projects.invisionapp.com/boards/YM3HRU3N9EB/\" target=\"_blank\">View mood board</a>.</p>",
           "afterCaption":
             "<p>This design had the intentionality that my previous iterations lacked. The clean layout sets a relaxed mood, while the offset headings, casual typeface, and bright accent add a hint of playfulness.</p>"
         },
@@ -273,7 +273,7 @@
           "title": "Development",
           "text": true,
           "content":
-            "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp (Nodemon, BrowserSync, Sass, Autoprefixer)</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a></p>"
+            "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp (Nodemon, BrowserSync, Sass, Autoprefixer)</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a>.</p>"
         },
         {
           "title": "Conclusion",
@@ -349,7 +349,7 @@
           "alt": "Group of funcilitators",
           "noPadding": true,
           "afterCaption":
-            "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a></p>"
+            "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a>.</p>"
         }
       ]
     },
