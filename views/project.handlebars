@@ -7,7 +7,7 @@
             	<h1 class="hide-md-up project-title">{{title}}</h1>
 
                 <div class="hero-container v-center h-center {{orientation}} padding-{{paddingSize}}" style="background-color: {{accent}};">
-                        <img src="{{icon}}" alt="{{alt}}">
+                        <img src="{{icon}}" alt="{{alt}}" {{#if shadow}}style="box-shadow: {{shadow}}"{{/if}}>
                 </div> <!-- .hero-container -->
 
                 <div class="intro">

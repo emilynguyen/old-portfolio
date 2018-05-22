@@ -8,7 +8,7 @@
 <div id="filters">
     <div class="container">
         <ul>
-            <li><h2 class="filter filter-all active-filter">All Projects</h2></li>
+            <li><h2 class="filter filter-all active-filter">All Work</h2></li>
             <li><h2 class="filter filter-ux">UI/UX</h2></li>
             <li><h2 class="filter filter-graphics">Graphics</h2></li>
         </ul>
@@ -24,7 +24,7 @@
         <a href="/{{url}}">
             <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
                 <div class="project-icon v-center h-center">
-                    <img src="{{icon}}" alt="{{alt}}" class="{{orientation}} padding-{{paddingSize}}">
+                    <img src="{{icon}}" alt="{{alt}}" class="{{orientation}} padding-{{paddingSize}}" {{#if shadow}}style="box-shadow: {{shadow}}"{{/if}}>
                 </div> <!-- .project-icon -->
                 <!-- Project description on image overlay -->
                 <div class="project-description hide-sm-down v-bottom">

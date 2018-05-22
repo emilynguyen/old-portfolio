@@ -27,7 +27,8 @@ exports.view = function(req, res) {
         data,
         currProject,
         title: currProject.title + " | Emily Nguyen",
-        description: currProject.description
+        description: currProject.description,
+        icon: currProject.icon 
       });
       return;
     }

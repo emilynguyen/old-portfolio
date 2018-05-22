@@ -9,6 +9,6 @@ exports.view = function(req, res) {
     data,
     title: "Emily Nguyen | Full Stack Designer",
     description:
-      "Human-Computer Interaction student at UC San Diego with a minor in Computer Science. I love crafting visual experiences and seeing them through to implementation."
+      "Human-Computer Interaction student at UC San Diego. I love crafting visual experiences and seeing them through to implementation."
   });
 };

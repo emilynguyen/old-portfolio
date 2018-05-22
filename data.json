@@ -11,8 +11,8 @@
       "tags": "ux",
       "icon": "images/ergo/icon.png",
       "alt": "",
-      "paddingSize": "lg",
-      "orientation": "portrait",
+      "paddingSize": "md",
+      "orientation": "landscape",
       "accent": "#90D3CF",
       "description":
         "ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch.",
@@ -178,10 +178,11 @@
       "url": "pcc",
       "tags": "graphics",
       "icon": "images/pcc/icon.png",
+      "shadow": "1rem 1.2rem 2rem #E6B575",
       "alt": "",
-      "paddingSize": "sm",
+      "paddingSize": "md",
       "orientation": "portrait",
-      "accent": "#E77169",
+      "accent": "#FFD092",
       "description":
         "Designed a poster for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>.",
       "summary":
