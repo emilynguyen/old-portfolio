@@ -363,9 +363,10 @@
       "title": "Ourstory Gala",
       "url": "ourstory",
       "tags": "graphics",
-      "icon": "images/ourstory/icon.png",
-      "alt": "",
-      "paddingSize": "sm",
+      "icon": "images/ourstory/icon.jpg",
+      "shadow": "1.3rem 1.3rem 1.5rem rgba(168, 172, 123, .18)",
+      "alt": "Ourstory Gala program cover",
+      "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#dbdfae",
       "description":
