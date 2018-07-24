@@ -17,8 +17,8 @@ function filter(input) {
     $(".graphics").show();
   } else if ($(input).hasClass("filter-ux")) {
     // Show only UI/UX projects
-    $(".ux").show();
     $(".graphics").hide();
+    $(".ux").show();
   } else {
     // Show only graphics
     $(".ux").hide();

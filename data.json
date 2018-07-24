@@ -6,6 +6,75 @@
   },
   "projects": [
     {
+      "title": "Design at UCSD",
+      "url": "designatucsd",
+      "tags": "ux graphics",
+      "icon": "images/designatucsd/logo-color.svg",
+      "alt": "Design at UCSD",
+      "paddingSize": "lg",
+      "orientation": "landscape",
+      "accent": "#F7F7F7",
+      "description":
+        "Served on board as Visual Design Co-Chair and Tech Chair, in which I designed content for social media platforms and developed websites.",
+      "summary":
+        "I am currently a student leader at <a href=\"http://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>, a pre-professional organization that establishes an open community for designers on campus. I initially co-led the visual design team, which involved designing content for social media platforms and evolving our brand identity. This year, I'll be serving as Tech Chair and will be maintaining and developing websites for the organization.",
+      "intro": [
+        {
+          "title": "Roles",
+          "wide": true,
+          "content": "Visual Design Co-Chair (Nov 2017 - June 2018)<br>Tech Chair (June 2018 - Present)"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Graphics",
+          "image": true,
+          "src": "images/designatucsd/figma-invision-workshop.png",
+          "alt":
+            "Figma + Invision Workshop event graphic",
+          "beforeCaption":
+            "<p>As Visual Design Co-Chair, I crafted many event graphics and posters. Here are some of my favorites!</p>",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/robolink.png",
+          "alt":
+            "Designing for STEM Education graphic",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/frontiers.jpg",
+          "alt":
+            "Design Frontiers poster"
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/krispy-kreme.jpg",
+          "alt":
+            "Krispy Kreme Fundraiser poster"
+        },
+        {
+          "title": "Web Development",
+          "image": true,
+          "src": "images/designatucsd/design-your-summer.png",
+          "link": "https://summer.designatucsd.org/",
+          "alt": "Design Your Summer",
+          "beforeCaption":
+            "<p>In collaboration with the visual design team, I'll be developing sites for Design at UCSD's various campaigns and events this year. Check out what I've built so far as Tech Chair:</p>",
+          "afterCaption": "<p>To help students have a productive summer, we started the email campaign <i>Design Your Summer</i>. These weekly emails have design exercises and tips for students both with and without internships. Visit <a href=\"https://summer.designatucsd.org/\" target=\"_blank\">designyoursummer.com</a> and <a href=\"https://github.com/designatucsd/summer\" target=\"_blank\">view on Github</a>.</p>"
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/frontiers-temp.png",
+          "link": "https://frontiers.designatucsd.org/",
+          "alt": "Design Frontiers temp page",
+          "afterCaption": "<p><i>Design Frontiers</i> is a series of events that encourages students from different fields to apply human-centered design. Visit <a href=\"https://frontiers.designatucsd.org/\" target=\"_blank\">frontiers.designatucsd.org</a> to see our interest form and <a href=\"https://github.com/designatucsd/frontiers-temp\" target=\"_blank\">view on Github</a>.</p>"
+        }
+      ]
+    },
+    {
       "title": "ERGO",
       "url": "ergo",
       "tags": "ux",
