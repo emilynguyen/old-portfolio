@@ -885,9 +885,9 @@ h2, h3, p {
   .hero-container.landscape.padding-sm, .landscape.padding-sm.logo-container {
     padding: 1.5rem 7vw; }
   .hero-container.landscape.padding-md, .landscape.padding-md.logo-container {
-    padding: 4rem 7vw; }
+    padding: 5rem calc(7vw + 2rem); }
   .hero-container.landscape.padding-lg, .landscape.padding-lg.logo-container {
-    padding: 9rem 7vw; }
+    padding: 9rem calc(7vw + 4rem); }
   @media (min-width: 600px) {
     .hero-container, .logo-container {
       margin-left: -10vw; } }
@@ -904,7 +904,13 @@ h2, h3, p {
       .hero-container.portrait.padding-md, .portrait.padding-md.logo-container {
         padding: 6rem; }
       .hero-container.portrait.padding-lg, .portrait.padding-lg.logo-container {
-        padding: 6rem; } }
+        padding: 6rem; }
+      .hero-container.landscape.padding-sm, .landscape.padding-sm.logo-container {
+        padding: 1.5rem 7vw; }
+      .hero-container.landscape.padding-md, .landscape.padding-md.logo-container {
+        padding: 5rem 7vw; }
+      .hero-container.landscape.padding-lg, .landscape.padding-lg.logo-container {
+        padding: 9rem 7vw; } }
   @media (min-width: 1280px) {
     .hero-container, .logo-container {
       min-height: calc(100vh - 11rem); } }
@@ -1109,11 +1115,23 @@ h2, h3, p {
   margin-bottom: 0; }
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
+.project-burow a,
+.project-burow a:visited,
+.project-burow a:hover,
+.project-burow a:active {
+  color: #FB9D56;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-burow a:hover {
+    opacity: 0.4; } }
+
 .project-designatucsd a,
 .project-designatucsd a:visited,
 .project-designatucsd a:hover,
 .project-designatucsd a:active {
-  color: #ef3948;
+  color: #ed3443;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 

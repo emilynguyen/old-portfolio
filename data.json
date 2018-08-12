@@ -6,13 +6,78 @@
   },
   "projects": [
     {
+      "title": "Burow",
+      "url": "burow",
+      "tags": ["dev", "visual"],
+      "icon": "images/burow/icon.png",
+      "alt": "Burow",
+      "paddingSize": "lg",
+      "orientation": "landscape",
+      "accent": "#B3DCF3",
+      "shadow": "0.3rem 0.3rem 2.5rem #8CB6CE",
+      "description":
+        "Burow is a desktop web application that helps users find the perfect new home to move to.",
+      "summary":
+        "Burow is a desktop web application that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.",
+      "intro": [
+        {
+          "title": "Roles",
+          "content": "Visual designer and developer"
+        },
+        {
+          "title": "Key Skills",
+          "content": "Prototyping, branding, visual design, web development (React)"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
+        },
+        {
+          "title": "Date",
+          "content": "Apr - June 2018 (10 weeks)"
+        },
+        {
+          "title": "Github Repo + Live Demo",
+          "wide": true,
+          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github</a> / <a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Prototyping",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Mood Board + Style Guide",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Live Demo",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        }
+      ]
+    },
+    {
       "title": "Design at UCSD",
       "url": "designatucsd",
       "tags": ["dev", "visual"],
       "icon": "images/designatucsd/d@u-logo.svg",
       "alt": "Design at UCSD",
       "paddingSize": "md",
-      "orientation": "landscape",
+      "orientation": "portrait",
       "accent": "#FEF7EC",
       "description":
         "Previously designed content for social media platforms as Visual Design Co-Chair. Currently developing sites and serving as a web development resource as Tech Chair.",
@@ -107,6 +172,11 @@
         {
           "title": "Date",
           "content": "Jan - Mar 2018 (10 weeks)"
+        },
+        {
+          "title": "Github Repo + Live Demo",
+          "wide": true,
+          "content": "<a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github</a> / <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">ergo-webapp.herokuapp.com</a>"
         }
       ],
       "sections": [
@@ -286,7 +356,7 @@
         "To showcase my adaptive skill range, I took on the role of both the designer and developer to build my portfolio from the ground up.",
       "intro": [
         {
-          "title": "Role",
+          "title": "Roles",
           "content": "Visual designer and developer"
         },
         {
@@ -300,6 +370,10 @@
         {
           "title": "Date",
           "content": "Dec 2017 - Feb 2018"
+        },
+        {
+          "title": "Github Repo",
+          "content": "<a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">Github</a>"
         }
       ],
       "sections": [

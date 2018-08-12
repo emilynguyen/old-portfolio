@@ -31,10 +31,10 @@
       padding: 1.5rem $side-padding-xs;
     }
     &.padding-md {
-      padding: 4rem $side-padding-xs;
+      padding: 5rem calc(#{$side-padding-xs} + 2rem);
     }
     &.padding-lg {
-      padding: 9rem $side-padding-xs;
+      padding: 9rem calc(#{$side-padding-xs} + 4rem);
     }
   }
   @include sm-up {
@@ -56,6 +56,17 @@
       }
       &.padding-lg {
         padding: 6rem;
+      }
+    }
+    &.landscape {
+      &.padding-sm {
+        padding: 1.5rem $side-padding-xs;
+      }
+      &.padding-md {
+        padding: 5rem $side-padding-xs;
+      }
+      &.padding-lg {
+        padding: 9rem $side-padding-xs;
       }
     }
   }
@@ -300,8 +311,12 @@
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 
+.project-burow {
+  @include link-hover(#FB9D56);
+}
+
 .project-designatucsd {
-  @include link-hover(#ef3948);
+  @include link-hover(#ed3443);
 }
 
 .project-ergo {
