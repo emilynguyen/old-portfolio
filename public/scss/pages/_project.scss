@@ -12,15 +12,15 @@
 .hero-container {
   width: 100vw;
   margin-left: -$side-padding-xs;
-  height: 35rem;
+  height: 40rem;
   box-sizing: border-box;
   user-select: none;
   &.portrait {
     &.padding-sm {
-      padding: 1.5rem $side-padding-xs;
+      padding: 4rem $side-padding-xs;
     }
     &.padding-md {
-      padding: 4rem $side-padding-xs;
+      padding: 6rem $side-padding-xs;
     }
     &.padding-lg {
       padding: 7rem $side-padding-xs;
@@ -34,7 +34,7 @@
       padding: 5rem calc(#{$side-padding-xs} + 2rem);
     }
     &.padding-lg {
-      padding: 9rem calc(#{$side-padding-xs} + 4rem);
+      padding: 9rem calc(#{$side-padding-xs} + 4.2rem);
     }
   }
   @include sm-up {
@@ -232,7 +232,7 @@
 
 .swatch-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
   flex-wrap: wrap;
 }

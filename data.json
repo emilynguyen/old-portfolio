@@ -13,7 +13,7 @@
       "alt": "Design at UCSD",
       "paddingSize": "md",
       "orientation": "portrait",
-      "accent": "#FEF7EC",
+      "accent": "#E64C50",
       "description":
         "Previously designed content for social media platforms as Visual Design Co-Chair. Currently developing sites and serving as a web development resource as Tech Chair.",
       "summary":
@@ -46,12 +46,14 @@
         {
           "image": true,
           "src": "images/designatucsd/frontiers.jpg",
+          "style": "background-color: #F9F9FB",
           "alt":
             "Design Frontiers poster"
         },
         {
           "image": true,
           "src": "images/designatucsd/krispy-kreme.jpg",
+          "style": "background-color: #F9F9FB",
           "alt":
             "Krispy Kreme Fundraiser poster"
         },
@@ -59,6 +61,7 @@
           "title": "Web Development",
           "image": true,
           "src": "images/designatucsd/design-your-summer.png",
+          "style": "background-color: #F9F9FB",
           "link": "https://summer.designatucsd.org/",
           "alt": "Design Your Summer",
           "beforeCaption":
@@ -68,6 +71,7 @@
         {
           "image": true,
           "src": "images/designatucsd/frontiers-temp.png",
+          "style": "background-color: #F9F9FB",
           "link": "https://frontiers.designatucsd.org/",
           "alt": "Design Frontiers temp page",
           "afterCaption": "<p><i>Design Frontiers</i> is a series of events that encourages students from different fields to apply human-centered design. Visit <a href=\"https://frontiers.designatucsd.org/\" target=\"_blank\">frontiers.designatucsd.org</a> to see our interest form and <a href=\"https://github.com/designatucsd/frontiers-temp\" target=\"_blank\">view on Github</a>.</p>"
@@ -82,8 +86,8 @@
       "alt": "Burow",
       "paddingSize": "lg",
       "orientation": "landscape",
-      "accent": "#B3DCF3",
-      "shadow": "0.3rem 0.3rem 2.5rem #8CB6CE",
+      "accent": "#CDE3F0",
+      "shadow": "0.5rem 0.5rem 1.5rem #BACED9",
       "description":
         "Burow is a desktop web app that helps users find the perfect new home to move to.",
       "summary":
@@ -129,8 +133,15 @@
         },
         {
           "title": "Mood Board + Style Guide",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
+          "image": true,
+          "src": "images/burow/mood-board.png",
+          "alt": "Mood board"
+        },
+        {
+          "title": "",
+          "palette": true,
+          "style": "background-color: #F8F4EB;",
+          "swatches": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
         },
         {
           "title": "Live Demo",
@@ -145,8 +156,8 @@
       "tags": ["ux", "dev", "visual"],
       "icon": "images/ergo/icon.png",
       "alt": "",
-      "paddingSize": "md",
-      "orientation": "landscape",
+      "paddingSize": "lg",
+      "orientation": "portrait",
       "accent": "#90D3CF",
       "description":
         "ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch.",
@@ -349,7 +360,7 @@
       "alt": "",
       "paddingSize": "md",
       "orientation": "portrait",
-      "accent": "#b2bec4",
+      "accent": "#C4DBD9",
       "description":
         "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
       "summary":
@@ -507,11 +518,11 @@
       "url": "ourstory",
       "tags": ["visual"],
       "icon": "images/ourstory/icon.jpg",
-      "shadow": "1.3rem 1.3rem 1.5rem rgba(168, 172, 123, .18)",
+      "shadow": "1rem 1rem 2rem #E7B6B0",
       "alt": "Ourstory Gala program cover",
       "paddingSize": "md",
       "orientation": "portrait",
-      "accent": "#dbdfae",
+      "accent": "#F4C9C4",
       "description":
         "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala, a quinquennial celebration held to commemorate the organization and its accomplishments.",
       "summary":
