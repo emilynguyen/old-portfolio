@@ -241,6 +241,7 @@
   left: 0;
   bottom: 0;
   text-align: center;
+  user-select: text;
   h3 {
     font-size: 1.4rem;
     padding: 0.8rem 0;
@@ -295,4 +296,32 @@
   p {
     margin-bottom: 0;
   }
+}
+
+/***** INDIVIDUAL PROJECT PAGE STYLES *****/
+
+.project-designatucsd {
+  @include link-hover(#ef3948);
+}
+
+.project-ergo {
+  @include link-hover(#01B6AF);
+}
+
+.project-pcc {
+}
+
+.project-portfolio {
+  @include link-hover(#ef675e);
+}
+
+.project-kp-hsc {
+  @include link-hover(#C97F72);
+}
+
+.project-ourstory {
+  @include link-hover(#c98689);
+}
+
+.project-apsa-hsc {
 }

@@ -67,12 +67,12 @@
   }
 }
 
-@mixin link-hover {
+@mixin link-hover($color) {
   a,
   a:visited,
   a:hover,
   a:active {
-    color: $burnt-sienna;
+    color: $color;
     transition: 0.3s opacity;
   }
   a {
@@ -81,3 +81,17 @@
     }
   }
 }
+
+/*
+@mixin underline($r, $g, $b, $a) {
+  h1, h2, h3, p {
+    a {
+      background-image: -webkit-linear-gradient(
+      -90deg,
+      rgba($r, $g, $b, 0) 50%,
+      rgba($r, $g, $b, $a) 50%
+      );
+    }
+  }
+}
+*/

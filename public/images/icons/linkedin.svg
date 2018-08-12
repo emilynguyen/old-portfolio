@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="project" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1227.000000, -2196.000000)">
-        <path d="M1246,2196.19649 L1232,2196.19649 C1229.239,2196.19649 1227,2198.43549 1227,2201.19649 L1227,2215.19649 C1227,2217.95749 1229.239,2220.19649 1232,2220.19649 L1246,2220.19649 C1248.762,2220.19649 1251,2217.95749 1251,2215.19649 L1251,2201.19649 C1251,2198.43549 1248.762,2196.19649 1246,2196.19649 Z M1235,2215.19649 L1232,2215.19649 L1232,2204.19649 L1235,2204.19649 L1235,2215.19649 Z M1233.5,2202.92849 C1232.534,2202.92849 1231.75,2202.13849 1231.75,2201.16449 C1231.75,2200.19049 1232.534,2199.40049 1233.5,2199.40049 C1234.466,2199.40049 1235.25,2200.19049 1235.25,2201.16449 C1235.25,2202.13849 1234.467,2202.92849 1233.5,2202.92849 Z M1247,2215.19649 L1244,2215.19649 L1244,2209.59249 C1244,2206.22449 1240,2206.47949 1240,2209.59249 L1240,2215.19649 L1237,2215.19649 L1237,2204.19649 L1240,2204.19649 L1240,2205.96149 C1241.396,2203.37549 1247,2203.18449 1247,2208.43749 L1247,2215.19649 Z" id="Shape" fill="#77838A" fill-rule="nonzero"></path>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 25" style="enable-background:new 0 0 24 25;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#272A2C;}
+</style>
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<g id="project" transform="translate(-1227.000000, -2196.000000)">
+	<path id="Shape" class="st0" d="M1246,2196.2h-14c-2.8,0-5,2.2-5,5v14c0,2.8,2.2,5,5,5h14c2.8,0,5-2.2,5-5v-14
+		C1251,2198.4,1248.8,2196.2,1246,2196.2z M1235,2215.2h-3v-11h3V2215.2z M1233.5,2202.9c-1,0-1.8-0.8-1.8-1.8c0-1,0.8-1.8,1.8-1.8
+		s1.8,0.8,1.8,1.8C1235.2,2202.1,1234.5,2202.9,1233.5,2202.9z M1247,2215.2h-3v-5.6c0-3.4-4-3.1-4,0v5.6h-3v-11h3v1.8
+		c1.4-2.6,7-2.8,7,2.5V2215.2z"/>
+</g>
 </svg>

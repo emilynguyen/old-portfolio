@@ -25,8 +25,22 @@ $shark: #272a2c; // h1, h2
 $rolling-stone: #787c80; // p
 $silver-sand: #c0c2c5; // h3
 $athens-gray: #f9f9fb; // backgrounds
-$burnt-sienna: #ef675e; // accent #1
+//$burnt-sienna: #ef675e; // accent #1
+
+$burnt-sienna: #EF7B5E;
+
 $river-bed: #4a565c; // accent #2
 $river-bed-light: #77838a;
-$submarine: #b2bec4; // accent #3
+//$submarine: #b2bec4; // accent #3
+//$submarine: #7BCBC2;
+
+$submarine: #B7DCD9;
+
 $white: #fff;
+
+// Menu shortcut active style
+$underline: -webkit-linear-gradient(
+  -90deg,
+  rgba(231, 232, 233, 0) 50%,
+  rgba(231, 232, 233, 1) 50%
+);

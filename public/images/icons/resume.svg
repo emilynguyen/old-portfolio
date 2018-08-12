@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="21px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1109.000000, -1875.000000)">
-        <g id="Group-4" transform="translate(1109.000000, 1875.000000)" fill="#77838A" fill-rule="nonzero">
-            <path d="M12.7066888,8.36917223 C12.7066888,8.36917223 14.2286888,0.369172229 9.37168875,0.369172229 L0.962688754,0.369172229 L0.962688754,24.3691722 L20.9626888,24.3691722 L20.9626888,11.3691722 C20.9626888,7.95017223 15.7156888,7.62417223 12.7066888,8.36917223 Z M12.9626888,19.3691722 L4.96268875,19.3691722 L4.96268875,18.3691722 L12.9626888,18.3691722 L12.9626888,19.3691722 Z M16.9626888,16.3691722 L4.96268875,16.3691722 L4.96268875,15.3691722 L16.9626888,15.3691722 L16.9626888,16.3691722 Z M16.9626888,13.3691722 L4.96268875,13.3691722 L4.96268875,12.3691722 L16.9626888,12.3691722 L16.9626888,13.3691722 Z M13.5306888,0.444172229 C15.7326888,1.61817223 19.4686888,5.32717223 20.9626888,7.32517223 C19.6766888,6.42517223 16.9186888,5.66817223 14.8716888,6.14617223 C15.0936888,4.67817223 14.6866888,1.61217223 13.5306888,0.444172229 Z" id="Shape"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 21 25" style="enable-background:new 0 0 21 25;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#272A2C;}
+</style>
+<title>Group 4</title>
+<desc>Created with Sketch.</desc>
+<g id="Desktop-HD" transform="translate(-1109.000000, -1875.000000)">
+	<g id="Group-4" transform="translate(1109.000000, 1875.000000)">
+		<path id="Shape" class="st0" d="M12.7,8.4c0,0,1.5-8-3.3-8H1v24h20v-13C21,8,15.7,7.6,12.7,8.4z M13,19.4H5v-1h8V19.4z M17,16.4H5
+			v-1h12V16.4z M17,13.4H5v-1h12V13.4z M13.5,0.4c2.2,1.2,5.9,4.9,7.4,6.9c-1.3-0.9-4-1.7-6.1-1.2C15.1,4.7,14.7,1.6,13.5,0.4z"/>
+	</g>
+</g>
 </svg>

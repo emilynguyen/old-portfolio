@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 5</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1154.000000, -1876.000000)">
-        <g id="Group-5" transform="translate(1154.000000, 1876.000000)" fill="#77838A" fill-rule="nonzero">
-            <path d="M0.122211391,0.0514761172 L0.122211391,23.1664419 L30.9421658,23.1664419 L30.9421658,0.0514761172 L0.122211391,0.0514761172 Z M8.62723463,10.2336185 L2.69054092,17.5687677 L2.69054092,5.42313733 L8.62723463,10.2336185 Z M3.30950834,2.61980565 L27.7535847,2.61980565 L15.5321886,12.5245685 L3.30950834,2.61980565 Z M10.6215425,11.850382 L15.5321886,15.8300086 L20.4505396,11.8439612 L27.6572723,20.5981124 L3.54194216,20.5981124 L10.6215425,11.850382 Z M22.4461317,10.2271977 L28.3738362,5.42313733 L28.3738362,17.4275096 L22.4461317,10.2271977 Z" id="Shape"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 24" style="enable-background:new 0 0 31 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#272A2C;}
+</style>
+<title>Group 5</title>
+<desc>Created with Sketch.</desc>
+<g id="Desktop-HD" transform="translate(-1154.000000, -1876.000000)">
+	<g id="Group-5" transform="translate(1154.000000, 1876.000000)">
+		<path id="Shape" class="st0" d="M0.1,0.1v23.1h30.8V0.1H0.1z M8.6,10.2l-5.9,7.3V5.4L8.6,10.2z M3.3,2.6h24.4l-12.2,9.9L3.3,2.6z
+			 M10.6,11.9l4.9,4l4.9-4l7.2,8.8H3.5L10.6,11.9z M22.4,10.2l5.9-4.8v12L22.4,10.2z"/>
+	</g>
+</g>
 </svg>

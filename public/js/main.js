@@ -13,16 +13,25 @@ function filter(input) {
   if ($(input).hasClass("active-filter")) return;
   else if ($(input).hasClass("filter-all")) {
     // Show all projects
-    $(".ux").show();
-    $(".graphics").show();
+    $(".tag-ux").show();
+    $(".tag-visual").show();
+    $(".tag-dev").show();
   } else if ($(input).hasClass("filter-ux")) {
     // Show only UI/UX projects
-    $(".graphics").hide();
-    $(".ux").show();
-  } else {
+    $(".tag-visual").hide();
+    $(".tag-dev").hide();
+    $(".tag-ux").show();
+  } else if ($(input).hasClass("filter-visual")) {
     // Show only graphics
-    $(".ux").hide();
-    $(".graphics").show();
+    $(".tag-ux").hide();
+    $(".tag-dev").hide();
+    $(".tag-visual").show();
+  }
+  else if ($(input).hasClass("filter-dev")) {
+    // Show only dev
+    $(".tag-ux").hide();
+    $(".tag-visual").hide();
+    $(".tag-dev").show();
   }
 
   // Update active filter

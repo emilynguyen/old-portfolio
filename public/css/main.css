@@ -1,3 +1,16 @@
+/*
+@mixin underline($r, $g, $b, $a) {
+  h1, h2, h3, p {
+    a {
+      background-image: -webkit-linear-gradient(
+      -90deg,
+      rgba($r, $g, $b, 0) 50%,
+      rgba($r, $g, $b, $a) 50%
+      );
+    }
+  }
+}
+*/
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -434,6 +447,8 @@ h2 {
   font-size: 2rem;
   letter-spacing: 0.027rem;
   line-height: 2.8rem; }
+  h2 a {
+    color: #272a2c; }
 
 #project h2 {
   margin-bottom: 1.5rem; }
@@ -453,6 +468,9 @@ li {
   line-height: 2.2rem;
   letter-spacing: 0.03rem; }
   p a,
+  li a {
+    color: #787c80; }
+  p a,
   p a:visited,
   p a:hover,
   p a:active,
@@ -460,7 +478,7 @@ li {
   li a:visited,
   li a:hover,
   li a:active {
-    color: #ef675e;
+    color: #EF7B5E;
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
@@ -482,6 +500,13 @@ a:hover,
 a:active {
   text-decoration: none; }
 
+/*
+h2, h3, p {
+  a {
+    @include underline(255, 240, 89, 1);
+  }
+}
+*/
 .no-break {
   white-space: nowrap; }
 
@@ -591,8 +616,7 @@ a:active {
  */
 #footer {
   margin-top: 10rem;
-  height: 13rem;
-  background-color: #4a565c; }
+  height: 13rem; }
   #footer .container, #footer .gallery-item-container {
     height: 100%;
     display: -webkit-box;
@@ -631,11 +655,8 @@ a:active {
       width: auto;
       text-align: left; } }
   .copyright h2 {
-    color: #77838a;
+    font-style: italic;
     font-size: 1.5rem; }
-    @media (min-width: 600px) {
-      .copyright h2 {
-        font-size: 2rem; } }
 
 .social-media {
   width: 100%;
@@ -720,11 +741,11 @@ a:active {
           height: 1.3rem; } }
     @media (hover: hover) {
       #filters .filter:hover::before {
-        background-color: #ef675e; } }
+        background-color: #EF7B5E; } }
   #filters .active-filter {
     cursor: default; }
     #filters .active-filter::before {
-      background-color: #ef675e; }
+      background-color: #EF7B5E; }
 
 /* Project gallery */
 @media (max-width: 599px) {
@@ -830,20 +851,14 @@ a:active {
     .project-description .wrapper {
       margin: 0 3.5rem 4rem; } }
 
-/* Dribbble link */
+/* Dribbble link 
 #dribbble {
-  margin-top: 5rem; }
-  #dribbble h2 a,
-  #dribbble h2 a:visited,
-  #dribbble h2 a:hover,
-  #dribbble h2 a:active {
-    color: #ef675e;
-    -webkit-transition: 0.3s opacity;
-    transition: 0.3s opacity; }
-  @media (hover: hover) {
-    #dribbble h2 a:hover {
-      opacity: 0.4; } }
-
+  margin-top: 5rem;
+  h2 {
+    @include link-hover($burnt-sienna);
+  }
+}
+*/
 /*
  * Case study/project pages
  */
@@ -1050,7 +1065,11 @@ a:active {
   position: absolute;
   left: 0;
   bottom: 0;
-  text-align: center; }
+  text-align: center;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text; }
   .swatch-name h3 {
     font-size: 1.4rem;
     padding: 0.8rem 0; }
@@ -1089,11 +1108,72 @@ a:active {
 .persona-description p {
   margin-bottom: 0; }
 
+/***** INDIVIDUAL PROJECT PAGE STYLES *****/
+.project-designatucsd a,
+.project-designatucsd a:visited,
+.project-designatucsd a:hover,
+.project-designatucsd a:active {
+  color: #ef3948;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-designatucsd a:hover {
+    opacity: 0.4; } }
+
+.project-ergo a,
+.project-ergo a:visited,
+.project-ergo a:hover,
+.project-ergo a:active {
+  color: #01B6AF;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-ergo a:hover {
+    opacity: 0.4; } }
+
+.project-portfolio a,
+.project-portfolio a:visited,
+.project-portfolio a:hover,
+.project-portfolio a:active {
+  color: #ef675e;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-portfolio a:hover {
+    opacity: 0.4; } }
+
+.project-kp-hsc a,
+.project-kp-hsc a:visited,
+.project-kp-hsc a:hover,
+.project-kp-hsc a:active {
+  color: #C97F72;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-kp-hsc a:hover {
+    opacity: 0.4; } }
+
+.project-ourstory a,
+.project-ourstory a:visited,
+.project-ourstory a:hover,
+.project-ourstory a:active {
+  color: #c98689;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-ourstory a:hover {
+    opacity: 0.4; } }
+
 /*
  * About page
  */
 .logo-container {
-  background-color: #b2bec4;
+  background-color: #B7DCD9;
   position: relative;
   padding: 0;
   overflow: hidden; }
@@ -1153,7 +1233,7 @@ a:active {
   #error h2 a:visited,
   #error h2 a:hover,
   #error h2 a:active {
-    color: #ef675e;
+    color: #EF7B5E;
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {

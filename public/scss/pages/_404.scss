@@ -7,7 +7,7 @@
     max-width: 55rem;
   }
   h2 {
-    @include link-hover;
+    @include link-hover($burnt-sienna);
     margin-top: 2rem;
   }
   &.title {

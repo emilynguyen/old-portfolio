@@ -8,14 +8,14 @@
     {
       "title": "Design at UCSD",
       "url": "designatucsd",
-      "tags": "ux graphics",
+      "tags": ["dev", "visual"],
       "icon": "images/designatucsd/d@u-logo.svg",
       "alt": "Design at UCSD",
-      "paddingSize": "lg",
+      "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#FEF7EC",
       "description":
-        "Served on board as Visual Design Co-Chair and now as Tech Chair, in which I designed content for social media platforms and develop websites.",
+        "Previously designed content for social media platforms as Visual Design Co-Chair. Currently developing sites and serving as a web development resource as Tech Chair.",
       "summary":
         "I am currently a student leader at <a href=\"http://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>, a pre-professional organization that establishes an open community for designers on campus. I initially co-led the visual design team, which involved designing content for social media platforms and evolving our brand identity. This year, I'll be serving as Tech Chair and will be maintaining and developing websites for the organization.",
       "intro": [
@@ -77,7 +77,7 @@
     {
       "title": "ERGO",
       "url": "ergo",
-      "tags": "ux",
+      "tags": ["ux", "dev", "visual"],
       "icon": "images/ergo/icon.png",
       "alt": "",
       "paddingSize": "md",
@@ -192,7 +192,7 @@
           "alt": "App flow when logged in and logged out",
           "beforeCaption":
             "<p>Next, we created wireframes to visualize the flow of our app.</p>",
-          "afterCaption" : "<p><a href=\"/images/ergo/wireframes.jpg\" target=\"_blank\">View full-sized image</a>.</p>",
+          "afterCaption" : "<p><a href=\"/images/ergo/wireframes.jpg\" target=\"_blank\">View full-sized wireframes</a>.</p>",
           "noPaddingMd": true
         },
         {
@@ -245,7 +245,7 @@
     {
       "title": "Remember That I Love You",
       "url": "pcc",
-      "tags": "graphics",
+      "tags": ["visual"],
       "icon": "images/pcc/icon.png",
       "shadow": "1rem 1.2rem 2rem #E6B575",
       "alt": "",
@@ -274,7 +274,7 @@
     {
       "title": "Portfolio",
       "url": "portfolio",
-      "tags": "ux",
+      "tags": ["dev", "visual", "ux"],
       "icon": "images/portfolio/icon.jpg",
       "alt": "",
       "paddingSize": "md",
@@ -361,7 +361,7 @@
     {
       "title": "How Far I'll Go",
       "url": "kp-hsc",
-      "tags": "graphics",
+      "tags": ["visual"],
       "icon": "images/kp-hsc/icon.svg",
       "alt": "Wave",
       "paddingSize": "lg",
@@ -431,7 +431,7 @@
     {
       "title": "Ourstory Gala",
       "url": "ourstory",
-      "tags": "graphics",
+      "tags": ["visual"],
       "icon": "images/ourstory/icon.jpg",
       "shadow": "1.3rem 1.3rem 1.5rem rgba(168, 172, 123, .18)",
       "alt": "Ourstory Gala program cover",
@@ -486,7 +486,7 @@
     {
       "title": "We're All In This Together",
       "url": "apsa-hsc",
-      "tags": "graphics",
+      "tags": ["visual"],
       "icon": "images/apsa-hsc/icon.png",
       "alt": "",
       "paddingSize": "sm",

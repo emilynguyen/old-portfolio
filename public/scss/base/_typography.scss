@@ -34,6 +34,9 @@ h2 {
   font-size: 2rem;
   letter-spacing: 0.027rem;
   line-height: 2.8rem;
+  a {
+    color: $shark;
+  }
 }
 
 #project {
@@ -57,7 +60,10 @@ li {
   font-size: 1.4rem;
   line-height: 2.2rem;
   letter-spacing: 0.03rem;
-  @include link-hover;
+  a {
+    color: $rolling-stone;
+  }
+  @include link-hover($burnt-sienna);
   @include xs-up {
     font-size: 1.5rem;
     line-height: 2.4rem;
@@ -75,6 +81,13 @@ a:active {
   text-decoration: none;
 }
 
+/*
+h2, h3, p {
+  a {
+    @include underline(255, 240, 89, 1);
+  }
+}
+*/
 .no-break {
   white-space: nowrap;
 }

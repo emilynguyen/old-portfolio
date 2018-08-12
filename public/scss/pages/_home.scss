@@ -190,10 +190,11 @@
   }
 }
 
-/* Dribbble link */
+/* Dribbble link 
 #dribbble {
   margin-top: 5rem;
   h2 {
-    @include link-hover;
+    @include link-hover($burnt-sienna);
   }
 }
+*/
