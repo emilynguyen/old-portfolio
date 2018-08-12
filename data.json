@@ -6,71 +6,6 @@
   },
   "projects": [
     {
-      "title": "Burow",
-      "url": "burow",
-      "tags": ["dev", "visual"],
-      "icon": "images/burow/icon.png",
-      "alt": "Burow",
-      "paddingSize": "lg",
-      "orientation": "landscape",
-      "accent": "#B3DCF3",
-      "shadow": "0.3rem 0.3rem 2.5rem #8CB6CE",
-      "description":
-        "Burow is a desktop web application that helps users find the perfect new home to move to.",
-      "summary":
-        "Burow is a desktop web application that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.",
-      "intro": [
-        {
-          "title": "Roles",
-          "content": "Visual designer and developer"
-        },
-        {
-          "title": "Key Skills",
-          "content": "Prototyping, branding, visual design, web development (React)"
-        },
-        {
-          "title": "Teammates",
-          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
-        },
-        {
-          "title": "Date",
-          "content": "Apr - June 2018 (10 weeks)"
-        },
-        {
-          "title": "Github Repo + Live Demo",
-          "wide": true,
-          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github</a> / <a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
-        }
-      ],
-      "sections": [
-        {
-          "title": "Problem",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        },
-        {
-          "title": "Storyboarding",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        },
-        {
-          "title": "Prototyping",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        },
-        {
-          "title": "Mood Board + Style Guide",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        },
-        {
-          "title": "Live Demo",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        }
-      ]
-    },
-    {
       "title": "Design at UCSD",
       "url": "designatucsd",
       "tags": ["dev", "visual"],
@@ -136,6 +71,71 @@
           "link": "https://frontiers.designatucsd.org/",
           "alt": "Design Frontiers temp page",
           "afterCaption": "<p><i>Design Frontiers</i> is a series of events that encourages students from different fields to apply human-centered design. Visit <a href=\"https://frontiers.designatucsd.org/\" target=\"_blank\">frontiers.designatucsd.org</a> to see our interest form and <a href=\"https://github.com/designatucsd/frontiers-temp\" target=\"_blank\">view on Github</a>.</p>"
+        }
+      ]
+    },
+    {
+      "title": "Burow",
+      "url": "burow",
+      "tags": ["dev", "visual"],
+      "icon": "images/burow/icon.png",
+      "alt": "Burow",
+      "paddingSize": "lg",
+      "orientation": "landscape",
+      "accent": "#B3DCF3",
+      "shadow": "0.3rem 0.3rem 2.5rem #8CB6CE",
+      "description":
+        "Burow is a desktop web application that helps users find the perfect new home to move to.",
+      "summary":
+        "Burow is a desktop web application that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.",
+      "intro": [
+        {
+          "title": "Roles",
+          "content": "Visual designer and developer"
+        },
+        {
+          "title": "Key Skills",
+          "content": "Prototyping, branding, visual design, web development (React)"
+        },
+        {
+          "title": "Teammates",
+          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
+        },
+        {
+          "title": "Date",
+          "content": "Apr - June 2018 (10 weeks)"
+        },
+        {
+          "title": "Github Repo + Live Demo",
+          "wide": true,
+          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github</a> / <a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Problem",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Storyboarding",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Prototyping",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Mood Board + Style Guide",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Live Demo",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
         }
       ]
     },
