@@ -916,9 +916,6 @@ h2, h3, p {
       min-height: calc(100vh - 11rem); } }
   .hero-container img, .logo-container img {
     max-height: 100%; }
-    @media (min-width: 840px) {
-      .hero-container img, .logo-container img {
-        width: 100%; } }
 
 @media (min-width: 840px) {
   .project-landing, .about-landing {
