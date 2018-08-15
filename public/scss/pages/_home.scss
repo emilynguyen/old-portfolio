@@ -165,8 +165,8 @@
     @include sm-up {
       color: $white;
       opacity: 0.8;
-      font-size: 1.4rem;
-      line-height: 2.2rem;
+      font-size: 1.35rem;
+      line-height: 2rem;
     }
     /* Return to original styles */
     @include md-up {

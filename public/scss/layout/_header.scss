@@ -48,6 +48,9 @@
   @include sm-up {
     padding: 0 $side-padding-sm;
   }
+  @include xl-up {
+    padding: 0 $side-padding-xl;
+  }
   @include short-screen {
     margin-bottom: -4rem;
   }

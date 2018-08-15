@@ -8,15 +8,16 @@ $xxl-screen: 1440px;
 
 // Body padding/margins
 $top-padding-xs: 4rem;
-$top-padding-sm: 8rem;
-$top-padding-xl: 11rem;
-$bottom-padding: 10rem; // Space b/t content and footer
+$top-padding-sm: 9rem;
+$top-padding-xl: 12rem;
+$bottom-padding: 6rem; // Space b/t content and footer
 $side-padding-xs: 7vw;
-$side-padding-sm: 10vw;
-$side-padding-xl: 13rem;
+$side-padding-sm: 12vw;
+$side-padding-xl: 12vw;
 
 // Component heights
-$footer-height: 13rem;
+$footer-height-xs: 13rem;
+$footer-height-sm: 20rem;
 $menu-height: 2.3rem;
 $bottom-p-padding: 2.5rem;
 
@@ -25,17 +26,8 @@ $shark: #272a2c; // h1, h2
 $rolling-stone: #787c80; // p
 $silver-sand: #c0c2c5; // h3
 $athens-gray: #f9f9fb; // backgrounds
-//$burnt-sienna: #ef675e; // accent #1
-
-$burnt-sienna: #EF7B5E;
-
-$river-bed: #4a565c; // accent #2
-$river-bed-light: #77838a;
-//$submarine: #b2bec4; // accent #3
-//$submarine: #7BCBC2;
-
-$submarine: #B7DCD9;
-
+$burnt-sienna: #EF7B5E; // orange-peach
+$submarine: #B7DCD9; // mint-teal
 $white: #fff;
 
 // Menu shortcut active style

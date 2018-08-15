@@ -4,7 +4,10 @@
 
 #footer {
   margin-top: $bottom-padding;
-  height: $footer-height;
+  height: $footer-height-xs;
+  @include sm-up {
+    height: $footer-height-sm;
+  }
   //background-color: $river-bed;
   .container {
     height: 100%;
