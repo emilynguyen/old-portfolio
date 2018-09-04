@@ -110,9 +110,9 @@
           "content": "Apr - June 2018 (10 weeks)"
         },
         {
-          "title": "Github Repo + Live Demo",
+          "title": "Resources",
           "wide": true,
-          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github</a> / <a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a> / <a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
         }
       ],
       "sections": [
@@ -151,6 +151,49 @@
       ]
     },
     {
+      "title": "Salesforce × TravelBoss",
+      "url": "travelboss",
+      "tags": ["visual"],
+      "icon": "images/travelboss/icon.png",
+      "alt": "",
+      "paddingSize": "lg",
+      "orientation": "portrait",
+      "accent": "#9AD6EE",
+      "description": "Redesigned a slide deck to create a visually compelling presentation for an upcoming meeting between Salesforce and the fictitious company TravelBoss.",
+      "summary":
+        "The task at hand was to redesign a slide deck to create a visually compelling presentation for an upcoming meeting between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb. <i>Note: This was completed as a timed challenge.</i>",
+      "intro": [
+        {
+          "title": "Key Skills",
+          "content":
+            "Visual design, co-branding"
+        },
+        {
+          "title": "Date",
+          "content": "Mar 2018 (4 days)"
+        },
+        {
+          "title": "Resources",
+          "wide": true,
+          "content": "<a href=\"https://drive.google.com/open?id=1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki\" target=\"_blank\">Final Product (PDF)</a><br><a href=\"https://drive.google.com/open?id=1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2\" target=\"_blank\">Design Process (PDF)</a>"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Design Process",
+          "pdf": true,
+          "pdf-link":
+            "https://drive.google.com/file/d/1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2/preview"
+        },
+        {
+          "title": "Final Product",
+          "pdf": true,
+          "pdf-link":
+            "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"
+        }
+      ]
+    },
+    {
       "title": "ERGO",
       "url": "ergo",
       "tags": ["ux", "dev", "visual"],
@@ -185,9 +228,9 @@
           "content": "Jan - Mar 2018 (10 weeks)"
         },
         {
-          "title": "Github Repo + Live Demo",
+          "title": "Resources",
           "wide": true,
-          "content": "<a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github</a> / <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">ergo-webapp.herokuapp.com</a>"
+          "content": "<a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repo</a> / <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">ergo-webapp.herokuapp.com</a>"
         }
       ],
       "sections": [
@@ -383,8 +426,8 @@
           "content": "Dec 2017 - Feb 2018"
         },
         {
-          "title": "Github Repo",
-          "content": "<a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">Github</a>"
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">Github repo</a>"
         }
       ],
       "sections": [
@@ -596,11 +639,6 @@
         }
       ],
       "sections": [
-        {
-          "title": "Mood Board + Style Guide",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
-        },
         {
           "title": "Event Program",
           "pdf": true,

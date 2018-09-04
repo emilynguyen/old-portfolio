@@ -1142,6 +1142,18 @@ h2, h3, p {
   .project-designatucsd a:hover {
     opacity: 0.4; } }
 
+.project-travelboss a,
+.project-travelboss a:visited,
+.project-travelboss a:hover,
+.project-travelboss a:active {
+  color: #FF6C71;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-travelboss a:hover {
+    opacity: 0.4; } }
+
 .project-ergo a,
 .project-ergo a:visited,
 .project-ergo a:hover,
