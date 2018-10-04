@@ -63,6 +63,7 @@
   li a {
     color: $shark;
     padding: 0 0.3rem;
+    transition: background-image 0.3s;
     @include hover {
       opacity: 1;
       background-image: $underline;

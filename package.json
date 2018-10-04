@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "Emily Nguyen's UI/UX portfolio",
   "main": "server.js",
   "author": "Emily Nguyen <emilymylinh@gmail.com>",

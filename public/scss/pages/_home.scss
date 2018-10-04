@@ -13,6 +13,12 @@
 #filters {
   margin-bottom: 2.5rem;
   user-select: none;
+  @include sm-up {
+    margin-bottom: 4rem;
+  }
+  @include md-up {
+    margin-bottom: 6rem;
+  }
   li {
     cursor: pointer;
     display: inline-block;
@@ -79,7 +85,7 @@
   @include sm-up {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0.4rem;
+    grid-gap: 8vw;
   }
 }
 
@@ -91,6 +97,20 @@
     display: block;
     padding-bottom: 100%;
   }
+  @include hover {
+    @include sm-up {
+      .project-icon {
+        filter: blur(.4rem);
+      }
+    }
+    .project-description {
+      overflow: visible;
+      .wrapper {
+        transform: translate(0, 0);
+      }
+      opacity: 1;
+    }
+  }
 }
 
 .project-icon {
@@ -98,6 +118,7 @@
   width: 100%;
   overflow: hidden;
   position: absolute;
+  transition: .4s filter;
   /* Landscape project icons */
   .landscape {
     width: 100%;
@@ -147,24 +168,29 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(35, 35, 35, 0.94);
+    background-color: rgba(255, 255, 255, 0.85);
     opacity: 0;
-    color: $white;
     transition: 0.4s opacity;
+    overflow: hidden;
     @include hover {
-      opacity: 1;
     }
   }
-  h3 {
+  h2 {
     margin-bottom: 1rem;
     @include sm-up {
-      opacity: 0.8;
+      font-size: 1.7rem;
+      margin-bottom: 0.5rem;
+      line-height: 2.2rem;
+    }
+    /* Return to original styles */
+    @include md-up {
+      font-size: 2rem;
+      line-height: 2.8rem;
+      margin-bottom: 1rem;
     }
   }
   p {
     @include sm-up {
-      color: $white;
-      opacity: 0.8;
       font-size: 1.35rem;
       line-height: 2rem;
     }
@@ -175,22 +201,31 @@
     }
   }
   .wrapper {
+    transition: .4s;
+    transform: translate(-100%, 0);
+
     @include sm-up {
-      margin: 0 2.3rem 2.4rem;
+      margin-left: -1.5rem;
+      margin-top: 2.2rem;
+      width: 90%;
     }
     @include md-up {
-      margin: 0 3rem 3.4rem;
+      margin-left: -2rem;
+      margin-top: 3rem;
+      width: 75%;
     }
     @include lg-up {
-      margin: 0 3.2rem 3.7rem;
+      margin-left: -2.5rem;
+      margin-top: 5rem;
     }
     @include xl-up {
-      margin: 0 3.5rem 4rem;
+      width: 33%;
     }
+
   }
 }
 
-/* Dribbble link 
+/* Dribbble link
 #dribbble {
   margin-top: 5rem;
   h2 {
