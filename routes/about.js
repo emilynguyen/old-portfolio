@@ -9,6 +9,6 @@ exports.view = function(req, res) {
     data,
     title: "About | Emily Nguyen",
     description:
-      "Hiya, my name is Emily! I’m a third year student at UC San Diego, pursuing a degree in Cognitive Science: Human-Computer Interaction and a minor in Computer Science. I love crafting visual experiences and seeing them through to implementation."
+      "Human-Computer Interaction student at UC San Diego. I love crafting visual experiences and seeing them through to implementation."
   });
 };

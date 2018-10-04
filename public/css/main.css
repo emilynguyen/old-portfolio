@@ -478,7 +478,7 @@ li {
   li a:visited,
   li a:hover,
   li a:active {
-    color: #EF7B5E;
+    color: #ef675e;
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
@@ -755,11 +755,11 @@ h2, h3, p {
           height: 1.3rem; } }
     @media (hover: hover) {
       #filters .filter:hover::before {
-        background-color: #EF7B5E; } }
+        background-color: #ef675e; } }
   #filters .active-filter {
     cursor: default; }
     #filters .active-filter::before {
-      background-color: #EF7B5E; }
+      background-color: #ef675e; }
 
 /* Project gallery */
 @media (max-width: 599px) {
@@ -1252,31 +1252,37 @@ h2, h3, p {
       overflow: visible; } }
 
 .logo-wrapper {
-  height: 117%;
+  height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden; }
+  overflow: hidden;
+  /*
+  @include md-up {
+    height: auto;
+    position: absolute;
+    height: 100%;
+    width: 50vw;
+    top: 0;
+    right: 0;
+    text-align: right;
+    justify-content: flex-end;
+    //justify-content: center;
+    img {
+      margin-top: 0;
+      margin-left: 0;
+      //margin-right: -11rem;
+      width: auto;
+      //max-height: 86%;
+    }
+  }
+  */ }
   .logo-wrapper img {
-    margin-top: -6rem;
-    margin-left: -3rem; }
+    margin-top: 0;
+    margin-left: -.5rem;
+    height: 75%; }
   @media (min-width: 840px) {
     .logo-wrapper {
-      height: auto;
-      position: absolute;
-      height: 100%;
-      width: 50vw;
-      top: 0;
-      right: 0;
-      text-align: right;
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end; }
-      .logo-wrapper img {
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: -3rem;
-        width: 100%;
-        max-height: 86%; } }
+      padding: 0 3.5rem; } }
 
 @media (min-width: 840px) {
   .about-title {
@@ -1301,7 +1307,7 @@ h2, h3, p {
   #error h2 a:visited,
   #error h2 a:hover,
   #error h2 a:active {
-    color: #EF7B5E;
+    color: #ef675e;
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {

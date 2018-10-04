@@ -17,13 +17,18 @@
 }
 
 .logo-wrapper {
-  height: 117%;
+  height: 100%;
   box-sizing: border-box;
   overflow: hidden;
   img {
-    margin-top: -6rem;
-    margin-left: -3rem;
+    margin-top: 0;
+    margin-left: -.5rem;
+    height: 75%;
   }
+  @include md-up {
+    padding: 0 3.5rem;
+  }
+  /*
   @include md-up {
     height: auto;
     position: absolute;
@@ -33,14 +38,16 @@
     right: 0;
     text-align: right;
     justify-content: flex-end;
+    //justify-content: center;
     img {
       margin-top: 0;
       margin-left: 0;
-      margin-right: -3rem;
-      width: 100%;
-      max-height: 86%;
+      //margin-right: -11rem;
+      width: auto;
+      //max-height: 86%;
     }
   }
+  */
 }
 
 .about-landing {
