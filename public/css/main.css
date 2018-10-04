@@ -770,7 +770,11 @@ h2, h3, p {
   .gallery-item-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 8vw; } }
+    grid-gap: 5rem; } }
+
+@media (min-width: 840px) {
+  .gallery-item-container {
+    grid-gap: 8rem; } }
 
 .gallery-item {
   -webkit-user-select: none;

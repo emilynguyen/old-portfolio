@@ -85,7 +85,10 @@
   @include sm-up {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 8vw;
+    grid-gap: 5rem;
+  }
+  @include md-up {
+    grid-gap: 8rem;
   }
 }
 
