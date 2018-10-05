@@ -846,7 +846,7 @@ h2, h3, p {
       height: 100%;
       top: 0;
       left: 0;
-      background-color: rgba(255, 255, 255, 0.85);
+      background-color: rgba(255, 255, 255, 0.87);
       opacity: 0;
       -webkit-transition: 0.4s opacity;
       transition: 0.4s opacity;
