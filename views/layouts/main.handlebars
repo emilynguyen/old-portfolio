@@ -4,13 +4,21 @@
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{title}}</title>
     <meta name="description" content="{{description}}" />
+    <meta name="keywords" content="Emily Nguyen, visual design, interaction design, ux design, product design, front-end development, ux engineering">
+
+    <!-- Facebook -->
     <meta property="og:title" content="{{title}}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://emilynguyen.co/public/images/icons/preview.jpg">
+    <meta property="og:url" content="http://emilynguyen.co/">
     <meta property="og:description" content="{{description}}">
-    {{#if icon}}
-      <meta property="og:image" content="{{icon}}">
-    {{/if}}
+
+    <!--
+      {{#if icon}}
+        <meta property="og:image" content="{{icon}}">
+      {{/if}}
+    -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113482074-1"></script>
@@ -34,15 +42,6 @@
     <meta name="application-name" content="Emily Nguyen">
     <meta name="theme-color" content="#4a565c">
 
-    <!-- Preload fonts
-    <link rel="preload" href="/fonts/franklin-gothic/franklingothic-book-webfont.woff" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="/fonts/franklin-gothic/franklingothic-book-webfont.woff2" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="/fonts/franklin-gothic/franklingothic-bookit-webfont.woff" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="/fonts/franklin-gothic/franklingothic-bookit-webfont.woff2" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="/fonts/hk-grotesk/hkgrotesk-regular-webfont.woff" as="font" crossorigin="anonymous" />
-    <link rel="preload" href="/fonts/hk-grotesk/hkgrotesk-regular-webfont.woff2" as="font" crossorigin="anonymous" />
-    -->
-
     <!-- main.css -->
     <link href="/css/main.css" rel="stylesheet" type="text/css">
     <!-- jQuery -->
@@ -54,6 +53,8 @@
         }
     </script>
     <base href="/">
+
+    <title>{{title}}</title>
 </head>
 
 <body>
