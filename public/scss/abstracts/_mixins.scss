@@ -1,4 +1,4 @@
-// Extra small devices (320px and up)
+// Extra small devices (480px and up)
 @mixin xs-up {
   @media (min-width: $xs-screen) {
     @content;
