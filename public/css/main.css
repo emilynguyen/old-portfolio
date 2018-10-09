@@ -478,7 +478,7 @@ li {
   li a:visited,
   li a:hover,
   li a:active {
-    color: #ef675e;
+    color: #EF7B5E;
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
@@ -752,11 +752,11 @@ h2, h3, p {
           height: 1.3rem; } }
     @media (hover: hover) {
       #filters .filter:hover::before {
-        background-color: #ef675e; } }
+        background-color: #EF7B5E; } }
   #filters .active-filter {
     cursor: default; }
     #filters .active-filter::before {
-      background-color: #ef675e; }
+      background-color: #EF7B5E; }
 
 /* Project gallery */
 @media (max-width: 599px) {
@@ -1206,7 +1206,7 @@ h2, h3, p {
 .project-portfolio a:visited,
 .project-portfolio a:hover,
 .project-portfolio a:active {
-  color: #ef675e;
+  color: #EF7B5E;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1308,7 +1308,7 @@ h2, h3, p {
   #error h2 a:visited,
   #error h2 a:hover,
   #error h2 a:active {
-    color: #ef675e;
+    color: #EF7B5E;
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
