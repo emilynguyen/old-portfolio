@@ -441,8 +441,8 @@ p, li {
 */
 h1 {
   color: #272a2c;
-  font-size: 3.8rem;
-  line-height: 4.2rem; }
+  font-size: 3.2rem;
+  line-height: 3.6rem; }
   @media (min-width: 480px) {
     h1 {
       font-size: 4.2rem;
