@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="316px" height="316px" viewBox="0 0 316 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="339px" height="338px" viewBox="0 0 339 338" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 10</title>
+    <title>Group 4</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-1663.000000, -3070.000000)">
-            <g id="Group-10" transform="translate(1663.000000, 3070.000000)">
-                <rect id="Rectangle-13" fill="#FFFFFF" x="0.984233055" y="0.924455778" width="314.136247" height="314.136247" rx="58"></rect>
-                <g id="logo-color" transform="translate(68.102936, 57.501382)" fill-rule="nonzero">
+        <g id="Desktop-HD" transform="translate(-1646.000000, -3060.000000)">
+            <g id="Group-4" transform="translate(1646.401170, 3059.348641)">
+                <circle id="Oval" fill="#FFFFFF" cx="169.143921" cy="169.672195" r="168.748501"></circle>
+                <g id="logo-color" transform="translate(81.194500, 70.120801)" fill-rule="nonzero">
                     <rect id="Rectangle-path" fill="#FFD058" x="0.483064445" y="13.9312442" width="81.6095825" height="81.9703321" rx="7.13"></rect>
                     <path d="M43.2920203,66.6006898 L0.643397613,27.8201048 C0.643397613,20.2269798 6.79884169,14.0715357 14.3919668,14.0715357 L68.3039945,14.0715357 C75.8971196,14.0715357 82.0525636,20.2269798 82.0525636,27.8201048 L43.2920203,66.6006898 Z" id="Shape" fill="#FBB040"></path>
                     <path d="M137.868548,96.142076 C114.701768,96.142076 95.9213827,77.3616905 95.9213827,54.194911 C95.9213827,31.0281314 114.701768,12.2477459 137.868548,12.2477459 C161.035327,12.2477459 179.815713,31.0281314 179.815713,54.194911 C179.738724,77.3297258 161.003363,96.0650876 137.868548,96.142076 Z M137.868548,26.1566482 C122.372374,26.1566482 109.810243,38.718779 109.810243,54.2149526 C109.810243,69.7111262 122.372374,82.273257 137.868548,82.273257 C153.364721,82.273257 165.926852,69.7111262 165.926852,54.2149526 C165.926852,38.718779 153.364721,26.1566482 137.868548,26.1566482 Z" id="Shape" fill="#DF3341"></path>
