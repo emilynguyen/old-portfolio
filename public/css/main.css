@@ -1273,7 +1273,6 @@ h2, h3, p {
   overflow: hidden; }
   .logo-wrapper img {
     margin-top: 0;
-    margin-left: -.5rem;
     height: 75%; }
   @media (min-width: 840px) {
     .logo-wrapper {
