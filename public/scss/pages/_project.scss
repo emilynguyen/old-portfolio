@@ -311,6 +311,10 @@
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 
+.project-stride {
+  @include link-hover(#EF5350);
+}
+
 .project-burow {
   @include link-hover(#FB9D56);
 }

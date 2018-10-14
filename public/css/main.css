@@ -1168,6 +1168,18 @@ h2, h3, p {
   margin-bottom: 0; }
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
+.project-stride a,
+.project-stride a:visited,
+.project-stride a:hover,
+.project-stride a:active {
+  color: #EF5350;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-stride a:hover {
+    opacity: 0.4; } }
+
 .project-burow a,
 .project-burow a:visited,
 .project-burow a:hover,

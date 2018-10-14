@@ -6,6 +6,42 @@
   },
   "projects": [
     {
+      "title": "Stride Career Fair",
+      "url": "stride",
+      "tags": ["dev"],
+      "icon": "images/stride/icon.gif",
+      "alt": "Stride Career Fair",
+      "paddingSize": "md",
+      "orientation": "landscape",
+      "accent": "#FFECB3",
+      "description": "Currently developing the website for Stride, a design-centric career fair hosted by Design at UCSD.",
+      "shadow": "1rem 1rem 0rem #F2DD9C",
+      "summary": "Stride is a design-centric career fair hosted by Design at UCSD that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I am working alongside one of our visual designers to build the website for Stride. <i>A work in progress; come back soon!</i>",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Developer"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Jekyll, responsive web design"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> - Illustrator, Animator, Creative Direction"
+        },
+        {
+          "title": "Date",
+          "content": "Aug 2018 - Present"
+        },
+        {
+          "title": "Resources",
+          "wide": true,
+          "content": "<a href=\"https://github.com/designatucsd/stride\" target=\"_blank\">Github repo</a>"
+        }
+      ]
+    },
+    {
       "title": "Design at UCSD",
       "url": "designatucsd",
       "tags": ["dev", "visual"],
@@ -75,6 +111,13 @@
           "link": "https://frontiers.designatucsd.org/",
           "alt": "Design Frontiers temp page",
           "afterCaption": "<p><i>Design Frontiers</i> is a series of events that encourages students from different fields to apply human-centered design. Visit <a href=\"https://frontiers.designatucsd.org/\" target=\"_blank\">frontiers.designatucsd.org</a> to see our interest form and <a href=\"https://github.com/designatucsd/frontiers-temp\" target=\"_blank\">view on Github</a>.</p>"
+        },
+        {
+          "image": true,
+          "src": "images/stride/icon.gif",
+          "style": "background-color: #FFECB3",
+          "alt": "Stride Career Fair",
+          "afterCaption": "<p>I am currently working on the website for <i>Stride</i>, a design-centric career fair that we will be hosting in January 2019. <a href=\"/stride\">Learn more</a>.</p>"
         }
       ]
     },
@@ -339,15 +382,13 @@
           "src": "images/ergo/home-changes.png",
           "alt":
             "New home page with how to get started tips and environment descriptions",
-          "noPdding": true,
           "beforeCaption":
             "<p>One of the biggest problems we discovered while user testing is that ERGO had poor visibility of system status. To resolve this issue, we made labels more informative and added more descriptions throughout our app.</p>"
         },
         {
           "image": true,
           "src": "images/ergo/setup-changes.png",
-          "alt": "New setup page with environment name in the title",
-          "noPdding": true
+          "alt": "New setup page with environment name in the title"
         },
         {
           "image": true,
