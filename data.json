@@ -16,7 +16,7 @@
       "accent": "#FFECB3",
       "description": "Currently developing the website for Stride, a design-centric career fair hosted by Design at UCSD.",
       "shadow": "1rem 1rem 0rem #F2DD9C",
-      "summary": "Stride is a design-centric career fair hosted by Design at UCSD that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I am working alongside one of our visual designers to build the website for Stride. <i>A work in progress; come back soon!</i>",
+      "summary": "Stride is a design-centric career fair hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I am working alongside one of our visual designers to build the website for Stride. <i>A work in progress; come back soon!</i>",
       "intro": [
         {
           "title": "Role",
@@ -28,7 +28,7 @@
         },
         {
           "title": "Partner",
-          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> - Illustrator, Animator, Creative Direction"
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥ - Illustrator, Animator, Creative Direction"
         },
         {
           "title": "Date",
@@ -97,7 +97,7 @@
           "title": "Web Development",
           "image": true,
           "src": "images/designatucsd/design-your-summer.png",
-          "style": "background-color: #F9F9FB",
+          "style": "background-color: #DEE0FA",
           "link": "https://summer.designatucsd.org/",
           "alt": "Design Your Summer",
           "beforeCaption":
@@ -106,11 +106,10 @@
         },
         {
           "image": true,
-          "src": "images/designatucsd/frontiers-temp.png",
-          "style": "background-color: #F9F9FB",
-          "link": "https://frontiers.designatucsd.org/",
-          "alt": "Design Frontiers temp page",
-          "afterCaption": "<p><i>Design Frontiers</i> is a series of events that encourages students from different fields to apply human-centered design. Visit <a href=\"https://frontiers.designatucsd.org/\" target=\"_blank\">frontiers.designatucsd.org</a> to see our interest form and <a href=\"https://github.com/designatucsd/frontiers-temp\" target=\"_blank\">view on Github</a>.</p>"
+          "src": "images/designatucsd/frontiers-fa18.png",
+          "style": "background-color: #DEEAF1",
+          "alt": "Design Frontiers FA18 landing page",
+          "afterCaption": "<p><i>Design Frontiers</i> is a series of events that focuses on applying human-centered design to different fields. The website for Design Frontiers Fall 2018 will be launching soon! <a href=\"https://github.com/designatucsd/frontiers-fa18\" target=\"_blank\">View on Github</a>.</p>"
         },
         {
           "image": true,
@@ -204,7 +203,7 @@
       "accent": "#9AD6EE",
       "description": "Redesigned a slide deck to create a visually compelling presentation for an upcoming meeting between Salesforce and the fictitious company TravelBoss.",
       "summary":
-        "The task at hand was to redesign a slide deck to create a visually compelling presentation for an upcoming meeting between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb. <i>Note: This was completed as a timed challenge.</i>",
+        "The task at hand was to redesign a slide deck to create a visually compelling presentation for an upcoming meeting between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.<br><br><i>Note: This was completed as a timed challenge.</i>",
       "intro": [
         {
           "title": "Key Skills",
