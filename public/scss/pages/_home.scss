@@ -2,17 +2,6 @@
  * Home page
  */
 
-.title {
-  margin: 8rem 0 7rem;
-  padding-right: 2rem;
-  @include xs-up {
-    padding-right: 5rem;
-    h1 {
-      max-width: 95rem;
-    }
-  }
-}
-
 #filters {
   margin-bottom: 2.5rem;
   user-select: none;
@@ -33,7 +22,7 @@
     }
   }
   .filter {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     @include xs-up {
       font-size: 1.7rem;
     }

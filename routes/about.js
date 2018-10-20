@@ -9,6 +9,6 @@ exports.view = function(req, res) {
     data,
     title: "About | Emily Nguyen",
     description:
-      "Human-Computer Interaction student at UC San Diego. I love crafting visual experiences and seeing them through to implementation."
+      "Human-Computer Interaction student at UC San Diego. Loves crafting visual experiences and seeing them through to implementation."
   });
 };

@@ -1,9 +1,4 @@
 {
-  "about": {
-    "tagline": "Visual Design / UX Design / UX Engineering",
-    "bio":
-      "<p>Hiya, my name is Emily! I’m a fourth year student at UC San Diego, pursuing a degree in Cognitive Science: Human-Computer Interaction and a minor in Computer Science.</p><p>Currently, I am Tech Chair of <a href=\"https://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>. This past summer, I was a Visual Experience Design Intern at <a href=\"https://www.salesforce.com/\" target=\"_blank\">Salesforce</a>. I've also worked on campus as a Web Developer for <a href=\"https://blink.ucsd.edu/sponsor/ITS/about/groups/campus-web-office/index.html\" target=\"_blank\">Information Technology Services</a> and as a Web & Digital Marketing Assistant for <a href=\"https://www.alumni.ucsd.edu\" target=\"_blank\">UCSD Alumni</a>.</p><p>Other things I do include playing Stardew Valley and consuming alarming amounts of seafood. Full disclosure: I support House Stark, Team Iron Man, and pineapple on pizza.</p>"
-  },
   "projects": [
     {
       "title": "Stride Career Fair",
@@ -205,9 +200,9 @@
       "orientation": "portrait",
       "accent": "#9AD6EE",
       "role": "Visual",
-      "description": "Redesigned a slide deck to create a visually compelling presentation for an upcoming meeting between Salesforce and the fictitious company TravelBoss.",
+      "description": "Created bold and compelling visual collateral that embodied the energy and spirit of the Salesforce and TravelBoss brands.",
       "summary":
-        "The task at hand was to redesign a slide deck to create a visually compelling presentation for an upcoming meeting between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.<br><br><i>Note: This was completed as a timed challenge.</i>",
+        "Created bold and compelling visual collateral that embodied the energy and spirit of the Salesforce and TravelBoss (fictitious company) brands for upcoming business meetings.<br><br><i>Note: This was completed as a timed challenge.</i>",
       "intro": [
         {
           "title": "Key Skills",
@@ -215,16 +210,27 @@
             "Visual design, co-branding"
         },
         {
-          "title": "Date",
-          "content": "Mar 2018 (4 days)"
+          "title": "Tools",
+          "content": "Illustrator"
         },
         {
           "title": "Resources",
-          "wide": true,
           "content": "<a href=\"https://drive.google.com/open?id=1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki\" target=\"_blank\">Final Product (PDF)</a>"
+        },
+        {
+          "title": "Date",
+          "content": "Mar 2018 (4 days)"
         }
       ],
       "sections": [
+        {
+          "title": "Problem",
+          "image": true,
+          "src": "images/travelboss/before.png",
+          "alt": "Original presentation slides",
+          "style": "background-color: #FF6C71;",
+          "afterCaption": "<p>The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.</p>"
+        },
         {
           "title": "Design Process",
           "pdf": true,
@@ -233,6 +239,13 @@
         },
         {
           "title": "Final Product",
+          "image": true,
+          "src": "images/travelboss/final-product.png",
+          "alt": "Final product",
+          "style": "background-color: #233D52"
+        },
+        {
+          "title": "",
           "pdf": true,
           "pdf-link":
             "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"

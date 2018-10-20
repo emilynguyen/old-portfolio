@@ -7,8 +7,8 @@ var data = require("../data.json");
 exports.view = function(req, res) {
   res.render("home", {
     data,
-    title: "Emily Nguyen | Full Stack Designer",
+    title: "Emily Nguyen | Designer + Developer",
     description:
-      "Human-Computer Interaction student at UC San Diego. I love crafting visual experiences and seeing them through to implementation."
+      "Human-Computer Interaction student at UC San Diego. Loves crafting visual experiences and seeing them through to implementation."
   });
 };
