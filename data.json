@@ -110,6 +110,15 @@
         },
         {
           "image": true,
+          "src": "images/designatucsd/design-camp.png",
+          "imgStyle": "box-shadow: 1.7rem 1.7rem 0 rgba(26, 35, 126, .4); margin: 1rem 0;",
+          "style": "background-color: #4852B8",
+          "alt": "Design Camp landing page",
+          "link": "https://camp.designatucsd.org/",
+          "afterCaption": "<p><i>Design Camp</i> is a three-part series focused on building your design skills outside of the classroom. Visit <a href=\"https://camp.designatucsd.org/\" target=\"_blank\">camp.designatucsd.org</a> and <a href=\"https://github.com/designatucsd/design-camp\" target=\"_blank\">view on Github</a>.</p>"
+        },
+        {
+          "image": true,
           "src": "images/stride/runner.gif",
           "style": "background-color: #FFECB3",
           "alt": "Stride Career Fair",
