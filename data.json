@@ -11,7 +11,7 @@
       "accent": "#FFECB3",
       "role": "Dev",
       "description": "Currently developing the website for Stride, a design-centric career fair hosted by Design at UCSD.",
-      "shadow": "1rem 1rem 0rem #F2DD9C",
+      "shadow": "1rem 1rem 0 #F2DD9C",
       "summary": "Stride is a design-centric career fair hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I am working alongside one of our visual designers to build the website for Stride. <i>A work in progress; come back soon!</i>",
       "intro": [
         {
@@ -136,7 +136,7 @@
       "orientation": "landscape",
       "accent": "#CDE3F0",
       "role": "Visual + Dev",
-      "shadow": "0.5rem 0.5rem 1.5rem #BACED9",
+      "shadow": "1rem 1rem 0 #c7dbe5",
       "description":
         "Burow is a desktop web app that helps users find the perfect new home to move to.",
       "summary":
@@ -438,7 +438,7 @@
       "url": "pcc",
       "tags": ["visual"],
       "icon": "images/pcc/icon.png",
-      "shadow": "1rem 1.2rem 2rem #E6B575",
+      "shadow": "1rem 1.2rem 0 #f2c080",
       "alt": "",
       "paddingSize": "md",
       "orientation": "portrait",
@@ -631,7 +631,7 @@
       "url": "ourstory",
       "tags": ["visual"],
       "icon": "images/ourstory/icon.jpg",
-      "shadow": "1rem 1rem 2rem #E7B6B0",
+      "shadow": "1rem 1rem 0 #edbab4",
       "alt": "Ourstory Gala program cover",
       "paddingSize": "md",
       "orientation": "portrait",
@@ -688,7 +688,8 @@
       "tags": ["visual"],
       "icon": "images/apsa-hsc/icon.png",
       "alt": "",
-      "paddingSize": "sm",
+      "paddingSize": "lg",
+      "shadow": "1rem 1rem 0 #F4D27C",
       "orientation": "portrait",
       "accent": "#ffe092",
       "role": "Visual",

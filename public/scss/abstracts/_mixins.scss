@@ -48,13 +48,13 @@
 }
 
 @mixin short-screen {
-  @media (max-height: 500px) {
+  @media (max-height: 570px) {
     @content;
   }
 }
 
 @mixin shorter-screen {
-  @media (max-height: 350px) {
+  @media (max-height: 470px) {
     @content;
   }
 }

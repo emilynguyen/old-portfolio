@@ -2,41 +2,17 @@
  * About page
  */
 
-.logo-container {
-  @extend .hero-container;
-  background-color: $submarine;
-  position: relative;
-  padding: 0;
-  overflow: hidden;
-  img {
-    width: 130%;
-  }
-  @include md-up {
-    overflow: visible;
-  }
-}
-
-.logo-wrapper {
-  height: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
-  img {
-    margin-top: 0;
-    height: 75%;
-  }
-  @include md-up {
-    padding: 0 3.5rem;
-  }
-}
-
 .self-container {
   @extend .hero-container;
   background-image: url('../images/yellow.jpg');
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: bottom;
+  background-position-y: center;
   background-size: cover;
   background-color: #f6e46b;
+  @include md-up {
+    background-position-y: bottom;
+  }
 }
 
 .about-landing {
@@ -63,7 +39,7 @@
 }
 
 .about-tagline {
-  margin-top: .1rem;
+  margin-top: .2rem;
   margin-bottom: 2.4rem;
 }
 
