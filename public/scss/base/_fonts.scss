@@ -2,31 +2,27 @@
  * @font-face declarations
  */
 
-@font-face {
-  font-family: "Franklin Gothic";
-  src: url("../fonts/franklin-gothic/franklingothic-book-webfont.woff2")
-      format("woff2"),
-    url("franklin-gothic/franklingothic-book-webfont.woff") format("woff");
-  font-weight: 400;
+ @font-face {
+  font-family: 'Graphik';
+  src: url('graphik/Graphik-Medium.woff2') format('woff2'),
+      url('graphik/Graphik-Medium.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Franklin Gothic";
-  src: url("../fonts/franklin-gothic/franklingothic-bookit-webfont.woff2")
-      format("woff2"),
-    url("franklin-gothic/franklingothic-bookit-webfont.woff") format("woff");
+  font-family: 'Graphik';
+  src: url('graphik/Graphik-RegularItalic.woff2') format('woff2'),
+      url('graphik/Graphik-RegularItalic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
 }
 
-/*
 @font-face {
-  font-family: "HK Grotesk";
-  src: url("../fonts/hk-grotesk/hkgrotesk-regular-webfont.woff2")
-      format("woff2"),
-    url("hk-grotesk/hkgrotesk-regular-webfont.woff") format("woff");
+  font-family: 'Graphik';
+  src: url('graphik/Graphik-Regular.woff2') format('woff2'),
+      url('graphik/Graphik-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
-*/
+
