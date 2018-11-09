@@ -23,16 +23,26 @@ $bottom-p-padding: 2.5rem;
 
 // Colors
 $shark: #272a2c; // h1, h2
-$rolling-stone: #787c80; // p
-$silver-sand: #c0c2c5; // h3
+
+$rolling-stone: #444444; // p
+$silver-sand: #ababab; // a
 $athens-gray: #f9f9fb; // backgrounds
+$yellow: #FFF56E;
+
 $burnt-sienna: #EF7B5E; // orange-peach
 $submarine: #B7DCD9; // mint-teal
-$white: #fff;
+
+
 
 // Menu shortcut active style
 $underline: -webkit-linear-gradient(
   -90deg,
   rgba(231, 232, 233, 0) 50%,
   rgba(231, 232, 233, 1) 50%
+);
+
+$underline: -webkit-linear-gradient(
+  -90deg,
+  rgba(255, 245, 110, 0) 50%,
+  rgba(255, 245, 110, 1) 50%
 );

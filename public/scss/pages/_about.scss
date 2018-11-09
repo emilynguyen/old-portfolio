@@ -29,6 +29,16 @@
   }
 }
 
+.self-container {
+  @extend .hero-container;
+  background-image: url('../images/yellow.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
+  background-color: #f6e46b;
+}
+
 .about-landing {
   @extend .project-landing;
 }
@@ -37,7 +47,7 @@
   @extend .project-title;
   // Manage line break in about tagline
   @include md-up {
-    margin-left: 0;
+    //margin-left: 0;
     br {
       display: none;
     }
@@ -53,7 +63,7 @@
 }
 
 .about-tagline {
-  margin-top: -0.5rem;
+  margin-top: .1rem;
   margin-bottom: 2.4rem;
 }
 

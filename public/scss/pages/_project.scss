@@ -247,16 +247,16 @@
 
 .swatch-name {
   width: 100%;
-  background-color: $white;
+  background-color: #fff;
   position: absolute;
   left: 0;
   bottom: 0;
   text-align: center;
   user-select: text;
-  h3 {
-    font-size: 1.4rem;
-    padding: 0.8rem 0;
-  }
+  font-size: 1.1rem;
+  padding: 1rem 0 0.9rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
 }
 
 /* PDF section */
@@ -312,7 +312,7 @@
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 
 .project-stride {
-  @include link-hover(#EF5350);
+  @include link-hover(#2F8C7E);
 }
 
 .project-burow {

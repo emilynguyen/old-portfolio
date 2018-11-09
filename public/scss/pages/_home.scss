@@ -53,14 +53,14 @@
     }
     @include hover {
       &::before {
-        background-color: $burnt-sienna;
+        background-color: $yellow;
       }
     }
   }
   .active-filter {
     cursor: default;
     &::before {
-      background-color: $burnt-sienna;
+      background-color: $yellow;
     }
   }
 }

@@ -34,13 +34,7 @@
     text-align: left;
   }
   h2 {
-    //color: $river-bed-light;
-    font-style: italic;
     font-size: 1.5rem;
-    @include sm-up {
-      // Default h2 size: 2rem
-      //font-size: 2.3rem;
-    }
   }
 }
 
