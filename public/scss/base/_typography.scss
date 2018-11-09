@@ -12,7 +12,9 @@ body {
 h1, h2 {
   color: $shark;
   font-weight: 500;
-  letter-spacing: -0.04rem;
+  @include md-up {
+    letter-spacing: -0.04rem;
+  }
 }
 
 h1 {
