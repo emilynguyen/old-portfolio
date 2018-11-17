@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "version": "1.1",
-  "description": "Emily Nguyen's UI/UX portfolio",
+  "version": "v1.2",
+  "description": "Emily Nguyen's design portfolio",
   "main": "server.js",
   "author": "Emily Nguyen <emilymylinh@gmail.com>",
   "repository": {
@@ -9,18 +9,18 @@
     "url": "git://github.com/emnguyen/portfolio.git"
   },
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "express-handlebars": "^3.0.0"
   },
   "engines": {
-    "node": "9.5.0"
+    "node": "11.1.0"
   },
   "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.0",
     "gulp-nodemon": "^2.2.1",
     "gulp-postcss": "^8.0.0",
-    "autoprefixer": "^8.4.1",
-    "browser-sync": "^2.24.4",
-    "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   }
 }
