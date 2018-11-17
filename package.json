@@ -13,7 +13,7 @@
     "express-handlebars": "^3.0.0"
   },
   "engines": {
-    "node": "9.5.0"
+    "node": "^9.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.3.1",
