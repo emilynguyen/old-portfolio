@@ -1,7 +1,7 @@
 "use strict";
 
 var express = require("express");
-var exphbs = require("express-handlebars"); // "express-handlebars"
+var exphbs = require("express-handlebars"); 
 var http = require("http");
 var path = require("path");
 
