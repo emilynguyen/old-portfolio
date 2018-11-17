@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "v1.2",
+  "version": "v1.2.0",
   "description": "Emily Nguyen's design portfolio",
   "main": "server.js",
   "author": "Emily Nguyen <emilymylinh@gmail.com>",
@@ -22,5 +22,10 @@
     "gulp-nodemon": "^2.2.1",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server.js",
+    "start:dev": "NODE_ENV=development gulp"
   }
 }
