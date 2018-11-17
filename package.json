@@ -9,7 +9,7 @@
     "url": "git://github.com/emnguyen/portfolio.git"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.15.5",
     "express-handlebars": "^3.0.0"
   },
   "engines": {
