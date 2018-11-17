@@ -9,20 +9,23 @@ body {
   letter-spacing: 0;
 }
 
-h1, h2 {
-  color: $shark;
+h1, h2, h3 {
+  color: $shark !important;
   font-weight: 500;
+}
+
+h1, h2 {
   @include md-up {
     letter-spacing: -0.04rem;
   }
 }
 
 h1 {
-  font-size: 3.2rem;
+  font-size: 3.1rem;
   line-height: 4rem;
   @include sm-up {
-    font-size: 4rem;
-    line-height: 4.6rem;
+    font-size: 3.9rem;
+    line-height: 4.5rem;
   }
 }
 
@@ -30,12 +33,12 @@ h1 {
   margin: 8rem 0 9rem;
   padding-right: 2rem;
   h1 {
-    font-size: 3.2rem;
-    line-height: 4rem;
+    font-size: 3.1em;
+    line-height: 3.9rem;
   }
   @include xs-up {
     h1 {
-      max-width: 90rem;
+      max-width: 85rem;
     }
   }
 }
@@ -51,8 +54,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  line-height: 2.8rem;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
   a {
     color: inherit;
   }
@@ -64,21 +67,17 @@ h2 {
   }
 }
 
-h3 {
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
-p,
-li {
+p, li, h3 {
   color: $rolling-stone;
   font-size: 1.4rem;
-  line-height: 2.4rem;
+  line-height: 2.3rem;
+  //color: #272a2c;
   @include link-hover($silver-sand);
 }
 
 i {
   font-style: italic;
+  line-height: 0; // Temp fix for off line height
 }
 
 a,

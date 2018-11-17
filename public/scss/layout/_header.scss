@@ -16,16 +16,15 @@
     }
   }
   h1 {
-    font-size: 3.2rem;
-    line-height: 6rem;
+    font-size: 3.1rem;
+    line-height: 5.8rem;
     @include short-screen {
       font-size: 2.6rem;
       line-height: 4.5rem;
     }
   }
   h2 {
-    //ont-size: 2rem;
-    line-height: 3.4rem;
+    line-height: 3.2rem;
     color: $rolling-stone;
     font-weight: 400;
     @include short-screen {
@@ -83,7 +82,7 @@
   li a {
     color: $shark;
     padding: 0 0.3rem;
-    transition: background-image 0.3s;
+    //transition: background-image 0.3s;
     @include hover {
       opacity: 1;
       background-image: $underline;

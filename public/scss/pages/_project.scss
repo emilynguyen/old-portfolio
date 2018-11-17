@@ -100,7 +100,7 @@
     padding-bottom: 6rem;
   }
   h3 {
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.2rem;
   }
 }
 
@@ -158,14 +158,16 @@
   margin-top: 5rem;
   @include md-up {
     display: grid;
-    grid-template-columns: 22% 78%;
+    grid-template-columns: 1fr 75%;
+    grid-gap: 4.5rem;
     margin-top: 3.8rem;
   }
 }
 
 .section-title {
   @include md-up {
-    padding-right: 3rem;
+    // Prevents title from getting too small and pushing content right
+    min-width: 11rem;
   }
 }
 
@@ -257,6 +259,7 @@
   padding: 1rem 0 0.9rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
+  color: $rolling-stone;
 }
 
 /* PDF section */
