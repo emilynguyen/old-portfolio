@@ -40,7 +40,7 @@
   }
 }
 
-// Extra extra large devices (large desktops, 1440px and up)
+// Extra extra large devices (large desktops, 2000px and up)
 @mixin xxl-up {
   @media (min-width: $xxl-screen) {
     @content;

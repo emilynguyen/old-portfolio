@@ -5,6 +5,7 @@ $md-screen: 840px;
 $lg-screen: 960px;
 $xl-screen: 1280px;
 $xxl-screen: 1440px;
+$xxl-screen: 2000px;
 
 // Body padding/margins
 $top-padding-xs: 4rem;
@@ -15,7 +16,8 @@ $side-padding-xs: 7vw;
 $side-padding-sm: 12vw;
 $side-padding-xl: 12vw;
 
-// Component heights
+// Components
+$container-max-width: 120rem;
 $footer-height-xs: 13rem;
 $footer-height-sm: 20rem;
 $menu-height: 2.3rem;

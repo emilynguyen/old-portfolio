@@ -53,14 +53,12 @@
 
 .menu-container {
   height: 100%;
-  width: 100%;
+  max-width: $container-max-width;
+  margin-right: auto;
+  margin-left: auto;
   justify-content: flex-end;
   text-align: right;
   overflow-y: scroll;
-}
-
-.menu {
-  display: block;
   padding: 0 $side-padding-xs;
   @include sm-up {
     padding: 0 $side-padding-sm;
@@ -69,14 +67,22 @@
     padding: 0 $side-padding-xl;
   }
   @include shorter-screen {
-    position: absolute;
-    top: 8.2rem;
-    right: 8rem;
+    display: block;
+  }
+}
+
+.menu {
+  display: block;
+  margin-top: 10rem;
+  @include shorter-screen {
+    margin-top: $top-padding-xl;
+    margin-right: 8rem;
   }
   li,
   h1 {
     @include shorter-screen {
-      display: inline;
+      margin-top: -0.5rem;
+      display: inline-block;
     }
   }
   li a {

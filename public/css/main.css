@@ -372,13 +372,14 @@ button:focus {
 html {
   font-size: 62.5%;
   position: relative; }
-  @media (min-width: 1440px) {
+  @media (min-width: 2000px) {
     html {
-      font-size: 0.7vw; } }
+      font-size: 0.5vw; } }
 
 .container, .gallery-item-container {
   margin-right: auto;
   margin-left: auto;
+  max-width: 120rem;
   padding: 0 7vw; }
   @media (min-width: 600px) {
     .container, .gallery-item-container {
@@ -564,31 +565,37 @@ h2, h3, p {
 
 .menu-container {
   height: 100%;
-  width: 100%;
+  max-width: 120rem;
+  margin-right: auto;
+  margin-left: auto;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: right;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  padding: 0 7vw; }
+  @media (min-width: 600px) {
+    .menu-container {
+      padding: 0 12vw; } }
+  @media (min-width: 1280px) {
+    .menu-container {
+      padding: 0 12vw; } }
+  @media (max-height: 470px) {
+    .menu-container {
+      display: block; } }
 
 .menu {
   display: block;
-  padding: 0 7vw; }
-  @media (min-width: 600px) {
-    .menu {
-      padding: 0 12vw; } }
-  @media (min-width: 1280px) {
-    .menu {
-      padding: 0 12vw; } }
+  margin-top: 10rem; }
   @media (max-height: 470px) {
     .menu {
-      position: absolute;
-      top: 8.2rem;
-      right: 8rem; } }
+      margin-top: 12rem;
+      margin-right: 8rem; } }
   @media (max-height: 470px) {
     .menu li,
     .menu h1 {
-      display: inline; } }
+      margin-top: -0.5rem;
+      display: inline-block; } }
   .menu li a {
     color: #272a2c;
     padding: 0 0.3rem; }
@@ -933,24 +940,49 @@ h2, h3, p {
       grid-column: 1;
       margin-top: -2.3rem;
       min-height: calc(100vh - 9rem);
-      height: 100%; }
-      .hero-container.portrait.padding-sm, .portrait.padding-sm.self-container {
+      height: 100%;
+      /*
+    &.portrait {
+      &.padding-sm {
+        padding: 2.5rem;
+      }
+      &.padding-md {
+        padding: 10rem;
+      }
+      &.padding-lg {
+        padding: 12rem;
+      }
+    }
+    &.landscape {
+      &.padding-sm {
+        //padding: 1.5rem $side-padding-xs;
+        padding: 2.5rem;
+      }
+      &.padding-md {
+        //padding: 5rem $side-padding-xs;
+        padding: 10rem;
+      }
+      &.padding-lg {
+        //padding: 9rem $side-padding-xs;
+        padding: 12rem;
+      }
+    }
+    */ }
+      .hero-container.portrait.padding-sm, .portrait.padding-sm.self-container, .hero-container.landscape.padding-sm, .landscape.padding-sm.self-container {
         padding: 2.5rem; }
-      .hero-container.portrait.padding-md, .portrait.padding-md.self-container {
-        padding: 6rem; }
-      .hero-container.portrait.padding-lg, .portrait.padding-lg.self-container {
-        padding: 6rem; }
-      .hero-container.landscape.padding-sm, .landscape.padding-sm.self-container {
-        padding: 1.5rem 7vw; }
-      .hero-container.landscape.padding-md, .landscape.padding-md.self-container {
-        padding: 5rem 7vw; }
-      .hero-container.landscape.padding-lg, .landscape.padding-lg.self-container {
-        padding: 9rem 7vw; } }
+      .hero-container.portrait.padding-md, .portrait.padding-md.self-container, .hero-container.landscape.padding-md, .landscape.padding-md.self-container {
+        padding: 10rem; }
+      .hero-container.portrait.padding-lg, .portrait.padding-lg.self-container, .hero-container.landscape.padding-lg, .landscape.padding-lg.self-container {
+        padding: 12rem; } }
   @media (min-width: 1280px) {
     .hero-container, .self-container {
       min-height: calc(100vh - 12rem); } }
   .hero-container img, .self-container img {
     max-height: 100%; }
+    @media (min-width: 840px) {
+      .hero-container img, .self-container img {
+        max-height: none;
+        width: 100%; } }
 
 @media (min-width: 840px) {
   .project-landing, .about-landing {
@@ -1071,6 +1103,7 @@ h2, h3, p {
       max-height: none; }
       @media (min-width: 840px) {
         .section-image.no-padding-md img, .section-image.no-padding img, .no-padding.palette img, .no-padding-md.palette img {
+          width: 100%;
           max-height: none; } }
   .section-image.no-padding, .no-padding.palette {
     padding: 0; }
@@ -1144,7 +1177,7 @@ h2, h3, p {
       display: inline-block; } }
 
 .persona-icon {
-  width: 15rem; }
+  width: 10rem; }
 
 .persona-description p {
   margin-bottom: 0; }

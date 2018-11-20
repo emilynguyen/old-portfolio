@@ -5,7 +5,8 @@
 html {
   font-size: 62.5%;
   @include xxl-up {
-    font-size: 0.7vw;
+    //font-size: 80%;
+    font-size: 0.5vw;
   }
   position: relative;
 }
@@ -13,6 +14,7 @@ html {
 .container {
   margin-right: auto;
   margin-left: auto;
+  max-width: $container-max-width;
   padding: 0 $side-padding-xs;
   @include sm-up {
     padding: 0 $side-padding-sm;

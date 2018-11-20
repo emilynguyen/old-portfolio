@@ -47,36 +47,53 @@
     margin-top: -$menu-height;
     min-height: calc(100vh - #{$top-padding-sm});
     height: 100%;
+    &.portrait, &.landscape {
+      &.padding-sm {
+        padding: 2.5rem;
+      }
+      &.padding-md {
+        padding: 10rem;
+      }
+      &.padding-lg {
+        padding: 12rem;
+      }
+    }
+    /*
     &.portrait {
       &.padding-sm {
         padding: 2.5rem;
       }
       &.padding-md {
-        padding: 6rem;
+        padding: 10rem;
       }
       &.padding-lg {
-        padding: 6rem;
+        padding: 12rem;
       }
     }
     &.landscape {
       &.padding-sm {
-        padding: 1.5rem $side-padding-xs;
+        //padding: 1.5rem $side-padding-xs;
+        padding: 2.5rem;
       }
       &.padding-md {
-        padding: 5rem $side-padding-xs;
+        //padding: 5rem $side-padding-xs;
+        padding: 10rem;
       }
       &.padding-lg {
-        padding: 9rem $side-padding-xs;
+        //padding: 9rem $side-padding-xs;
+        padding: 12rem;
       }
     }
+    */
   }
   @include xl-up {
     min-height: calc(100vh - #{$top-padding-xl});
   }
   img {
-    max-height: 100%;
+    max-height: 100%; // ??
     @include md-up {
-      //width: 100%; // skews portrait icons
+      max-height: none;
+      width: 100%; // skews portrait icons?
     }
   }
 }
@@ -216,6 +233,7 @@
     img {
       max-height: none;
       @include md-up {
+        width: 100%;
         max-height: none;
       }
     }
@@ -303,7 +321,7 @@
 }
 
 .persona-icon {
-  width: 15rem;
+  width: 10rem; 
 }
 
 .persona-description {
