@@ -75,9 +75,19 @@
     color: $color;
     transition: 0.3s opacity;
   }
-  a {
+  a:not(.btn) {
     @include hover {
       opacity: 0.4;
+    }
+  }
+  button {
+    border-color: $color;
+    color: $color;
+    transition: background-color .3s, color .3s;
+    @include hover {
+      background-color: $color;
+      color: white;
+      opacity: 1;
     }
   }
 }

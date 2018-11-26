@@ -3,16 +3,16 @@
     {
       "title": "Stride Career Fair",
       "url": "stride",
-      "tags": ["dev"],
+      "filters": ["dev"],
       "icon": "images/stride/runner.gif",
       "alt": "Stride Career Fair",
-      "paddingSize": "md",
+      "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#FFECB3",
-      "role": "Dev",
-      "description": "Currently developing the website for Stride, a design-centric career fair hosted by Design at UCSD.",
+      "tags": ["front-end"],
+      "description": "Website for a design-centric career fair hosted by Design at UCSD.",
       "shadow": "1rem 1rem 0 #F2DD9C",
-      "summary": "Stride is a design-centric career fair hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I am working alongside one of our visual designers to build the website for Stride. <i>A work in progress; come back soon!</i>",
+      "summary": "Stride is a design-centric career fair hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I worked alongside one of our visual designers to build the website for Stride. <i>Stride is currently live for companies.</i>",
       "intro": [
         {
           "title": "Role",
@@ -32,21 +32,24 @@
         },
         {
           "title": "Resources",
-          "wide": true,
           "content": "<a href=\"https://github.com/designatucsd/stride\" target=\"_blank\">Github repo</a>"
+        }, 
+        {
+          "button": "Visit Site",
+          "link": "https://stride.designatucsd.org/"
         }
       ]
     },
     {
       "title": "Design at UCSD",
       "url": "designatucsd",
-      "tags": ["dev", "visual"],
+      "filters": ["dev", "visual"],
       "icon": "images/designatucsd/d@u-logo.svg",
       "alt": "Design at UCSD",
-      "paddingSize": "lg",
+      "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#EF675E",
-      "role": "Visual + Dev",
+      "tags": ["visual design", "front-end"],
       "description":
         "Previously designed visual content as part of their graphic studio. Currently developing sites and serving as a web development resource as Tech Chair.",
       "summary":
@@ -129,16 +132,16 @@
     {
       "title": "Burow",
       "url": "burow",
-      "tags": ["dev", "visual"],
+      "filters": ["dev", "visual"],
       "icon": "images/burow/icon.png",
       "alt": "Burow",
-      "paddingSize": "lg",
+      "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#CDE3F0",
-      "role": "Visual + Dev",
+      "tags": ["web design", "branding", "front-end", "back-end"],
       "shadow": "1rem 1rem 0 #c7dbe5",
       "description":
-        "Burow is a desktop web app that helps users find the perfect new home to move to.",
+        "Desktop web app that helps users find the perfect new home to move to.",
       "summary":
         "Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.",
       "intro": [
@@ -160,15 +163,23 @@
         },
         {
           "title": "Resources",
-          "wide": true,
-          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a> / <a href=\"https://burow.xyz/\" target=\"_blank\">burow.xyz</a>"
+          "content": "<a href=\"https://github.com/joelseq/COGS121\" target=\"_blank\">Github repo</a>"
+        },
+        {
+          "button": "View App",
+          "link": "https://burow.xyz/"
         }
       ],
       "sections": [
         {
           "title": "Problem",
           "text": true,
-          "content": "<p>Coming soon!</p>"
+          "content": "<p>Popular real estate apps, such as Zillow and Trulia, start by asking users for a location. Users then use metrics such as price and number of beds/baths to sort through the returned listings. Additional research could then be done to find walkability, safety scores, and more for an address. This user flow works great for those looking for homes in specific neighborhoods, but what if you wanted to choose a neighborhood based on a metric?</p>"
+        },
+        {
+          "title": "Solution",
+          "text": true,
+          "content": "<p>Our team's solution reversed the user flow of traditional real estate apps to allow users to scan cities at a macro level. It does this by placing a focus on price, walkability, and school rating, and sorting neighborhoods within a city by these criteria. This approach benefits users who know little about their new city, such as college students who are making a cross-country move for an internship.</p>"
         },
         {
           "title": "Storyboarding",
@@ -202,16 +213,16 @@
     {
       "title": "Salesforce × TravelBoss",
       "url": "travelboss",
-      "tags": ["visual"],
+      "filters": ["visual"],
       "icon": "images/travelboss/icon.png",
       "alt": "",
-      "paddingSize": "lg",
+      "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#9AD6EE",
-      "role": "Visual",
-      "description": "Created bold and compelling visual collateral that embodied the energy and spirit of the Salesforce and TravelBoss brands.",
+      "tags": ["visual design", "co-branding"],
+      "description": "Reimagined a presentation template for upcoming business meetings.",
       "summary":
-        "Created bold and compelling visual collateral that embodied the energy and spirit of the Salesforce and TravelBoss (fictitious company) brands for upcoming business meetings.<br><br><i>Note: This was completed as a timed challenge.</i>",
+        "The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.<br><br><i>Note: This was completed as a timed challenge.</i>",
       "intro": [
         {
           "title": "Key Skills",
@@ -238,7 +249,7 @@
           "src": "images/travelboss/before.png",
           "alt": "Original presentation slides",
           "style": "background-color: #FF6C71;",
-          "afterCaption": "<p>The task at hand was to reimagine a slide deck to create a visually compelling presentation template for upcoming meetings between Salesforce and the fictitious company TravelBoss, whose brand is similar to Airbnb.</p>"
+          "afterCaption": "<p>The original presentation slides were uninspiring and lacked identity. Through careful brand analysis, I crafted a bold and compelling template that embodied the energy and spirit of both the Salesforce and TravelBoss (Airbnb) brands.</p>"
         },
         {
           "title": "Design Process",
@@ -264,15 +275,15 @@
     {
       "title": "ERGO",
       "url": "ergo",
-      "tags": ["ux", "dev", "visual"],
+      "filters": ["ux", "dev", "visual"],
       "icon": "images/ergo/icon.png",
       "alt": "",
-      "paddingSize": "lg",
+      "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#90D3CF",
-      "role": "Visual + UX + Dev",
+      "tags": ["UI design", "interaction design", "branding","front-end", "back-end"],
       "description":
-        "ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch.",
+        "Web app that combats the discomfort and injury that results from a sedentary lifestyle.",
       "summary":
         "<i>Our work environments can work against us</i>. Many of us, especially students and office workers, sit our lives away; this has been linked to high blood pressure, obesity, worse mental health, and more. ERGO is a web app that combats the discomfort and injury that results from a sedentary lifestyle by periodically alerting users to stretch. Designed to work across many different spaces, ERGO is unique in that it introduces exercises that use the everyday objects around us, inspiring users to rethink their interactions with their spatial environments.",
       "intro": [
@@ -298,8 +309,11 @@
         },
         {
           "title": "Resources",
-          "wide": true,
-          "content": "<a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repo</a> / <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">ergo-webapp.herokuapp.com</a>"
+          "content": "<a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repo</a>"
+        },
+        {
+          "button": "View Prototype",
+          "link": "http://ergo-webapp.herokuapp.com/"
         }
       ],
       "sections": [
@@ -436,16 +450,16 @@
     {
       "title": "Remember That I Love You",
       "url": "pcc",
-      "tags": ["visual"],
+      "filters": ["visual"],
       "icon": "images/pcc/icon.png",
       "shadow": "1rem 1.2rem 0 #f2c080",
       "alt": "",
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#FFD092",
-      "role": "Visual",
+      "tags": ["graphic design"],
       "description":
-        "Designed a poster for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>.",
+        "Poster design for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration.",
       "summary":
         "For UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC), I served on the Official Cultural Cabinet as Graphic Design Co-Chair. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, tackled themes of LGBTQ, mental health, and family. Deliverables I produced included a poster for the event.",
       "intro": [
@@ -466,13 +480,13 @@
     {
       "title": "Portfolio",
       "url": "portfolio",
-      "tags": ["dev", "visual", "ux"],
+      "filters": ["dev", "visual", "ux"],
       "icon": "images/portfolio/icon.jpg",
       "alt": "",
-      "paddingSize": "md",
+      "paddingSize": "sm",
       "orientation": "portrait",
       "accent": "#C4DBD9",
-      "role": "Visual + Dev",
+      "tags": ["web design", "branding", "front-end", "back-end"],
       "description":
         "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
       "summary":
@@ -558,13 +572,13 @@
     {
       "title": "How Far I'll Go",
       "url": "kp-hsc",
-      "tags": ["visual"],
+      "filters": ["visual"],
       "icon": "images/kp-hsc/icon.svg",
       "alt": "Wave",
-      "paddingSize": "lg",
+      "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#f4e4cc",
-      "role": "Visual",
+      "tags": ["graphic design"],
       "description":
         "Designed shirts for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
       "summary":
@@ -629,16 +643,16 @@
     {
       "title": "Ourstory Gala",
       "url": "ourstory",
-      "tags": ["visual"],
+      "filters": ["visual"],
       "icon": "images/ourstory/icon.jpg",
       "shadow": "1rem 1rem 0 #edbab4",
       "alt": "Ourstory Gala program cover",
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#F4C9C4",
-      "role": "Visual",
+      "tags": ["graphic design", "branding"],
       "description":
-        "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala, a quinquennial celebration held to commemorate the organization and its accomplishments.",
+        "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala.",
       "summary":
         "Kaibigang Pilipin@ (KP), translated to \"Friendship of Filipin@s,\" is a student-run organization at UC San Diego that aims to educate the community about Pilipin@ culture. Every five years, KP hosts their Ourstory Gala, a celebration held to commemorate the organization and its accomplishments. I worked closely with the event coordinator to craft a unique identity for their 30th Anniversary Ourstory Gala, themed after the film <i>13 Going on 30.</i>",
       "intro": [
@@ -685,14 +699,14 @@
     {
       "title": "We're All In This Together",
       "url": "apsa-hsc",
-      "tags": ["visual"],
+      "filters": ["visual"],
       "icon": "images/apsa-hsc/icon.png",
       "alt": "",
-      "paddingSize": "lg",
+      "paddingSize": "md",
       "shadow": "1rem 1rem 0 #F4D27C",
       "orientation": "portrait",
       "accent": "#ffe092",
-      "role": "Visual",
+      "tags": ["graphic design"],
       "description":
         "Designed a flyer and program for UCSD Asian Pacific Islander Student Association’s 23rd annual high school conference.",
       "summary":

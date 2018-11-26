@@ -17,8 +17,13 @@
                     <div class="intro-details">
                     {{#each intro}}
                         <div class="intro-detail-item {{#if wide}}wide{{/if}} {{#unless wide}}default{{/unless}}">
-                            <h3>{{title}}</h3>
-                            <p>{{{content}}}</p>
+                            {{#if title}}
+                                <h3>{{title}}</h3>
+                                <p>{{{content}}}</p>
+                            {{/if}}
+                            {{#if button}}
+                                <a class="btn" href="{{link}}" target="_blank"><button>{{button}}</button></a>
+                            {{/if}}
                         </div> <!-- .intro-detail-item -->
                     {{/each}}
                     </div> <!-- .intro-details -->

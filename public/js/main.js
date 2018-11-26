@@ -11,27 +11,27 @@
 function filter(input) {
   // Return if filter is already active
   if ($(input).hasClass("active-filter")) return;
-  else if ($(input).hasClass("filter-all")) {
+  else if ($(input).hasClass("filter-label-all")) {
     // Show all projects
-    $(".tag-ux").show();
-    $(".tag-visual").show();
-    $(".tag-dev").show();
-  } else if ($(input).hasClass("filter-ux")) {
+    $(".filter-ux").show();
+    $(".filter-visual").show();
+    $(".filter-dev").show();
+  } else if ($(input).hasClass("filter-label-ux")) {
     // Show only UI/UX projects
-    $(".tag-visual").hide();
-    $(".tag-dev").hide();
-    $(".tag-ux").show();
-  } else if ($(input).hasClass("filter-visual")) {
+    $(".filter-visual").hide();
+    $(".filter-dev").hide();
+    $(".filter-ux").show();
+  } else if ($(input).hasClass("filter-label-visual")) {
     // Show only graphics
-    $(".tag-ux").hide();
-    $(".tag-dev").hide();
-    $(".tag-visual").show();
+    $(".filter-ux").hide();
+    $(".filter-dev").hide();
+    $(".filter-visual").show();
   }
-  else if ($(input).hasClass("filter-dev")) {
+  else if ($(input).hasClass("filter-label-dev")) {
     // Show only dev
-    $(".tag-ux").hide();
-    $(".tag-visual").hide();
-    $(".tag-dev").show();
+    $(".filter-ux").hide();
+    $(".filter-visual").hide();
+    $(".filter-dev").show();
   }
 
   // Update active filter

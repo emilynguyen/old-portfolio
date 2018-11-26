@@ -17,23 +17,17 @@
   user-select: none;
   &.portrait {
     &.padding-sm {
-      padding: 4rem $side-padding-xs;
-    }
-    &.padding-md {
       padding: 6rem $side-padding-xs;
     }
-    &.padding-lg {
+    &.padding-md {
       padding: 7rem $side-padding-xs;
     }
   }
   &.landscape {
     &.padding-sm {
-      padding: 1.5rem $side-padding-xs;
-    }
-    &.padding-md {
       padding: 5rem calc(#{$side-padding-xs} + 2rem);
     }
-    &.padding-lg {
+    &.padding-md {
       padding: 9rem calc(#{$side-padding-xs} + 4.2rem);
     }
   }
@@ -49,13 +43,18 @@
     height: 100%;
     &.portrait, &.landscape {
       &.padding-sm {
-        padding: 2.5rem;
+        padding: 6vw;
       }
       &.padding-md {
-        padding: 10rem;
+        padding: 8vw;
       }
-      &.padding-lg {
-        padding: 12rem;
+      @include xl-up {
+        &.padding-sm {
+          padding: 8rem;
+        }
+        &.padding-md {
+          padding: 10rem;
+        }
       }
     }
     /*
@@ -150,7 +149,7 @@
 /* Sections (content blocks) */
 .section-container {
   height: 100%;
-  margin-top: 7rem;
+  margin-top: 8rem;
   margin-bottom: -$bottom-p-padding;
   ol,
   ul {

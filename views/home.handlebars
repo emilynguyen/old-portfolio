@@ -8,10 +8,10 @@
 <div id="filters">
     <div class="container">
         <ul>
-            <li><h2 class="filter filter-all active-filter">All Work</h2></li>
-            <li><h2 class="filter filter-visual">Visual</h2></li>
-            <li><h2 class="filter filter-ux">UX</h2></li>
-            <li><h2 class="filter filter-dev">Dev</h2></li>
+            <li><h2 class="filter filter-label-all active-filter">All Work</h2></li>
+            <li><h2 class="filter filter-label-visual">Visual</h2></li>
+            <li><h2 class="filter filter-label-ux">UX</h2></li>
+            <li><h2 class="filter filter-label-dev">Dev</h2></li>
         </ul>
     </div>
 </div> <!-- #filters -->
@@ -20,7 +20,7 @@
     <div class="gallery-item-container">
 
         {{#each projects}}
-        <div class="{{#each tags}}tag-{{this}} {{/each}}">
+        <div class="{{#each filters}}filter-{{this}} {{/each}}">
 
         <a href="/{{url}}">
             <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
@@ -32,6 +32,11 @@
                     <div class="wrapper">
                         <h2>{{title}}</h2>
                         <p>{{{description}}}</p>
+                        <p class="tags">
+                            {{#each tags}}
+                                <span>{{this}}</span>
+                            {{/each}}
+                        </p>
                     </div>
                 </div> <!-- .project-description -->
 
@@ -45,6 +50,11 @@
             <div class="project-description">
                 <h2>{{title}}</h2>
                 <p>{{{description}}}</p>
+                <p class="tags">
+                    {{#each tags}}
+                        <span>{{this}}</span>
+                    {{/each}}
+                </p>
             </div> <!-- .project-description -->
         </div>
 
