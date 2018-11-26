@@ -73,10 +73,16 @@
 
 .menu {
   display: block;
-  margin-top: 10rem;
+  margin-top: 2rem;
   @include shorter-screen {
-    margin-top: $top-padding-xl;
     margin-right: 8rem;
+    margin-top: $top-padding-xs;
+    @include sm-up {
+      margin-top: $top-padding-sm;
+    }
+    @include xl-up {
+      margin-top: $top-padding-xl;
+    }
   }
   li,
   h1 {
