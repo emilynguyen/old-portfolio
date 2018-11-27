@@ -137,9 +137,9 @@
       "alt": "Burow",
       "paddingSize": "md",
       "orientation": "landscape",
-      "accent": "#CDE3F0",
+      "accent": "#D5E0BA",
       "tags": ["web design", "branding", "front-end", "back-end"],
-      "shadow": "1rem 1rem 0 #c7dbe5",
+      "shadow": "1rem 1rem 0 rgba(0,0,0,0.05)",
       "description":
         "Desktop web app that helps users find the perfect new home to move to.",
       "summary":
@@ -183,8 +183,18 @@
         },
         {
           "title": "Storyboarding",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
+          "image": true,
+          "alt": "Mark and Sarah want to move their family from New York to California.",
+          "src": "images/burow/storyboard1.png",
+          "noPaddingMd": true,
+          "beforeCaption": "<p>To better understand our target users, we started by drafting two storyboards.</p>"
+        },
+        {
+          "image": true,
+          "alt": "Jim is a student looking for an apartment for his internship in the Bay Area this summer.",
+          "src": "images/burow/storyboard2.png",
+          "afterCaption": "<p class=\"small-text\">Storyboards by Jared and Joel.</p>",
+          "noPaddingMd": true
         },
         {
           "title": "Prototyping",
@@ -192,21 +202,36 @@
           "content": "<p>Coming soon!</p>"
         },
         {
+          "title": "Competitive Analysis",
+          "image": true,
+          "src": "images/burow/competitive-analysis.png",
+          "alt": "Landing pages of Zillow, Trulia, and Redfin",
+          "afterCaption": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
+        },
+        {
+          "title": "Branding",
+          "blockquote": true,
+          "beforeCaption": "<p>Our team wanted to take the opposite approach, and establish a cozy, welcoming atmosphere.</p>",
+          "quote": "Burow—Dig around and find the neighbourhood that fits your needs!",
+          "afterCaption": "<p>To produce a homey feel, we used the theme of burrowing animals and gravitated towards warm earth tones and typefaces with gentle curves.</p>"
+        },
+        {
           "title": "Mood Board + Style Guide",
           "image": true,
           "src": "images/burow/mood-board.png",
-          "alt": "Mood board"
+          "alt": "Mood board",
+          "beforeCaptin": "<p>sjflslks</p>"
         },
         {
           "title": "",
           "palette": true,
-          "style": "background-color: #F8F4EB;",
+          "style": "background-color: #D5E0BA;",
           "swatches": ["#FFFAED", "#FEA765", "#E89556", "#A6C5B5", "#7CA18E"]
         },
         {
           "title": "Live Demo",
           "text": true,
-          "content": "<p>Coming soon!</p>"
+          "content": "<p>Visit <a href=\"https://burow.xyz\" target=\"_blank\">burow.xyz</a> to view our app!</p>"
         }
       ]
     },
@@ -244,7 +269,7 @@
       ],
       "sections": [
         {
-          "title": "Problem",
+          "title": "Problem + Solution",
           "image": true,
           "src": "images/travelboss/before.png",
           "alt": "Original presentation slides",
@@ -565,7 +590,7 @@
           "title": "Conclusion",
           "text": true,
           "content":
-            "<p>The final product had an aesthetic brand, incorporated a layout that facilitated storytelling, and was supported by efficient code. Overall, it demonstrates my skill set as a visual designer, UX designer, and UX engineer. I am now ready to apply for internships! :^)</p>"
+            "<p>The final product had an aesthetic brand, incorporated a layout that facilitated storytelling, and was supported by efficient code. Overall, it demonstrates my skill set as a visual designer, UX designer, and UX engineer. I am now ready to apply for internships. :^)</p>"
         }
       ]
     },
@@ -636,7 +661,7 @@
           "alt": "Group of funcilitators",
           "noPadding": true,
           "afterCaption":
-            "<p>Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a>.</p>"
+            "<p class=\"small-text\">Photos by <a href=\"https://www.flickr.com/photos/ucsdkp/sets/72157665721439808/\" target=\"_blank\">Jasmine Atanacio</a>.</p>"
         }
       ]
     },

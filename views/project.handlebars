@@ -45,18 +45,21 @@
                             {{{content}}}
                         {{/if}}
 
+                        <!-- Blockquote -->
+                        {{#if blockquote}}
+                            {{{beforeCaption}}}
+                            <p class="blockquote">"{{{quote}}}"</p>
+                            {{{afterCaption}}}
+                        {{/if}}
+
                         <!-- Images -->
                         {{#if image}}
-                            {{#if beforeCaption}}
-                                {{{beforeCaption}}}
-                            {{/if}}
+                            {{{beforeCaption}}}
                             <div class="section-image {{#if noPadding}}no-padding{{/if}} {{#if noPaddingMd}}no-padding-md{{/if}}" style="background-color: {{../accent}}; {{#if noPadding}}background-color: transparent;{{/if}} {{#if noPaddingMd}}background-color: transparent;{{/if}} {{style}}">
                                 {{#if link}}
                                 <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}" style="{{imgStyle}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
                             </div>
-                            {{#if afterCaption}}
-                                {{{afterCaption}}}
-                            {{/if}}
+                            {{{afterCaption}}}
                         {{/if}}
 
                         <!-- Color Palette  -->
@@ -70,9 +73,7 @@
                                     {{/each}}
                                 </div>
                             </div>
-                            {{#if caption}}
-                                {{{caption}}}
-                            {{/if}}
+                            {{{caption}}}
                         {{/if}}
 
                         <!-- PDF -->
@@ -80,9 +81,7 @@
                             <div class="pdf-container">
                                 <iframe class="pdf" src="{{pdf-link}}"></iframe>
                             </div>
-                            {{#if caption}}
-                                {{{caption}}}
-                            {{/if}}
+                            {{{caption}}}
                         {{/if}}
 
                         <!-- Personas -->

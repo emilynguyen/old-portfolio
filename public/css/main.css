@@ -405,8 +405,9 @@ button {
   font-weight: 500;
   letter-spacing: .1rem;
   font-size: .8rem;
-  padding: 1.1rem 1.5rem .8rem;
+  padding: 1rem 1.5rem 1rem;
   border: .1rem solid;
+  white-space: nowrap;
   cursor: pointer; }
 
 /*
@@ -418,16 +419,31 @@ button {
   font-weight: 500;
   font-style: normal; }
 
+/*
 @font-face {
   font-family: 'Graphik';
-  src: url("../fonts/graphik/Graphik-RegularItalic.woff2") format("woff2"), url("../fonts/graphik/Graphik-RegularItalic.woff") format("woff");
+  src: url('../fonts/graphik/Graphik-RegularItalic.woff2') format('woff2'),
+      url('../fonts/graphik/Graphik-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+*/
+@font-face {
+  font-family: 'Inter UI';
+  src: url("../fonts/inter-ui/Inter-UI-Regular.woff2") format("woff2"), url("../fonts/inter-ui/Inter-UI-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Inter UI';
+  src: url("../fonts/inter-ui/Inter-UI-Italic.woff2") format("woff2"), url("../fonts/inter-ui/Inter-UI-Italic.woff") format("woff");
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Graphik';
-  src: url("../fonts/graphik/Graphik-Regular.woff2") format("woff2"), url("../fonts/graphik/Graphik-Regular.woff") format("woff");
-  font-weight: 400;
+  font-family: 'Inter UI';
+  src: url("../fonts/inter-ui/Inter-UI-Medium.woff2") format("woff2"), url("../fonts/inter-ui/Inter-UI-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal; }
 
 /*
@@ -435,7 +451,7 @@ button {
  */
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: "Graphik", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Inter UI", "Helvetica Neue", "Arial", sans-serif;
   font-weight: 400;
   letter-spacing: 0; }
 
@@ -443,9 +459,11 @@ h1, h2, h3 {
   color: #272a2c !important;
   font-weight: 500; }
 
-@media (min-width: 840px) {
-  h1, h2 {
-    letter-spacing: -0.04rem; } }
+h1, h2 {
+  font-family: "Graphik", "Helvetica Neue", "Arial", sans-serif; }
+  @media (min-width: 840px) {
+    h1, h2 {
+      letter-spacing: -0.04rem; } }
 
 h1 {
   font-size: 3.1rem;
@@ -483,9 +501,10 @@ h2 {
   margin-bottom: 1.5rem; }
 
 p, li, h3 {
-  color: #444444;
-  font-size: 1.4rem;
-  line-height: 2.3rem; }
+  color: #272a2c;
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+  letter-spacing: .01rem; }
   p a,
   p a:visited,
   p a:hover,
@@ -534,6 +553,10 @@ h2, h3, p {
 .no-break {
   white-space: nowrap; }
 
+.small-text {
+  font-size: 1.2rem;
+  font-style: italic; }
+
 /*
  * Header styles
  */
@@ -561,7 +584,8 @@ h2, h3, p {
         line-height: 4.5rem; } }
   #header h2 {
     line-height: 3.2rem;
-    color: #444444;
+    font-family: "Inter UI", "Helvetica Neue", "Arial", sans-serif;
+    color: #272a2c;
     font-weight: 400; }
     @media (max-height: 570px) {
       #header h2 {
@@ -894,8 +918,8 @@ h2, h3, p {
       line-height: 2.2rem; } }
   @media (min-width: 840px) {
     .project-description p {
-      font-size: 1.4rem;
-      line-height: 2.3rem; } }
+      font-size: 1.3rem;
+      line-height: 2.4rem; } }
   .project-description .wrapper {
     -webkit-transition: .4s;
     transition: .4s;
@@ -925,8 +949,8 @@ p.tags {
     text-align: center;
     font-size: .6rem;
     display: inline-block;
-    border: #444444 0.1rem solid;
-    padding: .9rem .5rem .7rem .6rem;
+    border: #272a2c 0.1rem solid;
+    padding: .9rem .5rem .8rem .6rem;
     white-space: nowrap;
     margin: 0 .25rem .7rem 0; }
 
@@ -1182,7 +1206,7 @@ p.tags {
   padding: 1rem 0 0.9rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
-  color: #444444; }
+  color: #272a2c; }
 
 /* PDF section */
 .pdf {
@@ -1217,6 +1241,19 @@ p.tags {
 
 .persona-description p {
   margin-bottom: 0; }
+
+/* Blockquote section */
+.blockquote {
+  letter-spacing: 0;
+  font-style: italic;
+  padding: 0 3rem;
+  font-size: 2.1rem;
+  line-height: 3.3rem; }
+  @media (min-width: 840px) {
+    .blockquote {
+      font-size: 2.6rem;
+      line-height: 3.7rem;
+      padding: 0 4rem; } }
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 .project-stride a,

@@ -4,7 +4,7 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: "Graphik", "Helvetica Neue", "Arial", sans-serif;
+  font-family: $inter-ui;
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -15,6 +15,7 @@ h1, h2, h3 {
 }
 
 h1, h2 {
+  font-family: $graphik;
   @include md-up {
     letter-spacing: -0.04rem;
   }
@@ -69,8 +70,9 @@ h2 {
 
 p, li, h3 {
   color: $rolling-stone;
-  font-size: 1.4rem;
-  line-height: 2.3rem;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  letter-spacing: .01rem;
   //color: #272a2c;
   @include link-hover($silver-sand);
 }
@@ -97,4 +99,9 @@ h2, h3, p {
 */
 .no-break {
   white-space: nowrap;
+}
+
+.small-text {
+  font-size: 1.2rem;
+  font-style: italic;
 }

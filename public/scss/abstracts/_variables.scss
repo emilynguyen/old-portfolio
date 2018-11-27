@@ -26,16 +26,20 @@ $bottom-p-padding: 2.5rem;
 
 // Colors
 $shark: #272a2c; // h1, h2
-
-$rolling-stone: #444444; // p
+//$rolling-stone: #444444; // p
+$rolling-stone: #272a2c;
 $silver-sand: #ababab; // a
 $athens-gray: #f9f9fb; // backgrounds
 $yellow: #FFF56E;
 
 $burnt-sienna: #EF7B5E; // orange-peach
-$submarine: #B7DCD9; // mint-teal
+//$submarine: #B7DCD9; // mint-teal
 
-
+// Fonts
+$graphik: "Graphik", "Helvetica Neue", "Arial", sans-serif;
+$inter-ui: "Inter UI", "Helvetica Neue", "Arial", sans-serif;
+$body-font-size: 1.3rem;
+$body-line-height: 2.4rem;
 
 // Menu shortcut active style
 $underline: -webkit-linear-gradient(

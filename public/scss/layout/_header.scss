@@ -25,6 +25,7 @@
   }
   h2 {
     line-height: 3.2rem;
+    font-family: $inter-ui;
     color: $rolling-stone;
     font-weight: 400;
     @include short-screen {
