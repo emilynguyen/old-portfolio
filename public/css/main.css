@@ -504,7 +504,7 @@ p, li, h3 {
   color: #272a2c;
   font-size: 1.3rem;
   line-height: 2.4rem;
-  letter-spacing: .01rem; }
+  letter-spacing: .02rem; }
   p a,
   p a:visited,
   p a:hover,
@@ -554,8 +554,11 @@ h2, h3, p {
   white-space: nowrap; }
 
 .small-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
 
 /*
  * Header styles

@@ -72,7 +72,7 @@ p, li, h3 {
   color: $rolling-stone;
   font-size: $body-font-size;
   line-height: $body-line-height;
-  letter-spacing: .01rem;
+  letter-spacing: .02rem;
   //color: #272a2c;
   @include link-hover($silver-sand);
 }
@@ -102,6 +102,10 @@ h2, h3, p {
 }
 
 .small-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
 }
