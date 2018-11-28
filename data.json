@@ -132,13 +132,13 @@
     {
       "title": "Burow",
       "url": "burow",
-      "filters": ["dev", "visual"],
+      "filters": ["dev", "visual", "ux"],
       "icon": "images/burow/icon.png",
       "alt": "Burow",
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#D5E0BA",
-      "tags": ["web design", "branding", "front-end", "back-end"],
+      "tags": ["web design", "ux design", "branding", "front-end", "back-end"],
       "shadow": "1rem 1rem 0 rgba(0,0,0,0.05)",
       "description":
         "Desktop web app that helps users find the perfect new home to move to.",
@@ -146,12 +146,8 @@
         "Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.",
       "intro": [
         {
-          "title": "Roles",
-          "content": "Visual designer and developer"
-        },
-        {
-          "title": "Date",
-          "content": "Apr – June 2018 (10 weeks)"
+          "title": "Key Roles",
+          "content": "Led the design and development of the landing page and co-led the brand design. UX was done as a team."
         },
         {
           "title": "Key Skills",
@@ -160,6 +156,10 @@
         {
           "title": "Teammates",
           "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
+        },
+        {
+          "title": "Date",
+          "content": "Apr – June 2018 (10 weeks)"
         },
         {
           "title": "Resources",

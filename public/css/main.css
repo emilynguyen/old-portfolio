@@ -1,4 +1,11 @@
 /*
+$underline: -webkit-linear-gradient(
+  -90deg,
+  rgba(231, 232, 233, 0) 50%,
+  rgba(231, 232, 233, 1) 50%
+);
+*/
+/*
 @mixin underline($r, $g, $b, $a) {
   h1, h2, h3, p {
     a {

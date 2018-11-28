@@ -130,6 +130,7 @@
   }
   h2 {
     display: inline;
+    //white-space: nowrap;
     &:not(:last-child):after {
       content: " /";
     }
