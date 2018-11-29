@@ -41,6 +41,116 @@
       ]
     },
     {
+      "title": "Design Frontiers",
+      "url": "frontiers",
+      "filters": ["dev"],
+      "icon": "images/designatucsd/frontiers-fa18.png",
+      "alt": "Design Frontiers",
+      "paddingSize": "sm",
+      "orientation": "landscape",
+      "accent": "#FF7380",
+      "tags": ["visual design", "branding"],
+      "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
+      "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
+      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Visual Design Co-Chair"
+        },
+        {
+          "title": "Date",
+          "content": "Nov 2017 – June 2018"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Highlighted Work",
+          "image": true,
+          "src": "images/designatucsd/figma-invision-workshop.png",
+          "alt":
+            "Figma + Invision Workshop event graphic",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/robolink.png",
+          "alt":
+            "Designing for STEM Education graphic",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/frontiers.jpg",
+          "style": "background-color: #F9F9FB",
+          "alt":
+            "Design Frontiers poster"
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/krispy-kreme.jpg",
+          "style": "background-color: #F9F9FB",
+          "alt":
+            "Krispy Kreme Fundraiser poster"
+        }
+      ]
+    },
+    {
+      "title": "Design at UCSD—Visual",
+      "url": "dau-visual",
+      "filters": ["visual"],
+      "icon": "images/designatucsd/figma-invision-workshop.png",
+      "alt": "Design at UCSD—Visual",
+      "paddingSize": "sm",
+      "orientation": "landscape",
+      "accent": "#FF7380",
+      "tags": ["visual design", "branding"],
+      "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
+      "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
+      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Visual Design Co-Chair"
+        },
+        {
+          "title": "Date",
+          "content": "Nov 2017 – June 2018"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Highlighted Work",
+          "image": true,
+          "src": "images/designatucsd/figma-invision-workshop.png",
+          "alt":
+            "Figma + Invision Workshop event graphic",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/robolink.png",
+          "alt":
+            "Designing for STEM Education graphic",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/frontiers.jpg",
+          "style": "background-color: #F9F9FB",
+          "alt":
+            "Design Frontiers poster"
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/krispy-kreme.jpg",
+          "style": "background-color: #F9F9FB",
+          "alt":
+            "Krispy Kreme Fundraiser poster"
+        }
+      ]
+    },
+    {
       "title": "Design at UCSD",
       "url": "designatucsd",
       "filters": ["dev", "visual"],
@@ -138,7 +248,7 @@
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#D5E0BA",
-      "tags": ["web design", "ux design", "branding", "front-end", "back-end"],
+      "tags": ["web design", "ux design", "branding", "front-end"],
       "shadow": "1rem 1rem 0 rgba(0,0,0,0.05)",
       "description":
         "Desktop web app that helps users find the perfect new home to move to.",

@@ -48,8 +48,8 @@ $underline: -webkit-linear-gradient(
     opacity: 1; }
 
 .hamburger-box {
-  width: 3.4rem;
-  height: 2.4rem;
+  width: 3.3rem;
+  height: 2.2rem;
   display: inline-block;
   position: relative; }
 
@@ -58,7 +58,7 @@ $underline: -webkit-linear-gradient(
   top: 50%;
   margin-top: -0.2rem; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 3.4rem;
+    width: 3.3rem;
     height: 0.4rem;
     background-color: #272a2c;
     border-radius: 0;
@@ -75,9 +75,9 @@ $underline: -webkit-linear-gradient(
     content: "";
     display: block; }
   .hamburger-inner::before {
-    top: -1rem; }
+    top: -0.9rem; }
   .hamburger-inner::after {
-    bottom: -1rem; }
+    bottom: -0.9rem; }
 
 /*
 @import "types/3dx";
@@ -1309,6 +1309,29 @@ p.tags {
   @media (hover: hover) {
     .project-burow button:hover {
       background-color: #FB9D56;
+      color: white;
+      opacity: 1; } }
+
+.project-dau-visual a,
+.project-dau-visual a:visited,
+.project-dau-visual a:hover,
+.project-dau-visual a:active {
+  color: #FF7380;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-dau-visual a:not(.btn):hover {
+    opacity: 0.4; } }
+
+.project-dau-visual button {
+  border-color: #FF7380;
+  color: #FF7380;
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .project-dau-visual button:hover {
+      background-color: #FF7380;
       color: white;
       opacity: 1; } }
 
