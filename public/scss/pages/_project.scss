@@ -349,9 +349,15 @@
   @include link-hover(#2F8C7E);
 }
 
+.project-frontiers {
+  @include link-hover(#035F93);
+}
+
 .project-burow {
   @include link-hover(#FB9D56);
 }
+
+
 
 .project-dau-visual {
   @include link-hover(#FF7380);

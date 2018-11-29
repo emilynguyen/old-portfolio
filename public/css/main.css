@@ -511,7 +511,7 @@ p, li, h3 {
   color: #272a2c;
   font-size: 1.3rem;
   line-height: 2.4rem;
-  letter-spacing: .015rem; }
+  letter-spacing: .02rem; }
   p a,
   p a:visited,
   p a:hover,
@@ -1286,6 +1286,29 @@ p.tags {
   @media (hover: hover) {
     .project-stride button:hover {
       background-color: #2F8C7E;
+      color: white;
+      opacity: 1; } }
+
+.project-frontiers a,
+.project-frontiers a:visited,
+.project-frontiers a:hover,
+.project-frontiers a:active {
+  color: #035F93;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-frontiers a:not(.btn):hover {
+    opacity: 0.4; } }
+
+.project-frontiers button {
+  border-color: #035F93;
+  color: #035F93;
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .project-frontiers button:hover {
+      background-color: #035F93;
       color: white;
       opacity: 1; } }
 

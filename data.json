@@ -12,11 +12,11 @@
       "tags": ["front-end"],
       "description": "Website for a design-centric career fair hosted by Design at UCSD.",
       "shadow": "1rem 1rem 0 #F2DD9C",
-      "summary": "Stride is a design-centric career fair hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I worked alongside one of our visual designers to build the website for Stride. <i>Stride is currently live for companies.</i>",
+      "summary": "Stride is a design-centric career fair hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I worked alongside one of our visual designers to build the website for Stride.",
       "intro": [
         {
           "title": "Role",
-          "content": "Developer"
+          "content": "Lead developer"
         },
         {
           "title": "Date",
@@ -24,7 +24,7 @@
         },
         {
           "title": "Tools + Skills",
-          "content": "HTML, CSS, Sass, Jekyll, responsive web design"
+          "content": "HTML, CSS, Sass, Jekyll"
         },
         {
           "title": "Partner",
@@ -41,201 +41,42 @@
       ]
     },
     {
-      "title": "Design Frontiers",
+      "title": "Design Frontiers – Intuit",
       "url": "frontiers",
       "filters": ["dev"],
       "icon": "images/designatucsd/frontiers-fa18.png",
-      "alt": "Design Frontiers",
-      "paddingSize": "sm",
-      "orientation": "landscape",
-      "accent": "#FF7380",
-      "tags": ["visual design", "branding"],
-      "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
-      "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
-      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
-      "intro": [
-        {
-          "title": "Role",
-          "content": "Visual Design Co-Chair"
-        },
-        {
-          "title": "Date",
-          "content": "Nov 2017 – June 2018"
-        }
-      ],
-      "sections": [
-        {
-          "title": "Highlighted Work",
-          "image": true,
-          "src": "images/designatucsd/figma-invision-workshop.png",
-          "alt":
-            "Figma + Invision Workshop event graphic",
-          "noPaddingMd": true
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/robolink.png",
-          "alt":
-            "Designing for STEM Education graphic",
-          "noPaddingMd": true
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/frontiers.jpg",
-          "style": "background-color: #F9F9FB",
-          "alt":
-            "Design Frontiers poster"
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/krispy-kreme.jpg",
-          "style": "background-color: #F9F9FB",
-          "alt":
-            "Krispy Kreme Fundraiser poster"
-        }
-      ]
-    },
-    {
-      "title": "Design at UCSD—Visual",
-      "url": "dau-visual",
-      "filters": ["visual"],
-      "icon": "images/designatucsd/figma-invision-workshop.png",
-      "alt": "Design at UCSD—Visual",
-      "paddingSize": "sm",
-      "orientation": "landscape",
-      "accent": "#FF7380",
-      "tags": ["visual design", "branding"],
-      "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
-      "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
-      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
-      "intro": [
-        {
-          "title": "Role",
-          "content": "Visual Design Co-Chair"
-        },
-        {
-          "title": "Date",
-          "content": "Nov 2017 – June 2018"
-        }
-      ],
-      "sections": [
-        {
-          "title": "Highlighted Work",
-          "image": true,
-          "src": "images/designatucsd/figma-invision-workshop.png",
-          "alt":
-            "Figma + Invision Workshop event graphic",
-          "noPaddingMd": true
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/robolink.png",
-          "alt":
-            "Designing for STEM Education graphic",
-          "noPaddingMd": true
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/frontiers.jpg",
-          "style": "background-color: #F9F9FB",
-          "alt":
-            "Design Frontiers poster"
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/krispy-kreme.jpg",
-          "style": "background-color: #F9F9FB",
-          "alt":
-            "Krispy Kreme Fundraiser poster"
-        }
-      ]
-    },
-    {
-      "title": "Design at UCSD",
-      "url": "designatucsd",
-      "filters": ["dev", "visual"],
-      "icon": "images/designatucsd/d@u-logo.svg",
-      "alt": "Design at UCSD",
+      "alt": "Design Frontiers – Intuit",
       "paddingSize": "md",
-      "orientation": "portrait",
-      "accent": "#EF675E",
-      "tags": ["visual design", "front-end"],
-      "description":
-        "Previously designed visual content as part of their graphic studio. Currently developing sites and serving as a web development resource as Tech Chair.",
-      "summary":
-        "I am currently a student leader at <a href=\"http://designatucsd.org/\" target=\"_blank\">Design at UCSD</a>, the largest pre-professional design community on campus. I initially co-led the graphic studio, which involved designing visual content and evolving our brand identity. This year, I'll be serving as Tech Chair and will be maintaining and developing websites for the organization.",
+      "orientation": "landscape",
+      "accent": "#D9EAF4",
+      "tags": ["front-end"],
+      "description": "Website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
+      "shadow": "1rem 1rem 0 rgba(0,0,0,0.08)",
+      "summary": "Design Frontiers is a series of events hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that focuses on applying human-centered design to different fields. For our Fall 2018 event, we partnered with <a href=\"https://www.intuit.com/\" target=\"_blank\">Intuit</a> to allow students to tackle real product design challenges alongside leading designers in the financial software space.<br><br>As Tech Chair of Design at UCSD, I collaborated with our visual designers to build the website.",
       "intro": [
         {
-          "title": "Roles",
-          "wide": true,
-          "content": "Visual Design Co-Chair (Nov 2017 – June 2018)<br>Tech Chair (June 2018 – Present)"
-        }
-      ],
-      "sections": [
-        {
-          "title": "Graphics",
-          "image": true,
-          "src": "images/designatucsd/figma-invision-workshop.png",
-          "alt":
-            "Figma + Invision Workshop event graphic",
-          "beforeCaption":
-            "<p>As Visual Design Co-Chair, I crafted many event graphics and posters. Here are some of my favorites!</p>",
-          "noPaddingMd": true
+          "title": "Role",
+          "content": "Lead developer"
         },
         {
-          "image": true,
-          "src": "images/designatucsd/robolink.png",
-          "alt":
-            "Designing for STEM Education graphic",
-          "noPaddingMd": true
+          "title": "Date",
+          "content": "Aug 2018 – Nov 2018"
         },
         {
-          "image": true,
-          "src": "images/designatucsd/frontiers.jpg",
-          "style": "background-color: #F9F9FB",
-          "alt":
-            "Design Frontiers poster"
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Gulp"
         },
         {
-          "image": true,
-          "src": "images/designatucsd/krispy-kreme.jpg",
-          "style": "background-color: #F9F9FB",
-          "alt":
-            "Krispy Kreme Fundraiser poster"
+          "title": "Teammates",
+          "content": "Nancy Bui, Lauren Choy, Lucy Xu"
         },
         {
-          "title": "Web Development",
-          "image": true,
-          "src": "images/designatucsd/design-your-summer.png",
-          "style": "background-color: #DEE0FA",
-          "link": "https://summer.designatucsd.org/",
-          "alt": "Design Your Summer",
-          "beforeCaption":
-            "<p>In collaboration with our graphic studio, I'll be developing sites for Design at UCSD's various campaigns and events this year. Check out what I've built so far as Tech Chair:</p>",
-          "afterCaption": "<p>To help students have a productive summer, we started the email campaign <i>Design Your Summer</i>. These weekly emails have design exercises and tips for students both with and without internships. Visit <a href=\"https://summer.designatucsd.org/\" target=\"_blank\">designyoursummer.com</a> and <a href=\"https://github.com/designatucsd/summer\" target=\"_blank\">view on Github</a>.</p>"
-        },
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/designatucsd/frontiersfa18\" target=\"_blank\">Github repo</a>"
+        }, 
         {
-          "image": true,
-          "src": "images/designatucsd/frontiers-fa18.png",
-          "style": "background-color: #DEEAF1",
-          "alt": "Design Frontiers FA18 landing page",
-          "afterCaption": "<p><i>Design Frontiers</i> is a series of events that focuses on applying human-centered design to different fields. The website for Design Frontiers Fall 2018 will be launching soon! <a href=\"https://github.com/designatucsd/frontiers-fa18\" target=\"_blank\">View on Github</a>.</p>"
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/design-camp.png",
-          "imgStyle": "box-shadow: 1.7rem 1.7rem 0 rgba(26, 35, 126, .4); margin: 1rem 0;",
-          "style": "background-color: #4852B8",
-          "alt": "Design Camp landing page",
-          "link": "https://camp.designatucsd.org/",
-          "afterCaption": "<p><i>Design Camp</i> is a three-part series focused on building your design skills outside of the classroom. Visit <a href=\"https://camp.designatucsd.org/\" target=\"_blank\">camp.designatucsd.org</a> and <a href=\"https://github.com/designatucsd/design-camp\" target=\"_blank\">view on Github</a>.</p>"
-        },
-        {
-          "image": true,
-          "src": "images/stride/runner.gif",
-          "style": "background-color: #FFECB3",
-          "alt": "Stride Career Fair",
-          "afterCaption": "<p>I am currently working on the website for <i>Stride</i>, a design-centric career fair that we will be hosting in January 2019. <a href=\"/stride\">Learn more</a>.</p>"
+          "button": "Visit Site",
+          "link": "https://frontiers.designatucsd.org/"
         }
       ]
     },
@@ -342,6 +183,61 @@
           "title": "Live Demo",
           "text": true,
           "content": "<p>Visit <a href=\"https://burow.xyz\" target=\"_blank\">burow.xyz</a> to view our app.</p>"
+        }
+      ]
+    },
+    {
+      "title": "Design at UCSD – Visual",
+      "url": "dau-visual",
+      "filters": ["visual"],
+      "icon": "images/designatucsd/figma-invision-workshop.png",
+      "alt": "Design at UCSD – Visual",
+      "paddingSize": "sm",
+      "orientation": "landscape",
+      "accent": "#FF7380",
+      "tags": ["visual design", "branding"],
+      "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
+      "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
+      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Visual Design Co-Chair"
+        },
+        {
+          "title": "Date",
+          "content": "Nov 2017 – June 2018"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Highlighted Work",
+          "image": true,
+          "src": "images/designatucsd/figma-invision-workshop.png",
+          "alt":
+            "Figma + Invision Workshop event graphic",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/robolink.png",
+          "alt":
+            "Designing for STEM Education graphic",
+          "noPaddingMd": true
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/krispy-kreme.jpg",
+          "style": "background-color: #F9F9FB",
+          "alt":
+            "Krispy Kreme Fundraiser poster"
+        },
+        {
+          "image": true,
+          "src": "images/designatucsd/frontiers.jpg",
+          "style": "background-color: #F9F9FB",
+          "alt":
+            "Design Frontiers poster"
         }
       ]
     },
