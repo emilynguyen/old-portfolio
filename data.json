@@ -41,11 +41,11 @@
       ]
     },
     {
-      "title": "Design Frontiers – Intuit",
+      "title": "Design Frontiers—Intuit",
       "url": "frontiers",
       "filters": ["dev"],
       "icon": "images/designatucsd/frontiers-fa18.png",
-      "alt": "Design Frontiers – Intuit",
+      "alt": "Design Frontiers—Intuit",
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#D9EAF4",
@@ -187,11 +187,11 @@
       ]
     },
     {
-      "title": "Design at UCSD – Visual",
+      "title": "Design at UCSD—Visual",
       "url": "dau-visual",
       "filters": ["visual"],
       "icon": "images/designatucsd/figma-invision-workshop.png",
-      "alt": "Design at UCSD – Visual",
+      "alt": "Design at UCSD—Visual",
       "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#FF7380",
