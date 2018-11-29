@@ -51,7 +51,7 @@
       "accent": "#D9EAF4",
       "tags": ["front-end"],
       "description": "Website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
-      "shadow": "1rem 1rem 0 rgba(0,0,0,0.08)",
+      "shadow": "1rem 1rem 0 rgba(0,0,0,0.06)",
       "summary": "Design Frontiers is a series of events hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that focuses on applying human-centered design to different fields. For our Fall 2018 event, we partnered with <a href=\"https://www.intuit.com/\" target=\"_blank\">Intuit</a> to allow students to tackle real product design challenges alongside leading designers in the financial software space.<br><br>As Tech Chair of Design at UCSD, I collaborated with our visual designers to build the website.",
       "intro": [
         {
@@ -194,7 +194,7 @@
       "alt": "Design at UCSD—Visual",
       "paddingSize": "sm",
       "orientation": "landscape",
-      "accent": "#FF7380",
+      "accent": "#FD8492",
       "tags": ["visual design", "branding"],
       "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
       "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",

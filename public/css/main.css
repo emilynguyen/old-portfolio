@@ -1341,7 +1341,7 @@ p.tags {
 .project-dau-visual a:visited,
 .project-dau-visual a:hover,
 .project-dau-visual a:active {
-  color: #FF7380;
+  color: #FD8492;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1350,13 +1350,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-dau-visual button {
-  border-color: #FF7380;
-  color: #FF7380;
+  border-color: #FD8492;
+  color: #FD8492;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-dau-visual button:hover {
-      background-color: #FF7380;
+      background-color: #FD8492;
       color: white;
       opacity: 1; } }
 
