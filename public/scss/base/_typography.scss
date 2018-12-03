@@ -72,8 +72,7 @@ p, li, h3 {
   color: $rolling-stone;
   font-size: $body-font-size;
   line-height: $body-line-height;
-  letter-spacing: .02rem;
-  //color: #272a2c;
+  letter-spacing: .03rem;
   @include link-hover($silver-sand);
 }
 
