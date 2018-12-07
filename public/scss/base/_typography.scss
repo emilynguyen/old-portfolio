@@ -73,11 +73,17 @@ h2 {
 }
 
 p, li, h3 {
+  &:not(.tags) {
+    font-size: calc(#{$body-font-size} - .1rem);
+    line-height: calc(#{$body-line-height} - .2rem);
+  }
   color: $rolling-stone;
-  font-size: $body-font-size;
-  line-height: $body-line-height;
   letter-spacing: .03rem;
   @include link-hover($silver-sand);
+  @include xs-up {
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+  }
 }
 
 i {

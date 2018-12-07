@@ -28,15 +28,15 @@
     }
   }
   h2 {
-    line-height: 3rem;
-    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-size: 1.6rem;
     font-family: $inter-ui;
     color: $rolling-stone;
     font-weight: 400;
     letter-spacing: .01rem;
-    @include short-screen {
-      font-size: 1.8rem;
+    @include sm-up {
       line-height: 3rem;
+      font-size: 1.7rem;
     }
   }
 }
@@ -123,7 +123,7 @@
 }
 
 .menu-shortcuts {
-  margin: -0.3rem 0 1.6rem;
+  margin: -0.1rem 0 1.6rem;
   max-width: 30rem;
   @include sm-up {
     max-width: 40rem;

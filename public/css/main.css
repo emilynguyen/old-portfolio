@@ -48,18 +48,18 @@ $underline: -webkit-linear-gradient(
     opacity: 1; }
 
 .hamburger-box {
-  width: 3.3rem;
-  height: 2.2rem;
+  width: 3rem;
+  height: 1.9rem;
   display: inline-block;
   position: relative; }
 
 .hamburger-inner {
   display: block;
   top: 50%;
-  margin-top: -0.2rem; }
+  margin-top: -0.15rem; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 3.3rem;
-    height: 0.4rem;
+    width: 3rem;
+    height: 0.3rem;
     background-color: #272a2c;
     border-radius: 0;
     position: absolute;
@@ -75,9 +75,9 @@ $underline: -webkit-linear-gradient(
     content: "";
     display: block; }
   .hamburger-inner::before {
-    top: -0.9rem; }
+    top: -0.8rem; }
   .hamburger-inner::after {
-    bottom: -0.9rem; }
+    bottom: -0.8rem; }
 
 /*
 @import "types/3dx";
@@ -514,9 +514,10 @@ h2 {
 
 p, li, h3 {
   color: #333;
-  font-size: 1.4rem;
-  line-height: 2.5rem;
   letter-spacing: .03rem; }
+  p:not(.tags), li:not(.tags), h3:not(.tags) {
+    font-size: calc(1.4rem - .1rem);
+    line-height: calc(2.5rem - .2rem); }
   p a,
   p a:visited,
   p a:hover,
@@ -543,6 +544,10 @@ p, li, h3 {
         background-color: #ababab;
         color: white;
         opacity: 1; } }
+  @media (min-width: 480px) {
+    p, li, h3 {
+      font-size: 1.4rem;
+      line-height: 2.5rem; } }
 
 i {
   font-style: italic;
@@ -602,16 +607,16 @@ h2, h3, p {
         font-size: 3.2rem;
         line-height: 6rem; } }
   #header h2 {
-    line-height: 3rem;
-    font-size: 1.7rem;
+    line-height: 2.7rem;
+    font-size: 1.6rem;
     font-family: "Inter UI", "Helvetica Neue", "Arial", sans-serif;
     color: #333;
     font-weight: 400;
     letter-spacing: .01rem; }
-    @media (max-height: 570px) {
+    @media (min-width: 600px) {
       #header h2 {
-        font-size: 1.8rem;
-        line-height: 3rem; } }
+        line-height: 3rem;
+        font-size: 1.7rem; } }
 
 .hamburger {
   z-index: 9999;
@@ -684,7 +689,7 @@ h2, h3, p {
       margin-right: 3rem; } }
 
 .menu-shortcuts {
-  margin: -0.3rem 0 1.6rem;
+  margin: -0.1rem 0 1.6rem;
   max-width: 30rem; }
   @media (min-width: 600px) {
     .menu-shortcuts {
@@ -1511,14 +1516,16 @@ p.tags {
  * About page
  */
 .self-container {
-  background-image: url("../images/yellow.jpg");
+  background-image: url("../images/preview-min.png");
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position-x: right;
   background-position-y: center;
   background-size: cover;
   background-color: #f6e46b; }
   @media (min-width: 840px) {
     .self-container {
+      background-position-x: center;
+      background-image: url("../images/yellow.jpg");
       background-position-y: bottom; } }
 
 @media (min-width: 840px) {

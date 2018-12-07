@@ -4,13 +4,15 @@
 
 .self-container {
   @extend .hero-container;
-  background-image: url('../images/yellow.jpg');
+  background-image: url('../images/preview-min.png');
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position-x: right;
   background-position-y: center;
   background-size: cover;
   background-color: #f6e46b;
   @include md-up {
+    background-position-x: center;
+    background-image: url('../images/yellow.jpg');
     background-position-y: bottom;
   }
 }
