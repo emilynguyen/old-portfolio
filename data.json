@@ -194,7 +194,7 @@
       "alt": "Design at UCSD—Visual",
       "paddingSize": "sm",
       "orientation": "landscape",
-      "accent": "#FD8492",
+      "accent": "#F0647E",
       "tags": ["visual design", "branding"],
       "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
       "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
@@ -480,7 +480,7 @@
     },
     {
       "title": "Remember That I Love You",
-      "url": "pcc",
+      "url": "remember-that-i-love-you",
       "filters": ["visual"],
       "icon": "images/pcc/icon.png",
       "shadow": "1rem 1.2rem 0 #f2c080",
@@ -602,7 +602,7 @@
     },
     {
       "title": "How Far I'll Go",
-      "url": "kp-hsc",
+      "url": "how-far-ill-go",
       "filters": ["visual"],
       "icon": "images/kp-hsc/icon.svg",
       "alt": "Wave",
@@ -729,7 +729,8 @@
     },
     {
       "title": "We're All In This Together",
-      "url": "apsa-hsc",
+      "archive": true,
+      "url": "were-all-in-this-together",
       "filters": ["visual"],
       "icon": "images/apsa-hsc/icon.png",
       "alt": "",

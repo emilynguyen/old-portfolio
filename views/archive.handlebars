@@ -1,0 +1,69 @@
+{{#with data}}
+<div class="archive-title">
+    <div class="container">
+    	<h1><a href="/archive">Archive</a></h1>
+    </div>
+</div> <!-- #title -->
+
+<div id="filters">
+    <div class="container">
+        <ul>
+            <li><h2 class="filter filter-label-all active-filter">All Work</h2></li>
+            <li><h2 class="filter filter-label-visual">Visual</h2></li>
+            <li><h2 class="filter filter-label-ux">UX</h2></li>
+            <li><h2 class="filter filter-label-dev">Dev</h2></li>
+        </ul>
+    </div>
+</div> <!-- #filters -->
+
+<div id="project-gallery">
+    <div class="gallery-item-container">
+
+        {{#each projects}}
+          {{#if archive}}
+            <div class="{{#each filters}}filter-{{this}} {{/each}}">
+
+            <a href="/{{url}}">
+                <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
+                    <div class="project-icon v-center h-center">
+                        <img src="{{icon}}" alt="{{alt}}" class="{{orientation}} padding-{{paddingSize}}" {{#if shadow}}style="box-shadow: {{shadow}}"{{/if}}>
+                    </div> <!-- .project-icon -->
+                    <!-- Project description on image overlay -->
+                    <div class="project-description hide-sm-down">
+                        <div class="wrapper">
+                            <h2>{{title}}</h2>
+                            <p>{{{description}}}</p>
+                            <p class="tags">
+                                {{#each tags}}
+                                    <span>{{this}}</span>
+                                {{/each}}
+                            </p>
+                        </div>
+                    </div> <!-- .project-description -->
+
+                    <div class="arrow hide-sm-up">
+                        <img src="images/icons/arrow.svg">
+                    </div> <!-- .arrow -->
+                </div> <!-- .gallery-item -->
+            </a>
+            <div class="container hide-sm-up">
+                <!-- Project description below image -->
+                <div class="project-description">
+                    <h2>{{title}}</h2>
+                    <p>{{{description}}}</p>
+                    <p class="tags">
+                        {{#each tags}}
+                            <span>{{this}}</span>
+                        {{/each}}
+                    </p>
+                </div> <!-- .project-description -->
+            </div>
+
+            </div> <!-- tag wrapper -->
+            {{/if}}
+        {{/each}}
+
+    </div> <!-- .gallery-item-container -->
+</div> <!-- #project-gallery -->
+
+{{/with}}

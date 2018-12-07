@@ -492,6 +492,9 @@ h1 {
         line-height: 3.9rem;
         max-width: 85rem; } }
 
+.archive-title {
+  margin: 8rem 0 5rem; }
+
 .name {
   background-image: -webkit-linear-gradient(-90deg, rgba(255, 245, 110, 0) 50%, #fff56e 50%); }
 
@@ -1341,7 +1344,7 @@ p.tags {
 .project-dau-visual a:visited,
 .project-dau-visual a:hover,
 .project-dau-visual a:active {
-  color: #FD8492;
+  color: #F0647E;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1350,13 +1353,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-dau-visual button {
-  border-color: #FD8492;
-  color: #FD8492;
+  border-color: #F0647E;
+  color: #F0647E;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-dau-visual button:hover {
-      background-color: #FD8492;
+      background-color: #F0647E;
       color: white;
       opacity: 1; } }
 

@@ -20,16 +20,35 @@
     <div class="gallery-item-container">
 
         {{#each projects}}
-        <div class="{{#each filters}}filter-{{this}} {{/each}}">
+            {{#unless archive}}
+                <div class="{{#each filters}}filter-{{this}} {{/each}}">
 
-        <a href="/{{url}}">
-            <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
-                <div class="project-icon v-center h-center">
-                    <img src="{{icon}}" alt="{{alt}}" class="{{orientation}} padding-{{paddingSize}}" {{#if shadow}}style="box-shadow: {{shadow}}"{{/if}}>
-                </div> <!-- .project-icon -->
-                <!-- Project description on image overlay -->
-                <div class="project-description hide-sm-down">
-                    <div class="wrapper">
+                <a href="/{{url}}">
+                    <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
+                        <div class="project-icon v-center h-center">
+                            <img src="{{icon}}" alt="{{alt}}" class="{{orientation}} padding-{{paddingSize}}" {{#if shadow}}style="box-shadow: {{shadow}}"{{/if}}>
+                        </div> <!-- .project-icon -->
+                        <!-- Project description on image overlay -->
+                        <div class="project-description hide-sm-down">
+                            <div class="wrapper">
+                                <h2>{{title}}</h2>
+                                <p>{{{description}}}</p>
+                                <p class="tags">
+                                    {{#each tags}}
+                                        <span>{{this}}</span>
+                                    {{/each}}
+                                </p>
+                            </div>
+                        </div> <!-- .project-description -->
+
+                        <div class="arrow hide-sm-up">
+                            <img src="images/icons/arrow.svg">
+                        </div> <!-- .arrow -->
+                    </div> <!-- .gallery-item -->
+                </a>
+                <div class="container hide-sm-up">
+                    <!-- Project description below image -->
+                    <div class="project-description">
                         <h2>{{title}}</h2>
                         <p>{{{description}}}</p>
                         <p class="tags">
@@ -37,28 +56,11 @@
                                 <span>{{this}}</span>
                             {{/each}}
                         </p>
-                    </div>
-                </div> <!-- .project-description -->
+                    </div> <!-- .project-description -->
+                </div>
 
-                <div class="arrow hide-sm-up">
-                    <img src="images/icons/arrow.svg">
-                </div> <!-- .arrow -->
-            </div> <!-- .gallery-item -->
-        </a>
-        <div class="container hide-sm-up">
-            <!-- Project description below image -->
-            <div class="project-description">
-                <h2>{{title}}</h2>
-                <p>{{{description}}}</p>
-                <p class="tags">
-                    {{#each tags}}
-                        <span>{{this}}</span>
-                    {{/each}}
-                </p>
-            </div> <!-- .project-description -->
-        </div>
-
-        </div> <!-- tag wrapper -->
+                </div> <!-- tag wrapper -->
+            {{/unless}}
         {{/each}}
 
     </div> <!-- .gallery-item-container -->

@@ -8,6 +8,7 @@ var path = require("path");
 // Routes
 var home = require("./routes/home");
 var about = require("./routes/about");
+var archive = require("./routes/archive");
 var project = require("./routes/project");
 var error = require("./routes/error");
 
@@ -21,6 +22,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", home.view);
 app.get("/about", about.view);
+app.get("/archive", archive.view);
+app.get("/archive/:title", project.viewArchive);
 app.get("/:title", project.view);
 app.get("*", error.view);
 
