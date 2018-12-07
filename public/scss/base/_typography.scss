@@ -22,11 +22,23 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3.1rem;
+  font-size: 3rem;
   line-height: 4rem;
   @include sm-up {
-    font-size: 3.9rem;
+    font-size: 3.5rem;
     line-height: 4.5rem;
+  }
+  @include md-up {
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+  }
+  &.small {
+    font-size: 2.8em;
+    line-height: 3.6rem;
+    @include xs-up {
+      line-height: 3.9rem;
+      font-size: 3.1em;
+    }
   }
 }
 
@@ -34,11 +46,7 @@ h1 {
   margin: 8rem 0 9rem;
   padding-right: 2rem;
   h1 {
-    font-size: 2.7em;
-    line-height: 3.5rem;
     @include xs-up {
-      font-size: 3.1em;
-      line-height: 3.9rem;
       max-width: 85rem;
     }
   }
@@ -73,10 +81,8 @@ h2 {
 }
 
 p, li, h3 {
-  &:not(.tags) {
-    font-size: calc(#{$body-font-size} - .1rem);
-    line-height: calc(#{$body-line-height} - .2rem);
-  }
+  font-size: 1.3rem;
+  line-height: 2.3rem;
   color: $rolling-stone;
   letter-spacing: .03rem;
   @include link-hover($silver-sand);
