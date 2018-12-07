@@ -415,6 +415,7 @@ button {
   padding: 1rem 1.5rem 1rem;
   border: .1rem solid;
   white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0);
   cursor: pointer; }
 
 /*
@@ -474,7 +475,7 @@ h1, h2 {
 
 h1 {
   font-size: 3rem;
-  line-height: 4rem; }
+  line-height: 3.9rem; }
   @media (min-width: 600px) {
     h1 {
       font-size: 3.5rem;
