@@ -1,6 +1,47 @@
 {
   "projects": [
     {
+      "title": "Design Camp",
+      "archive": true,
+      "url": "design-camp",
+      "filters": ["dev"],
+      "icon": "images/designatucsd/design-camp.png",
+      "alt": "Design Camp",
+      "paddingSize": "sm",
+      "orientation": "portrait",
+      "accent": "#7C82C9",
+      "tags": ["front-end"],
+      "description": "Website for a workshop series focused on building your design skills outside of the classroom.",
+      "shadow": "1rem 1rem 0 #676DB6",
+      "summary": "Design Camp is a three-part workshop series hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that focuses on building your design skills outside of the classroom. I worked with a visual designer to build a visually compelling website that helped the event series gain traction.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Lead developer"
+        },
+        {
+          "title": "Date",
+          "content": "Oct – Nov 2018"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Gulp"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/designatucsd/camp\" target=\"_blank\">Github repo</a>"
+        }, 
+        {
+          "button": "Visit Site",
+          "link": "https://camp.designatucsd.org/"
+        }
+      ]
+    },
+    {
       "title": "Stride Career Fair",
       "url": "stride",
       "filters": ["dev"],
@@ -12,7 +53,7 @@
       "tags": ["front-end"],
       "description": "Website for a design-centric career fair hosted by Design at UCSD.",
       "shadow": "1rem 1rem 0 #F2DD9C",
-      "summary": "As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.<br><br>In collaboration with one of our visual designers, I built the website for Stride.",
+      "summary": "As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.<br><br>In collaboration with one of our visual designers, I developed the website for Stride.",
       "intro": [
         {
           "title": "Role",
@@ -20,7 +61,7 @@
         },
         {
           "title": "Date",
-          "content": "Aug 2018 – Present"
+          "content": "Aug – Nov 2018"
         },
         {
           "title": "Tools + Skills",
@@ -611,7 +652,7 @@
       "accent": "#f4e4cc",
       "tags": ["graphic design"],
       "description":
-        "Designed shirts for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
+        "Shirt design for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
       "summary":
         "Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.",
       "intro": [

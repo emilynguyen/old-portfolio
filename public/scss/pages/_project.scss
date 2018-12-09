@@ -345,6 +345,10 @@
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 
+.project-design-camp {
+  @include link-hover(#676DB6);
+}
+
 .project-stride {
   @include link-hover(#2F8C7E);
 }

@@ -1288,6 +1288,29 @@ p.tags {
       padding: 0 4rem; } }
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
+.project-design-camp a,
+.project-design-camp a:visited,
+.project-design-camp a:hover,
+.project-design-camp a:active {
+  color: #676DB6;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-design-camp a:not(.btn):hover {
+    opacity: 0.4; } }
+
+.project-design-camp button {
+  border-color: #676DB6;
+  color: #676DB6;
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .project-design-camp button:hover {
+      background-color: #676DB6;
+      color: white;
+      opacity: 1; } }
+
 .project-stride a,
 .project-stride a:visited,
 .project-stride a:hover,
