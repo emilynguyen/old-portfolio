@@ -9,6 +9,6 @@ exports.view = function(req, res) {
   res.render("404", {
     data,
     title: "Page Not Found | Emily Nguyen",
-    description: "Oops! The page you're looking for does not exist."
+    description: "Designer, developer, and HCI student that loves crafting visual experiences and seeing them through to implementation."
   });
 };
