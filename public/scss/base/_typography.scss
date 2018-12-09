@@ -16,7 +16,7 @@ h1, h2, h3 {
 
 h1, h2 {
   font-family: $graphik;
-  @include md-up {
+  @include xs-up {
     letter-spacing: -0.04rem;
   }
 }

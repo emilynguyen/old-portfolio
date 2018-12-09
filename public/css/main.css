@@ -469,7 +469,7 @@ h1, h2, h3 {
 
 h1, h2 {
   font-family: "Graphik", "Helvetica Neue", "Arial", sans-serif; }
-  @media (min-width: 840px) {
+  @media (min-width: 480px) {
     h1, h2 {
       letter-spacing: -0.04rem; } }
 
@@ -961,7 +961,7 @@ h2, h3, p {
       .project-description .wrapper {
         margin-left: -1.5rem;
         margin-top: 2.2rem;
-        width: 95%; } }
+        width: 98%; } }
     @media (min-width: 840px) {
       .project-description .wrapper {
         margin-left: -2rem;
@@ -1449,6 +1449,29 @@ p.tags {
       color: white;
       opacity: 1; } }
 
+.project-remember-that-i-love-you a,
+.project-remember-that-i-love-you a:visited,
+.project-remember-that-i-love-you a:hover,
+.project-remember-that-i-love-you a:active {
+  color: #f8b761;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-remember-that-i-love-you a:not(.btn):hover {
+    opacity: 0.4; } }
+
+.project-remember-that-i-love-you button {
+  border-color: #f8b761;
+  color: #f8b761;
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .project-remember-that-i-love-you button:hover {
+      background-color: #f8b761;
+      color: white;
+      opacity: 1; } }
+
 .project-portfolio a,
 .project-portfolio a:visited,
 .project-portfolio a:hover,
@@ -1472,25 +1495,25 @@ p.tags {
       color: white;
       opacity: 1; } }
 
-.project-kp-hsc a,
-.project-kp-hsc a:visited,
-.project-kp-hsc a:hover,
-.project-kp-hsc a:active {
+.project-how-far-ill-go a,
+.project-how-far-ill-go a:visited,
+.project-how-far-ill-go a:hover,
+.project-how-far-ill-go a:active {
   color: #C97F72;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
 @media (hover: hover) {
-  .project-kp-hsc a:not(.btn):hover {
+  .project-how-far-ill-go a:not(.btn):hover {
     opacity: 0.4; } }
 
-.project-kp-hsc button {
+.project-how-far-ill-go button {
   border-color: #C97F72;
   color: #C97F72;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
-    .project-kp-hsc button:hover {
+    .project-how-far-ill-go button:hover {
       background-color: #C97F72;
       color: white;
       opacity: 1; } }

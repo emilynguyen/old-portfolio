@@ -12,7 +12,7 @@
       "tags": ["front-end"],
       "description": "Website for a design-centric career fair hosted by Design at UCSD.",
       "shadow": "1rem 1rem 0 #F2DD9C",
-      "summary": "Stride is a design-centric career fair hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that will connect top design students to career opportunities in the fields of human factors, user research, user experience, interaction design, UI design, visual design, content strategy, product management, product development, brand design, product design, UX engineering, web development, and much more.<br><br>As Tech Chair of Design at UCSD, I worked alongside one of our visual designers to build the website for Stride.",
+      "summary": "As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.<br><br>In collaboration with one of our visual designers, I built the website for Stride.",
       "intro": [
         {
           "title": "Role",
@@ -52,7 +52,7 @@
       "tags": ["front-end"],
       "description": "Website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
       "shadow": "1rem 1rem 0 rgba(0,0,0,0.06)",
-      "summary": "Design Frontiers is a series of events hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that focuses on applying human-centered design to different fields. For our Fall 2018 event, we partnered with <a href=\"https://www.intuit.com/\" target=\"_blank\">Intuit</a> to allow students to tackle real product design challenges alongside leading designers in the financial software space.<br><br>As Tech Chair of Design at UCSD, I collaborated with our visual designers to build the website.",
+      "summary": "Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.<br><br>As Tech Chair of Design at UCSD, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.",
       "intro": [
         {
           "title": "Role",
@@ -89,7 +89,7 @@
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#D5E0BA",
-      "tags": ["web design", "ux design", "branding", "front-end"],
+      "tags": ["web design", "ux design", "brand design", "front-end"],
       "shadow": "1rem 1rem 0 rgba(0,0,0,0.05)",
       "description":
         "Desktop web app that helps users find the perfect new home to move to.",
@@ -102,7 +102,7 @@
         },
         {
           "title": "Key Skills",
-          "content": "Prototyping, branding, visual design, web development (React)"
+          "content": "Prototyping, brand design, web design, web development (HTML, CSS, Sass, React)"
         },
         {
           "title": "Teammates",
@@ -160,7 +160,7 @@
           "afterCaption": "<p>Zillow, Trulia, and Redfin all use real estate photos, generous negative space, and safe typefaces to create a clean, polished look. While a professional appearance increases credibility, it comes with the tradeoff of looking impersonal and detached.</p>"
         },
         {
-          "title": "Branding",
+          "title": "Brand Design",
           "blockquote": true,
           "beforeCaption": "<p>Since our app only sorts neighborhoods and does not show listings or collect any personal data, we could afford to forgo the professional look. So, we took the opposite approach and established a cozy, welcoming atmosphere. </p>",
           "quote": "Burow—Dig around and find the neighbourhood that fits your needs!",
@@ -195,7 +195,7 @@
       "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#F0647E",
-      "tags": ["visual design", "branding"],
+      "tags": ["visual design", "brand design"],
       "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
       "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
       "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
@@ -312,7 +312,7 @@
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#90D3CF",
-      "tags": ["UI design", "interaction design", "branding","front-end", "back-end"],
+      "tags": ["UI design", "interaction design", "brand design","front-end", "back-end"],
       "description":
         "Web app that combats the discomfort and injury that results from a sedentary lifestyle.",
       "summary":
@@ -322,7 +322,7 @@
           "title": "Roles",
           "wide": true,
           "content":
-            "Interaction design was done as a team. Additionally, I led the branding and development of the HTML prototype."
+            "Led the brand design and development of the HTML prototype. Interaction design was done as a team."
         },
         {
           "title": "Key Skills",
@@ -434,7 +434,7 @@
           "noPaddingMd": true
         },
         {
-          "title": "Branding + Visual Design",
+          "title": "Brand + Visual Design",
           "image": true,
           "src": "images/ergo/mockups.png",
           "alt": "High fidelity mockups",
@@ -492,7 +492,7 @@
       "description":
         "Poster design for UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration.",
       "summary":
-        "For UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC), I served on the Official Cultural Cabinet as Graphic Design Co-Chair. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, tackled themes of LGBTQ, mental health, and family. Deliverables I produced included a poster for the event.",
+        "For <a href=\"https://www.facebook.com/events/159412424744568/\" target=\"_blank\">UCSD Kaibigang Pilipin@'s 27th Pilipin@ Cultural Celebration (PCC)</a>, I served on the Official Cultural Cabinet as a graphic designer. PCC is one of the org's biggest events, and includes dancing, singing, and live theater. This year's production, titled <i>Alalahanin Mong Mahal Kita (Remember That I Love You)</i>, tackled themes of LGBTQ, mental health, and family. I created a poster and accompanying marketing collateral that helped draw in 400+ attendees.",
       "intro": [
         {
           "title": "Role",
@@ -517,7 +517,7 @@
       "paddingSize": "sm",
       "orientation": "portrait",
       "accent": "#C4DBD9",
-      "tags": ["web design", "branding", "front-end", "back-end"],
+      "tags": ["web design", "front-end", "back-end"],
       "description":
         "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
       "summary":
@@ -525,7 +525,7 @@
       "intro": [
         {
           "title": "Roles",
-          "content": "Visual designer and developer"
+          "content": "Web designer and developer"
         },
         {
           "title": "Design Tools",
@@ -613,7 +613,7 @@
       "description":
         "Designed shirts for UCSD Kaibigang Pilipin@’s 27th annual high school conference.",
       "summary":
-        "Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service (SPACES) and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.",
+        "Themed after the animated Disney film <i>Moana</i>, UCSD Kaibigang Pilipin@'s 27th Annual High School Conference was held February 3rd, 2018. These high school conferences are coordinated in collaboration with the Student Promoted Access Center for Education and Service and aim to empower high school students to pursue higher education. This year, I was invited to create a shirt design for the event.",
       "intro": [
         {
           "title": "Role",
@@ -681,15 +681,15 @@
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#F4C9C4",
-      "tags": ["graphic design", "branding"],
+      "tags": ["graphic design", "brand design"],
       "description":
-        "Spearheaded the branding for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala.",
+        "Spearheaded the brand design for UCSD Kaibigang Pilipin@’s 30th Anniversary Ourstory Gala.",
       "summary":
         "Kaibigang Pilipin@ (KP), translated to \"Friendship of Filipin@s,\" is a student-run organization at UC San Diego that aims to educate the community about Pilipin@ culture. Every five years, KP hosts their Ourstory Gala, a celebration held to commemorate the organization and its accomplishments. I worked closely with the event coordinator to craft a unique identity for their 30th Anniversary Ourstory Gala, themed after the film <i>13 Going on 30.</i>",
       "intro": [
         {
           "title": "Role",
-          "content": "Graphic designer"
+          "content": "Lead graphic designer"
         },
         {
           "title": "Tools",
@@ -742,11 +742,11 @@
       "description":
         "Designed a flyer and program for UCSD Asian Pacific Islander Student Association’s 23rd annual high school conference.",
       "summary":
-        "Every year, various student organizations at UC San Diego collaborate with the Student Promoted Access Center for Education and Service (SPACES) to host conferences that empower high school students to pursue higher education and provide them with networking opportunities. The Asian and Pacific-Islander Student Alliance's (APSA) 23rd Annual High School Conference was themed \"We're All in This Together,\" referencing the popular Disney film, <i>High School Musical</i>. As head of the programming committee, I handled the branding for the conference and designed the event flyer and program.",
+        "Every year, various student organizations at UC San Diego collaborate with the Student Promoted Access Center for Education and Service to host conferences that empower high school students to pursue higher education and provide them with networking opportunities. The Asian and Pacific-Islander Student Alliance's (APSA) 23rd Annual High School Conference was themed \"We're All in This Together,\" referencing the popular Disney film, <i>High School Musical</i>. As head of the programming committee, I handled the branding for the conference and designed the event flyer and program.",
       "intro": [
         {
           "title": "Role",
-          "content": "Graphic designer"
+          "content": "Lead graphic designer"
         },
         {
           "title": "Tools",

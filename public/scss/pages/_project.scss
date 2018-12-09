@@ -373,14 +373,15 @@
   @include link-hover(#01B6AF);
 }
 
-.project-pcc {
+.project-remember-that-i-love-you {
+  @include link-hover(rgb(248, 183, 97));
 }
 
 .project-portfolio {
   @include link-hover($burnt-sienna);
 }
 
-.project-kp-hsc {
+.project-how-far-ill-go {
   @include link-hover(#C97F72);
 }
 
@@ -388,5 +389,5 @@
   @include link-hover(#c98689);
 }
 
-.project-apsa-hsc {
+.project-together {
 }
