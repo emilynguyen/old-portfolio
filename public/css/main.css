@@ -474,36 +474,38 @@ h1, h2 {
       letter-spacing: -0.04rem; } }
 
 h1 {
-  font-size: 3rem;
-  line-height: 3.9rem; }
-  h1.project-title, h1.about-title {
+  /*
+  &.small {
+    font-size: 2.8em;
+    line-height: 3.6rem;
+    @include xs-up {
+      line-height: 3.9rem;
+      font-size: 3.1em;
+    }
+  } */ }
+  h1.home-title {
+    font-size: 3rem;
+    line-height: 3.9rem; }
+  h1.project-title, h1.about-title, h1.archive-title {
     font-size: 3.5rem;
     line-height: 4.5rem; }
   @media (min-width: 600px) {
-    h1 {
+    h1.home-title, h1.project-title, h1.about-title, h1.archive-title {
       font-size: 3.5rem;
       line-height: 4.5rem; } }
   @media (min-width: 840px) {
-    h1 {
+    h1.home-title, h1.project-title, h1.about-title, h1.archive-title {
       font-size: 4.5rem;
       line-height: 5.5rem; } }
-  h1.small {
-    font-size: 2.8em;
-    line-height: 3.6rem; }
-    @media (min-width: 480px) {
-      h1.small {
-        line-height: 3.9rem;
-        font-size: 3.1em; } }
 
+@media (min-width: 480px) {
+  .home-title {
+    max-width: 85rem; } }
+
+/* Container for h1 on home and error pages */
 .title {
   margin: 8rem 0 9rem;
   padding-right: 2rem; }
-  @media (min-width: 480px) {
-    .title h1 {
-      max-width: 85rem; } }
-
-.archive-title {
-  margin: 8rem 0 5rem; }
 
 .name {
   background-image: -webkit-linear-gradient(-90deg, rgba(255, 245, 110, 0) 50%, #fff56e 50%); }
@@ -1571,6 +1573,10 @@ p.tags {
       background-color: #c98689;
       color: white;
       opacity: 1; } }
+
+/* Archive styles */
+#archive {
+  margin: 8rem 0 5rem; }
 
 /*
  * About page

@@ -21,22 +21,28 @@ h1, h2 {
   }
 }
 
-
 h1 {
-  font-size: 3rem;
-  line-height: 3.9rem;
-  &.project-title {
+  &.home-title {
+    font-size: 3rem;
+    line-height: 3.9rem;
+  }
+  &.project-title, &.archive-title {
     font-size: 3.5rem;
     line-height: 4.5rem;
   }
-  @include sm-up {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+  &.home-title, &.project-title, &.archive-title {
+    @include sm-up {
+      font-size: 3.5rem;
+      line-height: 4.5rem;
+    }
+    @include md-up {
+      font-size: 4.5rem;
+      line-height: 5.5rem;
+    }
   }
-  @include md-up {
-    font-size: 4.5rem;
-    line-height: 5.5rem;
-  }
+
+
+  /*
   &.small {
     font-size: 2.8em;
     line-height: 3.6rem;
@@ -44,23 +50,19 @@ h1 {
       line-height: 3.9rem;
       font-size: 3.1em;
     }
+  } */
+}
+
+.home-title {
+  @include xs-up {
+    max-width: 85rem;
   }
 }
 
-
-
+/* Container for h1 on home and error pages */
 .title {
   margin: 8rem 0 9rem;
   padding-right: 2rem;
-  h1 {
-    @include xs-up {
-      max-width: 85rem;
-    }
-  }
-}
-
-.archive-title {
-  margin: 8rem 0 5rem;
 }
 
 .name {
