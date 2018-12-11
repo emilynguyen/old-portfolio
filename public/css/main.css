@@ -476,6 +476,9 @@ h1, h2 {
 h1 {
   font-size: 3rem;
   line-height: 3.9rem; }
+  h1.project-title, h1.about-title {
+    font-size: 3.5rem;
+    line-height: 4.5rem; }
   @media (min-width: 600px) {
     h1 {
       font-size: 3.5rem;
@@ -621,8 +624,8 @@ h2, h3, p {
     letter-spacing: .01rem; }
     @media (min-width: 600px) {
       #header h2 {
-        line-height: 3rem;
-        font-size: 1.7rem; } }
+        line-height: 3.2rem;
+        font-size: 1.9rem; } }
 
 .hamburger {
   z-index: 9999;
@@ -985,6 +988,11 @@ p.tags {
     padding: .9rem .5rem .8rem .6rem;
     white-space: nowrap;
     margin: 0 .25rem .7rem 0; }
+
+#just-for-fun {
+  margin-top: 5rem; }
+  #just-for-fun .blockquote {
+    padding-left: 0; }
 
 /* Dribbble link
 #dribbble {
