@@ -1594,17 +1594,15 @@ p.tags {
       background-image: url("../images/yellow.jpg");
       background-position-y: bottom; } }
 
-@media (min-width: 840px) {
-  .about-title br {
-    display: none; } }
-
 @media (min-width: 960px) {
   .about-title {
     padding-right: 2rem; } }
 
-@media (min-width: 1200px) {
-  .about-title br {
-    display: inline; } }
+.about-title br {
+  display: none; }
+  @media (min-width: 1200px) {
+    .about-title br {
+      display: inline; } }
 
 .about-tagline {
   margin-top: .2rem;

@@ -23,18 +23,12 @@
 
 .about-title {
   @extend .project-title;
-  // Manage line break in about tagline
-  @include md-up {
-    //margin-left: 0;
-    br {
-      display: none;
-    }
-  }
   @include lg-up {
     padding-right: 2rem;
   }
-  @include xl-up {
-    br {
+  br {
+    display: none;
+    @include xl-up {
       display: inline;
     }
   }
