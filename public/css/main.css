@@ -1302,7 +1302,7 @@ p.tags {
 .project-design-camp a:visited,
 .project-design-camp a:hover,
 .project-design-camp a:active {
-  color: #676DB6;
+  color: #1B237E;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1311,13 +1311,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-design-camp button {
-  border-color: #676DB6;
-  color: #676DB6;
+  border-color: #1B237E;
+  color: #1B237E;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-design-camp button:hover {
-      background-color: #676DB6;
+      background-color: #1B237E;
       color: white;
       opacity: 1; } }
 
@@ -1394,7 +1394,7 @@ p.tags {
 .project-dau-visual a:visited,
 .project-dau-visual a:hover,
 .project-dau-visual a:active {
-  color: #FA7E8C;
+  color: #FF8C7B;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1403,13 +1403,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-dau-visual button {
-  border-color: #FA7E8C;
-  color: #FA7E8C;
+  border-color: #FF8C7B;
+  color: #FF8C7B;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-dau-visual button:hover {
-      background-color: #FA7E8C;
+      background-color: #FF8C7B;
       color: white;
       opacity: 1; } }
 

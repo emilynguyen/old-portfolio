@@ -1,47 +1,6 @@
 {
   "projects": [
     {
-      "title": "Design Camp",
-      "archive": true,
-      "url": "design-camp",
-      "filters": ["dev"],
-      "icon": "images/designatucsd/design-camp.png",
-      "alt": "Design Camp",
-      "paddingSize": "sm",
-      "orientation": "portrait",
-      "accent": "#7C82C9",
-      "tags": ["front-end"],
-      "description": "Website for a workshop series focused on building your design skills outside of the classroom.",
-      "shadow": "1rem 1rem 0 #676DB6",
-      "summary": "Design Camp is a three-part workshop series hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that focuses on building your design skills outside of the classroom. I worked with a visual designer to build a visually compelling website that helped the event series gain traction.",
-      "intro": [
-        {
-          "title": "Role",
-          "content": "Lead developer"
-        },
-        {
-          "title": "Date",
-          "content": "Oct – Nov 2018"
-        },
-        {
-          "title": "Tools + Skills",
-          "content": "HTML, CSS, Sass, Gulp"
-        },
-        {
-          "title": "Partner",
-          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥"
-        },
-        {
-          "title": "Resources",
-          "content": "<a href=\"https://github.com/designatucsd/camp\" target=\"_blank\">Github repo</a>"
-        }, 
-        {
-          "button": "Visit Site",
-          "link": "https://camp.designatucsd.org/"
-        }
-      ]
-    },
-    {
       "title": "Stride Career Fair",
       "url": "stride",
       "filters": ["dev"],
@@ -78,6 +37,54 @@
         {
           "button": "Visit Site",
           "link": "https://stride.designatucsd.org/"
+        }
+      ]
+    },
+    {
+      "title": "Design Camp",
+      "url": "design-camp",
+      "filters": ["dev"],
+      "icon": "images/designatucsd/design-camp2.gif",
+      "alt": "Design Camp",
+      "paddingSize": "sm",
+      "orientation": "portrait",
+      "accent": "#FFDADE",
+      "tags": ["front-end"],
+      "description": "Website for a workshop series focused on building your design skills outside of the classroom.",
+      "shaow": "1rem 1rem 0 #F2D5D8",
+      "summary": "Design Camp is a three-part workshop series hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that focuses on building your design skills outside of the classroom. I worked with a visual designer to build a visually compelling website that helped the event series gain traction.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Lead developer"
+        },
+        {
+          "title": "Date",
+          "content": "Oct – Nov 2018"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "HTML, CSS, Sass, Gulp"
+        },
+        {
+          "title": "Partner",
+          "content": "<a href=\"https://nancybui.co/\" target=\"_blank\">Nancy Bui</a> ♥"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/designatucsd/camp\" target=\"_blank\">Github repo</a>"
+        }, 
+        {
+          "button": "Visit Site",
+          "link": "https://camp.designatucsd.org/"
+        }
+      ],
+      "sections": [
+        {
+          "title": "",
+          "image": true,
+          "src": "images/designatucsd/design-camp-screenshots.png",
+          "noPaddingMd": true
         }
       ]
     },
@@ -235,7 +242,7 @@
       "alt": "Design at UCSD—Visual",
       "paddingSize": "sm",
       "orientation": "landscape",
-      "accent": "#FA7E8C",
+      "accent": "#FF8C7B",
       "tags": ["visual design", "brand design"],
       "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
       "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
@@ -521,6 +528,7 @@
     },
     {
       "title": "Remember That I Love You",
+      "archive": true,
       "url": "remember-that-i-love-you",
       "filters": ["visual"],
       "icon": "images/pcc/icon.png",
@@ -552,7 +560,7 @@
     {
       "title": "Portfolio",
       "url": "portfolio",
-      "filters": ["dev", "visual", "ux"],
+      "filters": ["dev", "visual"],
       "icon": "images/portfolio/icon.jpg",
       "alt": "",
       "paddingSize": "sm",
@@ -643,6 +651,7 @@
     },
     {
       "title": "How Far I'll Go",
+      "archive": true,
       "url": "how-far-ill-go",
       "filters": ["visual"],
       "icon": "images/kp-hsc/icon.svg",
