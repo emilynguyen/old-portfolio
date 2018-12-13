@@ -63,6 +63,13 @@
 }
 
 /* Project gallery */
+#project-gallery {
+  margin-bottom: -5rem;
+  @include sm-up {
+    margin-bottom: 0;
+  }
+}
+
 .gallery-item-container {
   @extend .container;
   @include sm-down {

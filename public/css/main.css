@@ -842,6 +842,12 @@ h2, h3, p {
       background-color: #FFF56E; }
 
 /* Project gallery */
+#project-gallery {
+  margin-bottom: -5rem; }
+  @media (min-width: 600px) {
+    #project-gallery {
+      margin-bottom: 0; } }
+
 @media (max-width: 599px) {
   .gallery-item-container {
     padding: 0; } }
@@ -1388,7 +1394,7 @@ p.tags {
 .project-dau-visual a:visited,
 .project-dau-visual a:hover,
 .project-dau-visual a:active {
-  color: #F0647E;
+  color: #FA7E8C;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1397,13 +1403,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-dau-visual button {
-  border-color: #F0647E;
-  color: #F0647E;
+  border-color: #FA7E8C;
+  color: #FA7E8C;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-dau-visual button:hover {
-      background-color: #F0647E;
+      background-color: #FA7E8C;
       color: white;
       opacity: 1; } }
 
