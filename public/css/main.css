@@ -750,7 +750,7 @@ h2, h3, p {
 .copyright {
   width: 100%;
   text-align: center;
-  margin-bottom: 0.4rem;
+  margin-bottom: 1rem;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2; }
@@ -767,7 +767,7 @@ h2, h3, p {
 
 .social-media {
   width: 100%;
-  margin-bottom: -6rem;
+  margin-bottom: -4.5rem;
   text-align: center;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -782,15 +782,9 @@ h2, h3, p {
     display: inline-block;
     text-align: center; }
     .social-media li:not(:first-child) {
-      margin-left: 2.4rem; }
-  .social-media .email img {
-    height: 2rem;
-    padding-bottom: 0.2rem; }
-  .social-media .github {
-    margin-left: 2rem !important;
-    margin-right: -0.8rem; }
+      margin-left: 1.4rem; }
   .social-media img {
-    height: 2.4rem; }
+    height: 3rem; }
 
 /*
  * Home page
