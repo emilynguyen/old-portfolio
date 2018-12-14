@@ -132,7 +132,7 @@
       "title": "Burow",
       "url": "burow",
       "filters": ["dev", "visual", "ux"],
-      "icon": "images/burow/icon.png",
+      "icon": "images/burow/burow.gif",
       "alt": "Burow",
       "paddingSize": "md",
       "orientation": "landscape",
@@ -242,10 +242,10 @@
       "alt": "Design at UCSD—Visual",
       "paddingSize": "sm",
       "orientation": "landscape",
-      "accent": "#FF8C7B",
+      "accent": "#F2F2F2",
       "tags": ["visual design", "brand design"],
       "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
-      "shadow": ".8rem .8rem 0 rgba(0,0,0,0.2)",
+      "shadow": ".8rem .8rem 0 rgba(0,0,0,0.09)",
       "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
       "intro": [
         {
@@ -276,14 +276,14 @@
         {
           "image": true,
           "src": "images/designatucsd/krispy-kreme.jpg",
-          "style": "background-color: #F9F9FB",
+          "style": "background-color: #F9F9F9",
           "alt":
             "Krispy Kreme Fundraiser poster"
         },
         {
           "image": true,
           "src": "images/designatucsd/frontiers.jpg",
-          "style": "background-color: #F9F9FB",
+          "style": "background-color: #F9F9F9",
           "alt":
             "Design Frontiers poster"
         }
@@ -327,7 +327,7 @@
           "image": true,
           "src": "images/travelboss/before.png",
           "alt": "Original presentation slides",
-          "style": "background-color: #FF6C71;",
+          "style": "background-color: #062F47;",
           "afterCaption": "<p>The original presentation slides were uninspiring and lacked identity. Through careful brand analysis, I crafted a bold and compelling template that embodied the energy and spirit of both the Salesforce and TravelBoss (Airbnb) brands.</p>"
         },
         {

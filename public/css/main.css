@@ -427,15 +427,6 @@ button {
   font-weight: 500;
   font-style: normal; }
 
-/*
-@font-face {
-  font-family: 'Graphik';
-  src: url('../fonts/graphik/Graphik-RegularItalic.woff2') format('woff2'),
-      url('../fonts/graphik/Graphik-RegularItalic.woff') format('woff');
-  font-weight: 400;
-  font-style: italic;
-}
-*/
 @font-face {
   font-family: 'Inter UI';
   src: url("../fonts/inter-ui/Inter-UI-Regular.woff2") format("woff2"), url("../fonts/inter-ui/Inter-UI-Regular.woff") format("woff");
@@ -1357,29 +1348,6 @@ p.tags {
   @media (hover: hover) {
     .project-burow button:hover {
       background-color: #FB9D56;
-      color: white;
-      opacity: 1; } }
-
-.project-dau-visual a,
-.project-dau-visual a:visited,
-.project-dau-visual a:hover,
-.project-dau-visual a:active {
-  color: #FF8C7B;
-  -webkit-transition: 0.3s opacity;
-  transition: 0.3s opacity; }
-
-@media (hover: hover) {
-  .project-dau-visual a:not(.btn):hover {
-    opacity: 0.4; } }
-
-.project-dau-visual button {
-  border-color: #FF8C7B;
-  color: #FF8C7B;
-  -webkit-transition: background-color .3s, color .3s;
-  transition: background-color .3s, color .3s; }
-  @media (hover: hover) {
-    .project-dau-visual button:hover {
-      background-color: #FF8C7B;
       color: white;
       opacity: 1; } }
 
