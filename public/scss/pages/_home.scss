@@ -50,14 +50,14 @@
     }
     @include hover {
       &::before {
-        background-color: $yellow;
+        background-color: $shark;
       }
     }
-  }
-  .active-filter {
-    cursor: default;
-    &::before {
-      background-color: $yellow;
+    &.active-filter {
+      cursor: default;
+      &::before {
+        background-color: $shark;
+      }
     }
   }
 }

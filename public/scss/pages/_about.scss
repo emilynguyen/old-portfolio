@@ -11,9 +11,13 @@
   background-size: cover;
   background-color: #f6e46b;
   @include md-up {
+    min-height: 50rem;
     background-position-x: center;
     background-image: url('../images/yellow.jpg');
     background-position-y: bottom;
+  }
+  @include xl-up {
+    min-height: 70rem;
   }
 }
 

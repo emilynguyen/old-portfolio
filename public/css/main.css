@@ -379,9 +379,9 @@ button:focus {
 html {
   font-size: 62.5%;
   position: relative; }
-  @media (min-width: 2000px) {
+  @media (min-width: 2200px) {
     html {
-      font-size: 0.5vw; } }
+      font-size: 0.46vw; } }
 
 .container, .gallery-item-container {
   margin-right: auto;
@@ -835,11 +835,11 @@ h2, h3, p {
           height: 1.3rem; } }
     @media (hover: hover) {
       #filters .filter:hover::before {
-        background-color: #FFF56E; } }
-  #filters .active-filter {
-    cursor: default; }
-    #filters .active-filter::before {
-      background-color: #FFF56E; }
+        background-color: #272a2c; } }
+    #filters .filter.active-filter {
+      cursor: default; }
+      #filters .filter.active-filter::before {
+        background-color: #272a2c; }
 
 /* Project gallery */
 #project-gallery {
@@ -1038,35 +1038,8 @@ p.tags {
       margin-left: 0;
       grid-column: 1;
       margin-top: -2.3rem;
-      min-height: calc(100vh - 9rem);
-      height: 100%;
-      /*
-    &.portrait {
-      &.padding-sm {
-        padding: 2.5rem;
-      }
-      &.padding-md {
-        padding: 10rem;
-      }
-      &.padding-lg {
-        padding: 12rem;
-      }
-    }
-    &.landscape {
-      &.padding-sm {
-        //padding: 1.5rem $side-padding-xs;
-        padding: 2.5rem;
-      }
-      &.padding-md {
-        //padding: 5rem $side-padding-xs;
-        padding: 10rem;
-      }
-      &.padding-lg {
-        //padding: 9rem $side-padding-xs;
-        padding: 12rem;
-      }
-    }
-    */ }
+      min-height: 100%;
+      height: 100%; }
       .hero-container.portrait.padding-sm, .portrait.padding-sm.self-container, .hero-container.landscape.padding-sm, .landscape.padding-sm.self-container {
         padding: 6vw; }
       .hero-container.portrait.padding-md, .portrait.padding-md.self-container, .hero-container.landscape.padding-md, .landscape.padding-md.self-container {
@@ -1076,9 +1049,6 @@ p.tags {
       padding: 8rem; }
     .hero-container.portrait.padding-md, .portrait.padding-md.self-container, .hero-container.landscape.padding-md, .landscape.padding-md.self-container {
       padding: 10rem; } }
-  @media (min-width: 1200px) {
-    .hero-container, .self-container {
-      min-height: calc(100vh - 12rem); } }
   .hero-container img, .self-container img {
     max-height: 100%; }
     @media (min-width: 840px) {
@@ -1102,7 +1072,7 @@ p.tags {
     .intro, .bio {
       margin-left: 4rem;
       margin-top: 4rem;
-      padding-bottom: 6rem; } }
+      padding-bottom: 8rem; } }
   .intro h3, .bio h3 {
     margin-bottom: 0.2rem; }
 
@@ -1590,9 +1560,13 @@ p.tags {
   background-color: #f6e46b; }
   @media (min-width: 840px) {
     .self-container {
+      min-height: 50rem;
       background-position-x: center;
       background-image: url("../images/yellow.jpg");
       background-position-y: bottom; } }
+  @media (min-width: 1200px) {
+    .self-container {
+      min-height: 70rem; } }
 
 @media (min-width: 960px) {
   .about-title {
