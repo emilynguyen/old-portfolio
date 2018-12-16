@@ -6,7 +6,7 @@
   "author": "Emily Nguyen <emilymylinh@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/emnguyen/portfolio.git"
+    "url": "git://github.com/emilynguyen/portfolio.git"
   },
   "dependencies": {
     "express": "^4.15.5",

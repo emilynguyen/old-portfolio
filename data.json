@@ -388,7 +388,7 @@
         },
         {
           "title": "Resources",
-          "content": "<a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repo</a>"
+          "content": "<a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repo</a>"
         },
         {
           "button": "View Prototype",
@@ -493,7 +493,7 @@
           "title": "HTML Prototype",
           "text": true,
           "content":
-            "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  Check out our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emnguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
+            "<p>With our app flow and branding established, we were able to start developing our live prototype. With the help of tools such as</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li></ul><p>we built a responsive HTML prototype. Over the next 6 weeks, we implemented core functionalities and refined our app using feedback from users.  Check out our <a href=\"http://ergo-webapp.herokuapp.com/\" target=\"_blank\">live prototype</a> and our <a href=\"https://github.com/emilynguyen/ergo\" target=\"_blank\">Github repository</a>.</p>"
         },
         {
           "title": "User Testing",
@@ -590,7 +590,7 @@
         },
         {
           "title": "Resources",
-          "content": "<a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">Github repo</a>"
+          "content": "<a href=\"https://github.com/emilynguyen/portfolio\" target=\"_blank\">Github repo</a>"
         }
       ],
       "sections": [
@@ -639,7 +639,7 @@
           "title": "Development",
           "text": true,
           "content":
-            "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp (Nodemon, BrowserSync, Sass, Autoprefixer)</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emnguyen/portfolio\" target=\"_blank\">View on Github</a>.</p>"
+            "<p>Because I'm interested in UX engineering, it was key that I build my portfolio from scratch. My first time around, I used my self-taught knowledge of Sass, Bootstrap and AngularJS to achieve a smooth, responsive site. My web development skills have since come a long way, and I found my initial code to be messy and inefficient. My portfolio also did not have functionality that benefited from using a framework as complex as AngularJS. After receiving formal education, I performed a complete overhaul of my website. Tools I used to develop the current version of my portfolio are:</p><ul><li>Node.js (Express + Handlebars)</li><li>Sass</li><li>Gulp (Nodemon, BrowserSync, Sass, Autoprefixer)</li></ul><p>The biggest change between my first and second iteration was my switch to the Handlebars templating engine. Since the bulk of my portfolio is a set of similarly laid out case studies, it was the perfect tool. By templating this page, I significantly reduced clutter and made adding new projects painless. I also wanted my website to be pixel-perfect, so I decided against using Bootstrap to allow for more control. <a href=\"https://github.com/emilynguyen/portfolio\" target=\"_blank\">View on Github</a>.</p>"
         },
         {
           "title": "Conclusion",
