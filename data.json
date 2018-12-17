@@ -1,89 +1,6 @@
 {
   "projects": [
     {
-      "title": "Personal Illustrations",
-      "archive": true,
-      "url": "illustration",
-      "filters": ["visual"],
-      "icon": "images/illustration/cersei.png",
-      "shadow": "1rem 1rem 3rem rgba(0,0,0,0.1)",
-      "alt": "Illustrations",
-      "paddingSize": "sm",
-      "orientation": "portrait",
-      "accent": "#F9F9F9",
-      "tags": ["illustration"],
-      "description":
-        "A collection of my personal illustrations.",
-      "summary":
-        "A collection of my personal illustrations.",
-      "intro": [
-        {
-          "title": "Tools",
-          "content": "Illustrator"
-        },
-        {
-          "title": "Date",
-          "content": "2014 – Present"
-        },
-        {
-          "button": "View on Instagram",
-          "link": "https://www.instagram.com/emilynguyen.co/"
-        }
-      ],
-      "sections": [
-        {
-          "title": "",
-          "image": true,
-          "src": "images/illustration/sushi.png",
-          "alt": "Sleeping hand roll",
-          "style": "background-color: #F9F9F9",
-          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
-          "afterCaption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort—food, warmth, shelter, and sensuality.\"</p>"
-        },
-        {
-          "title": "",
-          "image": true,
-          "src": "images/illustration/red.png",
-          "alt": "Eyes",
-          "style": "background-color: #F9F9F9",
-          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
-          "afterCaption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\"</p>"
-        },
-        {
-          "title": "",
-          "image": true,
-          "src": "images/illustration/cersei.png",
-          "alt": "Cersei Lannister from Game of Thrones",
-          "style": "background-color: #F9F9F9",
-          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);"
-        },
-        {
-          "title": "",
-          "image": true,
-          "src": "images/illustration/moira.png",
-          "alt": "Moira O'Hara from American Horror Story",
-          "style": "background-color: #F9F9F9",
-          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);"
-        },
-        {
-          "title": "",
-          "image": true,
-          "src": "images/illustration/lydia.png",
-          "alt": "Lydia Martin from Teen Wolf",
-          "style": "background-color: #F9F9F9",
-          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);"
-        },
-        {
-          "title": "",
-          "image": true,
-          "src": "images/illustration/kaya.png",
-          "alt": "Kaya Scodelario",
-          "style": "background-color: #F9F9F9",
-          "noPaddingMd": true
-        }
-      ]
-    },
-    {
       "title": "Stride Career Fair",
       "url": "stride",
       "filters": ["dev"],
@@ -813,6 +730,7 @@
     },
     {
       "title": "Ourstory Gala",
+      "archive": true,
       "url": "ourstory",
       "filters": ["visual"],
       "icon": "images/ourstory/icon.jpg",
@@ -903,6 +821,93 @@
           "pdf": true,
           "pdf-link":
             "https://drive.google.com/file/d/0B6dEoGhrXuYIV2N0cHNqNEZfWjA/preview"
+        }
+      ]
+    },
+    {
+      "title": "Personal Illustrations",
+      "archive": false,
+      "url": "illustration",
+      "filters": ["visual"],
+      "icon": "images/illustration/icon.png",
+      "shado": "1rem 1rem 3rem rgba(0,0,0,0.1)",
+      "alt": "Illustrations",
+      "paddingSize": "sm",
+      "orientation": "landscape",
+      "accent": "#F9F9F9",
+      "tags": ["illustration"],
+      "description":
+        "A collection of my personal illustrations.",
+      "summary":
+        "A collection of my personal illustrations. :~)",
+      "intro": [
+        {
+          "title": "Tools",
+          "content": "Illustrator"
+        },
+        {
+          "title": "Date",
+          "content": "2014 – Present"
+        },
+        {
+          "button": "View on Instagram",
+          "link": "https://www.instagram.com/emilynguyen.co/"
+        }
+      ],
+      "sections": [
+        {
+          "title": "",
+          "image": true,
+          "src": "images/illustration/sushi.png",
+          "alt": "Sleeping hand roll",
+          "style": "background-color: #F9F9F9",
+          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
+          "afterCaption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\"</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/illustration/red.png",
+          "alt": "Eyes",
+          "style": "background-color: #F9F9F9",
+          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
+          "afterCaption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\"</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/illustration/cersei.png",
+          "alt": "Cersei from Game of Thrones",
+          "style": "background-color: #F9F9F9",
+          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
+          "afterCaption": "<p class=\"small-text\">Cersei from Game of Thrones.</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/illustration/moira.png",
+          "alt": "Moira from American Horror Story: Murder House",
+          "style": "background-color: #F9F9F9",
+          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
+          "afterCaption": "<p class=\"small-text\">Moira from American Horror Story: Murder House.</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/illustration/lydia.png",
+          "alt": "Lydia from Teen Wolf",
+          "style": "background-color: #F9F9F9",
+          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
+          "afterCaption": "<p class=\"small-text\">Lydia from Teen Wolf.</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/illustration/kaya.png",
+          "alt": "Kaya Scodelario",
+          "style": "background-color: #F9F9F9",
+          "noPaddingMd": true,
+          "afterCaption": "<p class=\"small-text\">Kaya Scodelario in Wuthering Heights.</p>"
         }
       ]
     }

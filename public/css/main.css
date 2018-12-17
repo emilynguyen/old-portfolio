@@ -1079,9 +1079,6 @@ p.tags {
     .project-title, .about-title {
       margin-top: 0;
       margin-bottom: 2.5rem;
-      margin-left: -6rem; } }
-  @media (min-width: 1024px) {
-    .project-title, .about-title {
       margin-left: -8rem; } }
 
 /* Sections (content blocks) */
