@@ -18,10 +18,11 @@
   h1 {
     font-size: 2.8rem;
     line-height: 4.7rem;
+    /*
     @include short-screen {
       font-size: 2.6rem;
       line-height: 4.5rem;
-    }
+    } */
     @include sm-up {
       font-size: 3.2rem;
       line-height: 6rem;
@@ -82,26 +83,24 @@
   display: block;
   margin-top: 2rem;
   @include shorter-screen {
-    margin-right: 8rem;
-    margin-top: $top-padding-xs;
+    margin-top: calc(4rem + #{$top-padding-xs});
     @include sm-up {
-      margin-top: $top-padding-sm;
+      margin-top: calc(4rem + #{$top-padding-sm});
     }
     @include xl-up {
-      margin-top: $top-padding-xl;
+      margin-top: calc(4rem + #{$top-padding-xl});
     }
   }
+  
   li,
   h1 {
     @include shorter-screen {
-      margin-top: -0.5rem;
       display: inline-block;
     }
   }
   li a {
     color: $shark;
     padding: 0 0.3rem;
-    //transition: background-image 0.3s;
     @include hover {
       opacity: 1;
       background-image: $underline;
@@ -115,8 +114,8 @@
   }
   li {
     @include shorter-screen {
-      &:not(:last-child) {
-        margin-right: 3rem;
+      &:not(:first-child) {
+        margin-left: 3rem;
       }
     }
   }
@@ -130,14 +129,16 @@
   }
   @include md-up {
     max-width: 45rem;
+    max-width: 60rem;
   }
   @include shorter-screen {
     display: none;
   }
   h2 {
     display: inline;
-    //white-space: nowrap;
+    white-space: nowrap;
     &:not(:last-child):after {
+      content: " •";
       content: " /";
     }
   }

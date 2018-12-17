@@ -77,9 +77,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  @include short-screen {
-    height: 100%;
-  }
 }
 
 .intro {

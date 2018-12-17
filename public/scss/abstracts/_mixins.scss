@@ -47,14 +47,8 @@
   }
 }
 
-@mixin short-screen {
-  @media (max-height: 570px) {
-    @content;
-  }
-}
-
 @mixin shorter-screen {
-  @media (max-height: 470px) {
+  @media (max-height: 660px) {
     @content;
   }
 }
