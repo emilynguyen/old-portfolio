@@ -337,9 +337,6 @@
   //@include link-hover(#000);
 }
 
-.project-designatucsd {
-  @include link-hover(#79B5CC);
-}
 
 .project-travelboss {
   @include link-hover(#FF6C71);
@@ -366,6 +363,10 @@
 }
 
 .project-together {
+}
+
+.project-illustration {
+  @include link-hover($shark);
 }
 
 /* Archive styles */

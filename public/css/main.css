@@ -1350,29 +1350,6 @@ p.tags {
       color: white;
       opacity: 1; } }
 
-.project-designatucsd a,
-.project-designatucsd a:visited,
-.project-designatucsd a:hover,
-.project-designatucsd a:active {
-  color: #79B5CC;
-  -webkit-transition: 0.3s opacity;
-  transition: 0.3s opacity; }
-
-@media (hover: hover) {
-  .project-designatucsd a:not(.btn):hover {
-    opacity: 0.4; } }
-
-.project-designatucsd button {
-  border-color: #79B5CC;
-  color: #79B5CC;
-  -webkit-transition: background-color .3s, color .3s;
-  transition: background-color .3s, color .3s; }
-  @media (hover: hover) {
-    .project-designatucsd button:hover {
-      background-color: #79B5CC;
-      color: white;
-      opacity: 1; } }
-
 .project-travelboss a,
 .project-travelboss a:visited,
 .project-travelboss a:hover,
@@ -1508,6 +1485,29 @@ p.tags {
   @media (hover: hover) {
     .project-ourstory button:hover {
       background-color: #c98689;
+      color: white;
+      opacity: 1; } }
+
+.project-illustration a,
+.project-illustration a:visited,
+.project-illustration a:hover,
+.project-illustration a:active {
+  color: #272a2c;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-illustration a:not(.btn):hover {
+    opacity: 0.4; } }
+
+.project-illustration button {
+  border-color: #272a2c;
+  color: #272a2c;
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .project-illustration button:hover {
+      background-color: #272a2c;
       color: white;
       opacity: 1; } }
 

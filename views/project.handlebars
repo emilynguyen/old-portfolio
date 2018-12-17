@@ -12,7 +12,9 @@
 
                 <div class="intro">
                     <h1 class="show-md-up project-title">{{title}}</h1>
-                    <p>{{{summary}}}</p>
+                    {{#if summary}}
+                        <p>{{{summary}}}</p>
+                    {{/if}}
 
                     <div class="intro-details">
                     {{#each intro}}
