@@ -79,7 +79,7 @@
       ],
       "sections": [
         {
-          "title": "Mobile + Desktop",
+          "title": "",
           "image": true,
           "src": "images/designatucsd/design-camp-screenshots.png",
           "noPaddingMd": true
@@ -122,6 +122,14 @@
         {
           "button": "Visit Site",
           "link": "https://frontiers.designatucsd.org/"
+        }
+      ],
+      "sections-hide": [
+        {
+          "title": "",
+          "image": true,
+          "src": "images/designatucsd/frontiers-screenshots.png",
+          "noPaddingMd": true
         }
       ]
     },

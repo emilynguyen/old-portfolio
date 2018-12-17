@@ -1485,7 +1485,7 @@ p.tags {
 .project-illustration a:visited,
 .project-illustration a:hover,
 .project-illustration a:active {
-  color: #272a2c;
+  color: #F04647;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1494,13 +1494,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-illustration button {
-  border-color: #272a2c;
-  color: #272a2c;
+  border-color: #F04647;
+  color: #F04647;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-illustration button:hover {
-      background-color: #272a2c;
+      background-color: #F04647;
       color: white;
       opacity: 1; } }
 
