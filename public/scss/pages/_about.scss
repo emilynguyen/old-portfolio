@@ -27,9 +27,10 @@
 
 .about-title {
   @extend .project-title;
+  /*
   @include lg-up {
     padding-right: 2rem;
-  }
+  } */
   br {
     display: none;
     @include xl-up {

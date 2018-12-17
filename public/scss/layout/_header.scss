@@ -18,11 +18,6 @@
   h1 {
     font-size: 2.8rem;
     line-height: 4.7rem;
-    /*
-    @include short-screen {
-      font-size: 2.6rem;
-      line-height: 4.5rem;
-    } */
     @include sm-up {
       font-size: 3.2rem;
       line-height: 6rem;
@@ -84,17 +79,6 @@
 .menu {
   display: block;
   margin-top: 2rem;
-  /*
-  @include shorter-screen {
-    margin-top: calc(4rem + #{$top-padding-xs});
-    @include sm-up {
-      margin-top: calc(4rem + #{$top-padding-sm});
-    }
-    @include xl-up {
-      margin-top: calc(4rem + #{$top-padding-xl});
-    }
-  }
-  */
   @include sm-up {
     @include shorter-screen {
       margin-top: calc(4rem + #{$top-padding-sm});
@@ -103,14 +87,17 @@
       }
     }
   }
-  li,
-  h1 {
+  li {
     @include sm-up {
       @include shorter-screen {
         display: inline-block;
+        &:not(:first-child) {
+          margin-left: 3rem;
+        }
       }
     }
   }
+  // Override default a styles
   li a {
     color: $shark;
     padding: 0 0.3rem;
@@ -123,15 +110,6 @@
       background-image: $underline;
       cursor: default;
       pointer-events: none;
-    }
-  }
-  li {
-    @include sm-up {
-      @include shorter-screen {
-        &:not(:first-child) {
-          margin-left: 3rem;
-        }
-      }
     }
   }
 }
@@ -153,7 +131,6 @@
     display: inline;
     white-space: nowrap;
     &:not(:last-child):after {
-      content: " •";
       content: " /";
     }
   }
