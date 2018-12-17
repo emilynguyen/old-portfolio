@@ -1526,7 +1526,7 @@ p.tags {
       background-position-y: bottom; } }
   @media (min-width: 1280px) {
     .self-container {
-      min-height: 70rem; } }
+      min-height: 65rem; } }
 
 .about-title {
   /*

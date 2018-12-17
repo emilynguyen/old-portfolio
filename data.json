@@ -5,7 +5,6 @@
       "url": "stride",
       "filters": ["dev"],
       "icon": "images/stride/runner.gif",
-      "alt": "Stride Career Fair",
       "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#FFECB3",
@@ -45,7 +44,6 @@
       "url": "design-camp",
       "filters": ["dev"],
       "icon": "images/designatucsd/design-camp2.gif",
-      "alt": "Design Camp",
       "paddingSize": "sm",
       "orientation": "portrait",
       "accent": "#FFDADE",
@@ -89,11 +87,10 @@
       ]
     },
     {
-      "title": "Design Frontiers—Intuit",
+      "title": "Design Frontiers: Intuit",
       "url": "frontiers",
       "filters": ["dev"],
       "icon": "images/designatucsd/frontiers-fa18.png",
-      "alt": "Design Frontiers—Intuit",
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#D9EAF4",
@@ -133,7 +130,6 @@
       "url": "burow",
       "filters": ["dev", "visual", "ux"],
       "icon": "images/burow/burow.gif",
-      "alt": "Burow",
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#D5E0BA",
@@ -235,18 +231,17 @@
       ]
     },
     {
-      "title": "Design at UCSD—Visual",
+      "title": "Design at UCSD: Visual Design",
       "url": "dau-visual",
       "filters": ["visual"],
       "icon": "images/designatucsd/figma-invision-workshop.png",
-      "alt": "Design at UCSD—Visual",
       "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#F2F2F2",
       "tags": ["visual design", "brand design"],
       "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
       "shadow": ".8rem .8rem 0 rgba(0,0,0,0.09)",
-      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral and lead visual design workshops.",
+      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral, lead visual design workshops, and evolved brand identity.",
       "intro": [
         {
           "title": "Role",
@@ -286,6 +281,16 @@
           "style": "background-color: #F9F9F9",
           "alt":
             "Design Frontiers poster"
+        },
+        {
+          "title": "Workshops",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        },
+        {
+          "title": "Soft Rebrand",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
         }
       ]
     },
@@ -294,7 +299,6 @@
       "url": "travelboss",
       "filters": ["visual"],
       "icon": "images/travelboss/icon.png",
-      "alt": "",
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#9AD6EE",
@@ -356,7 +360,6 @@
       "url": "ergo",
       "filters": ["ux", "dev", "visual"],
       "icon": "images/ergo/icon.png",
-      "alt": "",
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#90D3CF",
@@ -533,7 +536,6 @@
       "filters": ["visual"],
       "icon": "images/pcc/icon.png",
       "shadow": "1rem 1.2rem 0 #f2c080",
-      "alt": "",
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#FFD092",
@@ -562,7 +564,6 @@
       "url": "portfolio",
       "filters": ["dev", "visual"],
       "icon": "images/portfolio/icon.jpg",
-      "alt": "",
       "paddingSize": "sm",
       "orientation": "portrait",
       "accent": "#C4DBD9",
@@ -662,7 +663,6 @@
       "url": "how-far-ill-go",
       "filters": ["visual"],
       "icon": "images/kp-hsc/icon.svg",
-      "alt": "Wave",
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#f4e4cc",
@@ -735,7 +735,6 @@
       "filters": ["visual"],
       "icon": "images/ourstory/icon.jpg",
       "shadow": "1rem 1rem 0 #edbab4",
-      "alt": "Ourstory Gala program cover",
       "paddingSize": "md",
       "orientation": "portrait",
       "accent": "#F4C9C4",
@@ -791,7 +790,6 @@
       "url": "were-all-in-this-together",
       "filters": ["visual"],
       "icon": "images/apsa-hsc/icon.png",
-      "alt": "",
       "paddingSize": "md",
       "shadow": "1rem 1rem 0 #F4D27C",
       "orientation": "portrait",
@@ -831,7 +829,6 @@
       "filters": ["visual"],
       "icon": "images/illustration/icon.png",
       "shado": "1rem 1rem 3rem rgba(0,0,0,0.1)",
-      "alt": "Illustrations",
       "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#F9F9F9",
