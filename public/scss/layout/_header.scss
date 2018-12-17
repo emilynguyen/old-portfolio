@@ -74,14 +74,17 @@
   @include xl-up {
     padding: 0 $side-padding-xl;
   }
-  @include shorter-screen {
-    display: block;
+  @include sm-up {
+    @include shorter-screen {
+      display: block;
+    }
   }
 }
 
 .menu {
   display: block;
   margin-top: 2rem;
+  /*
   @include shorter-screen {
     margin-top: calc(4rem + #{$top-padding-xs});
     @include sm-up {
@@ -91,11 +94,21 @@
       margin-top: calc(4rem + #{$top-padding-xl});
     }
   }
-  
+  */
+  @include sm-up {
+    @include shorter-screen {
+      margin-top: calc(4rem + #{$top-padding-sm});
+      @include xl-up {
+        margin-top: calc(4rem + #{$top-padding-xl});
+      }
+    }
+  }
   li,
   h1 {
-    @include shorter-screen {
-      display: inline-block;
+    @include sm-up {
+      @include shorter-screen {
+        display: inline-block;
+      }
     }
   }
   li a {
@@ -113,9 +126,11 @@
     }
   }
   li {
-    @include shorter-screen {
-      &:not(:first-child) {
-        margin-left: 3rem;
+    @include sm-up {
+      @include shorter-screen {
+        &:not(:first-child) {
+          margin-left: 3rem;
+        }
       }
     }
   }
@@ -126,13 +141,13 @@
   max-width: 30rem;
   @include sm-up {
     max-width: 40rem;
+    @include shorter-screen {
+      display: none;
+    }
   }
   @include md-up {
-    max-width: 45rem;
+    //max-width: 45rem;
     max-width: 60rem;
-  }
-  @include shorter-screen {
-    display: none;
   }
   h2 {
     display: inline;

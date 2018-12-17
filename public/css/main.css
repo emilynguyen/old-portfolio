@@ -654,26 +654,37 @@ h2, h3, p {
   @media (min-width: 1200px) {
     .menu-container {
       padding: 0 12vw; } }
-  @media (max-height: 660px) {
-    .menu-container {
-      display: block; } }
+
+@media (min-width: 600px) and (max-height: 660px) {
+  .menu-container {
+    display: block; } }
 
 .menu {
   display: block;
-  margin-top: 2rem; }
-  @media (max-height: 660px) {
-    .menu {
-      margin-top: calc(4rem + 4rem); } }
-  @media (max-height: 660px) and (min-width: 600px) {
-    .menu {
-      margin-top: calc(4rem + 9rem); } }
-  @media (max-height: 660px) and (min-width: 1200px) {
+  margin-top: 2rem;
+  /*
+  @include shorter-screen {
+    margin-top: calc(4rem + 4rem);
+    @include sm-up {
+      margin-top: calc(4rem + 9rem);
+    }
+    @include xl-up {
+      margin-top: calc(4rem + 12rem);
+    }
+  }
+  */ }
+
+@media (min-width: 600px) and (max-height: 660px) {
+  .menu {
+    margin-top: calc(4rem + 9rem); } }
+  @media (min-width: 600px) and (max-height: 660px) and (min-width: 1200px) {
     .menu {
       margin-top: calc(4rem + 12rem); } }
-  @media (max-height: 660px) {
-    .menu li,
-    .menu h1 {
-      display: inline-block; } }
+
+@media (min-width: 600px) and (max-height: 660px) {
+  .menu li,
+  .menu h1 {
+    display: inline-block; } }
   .menu li a {
     color: #272a2c;
     padding: 0 0.3rem; }
@@ -686,9 +697,10 @@ h2, h3, p {
       background-image: -webkit-linear-gradient(-90deg, rgba(255, 245, 110, 0) 50%, #fff56e 50%);
       cursor: default;
       pointer-events: none; }
-  @media (max-height: 660px) {
-    .menu li:not(:first-child) {
-      margin-left: 3rem; } }
+
+@media (min-width: 600px) and (max-height: 660px) {
+  .menu li:not(:first-child) {
+    margin-left: 3rem; } }
 
 .menu-shortcuts {
   margin: -0.1rem 0 1.6rem;
@@ -696,13 +708,12 @@ h2, h3, p {
   @media (min-width: 600px) {
     .menu-shortcuts {
       max-width: 40rem; } }
-  @media (min-width: 840px) {
-    .menu-shortcuts {
-      max-width: 45rem;
-      max-width: 60rem; } }
-  @media (max-height: 660px) {
+  @media (min-width: 600px) and (max-height: 660px) {
     .menu-shortcuts {
       display: none; } }
+  @media (min-width: 840px) {
+    .menu-shortcuts {
+      max-width: 60rem; } }
   .menu-shortcuts h2 {
     display: inline;
     white-space: nowrap; }
