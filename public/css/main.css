@@ -1199,7 +1199,7 @@ p.tags {
           user-select: text;
   font-size: 1.1rem;
   padding: 1rem 0 0.9rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: #333; }
 
@@ -1255,7 +1255,7 @@ p.tags {
 .project-design-camp a:visited,
 .project-design-camp a:hover,
 .project-design-camp a:active {
-  color: #1B237E;
+  color: #1b237e;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1264,13 +1264,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-design-camp button {
-  border-color: #1B237E;
-  color: #1B237E;
+  border-color: #1b237e;
+  color: #1b237e;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-design-camp button:hover {
-      background-color: #1B237E;
+      background-color: #1b237e;
       color: white;
       opacity: 1; } }
 
@@ -1278,7 +1278,7 @@ p.tags {
 .project-stride a:visited,
 .project-stride a:hover,
 .project-stride a:active {
-  color: #2F8C7E;
+  color: #2f8c7e;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1287,13 +1287,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-stride button {
-  border-color: #2F8C7E;
-  color: #2F8C7E;
+  border-color: #2f8c7e;
+  color: #2f8c7e;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-stride button:hover {
-      background-color: #2F8C7E;
+      background-color: #2f8c7e;
       color: white;
       opacity: 1; } }
 
@@ -1301,7 +1301,7 @@ p.tags {
 .project-frontiers a:visited,
 .project-frontiers a:hover,
 .project-frontiers a:active {
-  color: #035F93;
+  color: #035f93;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1310,13 +1310,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-frontiers button {
-  border-color: #035F93;
-  color: #035F93;
+  border-color: #035f93;
+  color: #035f93;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-frontiers button:hover {
-      background-color: #035F93;
+      background-color: #035f93;
       color: white;
       opacity: 1; } }
 
@@ -1324,7 +1324,7 @@ p.tags {
 .project-burow a:visited,
 .project-burow a:hover,
 .project-burow a:active {
-  color: #FB9D56;
+  color: #fb9d56;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1333,13 +1333,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-burow button {
-  border-color: #FB9D56;
-  color: #FB9D56;
+  border-color: #fb9d56;
+  color: #fb9d56;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-burow button:hover {
-      background-color: #FB9D56;
+      background-color: #fb9d56;
       color: white;
       opacity: 1; } }
 
@@ -1347,7 +1347,7 @@ p.tags {
 .project-travelboss a:visited,
 .project-travelboss a:hover,
 .project-travelboss a:active {
-  color: #FF6C71;
+  color: #ff6c71;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1356,13 +1356,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-travelboss button {
-  border-color: #FF6C71;
-  color: #FF6C71;
+  border-color: #ff6c71;
+  color: #ff6c71;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-travelboss button:hover {
-      background-color: #FF6C71;
+      background-color: #ff6c71;
       color: white;
       opacity: 1; } }
 
@@ -1370,7 +1370,7 @@ p.tags {
 .project-ergo a:visited,
 .project-ergo a:hover,
 .project-ergo a:active {
-  color: #01B6AF;
+  color: #01b6af;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1379,13 +1379,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-ergo button {
-  border-color: #01B6AF;
-  color: #01B6AF;
+  border-color: #01b6af;
+  color: #01b6af;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-ergo button:hover {
-      background-color: #01B6AF;
+      background-color: #01b6af;
       color: white;
       opacity: 1; } }
 
@@ -1439,7 +1439,7 @@ p.tags {
 .project-how-far-ill-go a:visited,
 .project-how-far-ill-go a:hover,
 .project-how-far-ill-go a:active {
-  color: #C97F72;
+  color: #c97f72;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1448,13 +1448,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-how-far-ill-go button {
-  border-color: #C97F72;
-  color: #C97F72;
+  border-color: #c97f72;
+  color: #c97f72;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-how-far-ill-go button:hover {
-      background-color: #C97F72;
+      background-color: #c97f72;
       color: white;
       opacity: 1; } }
 
@@ -1485,7 +1485,7 @@ p.tags {
 .project-illustration a:visited,
 .project-illustration a:hover,
 .project-illustration a:active {
-  color: #F04647;
+  color: #f04647;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1494,19 +1494,24 @@ p.tags {
     opacity: 0.4; } }
 
 .project-illustration button {
-  border-color: #F04647;
-  color: #F04647;
+  border-color: #f04647;
+  color: #f04647;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-illustration button:hover {
-      background-color: #F04647;
+      background-color: #f04647;
       color: white;
       opacity: 1; } }
 
 /* Archive styles */
 #archive {
   margin: 8rem 0 5rem; }
+
+#back {
+  margin-top: 14rem; }
+  #back .blockquote {
+    padding-left: 0; }
 
 /*
  * About page

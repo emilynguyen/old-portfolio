@@ -1,114 +1,126 @@
 {{#with currProject}}
-    <div id="project" class="project-{{url}}">
+<div id="project" class="project-{{url}}">
 
-        <div class="container">
-            <div class="project-landing">
+    <div class="container">
+        <div class="project-landing">
 
-            	<h1 class="hide-md-up project-title">{{title}}</h1>
+            <h1 class="hide-md-up project-title">{{title}}</h1>
 
-                <div class="hero-container v-center h-center {{orientation}} padding-{{paddingSize}}" style="background-color: {{accent}};">
-                        <img src="{{icon}}" alt="{{alt}}" {{#if shadow}}style="box-shadow: {{shadow}}"{{/if}}>
-                </div> <!-- .hero-container -->
+            <div class="hero-container v-center h-center {{orientation}} padding-{{paddingSize}}" style="background-color: {{accent}};">
+                <img src="{{icon}}" alt="{{alt}}" {{#if shadow}} style="box-shadow: {{shadow}}" {{/if}}>
+            </div> <!-- .hero-container -->
 
-                <div class="intro">
-                    <h1 class="show-md-up project-title">{{title}}</h1>
-                    {{#if summary}}
-                        <p>{{{summary}}}</p>
+            <div class="intro">
+                <h1 class="show-md-up project-title">{{title}}</h1>
+                {{#if summary}}
+                <p>{{{summary}}}</p>
+                {{/if}}
+
+                <div class="intro-details">
+                    {{#each intro}}
+                    <div class="intro-detail-item {{#if wide}}wide{{/if}} {{#unless wide}}default{{/unless}}">
+                        {{#if title}}
+                        <h3>{{title}}</h3>
+                        <p>{{{content}}}</p>
+                        {{/if}}
+                        {{#if button}}
+                        <a class="btn" href="{{link}}" target="_blank"><button>{{button}}</button></a>
+                        {{/if}}
+                    </div> <!-- .intro-detail-item -->
+                    {{/each}}
+                </div> <!-- .intro-details -->
+            </div> <!-- .intro -->
+
+        </div> <!-- .project-landing -->
+    </div> <!-- .container -->
+
+    <div class="container">
+        {{#if sections}}
+        <div class="section-container">
+            {{#each sections}}
+            <div class="section">
+                <!-- Title -->
+                <h2 class="section-title">{{title}}</h2>
+
+                <div class="section-content">
+                    <!-- Text -->
+                    {{#if text}}
+                    {{{content}}}
                     {{/if}}
 
-                    <div class="intro-details">
-                    {{#each intro}}
-                        <div class="intro-detail-item {{#if wide}}wide{{/if}} {{#unless wide}}default{{/unless}}">
-                            {{#if title}}
-                                <h3>{{title}}</h3>
-                                <p>{{{content}}}</p>
-                            {{/if}}
-                            {{#if button}}
-                                <a class="btn" href="{{link}}" target="_blank"><button>{{button}}</button></a>
-                            {{/if}}
-                        </div> <!-- .intro-detail-item -->
-                    {{/each}}
-                    </div> <!-- .intro-details -->
-                </div> <!-- .intro -->
+                    <!-- Blockquote -->
+                    {{#if blockquote}}
+                    {{{beforeCaption}}}
+                    <p class="blockquote">"{{{quote}}}"</p>
+                    {{{afterCaption}}}
+                    {{/if}}
 
-            </div> <!-- .project-landing -->
-        </div> <!-- .container -->
+                    <!-- Images -->
+                    {{#if image}}
+                    {{{beforeCaption}}}
+                    <div class="section-image {{#if noPadding}}no-padding{{/if}} {{#if noPaddingMd}}no-padding-md{{/if}}"
+                        style="background-color: {{../accent}}; {{#if noPadding}}background-color: transparent;{{/if}} {{#if noPaddingMd}}background-color: transparent;{{/if}} {{style}}">
+                        {{#if link}}
+                        <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}" style="{{imgStyle}}" alt="{{alt}}">{{#if
+                            link}}</a>{{/if}}
+                    </div>
+                    {{{afterCaption}}}
+                    {{/if}}
 
-        <div class="container">
-            {{#if sections}}
-            <div class="section-container">
-                {{#each sections}}
-                <div class="section">
-                    <!-- Title -->
-                    <h2 class="section-title">{{title}}</h2>
-
-                    <div class="section-content">
-                        <!-- Text -->
-                        {{#if text}}
-                            {{{content}}}
-                        {{/if}}
-
-                        <!-- Blockquote -->
-                        {{#if blockquote}}
-                            {{{beforeCaption}}}
-                            <p class="blockquote">"{{{quote}}}"</p>
-                            {{{afterCaption}}}
-                        {{/if}}
-
-                        <!-- Images -->
-                        {{#if image}}
-                            {{{beforeCaption}}}
-                            <div class="section-image {{#if noPadding}}no-padding{{/if}} {{#if noPaddingMd}}no-padding-md{{/if}}" style="background-color: {{../accent}}; {{#if noPadding}}background-color: transparent;{{/if}} {{#if noPaddingMd}}background-color: transparent;{{/if}} {{style}}">
-                                {{#if link}}
-                                <a href="{{link}}" target="_blank">{{/if}}<img src="{{src}}" style="{{imgStyle}}" alt="{{alt}}">{{#if link}}</a>{{/if}}
+                    <!-- Color Palette  -->
+                    {{#if palette}}
+                    <div class="palette" style="{{style}}">
+                        <div class="swatch-container">
+                            {{#each swatches}}
+                            <div class="swatch" style="background-color: {{this}};">
+                                <div class="swatch-name">{{this}}</div>
                             </div>
-                            {{{afterCaption}}}
-                        {{/if}}
+                            {{/each}}
+                        </div>
+                    </div>
+                    {{{caption}}}
+                    {{/if}}
 
-                        <!-- Color Palette  -->
-                        {{#if palette}}
-                            <div class="palette" style="{{style}}">
-                                <div class="swatch-container">
-                                    {{#each swatches}}
-                                    <div class="swatch" style="background-color: {{this}};">
-                                        <div class="swatch-name">{{this}}</div>
-                                    </div>
-                                    {{/each}}
-                                </div>
+                    <!-- PDF -->
+                    {{#if pdf}}
+                    <div class="pdf-container">
+                        <iframe class="pdf" src="{{pdf-link}}"></iframe>
+                    </div>
+                    {{{caption}}}
+                    {{/if}}
+
+                    <!-- Personas -->
+                    {{#if personas}}
+                    <div class="persona-container">
+                        {{#each personaList}}
+                        <div class="persona">
+                            <div class="persona-icon-container">
+                                <img class="persona-icon" src="{{icon}}" alt="">
                             </div>
-                            {{{caption}}}
-                        {{/if}}
-
-                        <!-- PDF -->
-                        {{#if pdf}}
-                            <div class="pdf-container">
-                                <iframe class="pdf" src="{{pdf-link}}"></iframe>
+                            <div class="persona-description">
+                                {{{description}}}
                             </div>
-                            {{{caption}}}
-                        {{/if}}
+                        </div>
+                        {{/each}}
+                    </div>
+                    {{/if}}
 
-                        <!-- Personas -->
-                        {{#if personas}}
-                            <div class="persona-container">
-                                {{#each personaList}}
-                                    <div class="persona">
-                                        <div class="persona-icon-container">
-                                            <img class="persona-icon" src="{{icon}}" alt="">
-                                        </div>
-                                        <div class="persona-description">
-                                            {{{description}}}
-                                        </div>
-                                    </div>
-                                {{/each}}
-                            </div>
-                        {{/if}}
+                </div> <!-- .section-content -->
+            </div> <!-- .section -->
+            {{/each}}
+        </div> <!-- .section-container -->
+        {{/if}}
+    </div> <!-- .container -->
 
-                    </div> <!-- .section-content -->
-                </div> <!-- .section -->
-                {{/each}}
-            </div> <!-- .section-container -->
-            {{/if}}
-        </div> <!-- .container -->
-
-    </div> <!-- #project -->
+</div> <!-- #project -->
 {{/with}}
+
+<!--
+<div id="back">
+    <div class="container">
+        <div class="blockquote">
+            <a href="/">← back to work</a>
+        </div>
+    </div>
+</div>
+-->

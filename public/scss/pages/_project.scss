@@ -43,7 +43,8 @@
     //min-height: calc(100vh - #{$top-padding-sm});
     min-height: 100%;
     height: 100%;
-    &.portrait, &.landscape {
+    &.portrait,
+    &.landscape {
       &.padding-sm {
         padding: 6vw;
       }
@@ -117,7 +118,7 @@
     margin-left: -8rem;
   }
   @include lg-up {
-   // margin-left: -8rem;
+    // margin-left: -8rem;
   }
 }
 
@@ -249,7 +250,7 @@
   user-select: text;
   font-size: 1.1rem;
   padding: 1rem 0 0.9rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   color: $rolling-stone;
 }
@@ -295,7 +296,7 @@
 }
 
 .persona-icon {
-  width: 10rem; 
+  width: 10rem;
 }
 
 .persona-description {
@@ -306,47 +307,46 @@
 
 /* Blockquote section */
 .blockquote {
-   letter-spacing: 0;
-   font-style: italic;
-   padding: 0 3rem;
-   font-size: 2.1rem;
-   line-height: 3.3rem;
-   @include md-up {
-     font-size: 2.6rem;
-     line-height: 3.7rem;
-     padding: 0 4rem;
-   }
- }
+  letter-spacing: 0;
+  font-style: italic;
+  padding: 0 3rem;
+  font-size: 2.1rem;
+  line-height: 3.3rem;
+  @include md-up {
+    font-size: 2.6rem;
+    line-height: 3.7rem;
+    padding: 0 4rem;
+  }
+}
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 
 .project-design-camp {
-  @include link-hover(#1B237E);
+  @include link-hover(#1b237e);
 }
 
 .project-stride {
-  @include link-hover(#2F8C7E);
+  @include link-hover(#2f8c7e);
 }
 
 .project-frontiers {
-  @include link-hover(#035F93);
+  @include link-hover(#035f93);
 }
 
 .project-burow {
-  @include link-hover(#FB9D56);
+  @include link-hover(#fb9d56);
 }
 
 .project-dau-visual {
   //@include link-hover(#000);
 }
 
-
 .project-travelboss {
-  @include link-hover(#FF6C71);
+  @include link-hover(#ff6c71);
 }
 
 .project-ergo {
-  @include link-hover(#01B6AF);
+  @include link-hover(#01b6af);
 }
 
 .project-remember-that-i-love-you {
@@ -358,7 +358,7 @@
 }
 
 .project-how-far-ill-go {
-  @include link-hover(#C97F72);
+  @include link-hover(#c97f72);
 }
 
 .project-ourstory {
@@ -369,10 +369,17 @@
 }
 
 .project-illustration {
-  @include link-hover(#F04647);
+  @include link-hover(#f04647);
 }
 
 /* Archive styles */
 #archive {
   margin: 8rem 0 5rem;
+}
+
+#back {
+  margin-top: 14rem;
+  .blockquote {
+    padding-left: 0;
+  }
 }
