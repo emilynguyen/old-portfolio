@@ -810,11 +810,20 @@
         {
           "title": "",
           "image": true,
+          "src": "images/illustration/nancy.png",
+          "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
+          "style": "background-color: #F9F9F9",
+          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
+          "afterCaption": "<p class=\"small-text\"><a href=\"https://www.instagram.com/nancy.bui\" target=\"_blank\">@nancy.bui</a> (Dec 2018)</p>"
+        },
+        {
+          "title": "",
+          "image": true,
           "src": "images/illustration/sushi.png",
           "alt": "Sleeping hand roll",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
-          "afterCaption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\"</p>"
+          "afterCaption": "<p>ORANGE — \"Orange is stimulating and reaction to it is a combination of the physical and the emotional. It focuses our minds on issues of physical comfort: food, warmth, shelter, and sensuality.\" <span class=\"small-text\">(Nov 2018)</span></p>"
         },
         {
           "title": "",
@@ -823,7 +832,7 @@
           "alt": "Eyes",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
-          "afterCaption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\"</p>"
+          "afterCaption": "<p>RED — \"Associated with energy, war, danger, strength, power, determination as well as passion, desire, and love. Enhances human metabolism, increases respiration rate, and raises blood pressure. It attracts attention more than any other color, at times signifying danger.\" <span class=\"small-text\">(Sept 2018)</span></p>"
         },
         {
           "title": "",
@@ -832,7 +841,7 @@
           "alt": "Cersei from Game of Thrones",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
-          "afterCaption": "<p class=\"small-text\">Cersei from Game of Thrones.</p>"
+          "afterCaption": "<p class=\"small-text\">Cersei from Game of Thrones. (Oct 2015)</p>"
         },
         {
           "title": "",
@@ -841,7 +850,7 @@
           "alt": "Moira from American Horror Story: Murder House",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
-          "afterCaption": "<p class=\"small-text\">Moira from American Horror Story: Murder House.</p>"
+          "afterCaption": "<p class=\"small-text\">Moira from American Horror Story: Murder House. (Aug 2015)</p>"
         },
         {
           "title": "",
@@ -850,7 +859,7 @@
           "alt": "Lydia from Teen Wolf",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
-          "afterCaption": "<p class=\"small-text\">Lydia from Teen Wolf.</p>"
+          "afterCaption": "<p class=\"small-text\">Lydia from Teen Wolf. (Nov 2014)</p>"
         },
         {
           "title": "",
@@ -859,7 +868,7 @@
           "alt": "Kaya Scodelario",
           "style": "background-color: #F9F9F9",
           "noPaddingMd": true,
-          "afterCaption": "<p class=\"small-text\">Kaya Scodelario in Wuthering Heights.</p>"
+          "afterCaption": "<p class=\"small-text\">Kaya Scodelario in Wuthering Heights. (Oct 2014)</p>"
         }
       ]
     }
