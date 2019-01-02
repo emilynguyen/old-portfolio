@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{description}}" />
     <meta name="keywords" content="Emily Nguyen, visual design, interaction design, ux design, product design, front-end development, ux engineering">
-
     <meta property="og:title" content="{{title}}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="http://emilynguyen.co/images/preview.png">
@@ -45,13 +45,11 @@
 
     <!-- main.css -->
     <link href="/css/main.css" rel="stylesheet" type="text/css">
-    <!-- IBM Plex Mono -->
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400" rel="stylesheet">
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- jQuery local fallback -->
     <script>
-    if (typeof jQuery == 'undefined') {
+        if (typeof jQuery == 'undefined') {
             document.write(unescape("%3Cscript src='js/jquery-3.3.1.min.js' type='text/javascript'%3E%3C/script%3E"));
         }
     </script>
@@ -61,65 +59,74 @@
 </head>
 
 <body>
-	<div class="body-wrapper">
+    <div class="body-wrapper">
 
-		<div id="header">
-		    <div class="container">
+        <div id="header">
+            <div class="container">
 
-		        <button class="hamburger hamburger--spin" type="button">
-		          <span class="hamburger-box">
-		            <span class="hamburger-inner"></span>
-		          </span>
-		        </button> <!-- .hamburger -->
+                <button class="hamburger hamburger--spin" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button> <!-- .hamburger -->
 
-		        <div class="menu-overlay">
-		            <div class="menu-container v-center">
-		                <ul class="menu">
-		                    <li><h1><a href="/">Work</a></h1>
-		                        <div class="menu-shortcuts">
-		                        	{{#with data}}
-                                        {{#each projects}}
-                                            {{#unless archive}}
-                                                <h2><a href="/{{url}}">{{title}}</a></h2>
-                                            {{/unless}}
-                                        {{/each}}
-		                            {{/with}}
-		                        </div> <!-- .menu-shortcuts -->
-		                    </li>
-		                    <li><h1><a href="/about">About</a></h1></li>
-                            <li><h1><a href="/archive">Archive</a></h1></li>
-		                    <li><h1><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank">Resume</a></h1></li>
-		                </ul> <!-- .menu -->
-		            </div> <!-- .menu-container -->
-		        </div> <!-- .menu-overlay -->
+                <div class="menu-overlay">
+                    <div class="menu-container v-center">
+                        <ul class="menu">
+                            <li>
+                                <h1><a href="/">Work</a></h1>
+                                <div class="menu-shortcuts">
+                                    {{#with data}}
+                                    {{#each projects}}
+                                    {{#unless archive}}
+                                    <h2><a href="/{{url}}">{{title}}</a></h2>
+                                    {{/unless}}
+                                    {{/each}}
+                                    {{/with}}
+                                </div> <!-- .menu-shortcuts -->
+                            </li>
+                            <li>
+                                <h1><a href="/about">About</a></h1>
+                            </li>
+                            <li>
+                                <h1><a href="/archive">Archive</a></h1>
+                            </li>
+                            <li>
+                                <h1><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank">Resume</a></h1>
+                            </li>
+                        </ul> <!-- .menu -->
+                    </div> <!-- .menu-container -->
+                </div> <!-- .menu-overlay -->
 
-		    </div> <!-- .container -->
-		</div> <!-- #header -->
+            </div> <!-- .container -->
+        </div> <!-- #header -->
 
-    	{{{body}}}
+        {{{body}}}
 
-	</div> <!-- .body-wrapper -->
+    </div> <!-- .body-wrapper -->
 
-	<div id="footer">
-	    <div class="container h-space-beteen v-cnter">
-	        <div class="copyright">
-	            <h2>Made with ♥ by Emily <span style="display: none;">© 2018</span></h2>
-	        </div> <!-- .copyright -->
-	        <div class="social-media">
-	            <ul>
-	                <li><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank" title="Resume"><img src="images/icons/resume.svg"></a></li>
-	                <li class="email"><a href="mailto:emilymylinh@gmail.com" title="Email"><img src="images/icons/email.svg"></a></li>
-	                <li><a href="https://www.linkedin.com/in/emilymnguyen/" target="_blank" title="LinkedIn"><img src="images/icons/linkedin.svg"></a></li>
-	                <li class="github"><a href="https://github.com/emilynguyen" target="_blank" title="Github"><img src="images/icons/github.svg"></a></li>
+    <div id="footer">
+        <div class="container h-space-beteen v-cnter">
+            <div class="copyright">
+                <h2>Made with ♥ by Emily <span style="display: none;">© 2018</span></h2>
+            </div> <!-- .copyright -->
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/0B6dEoGhrXuYId0g0Nm5BR1ZYbTg/view" target="_blank"
+                            title="Resume"><img src="images/icons/resume.svg"></a></li>
+                    <li class="email"><a href="mailto:emilymylinh@gmail.com" title="Email"><img src="images/icons/email.svg"></a></li>
+                    <li><a href="https://www.linkedin.com/in/emilymnguyen/" target="_blank" title="LinkedIn"><img src="images/icons/linkedin.svg"></a></li>
+                    <li class="github"><a href="https://github.com/emilynguyen" target="_blank" title="Github"><img src="images/icons/github.svg"></a></li>
                     <!--
 	                <li><a href="https://dribbble.com/emnguyen" target="_blank" title="Dribbble"><img src="images/icons/dribbble.svg"></a></li> -->
                     <li><a href="https://www.instagram.com/emilynguyen.co/" target="_blank" title="Instagram"><img src="images/icons/instagram.svg"></a></li>
-	            </ul>
-	        </div> <!-- .social-media -->
-	    </div> <!-- .container -->
-	</div> <!-- #footer -->
+                </ul>
+            </div> <!-- .social-media -->
+        </div> <!-- .container -->
+    </div> <!-- #footer -->
 
-	<!-- main.js -->
-	<script type="text/javascript" src="/js/main.js"></script>
+    <!-- main.js -->
+    <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>
