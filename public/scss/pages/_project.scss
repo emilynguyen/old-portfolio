@@ -321,6 +321,10 @@
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 
+.project-asgs {
+  @include link-hover(#abbf2b);
+}
+
 .project-design-camp {
   @include link-hover(#1b237e);
 }

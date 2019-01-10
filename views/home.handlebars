@@ -1,17 +1,27 @@
 {{#with data}}
 <div id="home" class="title">
     <div class="container">
-    	<h1 class="home-title"><a class="name" href="/">Emily Nguyen</a><br><span class="tagline">Designer and developer that loves crafting visual experiences and seeing them through to implementation. Previously at Salesforce.</span></h1>
+        <h1 class="home-title"><a class="name" href="/">Emily Nguyen</a><br><span class="tagline">Designer and
+                developer that loves crafting visual experiences and seeing them through to implementation. Previously
+                at Salesforce.</span></h1>
     </div>
 </div> <!-- #home -->
 
 <div id="filters">
     <div class="container">
         <ul>
-            <li><h2 class="filter filter-label-all active-filter">All Work</h2></li>
-            <li><h2 class="filter filter-label-visual">Visual</h2></li>
-            <li><h2 class="filter filter-label-ux">UX</h2></li>
-            <li><h2 class="filter filter-label-dev">Dev</h2></li>
+            <li>
+                <h2 class="filter filter-label-all active-filter">All Work</h2>
+            </li>
+            <li>
+                <h2 class="filter filter-label-visual">Visual</h2>
+            </li>
+            <li>
+                <h2 class="filter filter-label-ux">UX</h2>
+            </li>
+            <li>
+                <h2 class="filter filter-label-dev">Dev</h2>
+            </li>
         </ul>
     </div>
 </div> <!-- #filters -->
@@ -20,47 +30,48 @@
     <div class="gallery-item-container">
 
         {{#each projects}}
-            {{#unless archive}}
-                <div class="{{#each filters}}filter-{{this}} {{/each}}">
+        {{#unless archive}}
+        <div class="{{#each filters}}filter-{{this}} {{/each}}">
 
-                <a href="/{{url}}">
-                    <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
-                        <div class="project-icon v-center h-center">
-                            <img src="{{icon}}" alt="{{title}}" class="{{orientation}} padding-{{paddingSize}}" {{#if shadow}}style="box-shadow: {{shadow}}"{{/if}}>
-                        </div> <!-- .project-icon -->
-                        <!-- Project description on image overlay -->
-                        <div class="project-description hide-sm-down">
-                            <div class="wrapper">
-                                <h2>{{title}}</h2>
-                                <p>{{{description}}}</p>
-                                <p class="tags">
-                                    {{#each tags}}
-                                        <span>{{this}}</span>
-                                    {{/each}}
-                                </p>
-                            </div>
-                        </div> <!-- .project-description -->
-
-                        <div class="arrow hide-sm-up">
-                            <img src="images/icons/arrow.svg">
-                        </div> <!-- .arrow -->
-                    </div> <!-- .gallery-item -->
-                </a>
-                <div class="container hide-sm-up">
-                    <!-- Project description below image -->
-                    <div class="project-description">
-                        <h2>{{title}}</h2>
-                        <p>{{{description}}}</p>
-                        <p class="tags">
-                            {{#each tags}}
+            <a href="/{{url}}">
+                <div class="gallery-item {{url}} padding-{{paddingSize}}" style="background-color: {{accent}}">
+                    <div class="project-icon v-center h-center">
+                        <img {{#if iconMin}} src="{{iconMin}}" {{else}} src="{{icon}}" {{/if}} alt="{{title}}" class="{{orientation}} padding-{{paddingSize}}"
+                            {{#if shadow}} style="box-shadow: {{shadow}}" {{/if}}>
+                    </div> <!-- .project-icon -->
+                    <!-- Project description on image overlay -->
+                    <div class="project-description hide-sm-down">
+                        <div class="wrapper">
+                            <h2>{{title}}</h2>
+                            <p>{{{description}}}</p>
+                            <p class="tags">
+                                {{#each tags}}
                                 <span>{{this}}</span>
-                            {{/each}}
-                        </p>
+                                {{/each}}
+                            </p>
+                        </div>
                     </div> <!-- .project-description -->
-                </div>
 
-                </div> <!-- tag wrapper -->
-            {{/unless}}
+                    <div class="arrow hide-sm-up">
+                        <img src="images/icons/arrow.svg">
+                    </div> <!-- .arrow -->
+                </div> <!-- .gallery-item -->
+            </a>
+            <div class="container hide-sm-up">
+                <!-- Project description below image -->
+                <div class="project-description">
+                    <h2>{{title}}</h2>
+                    <p>{{{description}}}</p>
+                    <p class="tags">
+                        {{#each tags}}
+                        <span>{{this}}</span>
+                        {{/each}}
+                    </p>
+                </div> <!-- .project-description -->
+            </div>
+
+        </div> <!-- tag wrapper -->
+        {{/unless}}
         {{/each}}
 
     </div> <!-- .gallery-item-container -->

@@ -1,14 +1,65 @@
 {
   "projects": [
     {
+      "title": "A.S. Graphic Studio",
+      "url": "asgs",
+      "filters": ["dev", "visual"],
+      "icon": "images/asgs/asgs.gif",
+      "iconMin": "images/asgs/asgs-min.gif",
+      "paddingSize": "sm",
+      "orientation": "landscape",
+      "accent": "#F5F7F6",
+      "tags": ["front-end", "visual design"],
+      "description": "Redesigned and developed a new website for A.S. Graphic Studio.",
+      "shadow": "1rem 1rem 2.5rem rgba(0,0,0,0.04)",
+      "summary": "One of my first projects as A.S. Graphic Studio's new webmaster was to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.",
+      "intro": [
+        {
+          "title": "Role",
+          "content": "Lead designer and developer"
+        },
+        {
+          "title": "Date",
+          "content": "Dec 2018 – Jan 2019"
+        },
+        {
+          "title": "Tools + Skills",
+          "content": "Sketch, HTML, CSS, Sass, Jekyll"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://github.com/emilynguyen/asgs\" target=\"_blank\">Github repo</a><br><a href=\"http://asgraphicstudio.ucsd.edu/archive_010719/\" target=\"_blank\">Old site</a>"
+        },
+        {
+          "button": "Visit Site",
+          "wide": true,
+          "link": "http://asgraphicstudio.ucsd.edu"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Old Site",
+          "image": true,
+          "link": "http://asgraphicstudio.ucsd.edu/archive_010719/",
+          "imgStyle": "box-shadow: 1rem 1rem 2.5rem rgba(0,0,0,0.04);",
+          "src": "images/asgs/old-asgs.png"
+        },
+        {
+          "title": "Process",
+          "text": true,
+          "content": "<p>Coming soon!</p>"
+        }
+      ]
+    },
+    {
       "title": "Stride Career Fair",
       "url": "stride",
-      "filters": ["dev", "visual"],
+      "filters": ["dev"],
       "icon": "images/stride/runner.gif",
       "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#FFECB3",
-      "tags": ["front-end", "visual design"],
+      "tags": ["front-end"],
       "description": "Website for a design-centric career fair hosted by Design at UCSD.",
       "shadow": "1rem 1rem 2rem rgba(0,0,0,0.03)",
       "summary": "As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.<br><br>In collaboration with one of our visual designers, I developed the event website. I also assisted our graphic studio in creating visual collateral.",
@@ -57,6 +108,7 @@
     },
     {
       "title": "Design Camp",
+      "archive": true,
       "url": "design-camp",
       "filters": ["dev"],
       "icon": "images/designatucsd/design-camp2.gif",
