@@ -1,6 +1,51 @@
 {
   "projects": [
     {
+      "title": "Google Design Exercise",
+      "private": true,
+      "url": "google",
+      "filters": [""],
+      "icon": "images/google/icon.png",
+      "paddingSize": "md",
+      "orientation": "portrait",
+      "accent": "#F5F5F5",
+      "tags": ["visual design"],
+      "shadow": "1rem 1rem 2.5rem rgba(0,0,0,0.04)",
+      "description": "Google Design Exercise 2019",
+      "summary": "",
+      "intro": [
+        {
+          "title": "Tools",
+          "content": "Sketch"
+        },
+        {
+          "title": "Date",
+          "content": "Jan 15–22, 2019"
+        },
+        {
+          "title": "Resources",
+          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY\" target=\"_blank\">Final mockups</a>"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Design Brief",
+          "text": true,
+          "content": "<p><i>Option 2 — </i>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>"
+        },
+        {
+          "title": "Design Process",
+          "pdf": true,
+          "pdf-link": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
+        },
+        {
+          "title": "Final Product",
+          "text": true,
+          "content": "<p>View my final <a href='https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY' target='_blank'>high-fidelity mockups</a>!</p>"
+        }
+      ]
+    },
+    {
       "title": "A.S. Graphic Studio",
       "url": "asgs",
       "filters": ["dev", "visual"],
@@ -8,11 +53,11 @@
       "iconMin": "images/asgs/asgs-min.gif",
       "paddingSize": "sm",
       "orientation": "landscape",
-      "accent": "#F5F7F6",
+      "accent": "#F5F5F5",
       "tags": ["front-end", "visual design"],
-      "description": "Redesigned and developed a new website for A.S. Graphic Studio.",
+      "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
       "shadow": "1rem 1rem 2.5rem rgba(0,0,0,0.04)",
-      "summary": "One of my first projects as A.S. Graphic Studio's new webmaster was to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.",
+      "summary": "One of my first projects as Associated Students Graphic Studio's new webmaster was to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.",
       "intro": [
         {
           "title": "Role",
@@ -224,7 +269,7 @@
         },
         {
           "title": "Teammates",
-          "content": "Aman Gupta, Joel Sequeira, Jared Suasin"
+          "content": "Aman Gupta, Joel Sequeira, <a href='http://jaredsuasin.com/' target='_blank'>Jared Suasin</a>"
         },
         {
           "title": "Date",

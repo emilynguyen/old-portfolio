@@ -321,6 +321,10 @@
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
 
+.project-google {
+  @include link-hover(#651fff);
+}
+
 .project-asgs {
   @include link-hover(#b7bf10);
 }

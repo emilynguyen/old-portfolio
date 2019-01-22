@@ -79,7 +79,9 @@
                                     {{#with data}}
                                     {{#each projects}}
                                     {{#unless archive}}
+                                    {{#unless private}}
                                     <h2><a href="/{{url}}">{{title}}</a></h2>
+                                    {{/unless}}
                                     {{/unless}}
                                     {{/each}}
                                     {{/with}}

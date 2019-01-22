@@ -1251,6 +1251,29 @@ p.tags {
       padding: 0 4rem; } }
 
 /***** INDIVIDUAL PROJECT PAGE STYLES *****/
+.project-google a,
+.project-google a:visited,
+.project-google a:hover,
+.project-google a:active {
+  color: #651fff;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-google a:not(.btn):hover {
+    opacity: 0.4; } }
+
+.project-google button {
+  border-color: #651fff;
+  color: #651fff;
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .project-google button:hover {
+      background-color: #651fff;
+      color: white;
+      opacity: 1; } }
+
 .project-asgs a,
 .project-asgs a:visited,
 .project-asgs a:hover,
