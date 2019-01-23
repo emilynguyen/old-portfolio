@@ -12,7 +12,7 @@
       "tags": ["visual design"],
       "shadow": "1rem 1rem 2.5rem rgba(0,0,0,0.04)",
       "description": "Google Design Exercise 2019",
-      "summary": "",
+      "summary": "<i>Option 2 — </i>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.",
       "intro": [
         {
           "title": "Tools",
@@ -24,15 +24,10 @@
         },
         {
           "title": "Resources",
-          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY\" target=\"_blank\">Final mockups</a>"
+          "content": "<a href=\"https://drive.google.com/open?id=1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud\" target=\"_blank\">Design Process (PDF)</a><br><a href=\"https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY\" target=\"_blank\">Final Mockups</a>"
         }
       ],
       "sections": [
-        {
-          "title": "Design Brief",
-          "text": true,
-          "content": "<p><i>Option 2 — </i>Design an experience for students to discover orientation events and craft a visual system to accommodate different types of events: sports, music, visual arts, social groups, and volunteering events. Provide high-fidelity mocks for searching, browsing, and viewing the details for these different events.</p>"
-        },
         {
           "title": "Design Process",
           "pdf": true,
@@ -40,8 +35,30 @@
         },
         {
           "title": "Final Product",
-          "text": true,
-          "content": "<p>View my final <a href='https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY' target='_blank'>high-fidelity mockups</a>!</p>"
+          "image": true,
+          "noPaddingMd": true,
+          "style": "background-color: none",
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "src": "images/google/mocks/home-min.png",
+          "beforeCaption": "<p>Home / browse</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "noPaddingMd": true,
+          "style": "background-color: none",
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "src": "images/google/mocks/home-filter-min.png",
+          "beforeCaption": "<p>Home / browse — <i>Sports</i> and <i>Volunteering</i> events filtered out</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "noPaddingMd": true,
+          "style": "background-color: none",
+          "link": "https://drive.google.com/open?id=1PPDp-CkuE7znLkXXdx_JzlcwMrwps9uY",
+          "src": "images/google/mocks/details-min.png",
+          "beforeCaption": "<p>Event details</p>"
         }
       ]
     },

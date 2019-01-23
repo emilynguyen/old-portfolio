@@ -9,12 +9,15 @@ body {
   letter-spacing: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: $shark !important;
   font-weight: 500;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: $graphik;
   @include xs-up {
     letter-spacing: -0.04rem;
@@ -22,15 +25,20 @@ h1, h2 {
 }
 
 h1 {
+  font-size: 3rem;
+  line-height: 3.9rem;
   &.home-title {
     font-size: 3rem;
     line-height: 3.9rem;
   }
-  &.project-title, &.archive-title {
+  &.project-title,
+  &.archive-title {
     font-size: 3.5rem;
     line-height: 4.5rem;
   }
-  &.home-title, &.project-title, &.archive-title {
+  &.home-title,
+  &.project-title,
+  &.archive-title {
     @include sm-up {
       font-size: 3.5rem;
       line-height: 4.5rem;
@@ -40,7 +48,6 @@ h1 {
       line-height: 5.5rem;
     }
   }
-
 
   /*
   &.small {
@@ -89,11 +96,13 @@ h2 {
   }
 }
 
-p, li, h3 {
+p,
+li,
+h3 {
   font-size: 1.3rem;
   line-height: 2.3rem;
   color: $rolling-stone;
-  letter-spacing: .03rem;
+  letter-spacing: 0.03rem;
   @include link-hover($silver-sand);
   @include xs-up {
     font-size: $body-font-size;

@@ -457,17 +457,23 @@ body {
   font-weight: 400;
   letter-spacing: 0; }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #272a2c !important;
   font-weight: 500; }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Graphik", "Helvetica Neue", "Arial", sans-serif; }
   @media (min-width: 480px) {
-    h1, h2 {
+    h1,
+    h2 {
       letter-spacing: -0.04rem; } }
 
 h1 {
+  font-size: 3rem;
+  line-height: 3.9rem;
   /*
   &.small {
     font-size: 2.8em;
@@ -518,18 +524,22 @@ h2 {
 #project h2 {
   margin-bottom: 1.5rem; }
 
-p, li, h3 {
+p,
+li,
+h3 {
   font-size: 1.3rem;
   line-height: 2.3rem;
   color: #333;
-  letter-spacing: .03rem; }
+  letter-spacing: 0.03rem; }
   p a,
   p a:visited,
   p a:hover,
-  p a:active, li a,
+  p a:active,
+  li a,
   li a:visited,
   li a:hover,
-  li a:active, h3 a,
+  li a:active,
+  h3 a,
   h3 a:visited,
   h3 a:hover,
   h3 a:active {
@@ -537,20 +547,28 @@ p, li, h3 {
     -webkit-transition: 0.3s opacity;
     transition: 0.3s opacity; }
   @media (hover: hover) {
-    p a:not(.btn):hover, li a:not(.btn):hover, h3 a:not(.btn):hover {
+    p a:not(.btn):hover,
+    li a:not(.btn):hover,
+    h3 a:not(.btn):hover {
       opacity: 0.4; } }
-  p button, li button, h3 button {
+  p button,
+  li button,
+  h3 button {
     border-color: #ababab;
     color: #ababab;
     -webkit-transition: background-color .3s, color .3s;
     transition: background-color .3s, color .3s; }
     @media (hover: hover) {
-      p button:hover, li button:hover, h3 button:hover {
+      p button:hover,
+      li button:hover,
+      h3 button:hover {
         background-color: #ababab;
         color: white;
         opacity: 1; } }
   @media (min-width: 480px) {
-    p, li, h3 {
+    p,
+    li,
+    h3 {
       font-size: 1.4rem;
       line-height: 2.5rem; } }
 
