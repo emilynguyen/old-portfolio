@@ -1407,6 +1407,29 @@ p.tags {
       color: white;
       opacity: 1; } }
 
+.project-designatucsd a,
+.project-designatucsd a:visited,
+.project-designatucsd a:hover,
+.project-designatucsd a:active {
+  color: #4848ef;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity; }
+
+@media (hover: hover) {
+  .project-designatucsd a:not(.btn):hover {
+    opacity: 0.4; } }
+
+.project-designatucsd button {
+  border-color: #4848ef;
+  color: #4848ef;
+  -webkit-transition: background-color .3s, color .3s;
+  transition: background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .project-designatucsd button:hover {
+      background-color: #4848ef;
+      color: white;
+      opacity: 1; } }
+
 .project-travelboss a,
 .project-travelboss a:visited,
 .project-travelboss a:hover,

@@ -83,10 +83,11 @@
 
                     <!-- PDF -->
                     {{#if pdf}}
+                    {{{beforeCaption}}}
                     <div class="pdf-container">
-                        <iframe class="pdf" src="{{pdf-link}}"></iframe>
+                        <iframe class="pdf" src="{{src}}"></iframe>
                     </div>
-                    {{{caption}}}
+                    {{{afterCaption}}}
                     {{/if}}
 
                     <!-- Personas -->

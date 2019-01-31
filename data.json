@@ -31,7 +31,7 @@
         {
           "title": "Design Process",
           "pdf": true,
-          "pdf-link": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
+          "src": "https://drive.google.com/file/d/1f3BdUK-cvWS1ONiH6nRidwP__qlON8Ud/preview"
         },
         {
           "title": "Final Product",
@@ -151,22 +151,7 @@
           "link": "https://stride.designatucsd.org/"
         }
       ],
-      "sections": [
-        {
-          "title": "Event Sign",
-          "image": true,
-          "style": "background-color: #fbfbfb",
-          "imgStyle": "box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.03);",
-          "src": "images/designatucsd/stride-event-sign.png"
-        },
-        {
-          "title": "Check In Signs",
-          "image": true,
-          "style": "background-color: #fbfbfb",
-          "imgStyle": "box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.03);",
-          "src": "images/designatucsd/stride-check-in.png"
-        }
-      ]
+      "sections": []
     },
     {
       "title": "Design Camp",
@@ -367,64 +352,68 @@
       ]
     },
     {
-      "title": "Design at UCSD: Visual Design",
-      "url": "dau-visual",
-      "filters": ["visual"],
-      "icon": "images/designatucsd/figma-invision-workshop.png",
+      "title": "Design at UCSD",
+      "url": "designatucsd",
+      "filters": ["visual", "dev"],
+      "icon": "images/designatucsd/icon.jpg",
       "paddingSize": "sm",
       "orientation": "landscape",
-      "accent": "#F2F2F2",
-      "tags": ["visual design", "brand design"],
-      "description": "Designed marketing assets, lead workshops, and evolved brand identity.",
-      "shadow": ".8rem .8rem 2rem rgba(0,0,0,0.15)",
-      "summary": "Since November 2017, I’ve been a student leader at the design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral, lead visual design workshops, and evolved brand identity.",
+      "accent": "#ffeef1",
+      "tags": ["visual design", "brand design", "front-end"],
+      "description": "Student leader at the largest pre-professional design community on campus.",
+      "shadow": ".5rem .5rem 4rem rgba(72,72,239,0.3)",
+      "summary": "Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as tech lead.",
       "intro": [
         {
-          "title": "Role",
-          "content": "Visual Design Co-Chair"
-        },
-        {
-          "title": "Date",
-          "content": "Nov 2017 – June 2018"
+          "title": "Roles",
+          "wide": true,
+          "content": "Visual Design Co-Lead (Nov 2017 – June 2018)<br>Tech Lead (June 2018 – Present)"
         }
       ],
       "sections": [
         {
-          "title": "Highlighted Work",
+          "title": "Our Mission",
+          "blockquote": true,
+          "quote": "To establish an open community of aspiring designers, to inspire creative confidence, and to ease students into industry."
+        },
+        {
+          "title": "Highlighted Graphics",
           "image": true,
-          "src": "images/designatucsd/figma-invision-workshop.png",
+          "src": "images/designatucsd/visual.png",
           "alt": "Figma + Invision Workshop event graphic",
-          "noPaddingMd": true
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/robolink.png",
-          "alt": "Designing for STEM Education graphic",
-          "noPaddingMd": true
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/krispy-kreme.jpg",
-          "style": "background-color: #F9F9F9",
-          "imgStyle": "box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.03);",
-          "alt": "Krispy Kreme Fundraiser poster"
-        },
-        {
-          "image": true,
-          "src": "images/designatucsd/frontiers.jpg",
-          "style": "background-color: #F9F9F9",
-          "imgStyle": "box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.03);",
-          "alt": "Design Frontiers poster"
+          "stye": "background-color: #F9F9F9"
         },
         {
           "title": "Workshops",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
+          "pdf": true,
+          "src": "https://drive.google.com/file/d/1HwQxDAd1A_c5rm5USoLbufpbU_1WzC20/preview",
+          "beforeCaption": "<p>Illustrator Workshop (Winter 2018)</p>"
+        },
+        {
+          "pdf": true,
+          "src": "https://drive.google.com/file/d/1NrHveXnywVB2vrzyGBQGHxpgDfUC4bb3/preview",
+          "beforeCaption": "<p>Color + Typography Workshop (Spring 2018)</p>"
+        },
+        {
+          "title": "Web Projects",
+          "src": "images/designatucsd/web.png",
+          "image": true,
+          "beforeCaption": "<p>As tech lead, I collaborate with our visual design team to create websites for events, workshops, and email campaigns. Two of the biggest projects I've worked on so far are <a href='/stride'>Stride Career Fair</a> and <a href='/frontiers'>Design Frontiers: Intuit</a>.</p>"
         },
         {
           "title": "Soft Rebrand",
-          "text": true,
-          "content": "<p>Coming soon!</p>"
+          "image": true,
+          "src": "images/designatucsd/banners-before.png",
+          "beforeCaption": "<p>During my term as visual co-lead, my co and I reevaluated the branding guidelines surrounding our marketing visuals and introduced a new, illustration-heavy creative direction that refreshed the face of the org. Process coming soon!</p><p class='underline'>Before</p>",
+          "noPaddingMd": true
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/designatucsd/banners-after.png",
+          "noPaddingMd": true,
+          "beforeCaption": "<p class='underline'>After</p>",
+          "afterCaption": "<p class='small-text'>Shout-out to <a href='https://nancybui.co/' target='_blank'>Nancy</a>, <a href='http://laurenchoy.com' target='_blank'>Lauren</a>, and <a href='https://lucylouxu.com/' target='_blank'>Lucy</a>.</p>"
         }
       ]
     },
@@ -469,7 +458,7 @@
         {
           "title": "Design Process",
           "pdf": true,
-          "pdf-link": "https://drive.google.com/file/d/1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2/preview"
+          "src": "https://drive.google.com/file/d/1jNWZi1YswKr6BxMjOUazh7-qwWl1w5o2/preview"
         },
         {
           "title": "Final Product",
@@ -481,7 +470,7 @@
         {
           "title": "",
           "pdf": true,
-          "pdf-link": "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"
+          "src": "https://drive.google.com/file/d/1EGBNRfvD9YCt9tTR7EI3WdgvU34ewOki/preview"
         }
       ]
     },
@@ -591,7 +580,7 @@
         {
           "title": "Revisiting the Brief + Redesign",
           "text": true,
-          "content": "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> – possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> – wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) – libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> – open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
+          "content": "<p>Upon revisiting the design brief, we realized we had strayed. While our solution provided users with exercises that were relevant for their location and setup, this was not an environmental interaction in itself. So, <i>how might various work spaces be used to help their respective occupants reach their end goals?</i></p><p>Our revised solution was to have our application suggest stretches that use surrounding objects. Environments would be grouped with other environments based on the objects that are common to them. We redefined our categories as follows:</p><ol type=\"1\"><li><i>Office</i> — possibly a cubicle or small space; stretches can utilize desks and chairs</li><li><i>Home</i> — wide array of furniture at user's disposal, disruptive exercises are not a concern</li><li><i>Indoor</i> (public) — libraries, coffee shops; stretches are seated and more discreet</li><li><i>Outdoor</i> — open space; stretches can utilize larger objects such as trees or poles, exercises can be more extensive (e.g. running)</li></ol>"
         },
         {
           "title": "Wireframing",
@@ -672,10 +661,10 @@
       "title": "Portfolio",
       "url": "portfolio",
       "filters": ["dev", "visual"],
-      "icon": "images/portfolio/icon.jpg",
+      "icon": "images/portfolio/icon-2.png",
       "paddingSize": "sm",
       "orientation": "portrait",
-      "accent": "#C4DBD9",
+      "accent": "#EF7B5E",
       "tags": ["web design", "front-end", "back-end"],
       "description": "Built my portfolio from the ground up to showcase my evolving set of visual design and web development skills.",
       "summary": "To showcase my adaptive skill range, I took on the role of both the designer and developer to build my portfolio from the ground up.",
@@ -740,7 +729,7 @@
         {
           "title": "",
           "image": true,
-          "src": "images/portfolio/logo.png",
+          "src": "images/portfolio/logo.svg",
           "alt": "Logo",
           "afterCaption": "<p>This design had the intentionality that my previous iterations lacked. The clean layout sets a relaxed mood, while the offset headings, casual typeface, and bright accent add a hint of playfulness.</p>"
         },
@@ -872,7 +861,7 @@
         {
           "title": "Event Program",
           "pdf": true,
-          "pdf-link": "https://drive.google.com/file/d/0B6dEoGhrXuYIbllXcHBXWEVxTG8/preview"
+          "src": "https://drive.google.com/file/d/0B6dEoGhrXuYIbllXcHBXWEVxTG8/preview"
         }
       ]
     },
@@ -907,7 +896,7 @@
         {
           "title": "Event Program",
           "pdf": true,
-          "pdf-link": "https://drive.google.com/file/d/0B6dEoGhrXuYIV2N0cHNqNEZfWjA/preview"
+          "src": "https://drive.google.com/file/d/0B6dEoGhrXuYIV2N0cHNqNEZfWjA/preview"
         }
       ]
     },
@@ -916,11 +905,11 @@
       "archive": false,
       "url": "illustration",
       "filters": ["visual"],
-      "icon": "images/illustration/icon.png",
+      "icon": "images/illustration/sushi-icon.png",
       "shado": "1rem 1rem 3rem rgba(0,0,0,0.1)",
-      "paddingSize": "sm",
+      "paddingSize": "md",
       "orientation": "landscape",
-      "accent": "#F9F9F9",
+      "accent": "#ffa726",
       "tags": ["illustration"],
       "description": "A collection of my personal illustrations.",
       "summary": "A collection of my personal illustrations. :~)",
