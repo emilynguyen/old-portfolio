@@ -1411,7 +1411,7 @@ p.tags {
 .project-designatucsd a:visited,
 .project-designatucsd a:hover,
 .project-designatucsd a:active {
-  color: #4848ef;
+  color: #70bdb6;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
@@ -1420,13 +1420,13 @@ p.tags {
     opacity: 0.4; } }
 
 .project-designatucsd button {
-  border-color: #4848ef;
-  color: #4848ef;
+  border-color: #70bdb6;
+  color: #70bdb6;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
     .project-designatucsd button:hover {
-      background-color: #4848ef;
+      background-color: #70bdb6;
       color: white;
       opacity: 1; } }
 

@@ -355,13 +355,14 @@
       "title": "Design at UCSD",
       "url": "designatucsd",
       "filters": ["visual", "dev"],
-      "icon": "images/designatucsd/icon.jpg",
+      "icon": "images/designatucsd/icon.png",
+      "iconMin": "images/designatucsd/icon-min.png",
       "paddingSize": "sm",
       "orientation": "landscape",
       "accent": "#ffeef1",
       "tags": ["visual design", "brand design", "front-end"],
-      "description": "Student leader at the largest pre-professional design community on campus.",
-      "shadow": ".5rem .5rem 4rem rgba(72,72,239,0.3)",
+      "description": "Visual designer, web developer, and student leader at the largest pre-professional design community on campus.",
+      "shdow": ".5rem .5rem 4rem rgba(72,72,239,0.3)",
       "summary": "Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as tech lead.",
       "intro": [
         {
@@ -928,6 +929,13 @@
         }
       ],
       "sections": [
+        {
+          "title": "",
+          "image": true,
+          "src": "images/illustration/saturation.png",
+          "style": "background-color: #F9F9F9",
+          "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);"
+        },
         {
           "title": "",
           "image": true,
