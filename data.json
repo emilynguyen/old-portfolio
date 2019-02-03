@@ -212,7 +212,7 @@
       "tags": ["front-end"],
       "description": "Website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
       "shadow": "1rem 1rem 2rem rgba(0,0,0,0.04)",
-      "summary": "Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.<br><br>As Tech Lead of Design at UCSD, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.",
+      "summary": "Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.<br><br>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.",
       "intro": [
         {
           "title": "Role",
@@ -362,13 +362,12 @@
       "accent": "#ffeef1",
       "tags": ["visual design", "brand design", "front-end"],
       "description": "Visual designer, web developer, and student leader at the largest pre-professional design community on campus.",
-      "shdow": ".5rem .5rem 4rem rgba(72,72,239,0.3)",
-      "summary": "Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as Tech Lead.",
+      "summary": "Since November 2017, I’ve been a student leader at the undergraduate design community <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>. I served as a visual and brand designer up until June 2018, where I designed marketing collateral, co-lead visual design workshops, and evolved brand identity. I now spearhead all our web development projects as our web developer.",
       "intro": [
         {
           "title": "Roles",
           "wide": true,
-          "content": "Visual Design Co-Lead (Nov 2017 – June 2018)<br>Tech Lead (June 2018 – Present)"
+          "content": "Visual and Brand Designer (Nov 2017 – June 2018)<br>Web Developer (June 2018 – Present)"
         }
       ],
       "sections": [
@@ -399,13 +398,13 @@
           "title": "Web Projects",
           "src": "images/designatucsd/web.png",
           "image": true,
-          "beforeCaption": "<p>As Tech Lead, I collaborate with our visual design team to create websites for events, workshops, and email campaigns. Two of the biggest projects I've worked on so far are <a href='/stride'>Stride Career Fair</a> and <a href='/frontiers'>Design Frontiers: Intuit</a>.</p>"
+          "beforeCaption": "<p>As our web developer, I collaborate with our visual design team to create websites for events, workshops, and email campaigns. Two of the biggest projects I've worked on so far are <a href='/stride'>Stride Career Fair</a> and <a href='/frontiers'>Design Frontiers: Intuit</a>.</p>"
         },
         {
           "title": "Soft Rebrand",
           "image": true,
           "src": "images/designatucsd/banners-before.png",
-          "beforeCaption": "<p>During my term as Visual Co-Lead, my co and I reevaluated the branding guidelines surrounding our marketing visuals and introduced a new, illustration-heavy creative direction that refreshed the face of the org. Process coming soon!</p><p class='underline'>Before</p>",
+          "beforeCaption": "<p>During my term as a visual and brand designer, my co and I reevaluated the branding guidelines surrounding our marketing visuals and introduced a new, illustration-heavy creative direction that refreshed the face of the org. Process coming soon!</p><p class='underline'>Before</p>",
           "noPaddingMd": true
         },
         {
