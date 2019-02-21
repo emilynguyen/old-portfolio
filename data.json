@@ -902,18 +902,18 @@
       ]
     },
     {
-      "title": "Personal Illustrations",
+      "title": "Personal Work",
       "archive": false,
-      "url": "illustration",
+      "url": "personal",
       "filters": ["visual"],
-      "icon": "images/illustration/sushi.gif",
+      "icon": "images/personal/sushi.gif",
       "shado": "1rem 1rem 3rem rgba(0,0,0,0.1)",
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#ffa726",
-      "tags": ["illustration"],
-      "description": "A collection of my personal illustrations.",
-      "summary": "A collection of my personal illustrations. :~)",
+      "tags": ["illustration", "UI design"],
+      "description": "A collection of my personal illustrations + UI exercises.",
+      "summary": "A collection of my personal illustrations + UI exercises. :~)",
       "intro": [
         {
           "title": "Tools",
@@ -932,14 +932,24 @@
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/saturation.png",
+          "alt": "Interface for an event finder site",
+          "src": "images/personal/event-finder.png",
+          "style": "background-color: none",
+          "noPaddingMd": true,
+          "afterCaption": "<p class='small-text'>Interface for an event finder site 💃🏻</p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "src": "images/personal/saturation.png",
+          "alt": "Colorful abstract illustration",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);"
         },
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/nancy.png",
+          "src": "images/personal/nancy.png",
           "alt": "This is NOT the rude boy I wanted from the Rihanna song...",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
@@ -948,7 +958,7 @@
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/sushi.png",
+          "src": "images/personal/sushi.png",
           "alt": "Sleeping hand roll",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
@@ -957,7 +967,7 @@
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/red.png",
+          "src": "images/personal/red.png",
           "alt": "Eyes",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
@@ -966,7 +976,7 @@
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/cersei.png",
+          "src": "images/personal/cersei.png",
           "alt": "Cersei from Game of Thrones",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
@@ -975,7 +985,7 @@
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/moira.png",
+          "src": "images/personal/moira.png",
           "alt": "Moira from American Horror Story: Murder House",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
@@ -984,7 +994,7 @@
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/lydia.png",
+          "src": "images/personal/lydia.png",
           "alt": "Lydia from Teen Wolf",
           "style": "background-color: #F9F9F9",
           "imgStyle": "box-shadow: 1rem 1rem 3rem rgba(0,0,0,0.1);",
@@ -993,7 +1003,7 @@
         {
           "title": "",
           "image": true,
-          "src": "images/illustration/kaya.png",
+          "src": "images/personal/kaya.png",
           "alt": "Kaya Scodelario",
           "style": "background-color: #F9F9F9",
           "noPaddingMd": true,

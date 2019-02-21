@@ -1579,25 +1579,25 @@ p.tags {
       color: white;
       opacity: 1; } }
 
-.project-illustration a,
-.project-illustration a:visited,
-.project-illustration a:hover,
-.project-illustration a:active {
+.project-personal a,
+.project-personal a:visited,
+.project-personal a:hover,
+.project-personal a:active {
   color: #f04647;
   -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity; }
 
 @media (hover: hover) {
-  .project-illustration a:not(.btn):hover {
+  .project-personal a:not(.btn):hover {
     opacity: 0.4; } }
 
-.project-illustration button {
+.project-personal button {
   border-color: #f04647;
   color: #f04647;
   -webkit-transition: background-color .3s, color .3s;
   transition: background-color .3s, color .3s; }
   @media (hover: hover) {
-    .project-illustration button:hover {
+    .project-personal button:hover {
       background-color: #f04647;
       color: white;
       opacity: 1; } }
