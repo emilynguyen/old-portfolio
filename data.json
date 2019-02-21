@@ -73,7 +73,7 @@
       "accent": "#F5F5F5",
       "tags": ["front-end", "visual design"],
       "description": "Redesigned and developed a new website for Associated Students Graphic Studio.",
-      "shadow": "1rem 1rem 2.5rem rgba(0,0,0,0.04)",
+      "shadow": "1rem 1.2rem 2.5rem rgba(0,0,0,0.08)",
       "summary": "One of my first projects as Associated Students Graphic Studio's new webmaster was to revamp their 9-year-old website. I gave the site a visual refresh that closer aligned with our fun brand and used modern web development practices to improve content management.",
       "intro": [
         {
@@ -123,7 +123,7 @@
       "accent": "#FFECB3",
       "tags": ["front-end"],
       "description": "Website for a design-centric career fair hosted by Design at UCSD.",
-      "shadow": "1rem 1rem 2rem rgba(0,0,0,0.03)",
+      "shadow": "1rem 1.2rem 2rem rgba(0,0,0,0.06)",
       "summary": "As part of <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a>’s leadership board, I worked alongside my cross-functional team to put together UC San Diego’s first design-centric career fair. Stride follows a unique career fair format that allows design students to better showcase their work and portfolios.<br><br>In collaboration with one of our visual designers, I developed the event website. I also assisted our graphic studio in creating visual collateral.",
       "intro": [
         {
@@ -211,7 +211,7 @@
       "accent": "#D9EAF4",
       "tags": ["front-end"],
       "description": "Website for a day-long design sprint hosted by Design at UCSD in partnership with Intuit.",
-      "shadow": "1rem 1rem 2rem rgba(0,0,0,0.04)",
+      "shadow": "1rem 1.2rem 2.7rem rgba(7,48,72,0.15)",
       "summary": "Design Frontiers is a series of design sprints hosted by <a href=\"https://designatucsd.org\" target=\"_blank\">Design at UCSD</a> that showcases the application of design thinking to fields beyond traditional design, such as <a href=\"https://medium.com/design-at-ucsd/students-explore-designing-for-education-at-inaugural-design-frontiers-b06f909553c7\" target=\"_blank\">education</a> and <a href=\"https://frontierssp18.designatucsd.org/\" target=\"_blank\">healthcare</a>. For our Fall 2018 event, we partnered with Intuit to allow students to tackle real product design challenges alongside leading designers in the financial software space.<br><br>As Design at UCSD's web developer, I collaborated with our visual designers to build the website and also facilitated the design sprint the day of.",
       "intro": [
         {
@@ -257,7 +257,7 @@
       "orientation": "landscape",
       "accent": "#D5E0BA",
       "tags": ["web design", "ux design", "brand design", "front-end"],
-      "shadow": "1rem 1rem 2rem rgba(0,0,0,0.04)",
+      "shadow": "1rem 1.2rem 2.5rem rgba(0,0,0,0.09)",
       "description": "Desktop web app that helps users find the perfect new home to move to.",
       "summary": "Burow is a desktop web app that helps users find the perfect new home to move to. With a focus on price, walkability, and school rating, users can easily pinpoint neighborhoods within their target cities that suit their needs.",
       "intro": [

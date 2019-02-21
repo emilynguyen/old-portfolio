@@ -789,7 +789,18 @@ h2, h3, p {
     .social-media li:not(:first-child) {
       margin-left: 1.4rem; }
   .social-media img {
-    height: 3rem; }
+    height: 3rem;
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    transition: transform 0.6s, -webkit-transform 0.6s; }
+    @media (hover: hover) {
+      .social-media img:hover {
+        -webkit-transform: translateY(-1.5rem);
+                transform: translateY(-1.5rem); } }
+  @media (hover: hover) {
+    .social-media a:hover {
+      opacity: 1 !important; } }
 
 /*
  * Home page
