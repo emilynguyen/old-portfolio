@@ -929,7 +929,7 @@
       "intro": [
         {
           "title": "Tools",
-          "content": "Illustrator"
+          "content": "Illustrator, Sketch"
         },
         {
           "title": "Date",
@@ -941,6 +941,15 @@
         }
       ],
       "sections": [
+        {
+          "title": "",
+          "image": true,
+          "alt": "Daily UI #001 — Sign Up",
+          "src": "images/personal/dailyui_1.jpg",
+          "style": "background-color: none",
+          "noPaddingMd": true,
+          "afterCaption": "<p><i>Daily UI #001 — Sign Up</i>. An app that lets you send virtual red envelopes. 🌸</p>"
+        },
         {
           "title": "",
           "image": true,
@@ -957,7 +966,7 @@
           "src": "images/personal/event-finder.png",
           "style": "background-color: none",
           "noPaddingMd": true,
-          "afterCaption": "<p class='small-text'>Interface for an event finder site. 💃🏻</p>"
+          "afterCaption": "<p>Interface for an event finder site. 💃🏻</p>"
         },
         {
           "title": "",
