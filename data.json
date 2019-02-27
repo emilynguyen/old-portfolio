@@ -944,6 +944,15 @@
         {
           "title": "",
           "image": true,
+          "alt": "Daily UI #002 — Credit Card Checkout",
+          "src": "images/personal/dailyui_2.jpg",
+          "style": "background-color: none",
+          "noPaddingMd": true,
+          "afterCaption": "<p><i>Daily UI #002 — Credit Card Checkout</i></p>"
+        },
+        {
+          "title": "",
+          "image": true,
           "alt": "Daily UI #001 — Sign Up",
           "src": "images/personal/dailyui_1.jpg",
           "style": "background-color: none",
