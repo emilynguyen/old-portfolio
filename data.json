@@ -1,6 +1,49 @@
 {
   "projects": [
     {
+      "title": "Daily UI",
+      "url": "daily-ui",
+      "filters": ["visual"],
+      "icon": "images/daily-ui/icon.jpg",
+      "paddingSize": "sm",
+      "orientation": "landscape",
+      "accent": "#F5F5F5",
+      "tags": ["UI design"],
+      "shadow": "0 1.4rem 3rem rgba(0,0,0,0.2)",
+      "description": "",
+      "summary": "I recently started the <a href='https://www.dailyui.co/' target='_blank'>Daily UI Challenge</a> to get my creativity flowing and challenge myself to explore different visual styles.",
+      "intro": [
+        {
+          "title": "Tools",
+          "content": "Sketch"
+        },
+        {
+          "title": "Date",
+          "content": "Feb 2019 – Present"
+        }
+      ],
+      "sections": [
+        {
+          "title": "",
+          "image": true,
+          "alt": "Daily UI #002 — Credit Card Checkout",
+          "src": "images/daily-ui/daily-ui_2.jpg",
+          "style": "background-color: none",
+          "noPaddingMd": true,
+          "afterCaption": "<p><i>Daily UI #002 — Credit Card Checkout</i></p>"
+        },
+        {
+          "title": "",
+          "image": true,
+          "alt": "Daily UI #001 — Sign Up",
+          "src": "images/daily-ui/daily-ui_1.jpg",
+          "style": "background-color: none",
+          "noPaddingMd": true,
+          "afterCaption": "<p><i>Daily UI #001 — Sign Up</i>. An app that lets you send virtual red envelopes. 🌸</p>"
+        }
+      ]
+    },
+    {
       "title": "Google Design Exercise",
       "private": true,
       "url": "google",
@@ -418,13 +461,14 @@
           "image": true,
           "src": "images/designatucsd/banners-after.png",
           "noPaddingMd": true,
-          "beforeCaption": "<p><span class='underline'>Solution</span><br>To reflect current design trends and craft a unique identity for each event, we decided to retire the color-based system and start creating dedicated illustrations for each banner. We used a flat design style and incorporated derivations of our original 4 colors to stay on-brand. Our soft rebrand was received positively and Design at UCSD saw an increase in online member engagement.</p>",
+          "beforeCaption": "<p><span class='underline'>Solution</span><br>To reflect current design trends and craft a unique identity for each event, we decided to retire the color-based system and start creating dedicated illustrations for each banner. We used a flat design style and incorporated derivations of our original 4 colors to stay on-brand.</p>",
           "afterCaption": "<p class='small-text'>Shout-out to <a href='https://nancybui.co/' target='_blank'>Nancy</a>, <a href='http://laurenchoy.com' target='_blank'>Lauren</a>, and <a href='https://lucylouxu.com/' target='_blank'>Lucy</a>.</p>"
         },
         {
           "image": true,
           "src": "images/designatucsd/fb-before-after.png",
           "alt": "Side-by-side comparison of a Facebook event from Jan 2018 and the same event from Jan 2019, showing an increase in interest",
+          "beforeCaption": "<p>Our soft rebrand was received positively by our leadership board and Design at UCSD saw an increase in online member engagement.</p>",
           "style": "background-color: #e9ebee;"
         }
       ]
@@ -672,6 +716,7 @@
     },
     {
       "title": "Portfolio",
+      "archive": true,
       "url": "portfolio",
       "filters": ["dev", "visual"],
       "icon": "images/portfolio/icon-2.png",
@@ -923,9 +968,9 @@
       "paddingSize": "md",
       "orientation": "landscape",
       "accent": "#ffa726",
-      "tags": ["illustration", "UI design"],
-      "description": "A collection of my personal work, including illustrations + UI exercises.",
-      "summary": "A collection of my personal work, including illustrations + UI exercises. :~)",
+      "tags": ["illustration"],
+      "description": "A collection of my personal work and illustrations.",
+      "summary": "A collection of my personal work and illustrations. :~)",
       "intro": [
         {
           "title": "Tools",
@@ -941,24 +986,6 @@
         }
       ],
       "sections": [
-        {
-          "title": "",
-          "image": true,
-          "alt": "Daily UI #002 — Credit Card Checkout",
-          "src": "images/personal/dailyui_2.jpg",
-          "style": "background-color: none",
-          "noPaddingMd": true,
-          "afterCaption": "<p><i>Daily UI #002 — Credit Card Checkout</i></p>"
-        },
-        {
-          "title": "",
-          "image": true,
-          "alt": "Daily UI #001 — Sign Up",
-          "src": "images/personal/dailyui_1.jpg",
-          "style": "background-color: none",
-          "noPaddingMd": true,
-          "afterCaption": "<p><i>Daily UI #001 — Sign Up</i>. An app that lets you send virtual red envelopes. 🌸</p>"
-        },
         {
           "title": "",
           "image": true,
